@@ -1,0 +1,13 @@
+$upaxis Y
+
+$modelname "<ITEMTEST_REPLACE_MDLABSPATH>"
+
+$surfaceprop "default"
+
+$body "default" "<ITEMTEST_REPLACE_LOD0>"
+
+<ITEMTEST_REPLACE_LOD_OPTIONALBLOCK>
+
+<ITEMTEST_REPLACE_SKIN_OPTIONALBLOCK>
+
+$sequence "ref" "<ITEMTEST_REPLACE_LOD0>"
