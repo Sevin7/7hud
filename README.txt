@@ -1,4 +1,13 @@
 7HUD
 ====
+To install:
 
-Custom TF2 HUD
+	Place the 7HUD folder inside of your tf/custom folder. 
+
+To uninstall:
+
+	Delete the 7HUD folder.
+
+IQ required:
+
+	7.6.
