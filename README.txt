@@ -2,11 +2,12 @@
 ====
 To install:
 
-	Place the 7HUD folder inside of your tf/custom folder. 
+	- Download via the "Download ZIP" button on the right side of the github page. 
+	- Place the unzipped folder inside of your tf/custom folder. 
 
 To uninstall:
 
-	Delete the 7HUD folder.
+	Delete the folder.
 
 IQ required:
 
