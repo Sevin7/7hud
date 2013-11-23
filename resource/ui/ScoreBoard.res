@@ -17,7 +17,7 @@
 		"nemesis_width"		"15"
 		"class_width"		"15"
 		"score_width"		"25"
-		"ping_width"		"23"
+		"ping_width"		"15"
 	}
 	"MainBG"
 	{
@@ -475,12 +475,12 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"c-255"
+		"xpos"			"c-257"
 		"xpos_minmode"		"r266"
 		"ypos"			"r330"
 		"ypos_minmode"		"r328"
 		"zpos"			"20"
-		"wide"			"253"
+		"wide"			"260"
 		"wide_minmode"		"231"
 		"tall"			"204"
 		"tall_minmode"		"83"
@@ -499,12 +499,12 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"c2"
+		"xpos"			"c0"
 		"xpos_minmode"		"r266"
 		"ypos"			"r330"
 		"ypos_minmode"		"r246"
 		"zpos"			"20"
-		"wide"			"253"
+		"wide"			"260"
 		"wide_minmode"		"231"
 		"tall"			"204"
 		"tall_minmode"		"83"
