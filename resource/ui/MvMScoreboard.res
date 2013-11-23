@@ -4,15 +4,15 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"283"
+		"ypos"				"40"
 		"zpos"				"0"
-		"wide"				"0"
-		"tall"				"0"
-		"visible"			"0"
-		"enabled"			"0"
+		"wide"				"600"
+		"tall"				"67"
+		"visible"			"1"
+		"enabled"			"1"
 		
-		"verbose"			"0"
+		"verbose"			"1"
 	}
 	
 	"PopFileLabel"
@@ -34,7 +34,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
 		"xpos"			"0"
-		"ypos"			"40"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
@@ -112,7 +112,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
 		"xpos"			"0"
-		"ypos"			"34"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
@@ -194,6 +194,20 @@
 			"tall"			"100"
 			"wide"			"200"
 			"visible"		"1"
+		}
+		
+		"RespecStatusLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"RespecStatusLabel"
+			"font"			"HudFontSmall"
+			"labelText"		"%respecstatus%"
+			"textAlignment" "north-west"
+			"xpos"			"150"
+			"ypos"			"76"
+			"wide"			"220"
+			"tall"			"40"
+			"fgcolor"		"tanlight"
 		}
 	}
 }
