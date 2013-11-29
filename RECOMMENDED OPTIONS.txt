@@ -15,7 +15,7 @@ If you use net_graph to monitor FPS/ping/lerp etc., I recommend changing the net
 
 ------------------------------------------------------
 
-BIND FAVORITE 2 FAVORITE SERVERS TO MENU BUTTONS:
+BIND 2 FAVORITE SERVERS TO MENU BUTTONS:
 
 	1. Put these codes in your autoexec.cfg:
 	2. alias Server1 "connect <ip here>"
