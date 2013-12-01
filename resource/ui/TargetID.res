@@ -32,7 +32,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"                "0"				//3
-		"ypos"                "27"				//7
+		"ypos"                "28"				//7
 		"zpos"                "-1"
 		"wide"	          		"640"	//
 		"tall"                "2"			//24
@@ -54,7 +54,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"                "0"				//3
-		"ypos"                "27"				//7
+		"ypos"                "28"				//7
 		"zpos"                "-1"
 		"wide"	          		"640"	//
 		"tall"                "2"			//24
@@ -73,30 +73,34 @@
 	}
 	
 	"TargetBG"
- {
-    "ControlName"         "ImagePanel"
-    "fieldName"           "TargetBG"
-    "xpos"                "0"				//3
-    "ypos"                "10"				//7
-    "zpos"                "-1"
-		"wide"	          		"640"	//
-    "tall"                "18"			//24
-    "visible"             "1"
-    "enabled"             "1"
-    "fillcolor"           "HudBG"
-  }
+    {
+        "ControlName"         "CExImageButton"
+        "fieldName"           "TargetBG"
+        "xpos"                "0"
+        "ypos"                "8"
+        "zpos"                "-4"
+        "wide"	          	  "640"
+        "tall"		          "20"
+        "autoResize"	      "0"
+        "pinCorner"	          "0"
+        "visible"		      "1"
+        "enabled"		      "1"
+        "defaultBgColor_Override"		"White"	// 210 200 200 255
+        "PaintBackgroundType""0"
+        "textinsety" "99"
+	}
 	
 	"TargetNameLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
 		"font"			"Bold12"				//Medium12
-		"xpos"			"49"			//59
+		"xpos"			"43"			//59
 		"ypos"			"7"		//
 		"zpos"			"2"
 		"wide"			"640"		//640
 		"tall"			"24"
-		"fgcolor"		"Name"
+		"fgcolor"		"Black"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -112,8 +116,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
 		"font"			"Medium10Shadow"
-		"xpos"			"13"			//59
-		"ypos"			"-4"		//15
+		"xpos"			"5"			
+		"ypos"			"25"		// -3
 		"zpos"			"2"
 		"wide"			"270"
 		"tall"			"18"
@@ -132,7 +136,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"7"		//0
+		"xpos"			"0"		//0
 		"ypos"			"2"
 		"zpos"			"5"
 		"wide"			"37"
@@ -150,8 +154,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"9"
-		"ypos"			"0"		//19
+		"xpos"			"2"
+		"ypos"			"29"		// 0
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"

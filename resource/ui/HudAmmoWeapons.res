@@ -64,7 +64,7 @@
 		"tall"	"56" 
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"labelText"		"%Ammo%"
 	}
 	"AmmoInClipShadow"	
@@ -114,7 +114,7 @@
 	"tall"	"56" 
 	"visible"	 "0"	
 	"enabled"	 "1"	
-	"textAlignment"	 "center"	
+	"textAlignment"	 "west"	
 	"labelText"	 "%Ammo%"	
 	}
 		

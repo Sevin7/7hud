@@ -1,5 +1,22 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
+    "TargetHPBG"	
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"TargetHPBG"
+		"xpos"		"0"
+		"ypos"		"6"
+		"zpos"		"4"
+		"wide"		"50"
+		"tall"		"21"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultBgColor_Override"		"HudBGStatus"
+		"PaintBackgroundType""0"
+        "textinsety" "99"
+	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -73,7 +90,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Heavy20"
-		"fgcolor"		"Health"
+		"fgcolor"		"Black"
 	}			
 	"PlayerStatusHealthValueSpecShadow"
 	{
@@ -84,8 +101,8 @@
 		"zpos"			"4"
 		"wide"			"46"
 		"tall"			"28"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Heavy20"

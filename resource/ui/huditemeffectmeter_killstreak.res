@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"94"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
+		"xpos"			"r194"	[$WIN32]
+		"ypos"			"r152"	[$WIN32]
 		"xpos_minmode"	"r70"	[$WIN32]
 		"ypos_minmode"	"r74"	[$WIN32]
 		"wide"			"100"
@@ -24,9 +24,9 @@
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"44"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
@@ -39,8 +39,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"27"
+		"xpos"					"28"
+		"ypos"					"17"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -53,7 +53,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"Regular8"
 	}
 
 	"ItemEffectMeter"
@@ -82,8 +82,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos"					"10"
+		"xpos"					"-5"
+		"ypos"					"14"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -92,9 +92,30 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"Regular23"
+	}
+	
+	"ItemEffectMeterCountBG"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountBG"
+		"xpos"					"-4"
+		"ypos"					"15"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"20"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"fgcolor"				"HudShadow"
+		"textAlignment"			"east"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Regular23"
 	}
 }

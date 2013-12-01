@@ -95,7 +95,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"c-294"
-		"ypos"			"r334"
+		"ypos"			"r364"
 		"wide"			"400"
 		"tall"			"171"
 		"pinCorner"		"0"
