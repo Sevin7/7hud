@@ -239,7 +239,7 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	         Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueTour  	FgColor		"SpecBuff"      Accel 0.0 0.0
 
-    Animate	HealthBG 	    BgColor		"Buff"	        Accel 0.0 0.0
+    Animate	HealthBG 	    BgColor		"71 168 198 180"	        Accel 0.0 0.0
     Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
 	
@@ -327,7 +327,7 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	         Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueTour 	                FgColor		"LowHP"	         Accel 0.0 0.0
 
-    Animate	HealthBG 	    BgColor		"LowHP"	    		Accel 0.0 0.0
+    Animate	HealthBG 	    BgColor		"200 47 47 180"	    		Accel 0.0 0.0
     Animate	HealthBG 	   	Alpha		"255"		        Accel 0.0 0.3
 	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
 	
