@@ -1,0 +1,17 @@
+name=7HUD
+
+desc=Centered TF2 HUD
+
+creator=Sevin
+
+steamid=76561198056804798
+
+url=https://github.com/Sevin7/7HUD
+
+url=http://steamcommunity.com/groups/7HUD
+
+url=http://teamfortress.tv/forum/thread/12745-7hud
+
+url=http://etf2l.org/forum/huds/topic-27677/
+
+version=1.5
