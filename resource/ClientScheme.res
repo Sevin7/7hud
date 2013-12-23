@@ -1107,7 +1107,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DOCK11 Heavy"
+				"name"		"Biko-Black"
 				"tall"		"48"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1119,7 +1119,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DOCK11 Heavy"
+				"name"		"Biko-Black"
 				"tall"		"48"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1131,7 +1131,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DOCK11 Heavy"
+				"name"		"Biko-Black"
 				"tall"		"47"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1264,7 +1264,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DOCK11 Heavy"
+				"name"		"Biko-Black"
 				"tall"		"28"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1286,7 +1286,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DOCK11 Heavy"
+				"name"		"Biko-Black"
 				"tall"		"24"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1386,7 +1386,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DOCK11 Heavy"
+				"name"		"Biko-Black"
 				"tall"		"14"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1821,7 +1821,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DOCK11 Heavy"
+				"name"		"Biko-Black"
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2984,7 +2984,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DOCK11 Heavy"
+				"name"		"Biko-Black"
 				"tall"		"23"
 				"additive"		"0"
 				"antialias"	"1"
@@ -3018,7 +3018,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DOCK11 Heavy"
+				"name"		"Biko-Black"
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
@@ -6693,8 +6693,8 @@ Scheme
 		}
 		"25"
 		{
-			"font" "resource/fonts/heavy_dock11.otf"
-			"name" "DOCK11 Heavy"
+			"font" "resource/fonts/Biko_Black.otf"
+			"name" "Biko-Black"
 		}
 		"26"
 		{
