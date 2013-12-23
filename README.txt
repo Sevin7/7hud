@@ -152,4 +152,4 @@ BIND 2 FAVORITE SERVERS TO MENU BUTTONS:
 
 ENABLE CLOSED CAPTIONS:
 
-	1. Put “closecaption 1” in your autoexec.cfg.
+	1. Put “closecaption 1” and "cc_predisplay_time 0" in your autoexec.cfg.
