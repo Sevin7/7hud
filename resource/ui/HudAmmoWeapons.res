@@ -119,7 +119,7 @@
 	}
 		
 	//removed
-	}
+	
 	"HudWeaponAmmoBG"
 	{
 		"ControlName"	"CTFImagePanel"
