@@ -57,7 +57,6 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/health_equips_bg"
 		"textAlignment"	"center"
 		"scaleImage"	"1"	
 	}	
