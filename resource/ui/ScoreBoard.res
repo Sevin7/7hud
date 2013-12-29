@@ -12,7 +12,7 @@
 		"enabled"			"1"
 		"avatar_width"		"57"
 		"name_width"		"100"
-		"name_width_minmode"	"80"
+		"name_width_minmode"	"73"
 		"status_width"		"15"
 		"nemesis_width"		"15"
 		"class_width"		"15"
