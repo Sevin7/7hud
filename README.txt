@@ -54,7 +54,8 @@ CUSTOMIZING
 
 FOG'S CROSSHAIRS:
 	
-	To enable Fog's Crosshairs, navigate to your hudlayout.res file, found in the scripts folder. Change the "enabled" value under the Fog's Crosshairs heading to "1". Then pick your Crosshair using the included list of crosshairs and insert the character of the crosshair in the "labeltext" line.
+	- To enable Fog's Crosshairs, navigate to your hudlayout.res file, found in the scripts folder. Change the "enabled" value under the Fog's Crosshairs heading to "1". Then pick your Crosshair using the included list of crosshairs and insert the character of the crosshair in the "labeltext" line.
+	- To enable a crosshair flash when you hit a player, find HudAnimations_tf.txt in the scripts folder and under the first heading, DamagedPlayer, there will be instructions.
 
 ------------------------------------------------------
 
@@ -120,6 +121,19 @@ KILLFEED:
 			- i.e. font: Regular10. LineHeight: 10.
 
 You can enable a background for the KILLFEED in the CLIENTSCHEME 
+
+------------------------------------------------------
+------------------------------------------------------
+PERSONAL TROUBLESHOOTING
+------------------------------------------------------
+------------------------------------------------------
+
+SCOREBOARD PING CLIPPING:
+
+	1. Navigate to ScoreBoard.res in your resource/ui folder
+	2. Under the first heading (scores), find "ping_width".
+	3. Lower the value, maybe 3-4 down, save the file, alt-tab into the game if it's open and put "hud_reloadscheme" into the console. This refreshes all the .res files in your 7HUD folder. If you're not in-game, simply launch TF2
+	4. You can also change the "name_width" and/or "score_width" values I move it over more all-togetherly
 
 
 ------------------------------------------------------
