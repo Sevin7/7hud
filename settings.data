@@ -1,32 +1,21 @@
 [BG:#EEEEEE]
-
 Window();
-
-
 
 [Border:0, FG:#000000]
 Banner("7hud.png", "auto", "topleft");
+
 [Name:HUD Position, Default:Normal]
 GlobalComboBox("HudPosition", "Hud Position")
-
 {
-
 	Normal
-
 	Lowered
-
 }
 
-
-
-[Name:Chat, Default:Top]
+[Name:Chat, Default:TOP]
 DynamicFileSwitcher("resource\ui\BaseChat.res", "Chat Position");
-
 
 [Name:Scoreboard, Default:NORMAL]
 DynamicFileSwitcher("resource\ui\Scoreboard.res", "Scoreboard", 1);
-
-
 
 [Name:3d model pos, Default:Left]
 GlobalComboBox("3d", "3D Model Position")
@@ -35,8 +24,6 @@ GlobalComboBox("3d", "3D Model Position")
 	Right
 	By HP
 }
-
-
 
 [Portion:2]
 [Name:Fave1, Default:text=7|ip=|pass=]
