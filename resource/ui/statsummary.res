@@ -71,7 +71,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"	"ContributedLabel"
-			"xpos"			"30"
+			"xpos"			"130"
 			"ypos"			"345"
 			"zpos"			"40"
 			"wide"			"300"
@@ -439,8 +439,7 @@
 			"xpos"			"c-285"
 			"xpos_hidef"			"c-193"
 			"xpos_lodef"			"c-193"
-			"ypos"			"170" [!$OSX]
-			"ypos"			"185" [$OSX]
+			"ypos"			"178" 
 			"ypos_hidef"			"32"
 			"ypos_lodef"			"32"
 			"wide"			"300"

@@ -47,8 +47,8 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"r145"
-		"ypos"				"r118"
+		"xpos"				"c-125"
+		"ypos"				"-86"
 		"wide"				"f0"
 		"tall"				"f0"
 		"visible" 			"1"
@@ -59,8 +59,8 @@
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"r74"
-		"ypos"				"r76"
+		"xpos"				"c100"
+		"ypos"				"-44"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible" 			"1"
@@ -230,7 +230,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"

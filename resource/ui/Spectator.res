@@ -69,7 +69,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Light19Shadow"			
+		"font"			"Light16Shadow"			
 		"fgcolor_override" "Time"
 	}
 	
@@ -266,8 +266,8 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"0"
-		"ypos"			"340"
+		"xpos"			"r224"
+		"ypos"			"300"
 		"zpos"			"1"
 		"wide"			"224"
 		"tall"			"110"

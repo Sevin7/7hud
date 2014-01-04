@@ -48,7 +48,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCount"
-		"font"			"ChatFont"
+		"font"			"Medium8"
 		"fgcolor"		"White"
 		"xpos"			"1"
 		"ypos"			"15"
@@ -60,5 +60,22 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%enemy_count%"
+	}
+	
+	"EnemyCountCritImageBG"
+	{
+        "ControlName"   "CTFImagePanel"
+        "fieldName"             "EnemyCountCritImageBG"
+        "xpos"                  "4"
+        "ypos"                  "16"
+        "zpos"                  "1"
+        "wide"                  "20"
+        "tall"                  "1"
+        "visible"               "1"
+        "enabled"               "1"
+        "scaleImage"    "1"
+        "PaintBackgroundType" "2"
+        "image"                 "../hud/leaderboard_class_critical"
+
 	}
 }

@@ -343,20 +343,20 @@
 		"xpos"			"c-300"
 		"ypos"			"75"
 		"wide"			"600"
-		"tall"			"19"
+		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Light19Shadow"
+		"font"			"Light16Shadow"
 		"fgcolor_override" "Time"
 
 		if_mvm
 		{
 			"visible"		"1"
-			"ypos"		"100"
+			"ypos"		"120"
 		}
 	}
 	"BuyBackLabel"
@@ -364,7 +364,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-190"
-		"ypos"			"110"
+		"ypos"			"135"
 		"wide"			"380"
 		"tall"			"18"
 		"autoResize"	"0"
@@ -374,7 +374,7 @@
 		"labelText"		"#TF_PVE_Buyback"
 		"fgcolor"		"White"
 		"textAlignment"	"center"
-		"font"			"Medium9Shadow"
+		"font"			"Medium8"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	

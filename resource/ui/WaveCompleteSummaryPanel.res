@@ -60,7 +60,7 @@
 			"font"			"Regular19Shadow"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
-			"xpos"			"2"
+			"xpos"			"17"
 			"ypos"			"0"
 			"wide"			"244"
 			"tall"			"25"
@@ -211,18 +211,19 @@
 			"fgcolor"		"White"
 		}
 	}
+	
 	"RespecBackground"
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"RespecBackground"
 		"xpos"			"0"
-		"ypos"			"80"
-		"wide"			"250"
-		"tall"			"25"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../HUD/tournament_panel_brown"
 
 		"src_corner_height"	"22"				// pixels inside the image
@@ -237,7 +238,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RespecContainer"
 		"xpos"			"0"
-		"ypos"			"80"
+		"ypos"			"110"
 		"wide"			"250"
 		"tall"			"25"
 		"visible"		"1"

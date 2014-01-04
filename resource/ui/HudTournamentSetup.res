@@ -4,7 +4,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamenteLabel"
-		"font"			"Medium9"
+		"font"			"Medium8Shadow"
 		"xpos"			"92"
 		"ypos"			"3"
 		"zpos"			"1"
@@ -36,7 +36,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"Medium10"
+		"font"			"Medium8Shadow"
 		"xpos"			"87"
 		"ypos"			"28"
 		"zpos"			"1"

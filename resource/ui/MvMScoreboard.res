@@ -4,8 +4,8 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"283"
-		"ypos"				"40"
+		"xpos"				"225"
+		"ypos"				"37"
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
@@ -22,8 +22,8 @@
 		"font"			"Medium9"
 		"labelText"		"%popfile%"
 		"textAlignment"	"center"
-		"xpos"			"c-241"
-		"ypos"			"r19"
+		"xpos"			"9999"		//c-241
+		"ypos"			"9999"		//r19
 		"wide"			"178"
 		"tall"			"15"
 		"fgcolor"		"White"
@@ -34,7 +34,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"2"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
@@ -43,7 +43,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"Medium9"
+			"font"			"Regular9"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"west"
 			"xpos"			"c117"
@@ -57,7 +57,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"Medium9"
+			"font"			"Regular9"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"east"
 			"xpos"			"c140"
@@ -103,7 +103,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"26"
+		"linespacing"	"23"
 		"textcolor"		"White"
 	}
 	
@@ -200,12 +200,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
-			"font"			"HudFontSmall"
+			"font"			"Regular9"
 			"labelText"		"%respecstatus%"
-			"textAlignment" "north-west"
-			"xpos"			"150"
-			"ypos"			"76"
-			"wide"			"220"
+			"textAlignment" "center"
+			"xpos"			"c55"
+			"ypos"			"352"
+			"wide"			"300"
 			"tall"			"40"
 			"fgcolor"		"tanlight"
 		}

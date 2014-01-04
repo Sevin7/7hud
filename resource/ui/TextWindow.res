@@ -110,7 +110,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"#TF_Continue"
+		"labelText"		"Continue (&E)"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -123,7 +123,7 @@
 		"font"			"Medium14"
 		"fgcolor"		"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "35 219 247 255"
+		"armedFgColor_override" "Select"
 		"depressedFgColor_override" "255 255 255 255"
 	}
 	

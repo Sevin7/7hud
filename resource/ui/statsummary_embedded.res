@@ -282,8 +282,7 @@
 			"xpos"			"c-285"
 			"xpos_hidef"			"c-193"
 			"xpos_lodef"			"c-193"
-			"ypos"			"170" [!$OSX]
-			"ypos"			"185" [$OSX]
+			"ypos"			"178" 
 			"ypos_hidef"			"32"
 			"ypos_lodef"			"32"
 			"wide"			"300"

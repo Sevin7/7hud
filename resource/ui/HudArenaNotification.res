@@ -38,7 +38,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"Light19Shadow"
+		"font"			"Light16Shadow"
 		"xpos"			"100"
 		"ypos"			"30"
 		"zpos"			"1"

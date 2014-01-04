@@ -49,7 +49,7 @@
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
 		"font"			"Medium8"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"220 220 220 255"
 	}
 
 	
@@ -70,14 +70,14 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"center"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"230 230 230 255"
 	}
 	
 	"MapInfoContinue" 
 	{
 		"ControlName"	"CTFButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"c-150"
+		"xpos"			"c-147"
 		"ypos"			"r176"
 		"zpos"			"3"
 		"wide"			"300"
@@ -86,7 +86,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Continue"
+		"labelText"		"Continue (&E)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -96,10 +96,37 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 		"font"			"Medium14"
-		"fgcolor"		"White"
-		"defaultFgColor_override" "White"
+		"fgcolor"		"255 255 255 255"
+		"defaultFgColor_override" "255 255 255 255"
 		"armedFgColor_override" "Select"
-		"depressedFgColor_override" "White"
+		"depressedFgColor_override" "255 255 255 255"
+	}
+	
+	"EnterSC"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"EnterSC"
+		"xpos"			"c43"		
+		"ypos"			"r176"		
+		"zpos"			"3"
+		"wide"			"21"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"(&E)"
+		"textAlignment"	"center"
+		"Command"		"continue"
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+		"font"			"Medium14"
+		"fgcolor"			"255 255 255 255"
+		"defaultFgColor_override" "255 255 255 255"
+		"armedFgColor_override" "Select"
+		"depressedFgColor_override" "255 255 255 255"
 	}
 	
 	"MapInfoWatchIntro" 

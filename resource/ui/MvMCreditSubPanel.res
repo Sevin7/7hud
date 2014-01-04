@@ -31,20 +31,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"Medium9"
+		"font"			"Medium8"
 		"labelText"		"#TF_PVE_Collected"
 		"textAlignment" "north-west"
 		"xpos"			"10"
 		"ypos"			"26"
 		"wide"			"70"
-		"fgcolor"		"Gray"
+		"fgcolor"		"White"
 	}
 	
 	"CreditCollectedCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"Medium9"
+		"font"			"Medium8"
 		"labelText"		"%creditscollected%"
 		"textAlignment" "north-east"
 		"xpos"			"63"
@@ -57,7 +57,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedTextLabel"
-		"font"			"Medium9"
+		"font"			"Medium8"
 		"labelText"		"#TF_PVE_Missed"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -70,7 +70,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedCountLabel"
-		"font"			"Medium9"
+		"font"			"Medium8"
 		"labelText"		"%creditsmissed%"
 		"textAlignment" "north-east"
 		"xpos"			"63"
@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"Medium9"
+		"font"			"Medium8"
 		"labelText"		"#TF_PVE_Bonus"
 		"textAlignment" "north-west"
 		"xpos"			"10"
@@ -96,7 +96,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"Medium9"
+		"font"			"Medium8"
 		"labelText"		"%creditbonus%"
 		"textAlignment" "north-east"
 		"xpos"			"63"
@@ -123,11 +123,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"Medium9"
+		"font"			"Medium8"
 		"labelText"		"%rating%"
 		"textAlignment" "center"
 		"xpos"			"125"
-		"ypos"			"25"
+		"ypos"			"0"
 		"wide"			"70"
 		"tall"			"20"
 		"fgcolor"		"White"

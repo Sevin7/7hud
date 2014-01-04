@@ -53,7 +53,7 @@ Scheme
 		"yABuff"			"21 207 100 154"		//Buff color of new box HUD
 		"MainMenuBG"		"0 0 0 100"			//BG of black box on menu
 
-		"Select"			"21 207 100 255"			//This is the hover color for buttons
+		"Select"			"35 219 247 255"			//This is the hover color for buttons
 		
 
 
@@ -64,7 +64,8 @@ Scheme
 		"Name"				"255 255 255 175"		//TargetID name label color
 		"Time"				"255 255 255 175"		//Respawn and Map time
 		
-		"MvMBG"				"225 37 205 175"		//MvM panels purple color
+		"MvMBG"				"189 59 59 200"		//MvM panels purple color
+		"MvMBG2"			"91 122 140 200"	//MvM panels blue color
 		
 		"MenuBGColor"			"0 124 88 255"			//Color option for alt main menu
 		
@@ -117,12 +118,12 @@ Scheme
 		"WhiteBG"			"255 255 255 170"			//Background used for White Box Version
 		
 		"WhiteBGT"			"255 255 255 85"			//Used for demo stick counter
-		"HudBGT"			"0 0 0 100"				//
+		"HudBGT"			"0 0 0 175"				//
 		
 		
 		// Base Colors TF2
 
-		"Orange"			"225 225 225 255"
+		"Orange"			"239 152 73 255"
 		"OrangeDim"			"225 225 225 120"
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
@@ -235,6 +236,7 @@ Scheme
 		"QualityColorStrange"					"207 106 50 255"	
 		"QualityColorCompleted"					"134 80 172 255"
 		"QualityColorHaunted"					"56 243 171 255"
+		"QualityColorCollectors"                "170 0 0 255"
 		
 		 "QualityColorNormal_GreyedOut"                        "44 44 44 255"
     	"QualityColorrarity1_GreyedOut"                        "20 29 21 255"
@@ -250,6 +252,7 @@ Scheme
         "QualityColorStrange_GreyedOut"                        "52 27 13 255"
         "QualityColorCompleted_GreyedOut"                "34 20 43 255"
         "QualityColorHaunted_GreyedOut"                        "14 61 43 255"
+        "QualityColorCollectors_GreyedOut"                "60 0 0 255"
 		
 		"SaleGreen"								"76 107 34 255"
 		
@@ -1273,8 +1276,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Market Deco"
-				"tall"		"26"
+				"name"		"Neutra Display Titling"
+				"tall"		"28"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -1763,8 +1766,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
-				"tall"		"25"
+				"name"		"Neutra Text TF SC Alt Bold"
+				"tall"		"27"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -2165,8 +2168,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"41"
+				"name"		"Neutra Text SC"
+				"tall"		"43"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -2264,8 +2267,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"32"
+				"name"		"Neutra Text SC"
+				"tall"		"34"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -2537,8 +2540,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Market Deco"
-				"tall"		"14"
+				"name"		"Neutra Display Titling"
+				"tall"		"16"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -2548,8 +2551,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"13"
+				"name"		"Neutra Text SC"
+				"tall"		"15"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -2650,8 +2653,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"8"
+				"name"		"Neutra Text SC"
+				"tall"		"10"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -2661,8 +2664,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"8"
+				"name"		"Neutra Text SC"
+				"tall"		"10"
 				"additive"		"0"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -3114,6 +3117,7 @@ Scheme
 			}
 		}
 
+		
 		"Regular14"
 		{
 			"1"
@@ -3221,8 +3225,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Market Deco"
-				"tall"		"9"
+				"name"		"Neutra Text TF SC Alt Bold"
+				"tall"		"11"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -3232,14 +3236,23 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"9"
+				"name"		"Neutra Text TF SC Alt Bold"
+				"tall"		"11"
 				"additive"		"0"
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
 		}
-
+		"Novecento9"
+		{
+			"1"
+			{
+				"name"		"NovecentoMedium"
+				"tall"		"9"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
 		"Regular8"
 		{
 			"1"
@@ -3267,8 +3280,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"7"
+				"name"		"Neutra Text SC"
+				"tall"		"9"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -3278,8 +3291,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"7"
+				"name"		"Neutra Text SC"
+				"tall"		"9"
 				"additive"		"0"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -3309,6 +3322,16 @@ Scheme
 			}
 		}
 		
+		"Novecento6"
+		{
+			"1"
+			{
+				"name"		"NovecentoMedium"
+				"tall"		"6"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
 		"Light28"
 		{
 			"1"
@@ -3373,8 +3396,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"19"
+				"name"		"Neutra Text TF SC Alt Bold"
+				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -3414,8 +3437,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"16"
+				"name"		"Neutra Text TF SC Alt Bold"
+				"tall"		"18"
 				"additive"		"0"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -3723,8 +3746,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"40"
+				"name"		"Neutra Display Titling"
+				"tall"		"42"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3765,8 +3788,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Market Deco"
-				"tall"		"28"
+				"name"		"Neutra Display Titling"
+				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3795,8 +3818,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"22"
+				"name"		"Neutra Text TF SC Alt Bold"
+				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3805,8 +3828,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Market Deco"
-				"tall"		"22"
+				"name"		"Neutra Display Titling"
+				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3815,8 +3838,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Market Deco"
-				"tall"		"18"
+				"name"		"Neutra Display Titling"
+				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3855,8 +3878,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Market Deco"
-				"tall"		"14"
+				"name"		"Neutra Text TF SC Alt Bold"
+				"tall"		"16"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -3875,8 +3898,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Market Deco"
-				"tall"		"14"
+				"name"		"Neutra Display Titling"
+				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -4369,8 +4392,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"14"
+				"name"		"Neutra Text TF SC Alt Bold"
+				"tall"		"16"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -4379,8 +4402,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"20"
+				"name"		"Neutra Text TF SC Alt Bold"
+				"tall"		"22"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -4763,8 +4786,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"7"
+				"name"		"Neutra Text TF SC Alt Bold"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -4773,8 +4796,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"8"
+				"name"		"Neutra Text TF SC Alt Bold"
+				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -4783,8 +4806,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"8"
+				"name"		"Neutra Text TF SC Alt Bold"
+				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -4793,8 +4816,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"9"
+				"name"		"Neutra Text SC"
+				"tall"		"11"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -4803,8 +4826,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"9"
+				"name"		"Neutra Text SC"
+				"tall"		"11"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -4813,8 +4836,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"10"
+				"name"		"Neutra Text SC"
+				"tall"		"12"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -6629,95 +6652,106 @@ Scheme
 			"font" "resource/fonts/symbol.ttf"
 			"name" "symbol"
 		}
-		"8" 
-		{
-			"font" "resource/fonts/FORMASGE.ttf"
-			"name" "FORMASGE"
-		}
-		"9" 
+		"8"
+		
 		{
 			"font" "resource/fonts/Paula.ttf"
 			"name" "Paula"
 		}
-		"10" 
+		"9" 
 		{
 			"font" "resource/fonts/AvenirLTStd-Black.ttf"
 			"name" "AvenirLTStd-Black"
 		}
-		"11" 
+		"10" 
 		{
 			"font" "resource/fonts/AvenirLTStd-Medium.otf"
 			"name" "AvenirLTStd-Medium"
 		}	
-		"12" 
+		"11" 
 		{
 			"font" "resource/fonts/AvenirLTStd-Heavy.otf"
 			"name" "AvenirLTStd-Heavy"
 		}		
-		"13" 
+		"12" 
 		{
 			"font" "resource/fonts/Crosshairs.otf"
 			"name" "Crosshairs"
 		}
-		"14"
+		"13"
 		{
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
-		"15" 
+		"14" 
 		{
 			"font" "resource/fonts/AvenirLTStd-Book.otf"
 			"name" "AvenirLTStd-Book"
 		}	
-		"16"
+		"15"
 		{
 			"font" "resource/fonts/Entypo.otf"
 			"name" "Entypo"
 		}
-		"17" 
+		"16" 
 		{
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
 		}
-		"18" 
+		"17" 
 		{
 			"font" "resource/fonts/MediumNumbers.otf"
 			"name" "MediumNumbers"
 		}
-		"19" 
+		"18" 
 		{
 			"font" "resource/fonts/LightNumbers.otf"
 			"name" "LightNumbers"
 		}
-		"20" 
+		"19" 
 		{
 			"font" "resource/fonts/BoldNumbers.otf"
 			"name" "BoldNumbers"
 		}
-        "22" 
+        "20" 
 		{
 			"font" "resource/fonts/NovecentoMedium.ttf"
 			"name" "NovecentoMedium" 
 		}
-        "23" 
+        "21" 
 		{
 			"font" "resource/fonts/NovecentoBook.ttf"
 			"name" "NovecentoBook"  
 		}
-		"24"
+		"22"
 		{
 			"font" "resource/fonts/Market_Deco.ttf"
 			"name" "Market Deco"
 		}
-		"25"
+		"23"
 		{
 			"font" "resource/fonts/Biko_Black.otf"
 			"name" "Biko-Black"
 		}
-		"26"
+		"24"
 		{
 			"font" "resource/fonts/Compass.ttf"
 			"name" "Compass"
+		}
+		"25"
+		{
+			"font" "resource/fonts/Neutra Display Titling.ttf"
+			"name" "Neutra Display Titling"
+		}
+		"26"
+		{
+			"font" "resource/fonts/Neutra Text TF SC Alt Bold.ttf"
+			"name" "Neutra Text TF SC Alt Bold"
+		}
+		"27"
+		{
+			"font" "resource/fonts/Neutra Text SC.ttf"
+			"name" "Neutra Text SC"
 		}
 	}
 }

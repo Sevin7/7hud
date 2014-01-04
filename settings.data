@@ -5,11 +5,8 @@ Window();
 
 
 [Border:0, FG:#000000]
-
 Banner("7hud.png", "auto", "topleft");
-
 [Name:HUD Position, Default:Normal]
-
 GlobalComboBox("HudPosition", "Hud Position")
 
 {
@@ -22,23 +19,52 @@ GlobalComboBox("HudPosition", "Hud Position")
 
 
 
-[Name:Chat, Default:TOP]
-
+[Name:Chat, Default:Top]
 DynamicFileSwitcher("resource\ui\BaseChat.res", "Chat Position");
 
+
+[Name:Scoreboard, Default:NORMAL]
+DynamicFileSwitcher("resource\ui\Scoreboard.res", "Scoreboard", 1);
+
+
+
+[Name:3d model pos, Default:Left]
+GlobalComboBox("3d", "3D Model Position")
+{
+	Left
+	Right
+	By HP
+}
+
+
+
 [Portion:2]
-
 [Name:Fave1, Default:text=7|ip=|pass=]
-
 HudMenuConnectButton(“FavoriteServer1”, “Favorite Server 1”);
 
-
-
 [Portion:2]
-
 [Name:Fave2, Default:text=6|ip=|pass=]
-
 HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
+
+#if 3d == "Left"
+{
+	Copy("resource\ui\HudPlayerClass - Normal.res", "resource\ui\HudPlayerClass.res");
+}
+#if 3d == "Right"
+{
+	Copy("resource\ui\HudPlayerClass - Right.res", "resource\ui\HudPlayerClass.res");
+}
+#if 3d == "By HP"
+{
+	#if HudPosition == "Normal"
+	{
+		Copy("resource\ui\HudPlayerClass - HP Top.res", "resource\ui\HudPlayerClass.res");
+	}
+	#else
+	{
+		Copy("resource\ui\HudPlayerClass - HP Bottom.res", "resource\ui\HudPlayerClass.res");
+	}
+}
 
 #if HudPosition == "Lowered"
 {

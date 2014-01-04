@@ -145,7 +145,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Regular6"
+			"font"			"Novecento6"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -157,8 +157,12 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"image_drawcolor"	"157 81 27 255"
-			"image_armedcolor"	"White"
+			"defaultFgColor_override" "OmpText"
+			"armedFgColor_override" "35 219 247 255"
+			"depressedFgColor_override" "35 219 247 255"
+			
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 			
 			"SubImage"
 			{
@@ -202,7 +206,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Regular6"
+			"font"			"Novecento6"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -214,8 +218,12 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"image_drawcolor"	"157 81 27 255"
-			"image_armedcolor"	"White"
+			"defaultFgColor_override" "OmpText"
+			"armedFgColor_override" "35 219 247 255"
+			"depressedFgColor_override" "35 219 247 255"
+			
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 			
 			"SubImage"
 			{
@@ -2881,7 +2889,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FavoriteServer2"
 		"xpos"			"r47"
-		"ypos"			"r47"
+		"ypos"			"r43"
 		"zpos"			"11"
 		"wide"			"50"
 		"tall"			"50"
@@ -2940,7 +2948,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FavoriteServer1"
 		"xpos"			"r47"
-		"ypos"			"-13"
+		"ypos"			"-9"
 		"zpos"			"11"
 		"wide"			"50"
 		"tall"			"50"

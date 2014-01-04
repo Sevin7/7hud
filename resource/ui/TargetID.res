@@ -1,6 +1,5 @@
 "Resource/UI/TargetID.res"
 {
-	
 	"TargetIDBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -35,7 +34,7 @@
 		"ypos"                "28"				//7
 		"zpos"                "-1"
 		"wide"	          		"640"	//
-		"tall"                "2"			//24
+		"tall"                "1"			//24
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -57,7 +56,7 @@
 		"ypos"                "28"				//7
 		"zpos"                "-1"
 		"wide"	          		"640"	//
-		"tall"                "2"			//24
+		"tall"                "1"			//24
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -115,7 +114,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Medium10Shadow"
+		"font"			"Regular7Shadow"
 		"xpos"			"5"			
 		"ypos"			"25"		// -3
 		"zpos"			"2"
@@ -137,7 +136,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"0"		//0
-		"ypos"			"2"
+		"ypos"			"7"
 		"zpos"			"5"
 		"wide"			"37"
 		"tall"			"37"
@@ -155,7 +154,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"2"
-		"ypos"			"29"		// 0
+		"ypos"			"29"		// -1
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -169,10 +168,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"34"
-		"xpos_minmode"	"30"
-		"ypos"			"21"
-		"ypos_minmode"	"19"
+		"xpos"			"2"
+		"ypos"			"29"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"

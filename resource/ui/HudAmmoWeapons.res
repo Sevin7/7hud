@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AmmoBG"
-		"xpos"		"300"
-		"ypos"		"136"
+		"xpos"		"43"
+		"ypos"		"5"
 		"zpos"		"4"
-		"wide"		"106"
+		"wide"		"116"
 		"tall"		"45"
 		"autoResize"	"0"
 		"pinCorner"	"0"
@@ -30,7 +30,7 @@
 		"tall"	"56" 
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"				//east
+		"textAlignment"	"west"				//east
 		"labelText"		"%Ammo%"
 		
 	}		
@@ -57,7 +57,7 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"Heavy48"
 		"fgcolor"		"Ammo"
-		"xpos"	"63"					//67
+		"xpos"	"58"					//67
 		"ypos"	"0"
 		"zpos"			"5"
 		"wide"	"100" 
@@ -80,7 +80,7 @@
 	"tall"	"56" 
 	"visible"	 "0"	
 	"enabled"	 "1"	
-	"textAlignment"	 "center"	
+	"textAlignment"	 "west"	
 	"labelText"	 "%Ammo%"
 	}
 
@@ -92,7 +92,7 @@
 	"fgcolor"	 "HudShadow"	
 	"xpos"	 "79"	
 	"ypos"	 "3"	
-	"zpos"	 "3"	
+	"zpos"	 "4"	
 	"wide"	 "120"	
 	"tall"	 "42"	
 	"visible"	 "0"	
@@ -107,7 +107,7 @@
 	"fieldName"	 "AmmoNoClipShadow"	
 	"font"	 "Heavy48"	
 	"fgcolor"	 "HudShadow"	
-	"xpos"	"64"					
+	"xpos"	"59"					
 	"ypos"	"2"
 	"zpos"	"3"
 	"wide"	"100" 
@@ -119,7 +119,7 @@
 	}
 		
 	//removed
-	
+
 	"HudWeaponAmmoBG"
 	{
 		"ControlName"	"CTFImagePanel"

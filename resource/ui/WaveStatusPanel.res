@@ -39,6 +39,20 @@
 		"labelText"		"%wave_count%"
 	}
 	
+	"BG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BG"
+		"xpos"			"c-27"		
+		"ypos"			"0"		
+		"zpos"			"2"
+		"wide"			"55"
+		"tall"			"11"
+		"visible"		"0"
+		"enabled"		"0"
+		"bgcolor_override"	"106 69 53 200"
+	}
+	
 	"SeparatorBar"
 	{
 		"ControlName"	"Panel"
@@ -67,7 +81,7 @@
 		"font"			"Medium8"
 		"fgcolor"		"White"
 		"xpos"			"55"
-		"ypos"			"11"
+		"ypos"			"6"
 		"zpos"			"3"
 		"wide"			"60"
 		"tall"			"25"

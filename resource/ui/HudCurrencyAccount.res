@@ -7,7 +7,7 @@
 		"font"			"Regular12"
 		"fgcolor"		"WhiteS"
 		"xpos"			"0"		//16
-		"ypos"			"92"
+		"ypos"			"95"
 		"zpos"			"3"
 		"wide"			"62"
 		"tall"			"16"
@@ -28,6 +28,6 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"HudBGCT"
+		"bgcolor_override"	"MvMBG2"
 	}
 }

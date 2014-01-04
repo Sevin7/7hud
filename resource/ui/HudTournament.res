@@ -50,7 +50,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"		"Regular9"
+				"font"		"Regular6"
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"
@@ -69,7 +69,7 @@
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"Regular9"
+					"font"				"Medium8"
 					"fgcolor"			"Black"
 				}
 			}
@@ -194,7 +194,7 @@
 				"ypos"			"18"
 				"zpos"			"5"
 				"wide"			"23"
-				"tall"			"10"
+				"tall"			"13"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -268,14 +268,35 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HudTournamentBG"
 		"xpos"			"0"
-		"ypos"			"21"
+		"ypos"			"18"
 		"zpos"			"-2"
 		"wide"			"250"
-		"tall"			"17"
-		"fillcolor"		"0 0 0 100"
+		"tall"			"10"
+		"fillcolor"		"HudBGT"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	
+	"HudTournamentBGVertical"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HudTournamentBGVertical"
+		"xpos"			"120"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"10"
+		"tall"			"18"
+		"fillcolor"		"HudBGT"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 
 		if_mvm
@@ -310,8 +331,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueBG"
-		"xpos"			"0"
-		"ypos"			"15"
+		"xpos"			"-3"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"123"
 		"tall"			"18"
@@ -330,7 +351,7 @@
 		"fieldName"		"TournamentBLUELabel"
 		"font"			"Medium13"
 		"xpos"			"5"
-		"ypos"			"14"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"65"
 		"tall"			"19"
@@ -352,9 +373,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"Medium9"
+		"font"			"Medium8"
 		"xpos"			"53"
-		"ypos"			"17"
+		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"13"
@@ -376,8 +397,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedBG"
-		"xpos"			"127"
-		"ypos"			"15"
+		"xpos"			"130"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"123"
 		"tall"			"18"
@@ -396,7 +417,7 @@
 		"fieldName"		"TournamentREDLabel"
 		"font"			"Medium13"
 		"xpos"			"179"
-		"ypos"			"14"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"65"
 		"tall"			"19"
@@ -418,9 +439,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"Medium9"
+		"font"			"Medium8"
 		"xpos"			"132"
-		"ypos"			"17"
+		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"13"
@@ -442,10 +463,10 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"Medium9Shadow"
+		"font"			"Medium8"
 		"fgcolor"		"White"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"17"
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"14"
@@ -494,7 +515,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"Medium9Shadow"
+		"font"			"Regular9Shadow"
 		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"33"
@@ -511,7 +532,7 @@
 
 		if_mvm
 		{
-			"font"			"ChatFont"
+			"font"			"Medium8"
 			"xpos"			"155"
 			"ypos"			"100"
 			"wide"			"190"

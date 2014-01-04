@@ -45,9 +45,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"Garm3n11"
+		"font"			"Medium8"
 		"xpos"			"6"
-		"ypos"			"4"
+		"ypos"			"2"
 		"zpos"			"4"
 		"wide"			"22"
 		"tall"			"22"
