@@ -417,7 +417,7 @@ event HudLowAmmoPulseLoop
 
 event HudLowAmmoPulseStop
 {
-	StopEvent LowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 	
 	Animate AmmoBG 	     BgColor		"HudBGStatus"	        Accel 0.0 0.0
