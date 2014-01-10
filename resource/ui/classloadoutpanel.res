@@ -64,7 +64,30 @@
 				"allow_rot"				"0"
 			}
 		}
-	}
+	
+	 	"itemoptionpanels_kv"
+    	{
+        	"ControlName"        "CExButton"
+        	"xpos"                        "c0"
+        	"ypos"                        "100"
+        	"zpos"                        "1"
+        	"wide"                        "14"
+        	"tall"                        "14"
+        	"autoResize"        "0"
+        	"visible"                "0"
+        	"enabled"                "1"
+        	"tabPosition"        "0"
+        	"labelText"                "+"
+        	"font"                        "HudFontSmallBold"
+        	"textAlignment"        "center"
+        	"dulltext"                "0"
+        	"brighttext"        "0"
+        	"default"                "1"
+        	"sound_depressed"        "UI/buttonclick.wav"
+        	"sound_released"        "UI/buttonclickrelease.wav"
+
+    	}
+    }
 	
 	"CaratLabel"
 	{
@@ -391,40 +414,19 @@
 			}				
 		}		
 	}
-	
-    "HatSlotParticleSlider"
-    {
-            "ControlName"        "CLoadoutParticleSlider"
-            "fieldName"                "HatSlotParticleSlider"
-            "xpos"                        "c"
-            "ypos"                        "100"
-            "wide"                        "200"
-            "tall"                        "40"
-            "autoResize"        "1"
-            "visible"                "1"
-    }
         
-    "Misc1SlotParticleSlider"
+    "ItemOptionsPanel"
     {
             "ControlName"        "CLoadoutParticleSlider"
-            "fieldName"                "Misc1SlotParticleSlider"
-            "xpos"                        "c"
-            "ypos"                        "180"
-            "wide"                        "200"
-            "tall"                        "40"
+            "fieldName"                "ItemOptionsPanel"
+            "xpos"                        "0"
+            "ypos"                        "0"
+            "zpos"						"100"
+            "wide"                        "140"
+            "tall"                        "75"
             "autoResize"        "1"
-            "visible"                "1"
-    }
-        
-    "Misc2SlotParticleSlider"
-    {
-            "ControlName"        "CLoadoutParticleSlider"
-            "fieldName"                "Misc2SlotParticleSlider"
-            "xpos"                        "c"
-            "ypos"                        "260"
-            "wide"                        "200"
-            "tall"                        "40"
-            "autoResize"        "1"
-            "visible"                "1"
+            "visible"                "0"
+            "bgcolor_override"			"69 64 63 255"
+            "PaintBackgroundType"		"2"
     }
 }
