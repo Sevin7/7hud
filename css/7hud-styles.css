@@ -4,5 +4,6 @@
 
 .wide-container[data-role="cityscape"] {
 	background-image:url(../img/cityscape.png);
+	background-position:right;
 	height:300px;
 }
