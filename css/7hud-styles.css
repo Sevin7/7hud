@@ -1,0 +1,8 @@
+.wide-container {
+	width:100%;
+}
+
+.wide-container[data-role="cityscape"] {
+	background-image:url(../img/cityscape.png);
+	height:300px;
+}
