@@ -454,7 +454,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DeleteButton"
-		"xpos"			"139"
+		"xpos"			"138"
 		"ypos"			"290"
 		"zpos"			"20"
 		"wide"			"85"
@@ -479,7 +479,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"UseButton"
-		"xpos"			"254"
+		"xpos"			"253"
 		"ypos"			"290"
 		"zpos"			"20"
 		"wide"			"100"
@@ -504,7 +504,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StyleButton"
-		"xpos"			"380"
+		"xpos"			"379"
 		"ypos"			"290"
 		"zpos"			"20"
 		"wide"			"95"
@@ -529,7 +529,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DetailsButton"
-		"xpos"			"501"
+		"xpos"			"500"
 		"ypos"			"290"
 		"zpos"			"20"
 		"wide"			"80"
