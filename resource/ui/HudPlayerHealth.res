@@ -54,7 +54,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-264"		
-		"ypos"			"r211"
+		"ypos"			"r281"
 		"zpos"			"2"
 		"wide"			"310"
 		"tall"			"222"
