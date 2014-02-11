@@ -5,7 +5,7 @@
 event DamagedPlayer
 {
 	Animate fogCrosshair 	FgColor 	"255 0 0 255" 	Linear 0.0 0.00001
-	Animate fogCrosshair 	FgColor 	"Green" 	Linear 0.20 0.10001
+	Animate fogCrosshair 	FgColor 	"WhiteS" 	Linear 0.20 0.10001
 	
 	// Set the second line ("255 255 255 255") to whatever color you have changed
 	// your crosshair to be. So if you crosshair is green, the second line should
@@ -237,7 +237,7 @@ event HudHealthBonusPulse
 
 	Animate	PlayerStatusHealthValueCam 		FgColor		"Buff"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	         Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueTour  	FgColor		"SpecBuff"      Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour 	FgColor		"Buff"	         Accel 0.0 0.0
 
     Animate	HealthBG 	    BgColor		"71 168 198 180"	        Accel 0.0 0.0
     Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
@@ -264,7 +264,6 @@ event HudHealthBonusPulseLoop
 	RunEvent PlayerStatusHealthValue 0.0
 	RunEvent PlayerStatusHealthValueCam 0.0
 	RunEvent PlayerStatusHealthValueSpec 0.0
-	RunEvent PlayerStatusHealthValueTour 0.0
         	RunEvent xHairNormal 0.0
         	RunEvent xHairThin 0.0
         	RunEvent xHairThinOutline 0.0
@@ -280,7 +279,6 @@ event HudHealthBonusPulseStop
 	StopEvent PlayerStatusHealthValue 0.0
 	StopEvent PlayerStatusHealthValueCam 0.0
 	StopEvent PlayerStatusHealthValueSpec 0.0
-	StopEvent PlayerStatusHealthValueTour 0.0
         	StopEvent xHairNormal 0.0
         	StopEvent xHairThin 0.0
         	StopEvent xHairThinOutline 0.0
@@ -293,8 +291,9 @@ event HudHealthBonusPulseStop
                 Animate PlayerStatusHealthValueCam 	                FgColor		"Health"	         Accel 0.0 0.0
 
                 Animate PlayerStatusHealthValueSpec 	                FgColor		"Black"	         Accel 0.0 0.0
+                
+                Animate	PlayerStatusHealthValueTour 	FgColor		"Black"	         Accel 0.0 0.0
 
-                Animate PlayerStatusHealthValueTour 	                FgColor		"Black"	         Accel 0.0 0.0
 
 	Animate xHairNormal 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
 
@@ -325,9 +324,9 @@ event HudHealthDyingPulse
 
 	Animate	PlayerStatusHealthValueCam 	FgColor		"LowHP"	         Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	         Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueTour 	                FgColor		"LowHP"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour 	FgColor		"LowHP"	         Accel 0.0 0.0
 
-    Animate	HealthBG 	    BgColor		"200 47 47 180"	    		Accel 0.0 0.0
+    Animate	HealthBG 	    BgColor		"LowHPBG"	    		Accel 0.0 0.0
     Animate	HealthBG 	   	Alpha		"255"		        Accel 0.0 0.3
 	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
 	
@@ -352,7 +351,6 @@ event HudHealthDyingPulseLoop
 	RunEvent PlayerStatusHealthValue 0.0
 	RunEvent PlayerStatusHealthValueCam 0.0
 	RunEvent PlayerStatusHealthValueSpec 0.0
-	RunEvent PlayerStatusHealthValueTour 0.0
 	RunEvent xHairNormal 0.0
 	RunEvent xHairThin 0.0
 	RunEvent xHairThinOutline 0.0
@@ -379,7 +377,7 @@ event HudHealthDyingPulseStop
 	Animate	PlayerStatusHealthValue 	                FgColor		"Health"	         Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueCam 	FgColor		"Health"               Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"Black"	         Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueTour 	                FgColor		"Black"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour 	FgColor		"Black"	         Accel 0.0 0.0
 
 	Animate xHairNormal 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
 	Animate xHairThin 	                                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
@@ -403,7 +401,7 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"		Linear 0.125 0.075
 	
-    Animate	AmmoBG	    BgColor		"LowHP"	    		Accel 0.0 0.0
+    Animate	AmmoBG	    BgColor		"LowHPBG"	    		Accel 0.0 0.0
     Animate	AmmoBG 	   	Alpha		"255"		        Accel 0.0 0.3
 	Animate	AmmoBG 	    Alpha		"255"		        Accel 0.3 0.6
 	
@@ -417,11 +415,11 @@ event HudLowAmmoPulseLoop
 
 event HudLowAmmoPulseStop
 {
-	StopEvent LowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 	
 	Animate AmmoBG 	     BgColor		"HudBGStatus"	        Accel 0.0 0.0
-    Animate	AmmoBG 	     Alpha		    "255"		            Accel 0.0 0.0
+	Animate	AmmoBG 	   	Alpha		"255"		        Accel 0.0 0.3
 }
 
 //===========================================

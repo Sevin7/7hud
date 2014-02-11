@@ -124,7 +124,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"ShowRarityComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HudFontSmallestBoldBP"
 		"wrap"				"0"
 		"xpos"				"c-75"
 		"ypos"				"20"
@@ -195,7 +195,7 @@
 		"ControlName"		"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
 		"xpos"		"c+152"
-		"ypos"		"20"
+		"ypos"		"22"
 		"wide"		"100"
 		"tall"		"19"
 		"autoResize"		"0"
@@ -216,7 +216,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortByComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HudFontSmallestBoldBP"
 		"xpos"				"c39"
 		"ypos"				"20"
 		"zpos"				"1"
@@ -454,7 +454,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DeleteButton"
-		"xpos"			"139"
+		"xpos"			"138"
 		"ypos"			"290"
 		"zpos"			"20"
 		"wide"			"85"
@@ -479,7 +479,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"UseButton"
-		"xpos"			"249"
+		"xpos"			"253"
 		"ypos"			"290"
 		"zpos"			"20"
 		"wide"			"100"
@@ -529,7 +529,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DetailsButton"
-		"xpos"			"499"
+		"xpos"			"500"
 		"ypos"			"290"
 		"zpos"			"20"
 		"wide"			"80"

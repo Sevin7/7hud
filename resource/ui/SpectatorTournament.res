@@ -102,7 +102,7 @@
 				"fieldName"	"playername"
 				"font"		"Regular10"
 				"xpos"			"45"
-				"ypos"			"3"
+				"ypos"			"2"
 				"zpos"			"5"
 				"wide"			"87"		//62
 				"tall"			"13"

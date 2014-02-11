@@ -1,32 +1,30 @@
 [BG:#EEEEEE]
-
 Window();
-
-
 
 [Border:0, FG:#000000]
 Banner("7hud.png", "auto", "topleft");
+
 [Name:HUD Position, Default:Normal]
 GlobalComboBox("HudPosition", "Hud Position")
-
 {
-
 	Normal
-
 	Lowered
-
 }
-
-
 
 [Name:Chat, Default:Top]
 DynamicFileSwitcher("resource\ui\BaseChat.res", "Chat Position");
 
+[Name:Scoreboard, Default:Normal]
+GlobalComboBox("Scoreboard", "Scoreboard Background")
+{
+	Normal
+	No top BG's
+	No main BG
+	No main or top BG's
+}
 
-[Name:Scoreboard, Default:NORMAL]
-DynamicFileSwitcher("resource\ui\Scoreboard.res", "Scoreboard", 1);
-
-
+[Name:4by3, Default:False]
+GlobalCheckBox("4by3", "", "Is your aspect ratio 4:3?");
 
 [Name:3d model pos, Default:Left]
 GlobalComboBox("3d", "3D Model Position")
@@ -35,8 +33,6 @@ GlobalComboBox("3d", "3D Model Position")
 	Right
 	By HP
 }
-
-
 
 [Portion:2]
 [Name:Fave1, Default:text=7|ip=|pass=]
@@ -107,4 +103,59 @@ HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
 	Copy("resource\NORMAL\huditemeffectmeter_spy - NORMAL.res", "resource\ui\Huditemeffectmeter_spy.res");
 	Copy("resource\NORMAL\huditemeffectmeter_spyknife - NORMAL.res", "resource\ui\huditemeffectmeter_spyknife.res");
 	Copy("resource\NORMAL\huditemeffectmeter - NORMAL.res", "resource\ui\huditemeffectmeter.res");
+}
+
+#if 4by3 == "true"
+{
+	Copy("resource\4by3\backpackpanel - 4by3.res", "resource\ui\econ\backpackpanel.res");
+	Copy("resource\4by3\hud_obj_dispenser - 4by3.res", "resource\ui\hud_obj_dispenser.res");
+	Copy("resource\4by3\hud_obj_sentrygun - 4by3.res", "resource\ui\hud_obj_sentrygun.res");
+	Copy("resource\4by3\hud_obj_sentrygun_disp - 4by3.res", "resource\ui\hud_obj_sentrygun_disp.res");
+	Copy("resource\4by3\hud_obj_tele_entrance - 4by3.res", "resource\ui\huddemomanpipes.res");
+	Copy("resource\4by3\hud_obj_tele_exit - 4by3.res", "resource\ui\hud_obj_tele_entrance.res");
+	Copy("resource\4by3\mvmscoreboard - 4by3.res", "resource\ui\mvmscoreboard.res");
+	Copy("resource\4by3\huditemeffectmeter_killstreak - 4by3.res", "resource\ui\huditemeffectmeter_killstreak.res");
+	#if Scoreboard == "No main or top BG's"
+	{
+		Copy("resource\4by3\Scoreboard - NO MAIN OR TOP BG'S - 4by3.res", "resource\ui\scoreboard.res");
+	}
+	#if Scoreboard == "No top BG's"
+	{
+		Copy("resource\4by3\Scoreboard - NO TOP BG'S - 4by3.res", "resource\ui\scoreboard.res");
+	}
+	#if Scoreboard == "No main BG"
+	{
+		Copy("resource\4by3\Scoreboard - NO MAIN BG'S - 4by3.res", "resource\ui\scoreboard.res");
+	}
+	#if Scoreboard == "Normal"
+	{
+		Copy("resource\4by3\Scoreboard - NORMAL - 4by3.res", "resource\ui\scoreboard.res");
+	}
+}
+#else
+{
+	Copy("resource\4by3\backpackpanel - others.res", "resource\ui\econ\backpackpanel.res");
+	Copy("resource\4by3\hud_obj_dispenser - others.res", "resource\ui\hud_obj_dispenser.res");
+	Copy("resource\4by3\hud_obj_sentrygun - others.res", "resource\ui\hud_obj_sentrygun.res");
+	Copy("resource\4by3\hud_obj_sentrygun_disp - others.res", "resource\ui\hud_obj_sentrygun_disp.res");
+	Copy("resource\4by3\hud_obj_tele_entrance - others.res", "resource\ui\huddemomanpipes.res");
+	Copy("resource\4by3\hud_obj_tele_exit - others.res", "resource\ui\hud_obj_tele_entrance.res");
+	Copy("resource\4by3\mvmscoreboard - others.res", "resource\ui\mvmscoreboard.res");
+	Copy("resource\4by3\huditemeffectmeter_killstreak - others.res", "resource\ui\huditemeffectmeter_killstreak.res");
+	#if Scoreboard == "No main or top BG's"
+	{
+		Copy("resource\4by3\Scoreboard - NO MAIN OR TOP BG'S.res", "resource\ui\scoreboard.res");
+	}
+	#if Scoreboard == "No top BG's"
+	{
+		Copy("resource\4by3\Scoreboard - NO TOP BG's.res", "resource\ui\scoreboard.res");
+	}
+	#if Scoreboard == "No main BG"
+	{
+		Copy("resource\4by3\Scoreboard - NO MAIN BG's.res", "resource\ui\scoreboard.res");
+	}
+	#if Scoreboard == "Normal"
+	{
+		Copy("resource\4by3\Scoreboard - NORMAL.res", "resource\ui\scoreboard.res");
+	}
 }
