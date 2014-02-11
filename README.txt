@@ -130,10 +130,10 @@ PERSONAL TROUBLESHOOTING
 
 SCOREBOARD PING CLIPPING:
 
-	1. Navigate to ScoreBoard.res in your resource/ui folder
+	1. Navigate to ScoreBoard.res in your resource/ui folder.
 	2. Under the first heading (scores), find "ping_width".
-	3. Lower the value, maybe 3-4 down, save the file, alt-tab into the game if it's open and put "hud_reloadscheme" into the console. This refreshes all the .res files in your 7HUD folder. If you're not in-game, simply launch TF2
-	4. You can also change the "name_width" and/or "score_width" values I move it over more all-togetherly
+	3. Lower the value, maybe 3-4 down, save the file, alt-tab into the game if it's open and put "hud_reloadscheme". into the console. This refreshes all the .res files in your 7HUD folder. If you're not in-game, simply launch TF2
+	4. You can also change the "name_width" and/or "score_width" values to move it over more all-togetherly.
 
 
 ------------------------------------------------------
