@@ -11,7 +11,6 @@ GlobalComboBox("HudPosition", "Hud Position")
 	Lowered
 }
 
-<<<<<<< HEAD
 [Name:Chat, Default:Top]
 DynamicFileSwitcher("resource\ui\BaseChat.res", "Chat Position");
 
@@ -26,13 +25,6 @@ GlobalComboBox("Scoreboard", "Scoreboard Background")
 
 [Name:4by3, Default:False]
 GlobalCheckBox("4by3", "", "Is your aspect ratio 4:3?");
-=======
-[Name:Chat, Default:TOP]
-DynamicFileSwitcher("resource\ui\BaseChat.res", "Chat Position");
-
-[Name:Scoreboard, Default:NORMAL]
-DynamicFileSwitcher("resource\ui\Scoreboard.res", "Scoreboard", 1);
->>>>>>> 2be24d6fbe7a768d76bb88f8d8c91b991e3f9800
 
 [Name:3d model pos, Default:Left]
 GlobalComboBox("3d", "3D Model Position")
@@ -112,7 +104,6 @@ HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
 	Copy("resource\NORMAL\huditemeffectmeter_spyknife - NORMAL.res", "resource\ui\huditemeffectmeter_spyknife.res");
 	Copy("resource\NORMAL\huditemeffectmeter - NORMAL.res", "resource\ui\huditemeffectmeter.res");
 }
-<<<<<<< HEAD
 
 #if 4by3 == "true"
 {
@@ -168,5 +159,3 @@ HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
 		Copy("resource\4by3\Scoreboard - NORMAL.res", "resource\ui\scoreboard.res");
 	}
 }
-=======
->>>>>>> 2be24d6fbe7a768d76bb88f8d8c91b991e3f9800
