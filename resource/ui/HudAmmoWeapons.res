@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AmmoBG"
-		"xpos"		"43"
-		"ypos"		"5"
+		"xpos"		"49"
+		"ypos"		"3"
 		"zpos"		"4"
 		"wide"		"116"
 		"tall"		"45"
@@ -23,7 +23,7 @@
 		"fieldName"		"AmmoInClip"
 		"font"			"Heavy48"
 		"fgcolor"		"Ammo"
-		"xpos"	"51"						//1
+		"xpos"	"53"						//1
 		"ypos"	"0"						//0		
 		"zpos"			"7"
 		"wide"	"71" 
@@ -40,14 +40,14 @@
 		"fieldName"		"AmmoInReserve"
 		"font"			"Heavy28"
 		"fgcolor"		"AmmoReserve"
-		"xpos"	"78"							//104
-		"ypos"			"2"					//9
+		"xpos"	"40"							//104
+		"ypos"			"-1"					//9
 		"zpos"			"5"
 		"wide"			"120"
 		"tall"			"42"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"labelText"		"%AmmoInReserve%"
 		
 	}			
@@ -57,8 +57,8 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"Heavy48"
 		"fgcolor"		"Ammo"
-		"xpos"	"58"					//67
-		"ypos"	"0"
+		"xpos"	"53"					//67
+		"ypos"	"-1"
 		"zpos"			"5"
 		"wide"	"100" 
 		"tall"	"56" 
@@ -73,7 +73,7 @@
 	"fieldName"	 "AmmoInClipShadow"	
 	"font"	 "Heavy48"	
 	"fgcolor"	 "HudShadow"	
-	"xpos"	 "52"	
+	"xpos"	 "54"	
 	"ypos"	 "2"	
 	"zpos"	 "3"	
 	"wide"	"71" 
@@ -90,14 +90,14 @@
 	"fieldName"	 "AmmoInReserveShadow"	
 	"font"	 "Heavy28"	
 	"fgcolor"	 "HudShadow"	
-	"xpos"	 "79"	
-	"ypos"	 "3"	
+	"xpos"	 "41"	
+	"ypos"	 "0"	
 	"zpos"	 "4"	
 	"wide"	 "120"	
 	"tall"	 "42"	
 	"visible"	 "0"	
 	"enabled"	 "1"	
-	"textAlignment"	 "center"	
+	"textAlignment"	 "east"	
 	"labelText"	 "%AmmoInReserve%"
 	}
 	
@@ -107,8 +107,8 @@
 	"fieldName"	 "AmmoNoClipShadow"	
 	"font"	 "Heavy48"	
 	"fgcolor"	 "HudShadow"	
-	"xpos"	"59"					
-	"ypos"	"2"
+	"xpos"	"54"					
+	"ypos"	"1"
 	"zpos"	"3"
 	"wide"	"100" 
 	"tall"	"56" 

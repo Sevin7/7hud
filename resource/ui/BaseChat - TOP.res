@@ -7,7 +7,7 @@
 		"visible" 		        "1"
 		"enabled" 		        "1"
 		"xpos"			          "1"
-		"ypos"			          "0"		//around 150 for center
+		"ypos"			          "25"		//around 150 for center
 		"wide"	 		          "242"
 		"tall"	 		          "120"
 		"fgcolor"		"Garm3nWhite"
@@ -37,7 +37,7 @@
 		"tall"			          "8"
 		"autoResize"		      "1"
 		"pinCorner"		        "0"
-		"visible"		          "1"
+		"visible"		          "0"
 		"enabled"		          "1"
 		"tabPosition"		      "0"
 		"labelText"		        "#chat_filterbutton"
@@ -53,7 +53,7 @@
 		"fieldName"		        "HudChatHistory"
 		"xpos"			          "7"
 		"ypos"			          "8"
-		"wide"	 		          "228"
+		"wide"	 		          "242"
 		"tall"			          "75"
 		"wrap"			          "1"
 		"autoResize"		      "1"

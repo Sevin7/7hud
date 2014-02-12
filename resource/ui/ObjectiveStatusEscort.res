@@ -191,7 +191,7 @@
 			"fieldName"		"RecedeTime"
 			"font"			"Medium8"		
 			"xpos"		"11"
-			"ypos"		"48"
+			"ypos"		"49"
 			"zpos"			"2"
 			"wide"		"30"
 			"tall"		"17"
@@ -397,7 +397,7 @@
 			"fieldName"		"CapNumPlayers"
 			"font"		"Medium8"
 			"xpos"		"11"
-			"ypos"		"48"
+			"ypos"		"47"
 			"zpos"			"4"
 			"wide"		"30"
 			"tall"		"17"
@@ -422,12 +422,12 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"63"
+				"ypos"			"66"
 			}										
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"63"
+				"ypos"			"66"
 			}	
 		}
 		
@@ -517,7 +517,7 @@
 				"fieldName"			"ProgressText"
 				"font"			"DefaultVerySmall"
 				"xpos"				"0"
-				"ypos"			"3"
+				"ypos"			"1"
 				"zpos"				"23"
 				"wide"			"35"
 				"tall"			"28"

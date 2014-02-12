@@ -35,6 +35,7 @@ Scheme
 		"SpecBuff"			"61 125 150 255"			//Darker color for SpecHUD
 		
 		"LowHP"				"200 47 47 255"			//Low health and ammo warning color
+		"LowHPBG"			"200 47 47 180"			//Low health and ammo warning color
 		"RedHP"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
 		"LowAmmo"			"200 47 47 255"			//Low health and ammo warning color
 		"RedAmmo"			"255 0 0 175"			//"Low Ammo/HP" animation flash color
@@ -619,7 +620,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"FuturaStd-Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -700,44 +701,57 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LightNumbers"
-				"tall"		"1"
-				"yres"		"480 599"
-				"antialias" 	"0"
+				"name"			"Verdana"
+				"tall"			"12"
+				"weight"		"0"
+				"range"			"0x0000 0x017F"
+				"yres"			"480 599"
+
+
 			}
+
 			"2"
 			{
-				"name"		"LightNumbers"
-				"tall"		"2"
-				"yres"	"600 719"
-				"antialias" 	"1"
+				"name"			"Verdana"
+				"tall"			"12"
+				"weight"		"0"
+				"range"			"0x0000 0x017F"
+				"yres"			"600 767"
+
+
 			}
+
 			"3"
 			{
-				"name"		"LightNumbers"
-				"tall"		"5"
-				"yres"	"720 767"
-				"antialias" 	"1"
+				"name"			"Verdana"
+				"tall"			"12"
+				"weight"		"0"
+				"range"			"0x0000 0x017F"
+
+				"yres"			"768 1023"
+				"antialias"		"1"
 			}
+
 			"4"
 			{
-				"name"		"LightNumbers"
-				"tall"		"6"
-				"yres"	"768 899"
-				"antialias" 	"1"
+				"name"			"Verdana"
+				"tall"			"14"
+				"weight"		"0"
+				"range"			"0x0000 0x017F"
+				"yres"			"1024 1199"
+
+
+				"antialias"		"1"
 			}
+
 			"5"
 			{
-				"name"		"LightNumbers"
-				"tall"		"9"
-				"yres"	"900 1023"
-				"antialias" 	"1"
-			}
-			"6"
-			{
-				"name"		"LightNumbers"
-				"tall"		"6"
-				"antialias" 	"1"
+				"name"			"Verdana"
+				"tall"			"16"
+				"weight"		"0"
+				"range"			"0x0000 0x017F"
+				"yres"			"1200 6000"
+				"antialias"		"1"
 			}
 		}
 		DefaultLarge
@@ -2551,13 +2565,23 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text SC"
-				"tall"		"15"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"13"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
+		"Medium13T"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Black"
 
+				"tall"		"13"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
 		"Medium13Shadow"
 		{
 			"1"
@@ -2597,7 +2621,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"11"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2630,7 +2654,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"9"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2660,6 +2684,16 @@ Scheme
 			}
 		}
 		
+		"Medium8T"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Heavy"
+				"tall"		"8"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
 		"Medium8Shadow"
 		{
 			"1"
@@ -3087,7 +3121,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Neutra Text SC"
 				"tall"		"16"
 				"additive"		"0"
 				"antialias"	"1"
@@ -3249,6 +3283,16 @@ Scheme
 			{
 				"name"		"NovecentoMedium"
 				"tall"		"9"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Novecento8"
+		{
+			"1"
+			{
+				"name"		"NovecentoMedium"
+				"tall"		"8"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -3868,7 +3912,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"AvenirLTStd-heavy"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3940,7 +3984,17 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Neutra Text SC"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudFontSmallestBoldBP"
+		{
+			"1"
+			{
+				"name"		"Neutra Text SC"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -4285,6 +4339,17 @@ Scheme
 				"range"		"0x0000 0x007F"	//	Basic Latin
 			}
 		}
+		"MarlettSmall"
+		{
+			"1"
+			{
+				"name"		"Marlett"
+				"tall"		"14"
+				"weight"	"0"
+				"symbol"	"1"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+			}
+		}
 		"MenuMainTitle"
 		{
 			"1"
@@ -4372,7 +4437,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"FuturaStd-Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -4382,7 +4447,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"FuturaStd-Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -4786,7 +4851,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text TF SC Alt Bold"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -4796,7 +4861,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text TF SC Alt Bold"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -4806,7 +4871,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text TF SC Alt Bold"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -4816,8 +4881,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text SC"
-				"tall"		"11"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -4826,8 +4891,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text SC"
-				"tall"		"11"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"ItemFontAttribSmallBP"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+
+				"tall"		"7"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -4836,8 +4912,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text SC"
-				"tall"		"12"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -5168,21 +5244,21 @@ Scheme
 
 		ButtonBorder
 		{
-			"color" "Blank"
-			"offset" "0 0"
+		"inset" "0 0 0 0"
+		"backgroundtype" "2"
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
-			"color" "Green"
-			"offset" "0 0"
+		"inset" "0 0 0 0"
+		"backgroundtype" "2"
 		}
 
 		ButtonDepressedBorder
 		{
-			"color" "Blank"
-			"offset" "0 0"
+		"inset" "0 0 0 0"
+		"backgroundtype" "2"
 		}
 
 		ComboBoxBorder
@@ -6752,6 +6828,11 @@ Scheme
 		{
 			"font" "resource/fonts/Neutra Text SC.ttf"
 			"name" "Neutra Text SC"
+		}
+		"28"
+		{
+			"font" "resource/fonts/FuturaStd-Medium.otf"
+			"name" "FuturaStd-Medium"
 		}
 	}
 }

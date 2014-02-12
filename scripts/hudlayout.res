@@ -907,7 +907,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"-18"
-		"ypos"		"230"
+		"ypos"		"0"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -1372,8 +1372,8 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"		
-		"ypos"					"185"		//0
+		"xpos"					"c-120"		
+		"ypos"					"245"		//0
 		"wide"					"f0"
 		"tall"					"480"
 	}
@@ -1383,8 +1383,8 @@
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"185"
+		"xpos"					"c-180"
+		"ypos"					"245"
 		"wide"					"f0"
 		"tall"					"480"
 	}

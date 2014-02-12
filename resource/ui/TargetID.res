@@ -95,7 +95,7 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"Bold12"				//Medium12
 		"xpos"			"43"			//59
-		"ypos"			"7"		//
+		"ypos"			"9"		//
 		"zpos"			"2"
 		"wide"			"640"		//640
 		"tall"			"24"
@@ -115,7 +115,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
 		"font"			"Regular7Shadow"
-		"xpos"			"5"			
+		"xpos"			"7"			
 		"ypos"			"25"		// -3
 		"zpos"			"2"
 		"wide"			"270"
@@ -169,7 +169,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"2"
-		"ypos"			"29"
+		"ypos"			"-1"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -206,7 +206,22 @@
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
-		
+		"MoveableBG"
+		{
+			"ControlName" "ImagePanel"
+			"fieldName"   "MoveableBG"
+			"xpos"        "5"		
+			"ypos"        "8"
+			"zpos"        "2"
+			"wide"        "80"
+			"tall"        "20"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"fillcolor"		"Black"
+			"alpha"				"255"
+			"visible"			"1"
+			"enabled"			"1"
+		}
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -242,12 +257,12 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"Medium10"
-			"fgcolor"		"White"
-			"TextColor"		"White"
+			"font"			"Medium11"
+			"fgcolor"		"Black"
+			"TextColor"		"Black"
 			"xpos"			"1"
-			"ypos"			"13"
-			"zpos"			"1"
+			"ypos"			"14"
+			"zpos"			"3"
 			"wide"			"640"
 			"tall"			"26"
 			"autoResize"		"0"
