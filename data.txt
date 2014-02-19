@@ -8,4 +8,4 @@ url=http://teamfortress.tv/forum/thread/12745-7hud
 url=http://etf2l.org/forum/huds/topic-27677/
 update_name=7Hud
 update_name=7Hud for mac
-version=4.01
+version=4.02

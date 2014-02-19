@@ -3963,7 +3963,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3984,8 +3984,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text SC"
-				"tall"		"10"
+				"name"		"AvenirLTStd-Heavy"
+				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3994,8 +3994,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text SC"
-				"tall"		"8"
+				"name"		"AvenirLTStd-Heavy"
+				"tall"		"6"
 				"additive"	"0"
 				"antialias" "1"
 			}

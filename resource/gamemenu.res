@@ -81,7 +81,7 @@
 	}
 	"Version"
 	{
-		"label" "7HUD v4.01" 
+		"label" "7HUD v4.02" 
 		"command"	"engine echo To check for updates view the steam group page"
 	}
 	"Scoreboard"
