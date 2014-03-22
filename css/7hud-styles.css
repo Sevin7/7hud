@@ -42,6 +42,17 @@ body {
 	height:325px;
 }
 
+.wide-container[data-role="download-hud"] {
+	background-color:rgba(30,30,30,1);
+	height:325px;
+}
+
+.wide-container[data-role="footer"] {
+	background-color:rgba(10,10,10,1);
+	height:85px;
+	overflow:hidden;
+}
+
 .push-down {
 	height:300px;
 }
@@ -53,7 +64,7 @@ body {
 	color:#fff;
 	text-decoration:none;
 	height:50px;
-	width:150px;
+	width:200px;
 	line-height:47.5px;
 	text-align:center;
 	border-radius:2.5px;
@@ -66,10 +77,10 @@ body {
 }
 
 .sh-button:hover {
-	width:200px;
+	font-weight:600;
 }
 
-.sh-button[data-role="download"] {
+.sh-button[data-role="download"], .sh-button[data-role="direct-hud"] {
 	background-color:rgba(55,183,0,1);
 	box-shadow:0 3px 0 #105100;
 	position:absolute;
@@ -77,7 +88,7 @@ body {
 	left:25px;
 }
 
-.sh-button[data-role="download"]:hover {
+.sh-button[data-role="download"]:hover, .sh-button[data-role="direct-hud"]:hover  {
 	background-color:rgba(35,157,0,1);
 }
 
@@ -106,17 +117,25 @@ body {
 }
 
 .sh-button[data-role="track-issue"] {
-	background-color:rgba(255,131,6,1);
+	background-color:rgba(255,45,45,1);
 	display:inline-block;
 	top:103px;
 	margin-right:25px;
 	position:relative;
 	left:13px;
-	box-shadow:0 3px 0 #714400;
+	box-shadow:0 3px 0 #9D0700;
 }
 
 .sh-button[data-role="track-issue"]:hover {
-	background-color:rgba(225,113,0,1)
+	background-color:rgba(255,31,26,1);
+}
+
+.sh-button[data-role="direct-hud"] {
+	display:inline-block;
+	top:103px;
+	margin-right:25px;
+	position:relative;
+	left:13px;
 }
 
 /* ##### HEADER STYLINGS ##### */
@@ -157,7 +176,7 @@ h3.content-title {
 	color:rgba(105,105,105,1);
 }
 
-.wide-container[data-role="feature-hud"] h3.content-title {
+.wide-container[data-role="feature-hud"] h3.content-title, .wide-container[data-role="download-hud"] h3.content-title {
 	color:rgba(255,255,255,1);
 }
 
@@ -186,8 +205,20 @@ p.content-desc {
 	color:rgba(60,60,60,1);
 }
 
-.wide-container[data-role="feature-hud"] p.content-desc {
+.wide-container[data-role="feature-hud"] p.content-desc, .wide-container[data-role="download-hud"] p.content-desc, .wide-container[data-role="footer"] {
 	color:rgba(255,255,255,1);
+}
+
+.wide-container[data-role="footer"] p.content-desc {
+	font-size:0.95em;
+	text-align:center;
+	top:0;
+	line-height:85px;
+}
+
+.wide-container[data-role="footer"] p.content-desc a {
+	color:rgba(253,177,2,1);
+	text-decoration:none;
 }
 
 /* ##### NAVIGATION ##### */
