@@ -98,7 +98,7 @@ h2.slider-title {
 	position:relative;
 	top:25px;
 	left:25px;
-	background-color:rgba(0,0,0,0.50);
+	background-color:rgba(0,0,0,0.75);
 	width:600px;
 	padding:5px;
 }
@@ -117,7 +117,7 @@ h3.content-title {
 p.slider-desc {
 	padding:5px;
 	position:relative;
-	background-color:rgba(0,0,0,0.50);
+	background-color:rgba(0,0,0,0.75);
 	top:50px;
 	left:25px;
 	font-weight:300;
