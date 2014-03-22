@@ -12,7 +12,6 @@ body {
 .wide-container[data-role="jumbo-box"] {
 	height:650px;
 	background-color:rgba(27,73,160,1);
-	position:relative;
 }
 
 .header-container {
@@ -23,7 +22,6 @@ body {
 .header-container[data-role="navbar"] {
 	height:80px;
 	background-color:rgba(255,255,255,1);
-	position:relative;
 }
 
 .container_12[data-role="slider"] {
@@ -32,6 +30,15 @@ body {
 	background-color:rgba(0,0,0,0.15);
 	box-shadow:0 0 10px rgba(0,0,0,0.25);
 	position:relative;
+}
+
+.wide-container[data-role="about-hud"] {
+	background-color:rgba(255,255,255,1);
+	height:325px;
+}
+
+.hi {
+	height:300px;
 }
 
 /* ##### BUTTONS ##### */
@@ -62,6 +69,13 @@ body {
 
 .sh-button[data-role="download"]:hover {
 	background-color:rgba(35,157,0,1);
+}
+
+.sh-button[data-role="read-more"] {
+	background-color:rgba(128,140,255,1);
+	position:absolute;
+	bottom:0;
+	left:25px;
 }
 
 /* ##### HEADER STYLINGS ##### */
@@ -95,7 +109,7 @@ h3.content-title {
 	color:rgba(105,105,105,1);
 	position:relative;
 	top:25px;
-	letter-spacing:-5px;
+	letter-spacing:-6px;
 }
 
 /* ##### PARAGRAPH STYLES ##### */
@@ -109,6 +123,15 @@ p.slider-desc {
 	font-weight:300;
 	color:#fff;
 	width:600px;
+	font-size:1.25em;
+}
+
+p.content-desc {
+	position:relative;
+	top:50px;
+	font-weight:300;
+	color:rgba(60,60,60,1);
+	font-size:1.25em;
 }
 
 /* ##### NAVIGATION ##### */
@@ -145,9 +168,3 @@ p.slider-desc {
 .cl-l { clear:left; }
 .cl-r { clear:right; }
 .cl-b { clear:both; }
-
-/* ##### CONTENT STYLES ##### */
-
-.wide-container[data-role="about-hud"] {
-	background-color:rgba(255,255,255,1);
-}
