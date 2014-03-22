@@ -89,6 +89,15 @@ h2.slider-title {
 	padding:5px;
 }
 
+h3.content-title {
+	font-weight:600;
+	font-size:2.75em;
+	color:rgba(105,105,105,1);
+	position:relative;
+	top:25px;
+	letter-spacing:-5px;
+}
+
 /* ##### PARAGRAPH STYLES ##### */
 
 p.slider-desc {
@@ -136,3 +145,9 @@ p.slider-desc {
 .cl-l { clear:left; }
 .cl-r { clear:right; }
 .cl-b { clear:both; }
+
+/* ##### CONTENT STYLES ##### */
+
+.wide-container[data-role="about-hud"] {
+	background-color:rgba(255,255,255,1);
+}
