@@ -1,5 +1,6 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	margin-top:80px;
 }
 
 /* ##### CONTAINERS AND CONTAINER STYLINGS ##### */
@@ -10,7 +11,7 @@ body {
 }
 
 .wide-container[data-role="jumbo-box"] {
-	height:650px;
+	height:570px;
 	background-color:rgba(27,73,160,1);
 }
 
@@ -22,6 +23,11 @@ body {
 .header-container[data-role="navbar"] {
 	height:80px;
 	background-color:rgba(255,255,255,1);
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1;
+	box-shadow:0 2px 0 rgba(255,255,255,0.50);
 }
 
 .container_12[data-role="slider"] {
@@ -32,19 +38,19 @@ body {
 	position:relative;
 }
 
-.wide-container[data-role="about-hud"], .wide-container[data-role="issues-hud"] {
+.wide-container[data-role="about-hud"], .wide-container[data-role="issues-hud"], .wide-container[data-role="contact-hud"] {
 	background-color:rgba(255,255,255,1);
-	height:325px;
+	height:400px;
 }
 
 .wide-container[data-role="feature-hud"] {
 	background-color:rgba(27,73,160,1);
-	height:325px;
+	height:400px;
 }
 
 .wide-container[data-role="download-hud"] {
 	background-color:rgba(30,30,30,1);
-	height:325px;
+	height:400px;
 }
 
 .wide-container[data-role="footer"] {
@@ -54,6 +60,8 @@ body {
 }
 
 .push-down {
+	position:relative;
+	top:35px;
 	height:300px;
 }
 
@@ -138,6 +146,20 @@ body {
 	left:13px;
 }
 
+.sh-button[data-role="profiles-hud"] {
+	background-color:rgba(255,136,17,1);
+	display:inline-block;
+	top:103px;
+	margin-right:25px;
+	position:relative;
+	left:13px;
+	box-shadow:0 3px 0 #7D3C00;
+}
+
+.sh-button[data-role="profiles-hud"]:hover {
+	background-color:rgba(236,88,0,1);
+}
+
 /* ##### HEADER STYLINGS ##### */
 
 h1.brand {
@@ -172,7 +194,7 @@ h3.content-title {
 	letter-spacing:-6px;
 }
 
-.wide-container[data-role="about-hud"] h3.content-title, .wide-container[data-role="issues-hud"] h3.content-title {
+.wide-container[data-role="about-hud"] h3.content-title, .wide-container[data-role="issues-hud"] h3.content-title, .wide-container[data-role="contact-hud"] {
 	color:rgba(105,105,105,1);
 }
 
@@ -201,7 +223,7 @@ p.content-desc {
 	font-size:1.25em;
 }
 
-.wide-container[data-role="about-hud"] p.content-desc, .wide-container[data-role="issues-hud"] p.content-desc {
+.wide-container[data-role="about-hud"] p.content-desc, .wide-container[data-role="issues-hud"] p.content-desc, .wide-container[data-role="contact-hud"] {
 	color:rgba(60,60,60,1);
 }
 
