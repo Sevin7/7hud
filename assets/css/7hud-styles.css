@@ -3,6 +3,20 @@ body {
 	margin-top:80px;
 }
 
+/* ##### SLIDER STYLES ##### */
+
+#slides {
+	display:none;
+	z-index:0;
+}
+
+.custom-slide {
+	height:570px;
+	width:1020px;
+}
+
+.code-bg { background-image:url(../img/code.png); }
+
 /* ##### CONTAINERS AND CONTAINER STYLINGS ##### */
 
 .wide-container {
@@ -32,8 +46,6 @@ body {
 
 .container_12[data-role="slider"] {
 	height:570px;
-	background-image:url(../img/code.png);
-	background-color:rgba(0,0,0,0.15);
 	box-shadow:0 0 10px rgba(0,0,0,0.25);
 	position:relative;
 }

@@ -28,10 +28,15 @@
     	</div>
     </div>
 	<div class="wide-container" data-role="jumbo-box">
-		<div class="container_12" data-role="slider">
-        	<div>
+		<div class="container_12" data-role="slider" id="slides">
+        	<div class="code-bg custom-slide">
             	<h2 class="slider-title">Easily Customisable</h2>
                 <p class="slider-desc">Code is heavily commented to make sure customisation is easy and efficient. Customisation includes colors, crosshairs and many more features.</p><p class="slider-desc">Multiple sections of the HUD contain different styles to.</p>
+            	<a href="#" class="sh-button" data-role="download">Download</a>
+            </div>
+            <div class="code-bg custom-slide">
+            	<h2 class="slider-title">Commited Community and Reguarly Updated</h2>
+                <p class="slider-desc">7HUD is used by a wide spread community of TF2 players, bugs and issues are found fast and updates and fixes are pumped out just as fast!</p>
             	<a href="#" class="sh-button" data-role="download">Download</a>
             </div>
         </div>
@@ -48,7 +53,7 @@
     <div class="wide-container" data-role="feature-hud" id="feature-hud">
     	<div class="container_12">
         	<div class="grid_12 push-down">
-            	<h3 class="content-title">The features of 7HUD</h3>
+            	<h3 class="content-title">7HUDs Features</h3>
                 <p class="content-desc">7HUD contains many features... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida molestie arcu, et molestie magna tincidunt ac. In sapien velit, iaculis et urna vel, vehicula condimentum risus. Aliquam erat volutpat. Ut at interdum lacus. Ut pretium tellus purus, a imperdiet velit ullamcorper vel. Proin et enim eu quam scelerisque pulvinar sit amet a diam. Suspendisse feugiat, enim a suscipit ultrices, massa sapien pharetra ligula, eget adipiscing risus dolor sed turpis. Duis nec aliquet lacus. </p>
                 <a href="http://imgur.com/a/yluqH" class="sh-button" data-role="view-feature">View features</a>
             </div>
@@ -89,6 +94,29 @@
         </div>
     </div>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="assets/js/jquery.slides.min.js"></script>
+    <script>
+    	$(function(){
+    		$("#slides").slidesjs({
+        		width: 1020,
+        		height: 570,
+				navigation:false,
+				pagination:false,
+				play: {
+      				effect: "fade",
+					interval: 5000,
+					auto: true,
+      				pauseOnHover: false,
+				},
+				effect: {
+      				fade: {
+        				speed: 500,
+						crossfade: true
+      				}
+    			}
+      		});
+    	});
+  	</script>
 	<script src="assets/js/scrollTo.js"></script>
 </body>
 </html>
