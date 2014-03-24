@@ -1,3 +1,9 @@
+$("#home").click(function(e) {
+    $('html, body').animate({
+        scrollTop: ($("#home-slide").offset().top - 80)
+    }, 1000);
+	e.preventDefault();
+});
 $("#info").click(function(e) {
     $('html, body').animate({
         scrollTop: ($("#about-hud").offset().top - 80)
