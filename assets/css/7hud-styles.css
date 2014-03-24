@@ -93,7 +93,9 @@ body {
 	text-transform:uppercase;
 	text-shadow:0 1px 0 rgba(0,0,0,0.75);
 	font-family: 'Open Sans', sans-serif;
+	transition:ease-in-out 0.25s;
 	-moz-transition:ease-in-out 0.25s;
+	-webkit-transition:ease-in-out 0.25s;
 }
 
 .sh-button:hover {
@@ -178,9 +180,20 @@ h1.brand {
 	font-weight:700;
 	font-size:3em;
 	letter-spacing:-8px;
-	color:rgba(105,105,105,1);
 	line-height:70px;
 	position:relative;
+}
+
+h1.brand a {
+	text-decoration:none;
+	color:rgba(105,105,105,1);
+	transition:ease-in-out 0.25s;
+	-moz-transition:ease-in-out 0.25s;
+	-webkit-transition:ease-in-out 0.25s;
+}
+
+h1.brand a:hover {
+	color:rgba(60,60,60,1);
 }
 
 h2.slider-title {
@@ -275,7 +288,9 @@ p.content-desc {
 	line-height:70px;
 	float:left;
 	margin-left:20px;
+	transition:ease-in-out 0.25s;
 	-moz-transition:ease-in-out 0.25s;
+	-webkit-transition:ease-in-out 0.25s;
 }
 
 .nav-container ul li a:hover {
