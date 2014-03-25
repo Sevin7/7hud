@@ -26,6 +26,9 @@ body {
 
 .wide-container[data-role="jumbo-box"] {
 	height:570px;
+	background-image:url(../img/skybox.png);
+	background-size:cover;
+	background-position:center -100px;
 	background-color:rgba(27,73,160,1);
 }
 
