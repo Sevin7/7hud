@@ -144,7 +144,7 @@ body {
 .sh-button[data-role="track-issue"] {
 	background-color:rgba(255,45,45,1);
 	display:inline-block;
-	top:103px;
+	top:133px;
 	margin-right:25px;
 	position:relative;
 	left:13px;
@@ -157,7 +157,7 @@ body {
 
 .sh-button[data-role="direct-hud"] {
 	display:inline-block;
-	top:103px;
+	top:133px;
 	margin-right:25px;
 	position:relative;
 	left:13px;
@@ -166,7 +166,7 @@ body {
 .sh-button[data-role="profiles-hud"] {
 	background-color:rgba(255,136,17,1);
 	display:inline-block;
-	top:103px;
+	top:133px;
 	margin-right:25px;
 	position:relative;
 	left:13px;
