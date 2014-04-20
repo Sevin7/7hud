@@ -28,6 +28,12 @@
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
 
+        "page_button_y"        			"288"
+        "page_button_x_delta" 			"3"
+        "page_button_y_delta" 			"3"
+        "page_button_per_row" 			"20"
+        "page_button_height" 			"13"
+
 		"button_xpos_offcenter"	"175"		
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
@@ -56,9 +62,6 @@
 			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
-			"deferred_description"        "1"
-                        "deferred_icon"                        "1"
 			
 			"itemmodelpanel"
 			{
@@ -293,19 +296,20 @@
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
-		"wide"			"54"
-		"tall"			"42"
+		"wide"			"27"
+		"tall"			"21"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
-		"model_ypos"	"5"
-		"model_tall"	"35"
-		"text_ypos"		"60"
+		"model_ypos"	"3"
+		"model_tall"	"18"
+		"text_ypos"		"30"
 		"text_center"	"1"
 		"name_only"		"1"
+		"model_only"	"1"
 		
 		"itemmodelpanel"
 		{
@@ -318,8 +322,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c195"
-		"ypos"			"290"
+		"xpos"			"139"
+		"ypos"			"340"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -345,8 +349,8 @@
 		"font"			"hudfontsmallbold"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c220"
-		"ypos"			"290"
+		"xpos"			"164"
+		"ypos"			"340"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"20"
@@ -361,8 +365,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c265"
-		"ypos"			"290"
+		"xpos"			"209"
+		"ypos"			"340"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -457,8 +461,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DeleteButton"
-		"xpos"			"138"
-		"ypos"			"290"
+		"xpos"			"272"
+		"ypos"			"340"
 		"zpos"			"20"
 		"wide"			"85"
 		"tall"			"20"
@@ -482,8 +486,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"UseButton"
-		"xpos"			"253"
-		"ypos"			"290"
+		"xpos"			"387"
+		"ypos"			"340"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"20"
@@ -507,8 +511,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StyleButton"
-		"xpos"			"379"
-		"ypos"			"290"
+		"xpos"			"513"
+		"ypos"			"340"
 		"zpos"			"20"
 		"wide"			"95"
 		"tall"			"20"
@@ -532,8 +536,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DetailsButton"
-		"xpos"			"500"
-		"ypos"			"290"
+		"xpos"			"634"
+		"ypos"			"340"
 		"zpos"			"20"
 		"wide"			"80"
 		"tall"			"20"
