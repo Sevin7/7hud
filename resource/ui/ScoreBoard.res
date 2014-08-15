@@ -247,7 +247,7 @@
 		"textAlignment"	"west"
 		"xpos"			"c-251"
 		"xpos_minmode"		"232"
-		"ypos"			"r302"
+		"ypos"			"r299"
 		"ypos_minmode"		"r343"
 		"zpos"			"5"
 		"wide"			"100"
@@ -273,7 +273,7 @@
 		"textAlignment"	"center"
 		"xpos"			"c-100"
 		"xpos_minmode"		"26"
-		"ypos"			"r320"
+		"ypos"			"r317"
 		"ypos_minmode"		"r361"
 		"zpos"			"5"
 		"wide"			"99"
@@ -296,7 +296,7 @@
 		"textAlignment"	"east"
 		"xpos"			"c-237"
 		"xpos_minmode"		"0"
-		"ypos"			"r299"
+		"ypos"			"r298"
 		"ypos_minmode"		"r343"
 		"wide"			"160"
 		"wide_minmode"		"140"
@@ -386,7 +386,7 @@
 		"textAlignment_minmode"	"west"
 		"xpos"			"c150"
 		"xpos_minmode"		"232"
-		"ypos"			"r302"
+		"ypos"			"r299"
 		"ypos_minmode"		"r149"
 		"wide"			"100"
 		"tall"			"20"
@@ -411,7 +411,7 @@
 		"textAlignment"	"center"
 		"xpos"			"c1"
 		"xpos_minmode"		"26"
-		"ypos"			"r320"
+		"ypos"			"r317"
 		"ypos_minmode"		"r150"
 		"zpos"			"5"
 		"wide"			"99"
@@ -435,7 +435,7 @@
 		"textAlignment_minmode"	"east"
 		"xpos"			"c77"
 		"xpos_minmode"		"0"
-		"ypos"			"r299"
+		"ypos"			"r298"
 		"ypos_minmode"		"r149"
 		"wide"			"160"
 		"wide_minmode"		"140"
@@ -912,6 +912,30 @@
 			}
 		}		
 	}
+	
+	"MapName"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"mapname"
+		"font"			"Medium8"
+		"font_minmode"		"Medium8"
+		"labelText"		"%mapname%"
+		"textAlignment"		"center"
+		"xpos"			"c-83"
+		"xpos_minmode"		"r198"
+		"ypos"			"r26"
+		"ypos_minmode"		"r167"
+		"zpos"			"3"
+		"wide"			"165"
+		"wide_minmode"		"110"
+		"tall"			"15"
+		"tall_minmode"		"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+	}
 
 	"LocalPlayerStatsPanel"
 	{
@@ -934,6 +958,30 @@
 		{
 			"ypos"		"-16"
 			"xpos"		"0"
+		}
+		
+		"GameType"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"gametype"
+			"font"			"Medium8"
+			"font_minmode"		"Medium8"
+			"labelText"		"%gametype%"
+			"textAlignment"		"center"
+			"xpos"			"c-83"		//"c-83"
+			"xpos_minmode"		"r198"
+			"ypos"			"r121"
+			"ypos_minmode"		"r158"
+			"zpos"			"3"
+			"wide"			"165"
+			"wide_minmode"		"110"
+			"tall"			"15"
+			"tall_minmode"		"16"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			"fgcolor"		"White"
 		}
 
 		"KillsLabel"
@@ -1764,68 +1812,6 @@
 				"ypos"		"r161"
 				"wide"		"26"
 				"tall"		"25"
-			}
-		}
-		"MapName"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"mapname"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
-			"labelText"		"%mapname%"
-			"textAlignment"		"center"
-			"xpos"			"c-83"
-			"xpos_minmode"		"r198"
-			"ypos"			"r131"
-			"ypos_minmode"		"r167"
-			"zpos"			"3"
-			"wide"			"165"
-			"wide_minmode"		"110"
-			"tall"			"15"
-			"tall_minmode"		"16"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"White"
-
-			if_mvm
-			{
-				"font"			"Medium8"
-				"xpos"			"c115"
-				"ypos"			"r132"
-				"wide"			"178"
-			}	
-		}
-		"GameType"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"gametype"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
-			"labelText"		"%gametype%"
-			"textAlignment"		"center"
-			"xpos"			"c-83"		//"c-83"
-			"xpos_minmode"		"r198"
-			"ypos"			"r121"
-			"ypos_minmode"		"r158"
-			"zpos"			"3"
-			"wide"			"165"
-			"wide_minmode"		"110"
-			"tall"			"15"
-			"tall_minmode"		"16"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"White"
-
-			if_mvm
-			{
-				"font"			"Medium8"
-				"xpos"			"c115"
-				"ypos"			"r122"
-				"wide"			"178"
 			}
 		}
 	}

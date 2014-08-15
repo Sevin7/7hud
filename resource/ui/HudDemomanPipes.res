@@ -39,7 +39,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
 		"xpos"			"0"
-		"ypos"			"34"		//32
+		"ypos"			"39"		//32
 		"zpos"			"3"
 		"wide"			"118"
 		"tall"			"9"
@@ -47,7 +47,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override" "MeterText"
-		"labelText"				"#TF_Charge"
+		"labelText"				"SHIELD"
 		"textAlignment"			"center"
 		"font"					"Regular6"
 	}
@@ -57,7 +57,7 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"0"
-		"ypos"			"32"
+		"ypos"			"37"
 		"zpos"			"2"
 		"wide"			"118"
 		"tall"			"2"				

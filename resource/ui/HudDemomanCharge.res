@@ -13,7 +13,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override" "MeterText3"
-		"labelText"				"BOMB"
+		"labelText"				"CHARGE"
 		"textAlignment"			"center"
 		"font"					"Regular6"
 	}	

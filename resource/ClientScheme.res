@@ -226,7 +226,7 @@ Scheme
 		"QualityColorNormal"					"178 178 178 255"
 		"QualityColorrarity1"					"77 116 85 255"
 		"QualityColorrarity2"					"141 131 75 255"
-		"QualityColorrarity3"					"112 85 15 255"
+		"QualityColorrarity3"					"204 204 250 255"
 		"QualityColorrarity4"					"134 80 172 255"
 		"QualityColorVintage"					"71 98 145 255"
 		"QualityColorUnique"					"255 215 0 255"
@@ -3213,8 +3213,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Market Deco"
-				"tall"		"11"
+				"name"		"Clear Sans Bold"
+				"tall"		"13"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -3236,8 +3236,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Market Deco"
-				"tall"		"10"
+				"name"		"Clear Sans Bold"
+				"tall"		"12"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -3301,8 +3301,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Market Deco"
-				"tall"		"8"
+				"name"		"Clear Sans Bold"
+				"tall"		"10"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -3347,8 +3347,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Market Deco"
-				"tall"		"6"
+				"name"		"Clear Sans Bold"
+				"tall"		"8"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -6801,38 +6801,38 @@ Scheme
 		}
 		"22"
 		{
-			"font" "resource/fonts/Market_Deco.ttf"
-			"name" "Market Deco"
-		}
-		"23"
-		{
 			"font" "resource/fonts/Biko_Black.otf"
 			"name" "Biko-Black"
 		}
-		"24"
+		"23"
 		{
 			"font" "resource/fonts/Compass.ttf"
 			"name" "Compass"
 		}
-		"25"
+		"24"
 		{
 			"font" "resource/fonts/Neutra Display Titling.ttf"
 			"name" "Neutra Display Titling"
 		}
-		"26"
+		"25"
 		{
 			"font" "resource/fonts/Neutra Text TF SC Alt Bold.ttf"
 			"name" "Neutra Text TF SC Alt Bold"
 		}
-		"27"
+		"26"
 		{
 			"font" "resource/fonts/Neutra Text SC.ttf"
 			"name" "Neutra Text SC"
 		}
-		"28"
+		"27"
 		{
 			"font" "resource/fonts/FuturaStd-Medium.otf"
 			"name" "FuturaStd-Medium"
+		}
+		"28"
+		{
+			"font" "resource/fonts/ClearSans-Bold.ttf"
+			"name" "Clear Sans Bold"
 		}
 	}
 }

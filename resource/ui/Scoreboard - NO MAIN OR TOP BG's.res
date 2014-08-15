@@ -912,6 +912,30 @@
 			}
 		}		
 	}
+	
+	"MapName"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"mapname"
+		"font"			"Medium8"
+		"font_minmode"		"Medium8"
+		"labelText"		"%mapname%"
+		"textAlignment"		"center"
+		"xpos"			"c-83"
+		"xpos_minmode"		"r198"
+		"ypos"			"r26"
+		"ypos_minmode"		"r167"
+		"zpos"			"3"
+		"wide"			"165"
+		"wide_minmode"		"110"
+		"tall"			"15"
+		"tall_minmode"		"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+	}
 
 	"LocalPlayerStatsPanel"
 	{
@@ -936,6 +960,30 @@
 			"xpos"		"0"
 		}
 
+		"GameType"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"gametype"
+			"font"			"Medium8"
+			"font_minmode"		"Medium8"
+			"labelText"		"%gametype%"
+			"textAlignment"		"center"
+			"xpos"			"c-83"		//"c-83"
+			"xpos_minmode"		"r198"
+			"ypos"			"r121"
+			"ypos_minmode"		"r158"
+			"zpos"			"3"
+			"wide"			"165"
+			"wide_minmode"		"110"
+			"tall"			"15"
+			"tall_minmode"		"16"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+		}
+		
 		"KillsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1764,68 +1812,6 @@
 				"ypos"		"r161"
 				"wide"		"26"
 				"tall"		"25"
-			}
-		}
-		"MapName"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"mapname"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
-			"labelText"		"%mapname%"
-			"textAlignment"		"center"
-			"xpos"			"c-83"
-			"xpos_minmode"		"r198"
-			"ypos"			"r131"
-			"ypos_minmode"		"r167"
-			"zpos"			"3"
-			"wide"			"165"
-			"wide_minmode"		"110"
-			"tall"			"15"
-			"tall_minmode"		"16"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"White"
-
-			if_mvm
-			{
-				"font"			"Medium8"
-				"xpos"			"c115"
-				"ypos"			"r132"
-				"wide"			"178"
-			}	
-		}
-		"GameType"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"gametype"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
-			"labelText"		"%gametype%"
-			"textAlignment"		"center"
-			"xpos"			"c-83"		//"c-83"
-			"xpos_minmode"		"r198"
-			"ypos"			"r121"
-			"ypos_minmode"		"r158"
-			"zpos"			"3"
-			"wide"			"165"
-			"wide_minmode"		"110"
-			"tall"			"15"
-			"tall_minmode"		"16"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"White"
-
-			if_mvm
-			{
-				"font"			"Medium8"
-				"xpos"			"c115"
-				"ypos"			"r122"
-				"wide"			"178"
 			}
 		}
 	}
