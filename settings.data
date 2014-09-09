@@ -138,8 +138,8 @@ HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
 	Copy("resource\4by3\hud_obj_dispenser - others.res", "resource\ui\hud_obj_dispenser.res");
 	Copy("resource\4by3\hud_obj_sentrygun - others.res", "resource\ui\hud_obj_sentrygun.res");
 	Copy("resource\4by3\hud_obj_sentrygun_disp - others.res", "resource\ui\hud_obj_sentrygun_disp.res");
-	Copy("resource\4by3\hud_obj_tele_entrance - others.res", "resource\ui\huddemomanpipes.res");
-	Copy("resource\4by3\hud_obj_tele_exit - others.res", "resource\ui\hud_obj_tele_entrance.res");
+	Copy("resource\4by3\hud_obj_tele_entrance - others.res", "resource\ui\hud_obj_tele_entrance.res");
+	Copy("resource\4by3\hud_obj_tele_exit - others.res", "resource\ui\hud_obj_tele_exit.res");
 	Copy("resource\4by3\mvmscoreboard - others.res", "resource\ui\mvmscoreboard.res");
 	Copy("resource\4by3\huditemeffectmeter_killstreak - others.res", "resource\ui\huditemeffectmeter_killstreak.res");
 	#if Scoreboard == "No main or top BG's"
