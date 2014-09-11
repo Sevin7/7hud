@@ -5,7 +5,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TargetHPBG"
 		"xpos"		"-2"
-		"ypos"		"6"
+		"ypos"		"4"
 		"zpos"		"4"
 		"wide"		"30"
 		"tall"		"12"
