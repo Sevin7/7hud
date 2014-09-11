@@ -717,7 +717,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-59"
-		"ypos"			"r113"	//r133
+		"ypos"			"r95"	//r133
 		"zpos"			"2"
 		"wide"			"118"
 		"tall"			"10"
@@ -808,7 +808,7 @@
 	{
 		"fieldName"			"CHudAccountPanel"
 		"xpos"			"c-59"	
-		"ypos"			"r164"	
+		"ypos"			"r126"	
 		"wide"			"118"
 		"tall"			"60"
 		"visible" 				"1"
@@ -858,7 +858,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"322"			//270
+		"ypos"		"312"			//270
 		"wide"	 	"f0"			//60
 		"tall"	 	"39"
 		"priority"	"40"
@@ -882,7 +882,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"347"			//294
+		"ypos"		"337"			//294
 		"wide"	 	"f0"			//60
 		"tall"	 	"39"
 		"priority"	"35"
@@ -1527,7 +1527,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-59"	
-		"ypos"			"r164"	
+		"ypos"			"r194"	
 		"wide"			"118"
 		"tall"			"60"
 	}	
