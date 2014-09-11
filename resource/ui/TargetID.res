@@ -30,8 +30,8 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"                "0"				//3
-		"ypos"                "28"				//7
+		"xpos"                "9999"				//0
+		"ypos"                "9999"				//28
 		"zpos"                "-1"
 		"wide"	          		"640"	//
 		"tall"                "1"			//24
@@ -52,8 +52,8 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"                "0"				//3
-		"ypos"                "28"				//7
+		"xpos"                "9999"				//0
+		"ypos"                "9999"				//28
 		"zpos"                "-1"
 		"wide"	          		"640"	//
 		"tall"                "1"			//24
@@ -72,34 +72,33 @@
 	}
 	
 	"TargetBG"
-    {
-        "ControlName"         "CExImageButton"
-        "fieldName"           "TargetBG"
-        "xpos"                "0"
-        "ypos"                "8"
-        "zpos"                "-4"
-        "wide"	          	  "640"
-        "tall"		          "20"
-        "autoResize"	      "0"
-        "pinCorner"	          "0"
-        "visible"		      "1"
-        "enabled"		      "1"
-        "defaultBgColor_Override"		"White"	// 210 200 200 255
-        "PaintBackgroundType""0"
-        "textinsety" "99"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TargetBG"
+		"xpos"		"-1"
+		"ypos"		"13"
+		"zpos"		"-10"
+		"wide"		"640"
+		"tall"		"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 140"
+		"PaintBackgroundType""0"
 	}
 	
 	"TargetNameLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
-		"font"			"Bold12"				//Medium12
+		"font"			"Bold9"				
 		"xpos"			"43"			//59
 		"ypos"			"9"		//
 		"zpos"			"2"
 		"wide"			"640"		//640
 		"tall"			"24"
-		"fgcolor"		"Black"
+		"fgcolor"		"WhiteS"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -116,7 +115,7 @@
 		"fieldName"		"TargetDataLabel"
 		"font"			"Regular7Shadow"
 		"xpos"			"7"			
-		"ypos"			"25"		// -3
+		"ypos"			"22"		// -3
 		"zpos"			"2"
 		"wide"			"270"
 		"tall"			"18"
@@ -125,7 +124,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
-		"fgcolor"		"White"
+		"fgcolor"		"WhiteS"
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -154,7 +153,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"2"
-		"ypos"			"29"		// -1
+		"ypos"			"27"		// -1
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -169,7 +168,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"2"
-		"ypos"			"-1"
+		"ypos"			"-3"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"

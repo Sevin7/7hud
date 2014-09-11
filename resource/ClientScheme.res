@@ -5244,8 +5244,8 @@ Scheme
 
 		ButtonBorder
 		{
-		"inset" "0 0 0 0"
-		"backgroundtype" "2"
+		"color"		"Blank"
+		"offset"	"0 0"
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)

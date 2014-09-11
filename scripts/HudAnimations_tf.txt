@@ -290,7 +290,7 @@ event HudHealthBonusPulseStop
 
                 Animate PlayerStatusHealthValueCam 	                FgColor		"Health"	         Accel 0.0 0.0
 
-                Animate PlayerStatusHealthValueSpec 	                FgColor		"Black"	         Accel 0.0 0.0
+                Animate PlayerStatusHealthValueSpec 	                FgColor		"WhiteS"	         Accel 0.0 0.0
                 
                 Animate	PlayerStatusHealthValueTour 	FgColor		"Black"	         Accel 0.0 0.0
 
@@ -376,8 +376,8 @@ event HudHealthDyingPulseStop
 
 	Animate	PlayerStatusHealthValue 	                FgColor		"Health"	         Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueCam 	FgColor		"Health"               Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueSpec 	FgColor		"Black"	         Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueTour 	FgColor		"Black"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour 	FgColor		"WhiteS"	         Accel 0.0 0.0
 
 	Animate xHairNormal 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
 	Animate xHairThin 	                                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
