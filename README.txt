@@ -3,7 +3,6 @@
 ====
 To install:
 
-        - CHOOSE "MASTER" BRANCH FOR WINDOWS VERSION AND "MAC" BRANCH FOR MAC VERSION!
 	- Download via the "Download ZIP" button on the right side of the github page. 
 	- Place the unzipped folder inside of your tf/custom folder. 
 
