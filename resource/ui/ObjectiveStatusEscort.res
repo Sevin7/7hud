@@ -397,7 +397,8 @@
 			"fieldName"		"CapNumPlayers"
 			"font"		"Medium8"
 			"xpos"		"11"
-			"ypos"		"47"
+			"ypos"		"49"		[$OSX]			
+			"ypos"		"47"		[!$OSX]
 			"zpos"			"4"
 			"wide"		"30"
 			"tall"		"17"
