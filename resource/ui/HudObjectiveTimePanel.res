@@ -198,8 +198,8 @@
         "enabled"       "1"
         "labelText"     "%servertimeleft%"
         "textAlignment"     "center"
-        "textinsety"	"2"		[!$WIN32]
-        "textinsety"	"1"		[!$WIN32]		
+        "textinsety"	"2"		[$OSX]
+        "textinsety"	"1"		[$OSX]		
         "dulltext"      "0"
         "brighttext"        "0"
         "wrap"          "0"

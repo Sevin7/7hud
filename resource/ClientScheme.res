@@ -345,8 +345,8 @@ Scheme
 
 		Frame.BgColor					"TransparentBlack"
 		Frame.OutOfFocusBgColor			"TransparentBlack"
-		Frame.FocusTransitionEffectTime	"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.0"	[$WIN32] // time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime	"0.0"	[!$OSX] // time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.0"	[!$OSX] // time it takes for a window to fade in/out on open/close
 		Frame.FocusTransitionEffectTime	"0.15"	[$X360] // time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.15"	[$X360] // time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
@@ -621,8 +621,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"FuturaStd-Medium"			[$WIN32]
-				"name"		"FuturaStd-Medium_mac"		[!$WIN32]				
+				"name"		"FuturaStd-Medium"			[!$OSX]
+				"name"		"FuturaStd-Medium_mac"		[$OSX]				
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -843,7 +843,7 @@ Scheme
 			"2"
 			{
 				"name"		"AvenirLTStd-Book"
-				"tall"		"12"	[$WIN32]
+				"tall"		"12"	[!$OSX]
 				"tall"		"20"	[$X360]
 				"yres"	"600 767"
 				"antialias" 	"1"
@@ -1073,7 +1073,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"Neutra Display Titling"		[!$OSX]
+				"name"		"DOCK11 Heavy"					[$OSX]
 				"tall"		"52"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1117,7 +1118,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"Neutra Display Titling"		[!$OSX]
+				"name"		"DOCK11 Heavy"					[$OSX]
 				"tall"		"48"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1129,7 +1131,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"Neutra Display Titling"		[!$OSX]
+				"name"		"DOCK11 Heavy"					[$OSX]
 				"tall"		"48"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1141,7 +1144,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"Neutra Display Titling"		[!$OSX]
+				"name"		"DOCK11 Heavy"					[$OSX]
 				"tall"		"47"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1263,7 +1267,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"Neutra Display Titling"		[!$OSX]
+				"name"		"DOCK11 Heavy"					[$OSX]
 				"tall"		"30"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1274,7 +1279,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"Neutra Display Titling"		[!$OSX]
+				"name"		"DOCK11 Heavy"					[$OSX]
 				"tall"		"28"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1296,7 +1302,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"Neutra Display Titling"		[!$OSX]
+				"name"		"DOCK11 Heavy"					[$OSX]
 				"tall"		"24"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1396,7 +1403,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"Neutra Display Titling"		[!$OSX]
+				"name"		"DOCK11 Heavy"					[$OSX]
 				"tall"		"14"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1831,7 +1839,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"Neutra Display Titling"		[!$OSX]
+				"name"		"DOCK11 Heavy"					[$OSX]
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
@@ -3014,7 +3023,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"Neutra Display Titling"		[!$OSX]
+				"name"		"DOCK11 Heavy"					[$OSX]
 				"tall"		"23"
 				"additive"		"0"
 				"antialias"	"1"
@@ -3048,7 +3058,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"Neutra Display Titling"		[!$OSX]
+				"name"		"DOCK11 Heavy"					[$OSX]
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
@@ -4205,7 +4216,7 @@ Scheme
 		}
 		DebugOverlay
 		{
-			"1"	[$WIN32]
+			"1"	[!$OSX]
 			{
 				"name"		"AvenirLTStd-Book"
 				"tall"		"14"
@@ -4433,8 +4444,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"FuturaStd-Medium"			[$WIN32]
-				"name"		"FuturaStd-Medium_mac"		[!$WIN32]	
+				"name"		"FuturaStd-Medium"			[!$OSX]
+				"name"		"FuturaStd-Medium_mac"		[$OSX]	
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -4444,8 +4455,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"FuturaStd-Medium"			[$WIN32]
-				"name"		"FuturaStd-Medium_mac"		[!$WIN32]	
+				"name"		"FuturaStd-Medium"			[!$OSX]
+				"name"		"FuturaStd-Medium_mac"		[$OSX]	
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -6815,6 +6826,11 @@ Scheme
 		{
 			"font" "resource/fonts/ClearSans-Bold.ttf"
 			"name" "Clear Sans Bold"
+		}
+		"26"
+		{
+			"font" "resource/fonts/heavy_dock11.otf"
+			"name" "DOCK11 Heavy"
 		}
 	}
 }

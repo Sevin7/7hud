@@ -19,7 +19,7 @@
 			"font"			"Bold10"
 			"fgcolor"		"White"
 			"xpos"			"32"	//3
-			"ypos"			"-3"		[!$WIN32]
+			"ypos"			"-3"		[$OSX]
 			"ypos"			"-4"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"88"	//88
@@ -50,7 +50,7 @@
 			"font"			"Bold10"
 			"fgcolor"		"White"
 			"xpos"			"32"
-			"ypos"			"-3"		[!$WIN32]
+			"ypos"			"-3"		[$OSX]
 			"ypos"			"-4"		[$WIN32]
 			"zpos"			"3"
 			"wide"			"88"

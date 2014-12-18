@@ -30,7 +30,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"east"			
-		"font"			"Heavy48"		[!$WIN32]
+		"font"			"Heavy48"		[$OSX]
 		"font"			"Heavy52"		[$WIN32]		
 		"fgcolor"		"Health"
 	}
@@ -47,7 +47,7 @@
 		"enabled"	 "1"	
 		"labelText"	 "%Health%"	
 		"textAlignment"	 "east"	
-		"font"			"Heavy48"		[!$WIN32]
+		"font"			"Heavy48"		[$OSX]
 		"font"			"Heavy52"		[$WIN32]	
 		"fgcolor"	 "HudShadow"
 	}

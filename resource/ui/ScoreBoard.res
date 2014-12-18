@@ -247,7 +247,7 @@
 		"textAlignment"	"west"
 		"xpos"			"c-251"
 		"xpos_minmode"		"232"
-		"ypos"			"r299"			[!$WIN32]
+		"ypos"			"r299"			[$OSX]
 		"ypos"			"r302"			[$WIN32]		
 		"ypos_minmode"		"r343"
 		"zpos"			"5"
@@ -274,7 +274,7 @@
 		"textAlignment"	"center"
 		"xpos"			"c-85"
 		"xpos_minmode"		"0"
-		"ypos"			"r312"			[!$WIN32]
+		"ypos"			"r312"			[$OSX]
 		"ypos"			"r318"			[$WIN32]
 		"ypos_minmode"		"r357"
 		"zpos"			"5"
@@ -388,7 +388,7 @@
 		"textAlignment_minmode"	"west"
 		"xpos"			"c150"
 		"xpos_minmode"		"232"
-		"ypos"			"r299"			[!$WIN32]
+		"ypos"			"r299"			[$OSX]
 		"ypos"			"r302"			[$WIN32]
 		"ypos_minmode"		"r149"
 		"wide"			"100"
@@ -414,7 +414,7 @@
 		"textAlignment"	"center"
 		"xpos"			"c-14"
 		"xpos_minmode"		"0"
-		"ypos"			"r312"			[!$WIN32]
+		"ypos"			"r312"			[$OSX]
 		"ypos"			"r318"			[$WIN32]
 		"ypos_minmode"		"r151"
 		"zpos"			"5"
@@ -943,7 +943,7 @@
 		if_mvm
 		{
 			"font"		"Regular16"
-			"xpos"		"c147"		[!$WIN32]
+			"xpos"		"c147"		[$OSX]
 			"xpos"		"c119"		[$WIN32]
 			"ypos"		"r155"
 			"tall"		"51"

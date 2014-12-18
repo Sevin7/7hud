@@ -320,7 +320,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
 		"xpos"			"c-76"
-		"ypos"			"c-9"		[!$WIN32]
+		"ypos"			"c-9"		[$OSX]
 		"ypos"			"c-13"		[$WIN32]
 		"zpos"			"1"
 		"wide"			"55"
@@ -342,7 +342,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
 		"xpos"			"c24"
-		"ypos"			"c-9"		[!$WIN32]
+		"ypos"			"c-9"		[$OSX]
 		"ypos"			"c-13"		[$WIN32]
 		"zpos"			"1"
 		"wide"			"55"

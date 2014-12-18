@@ -94,7 +94,7 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"Bold9"				
 		"xpos"			"43"			//59
-		"ypos"			"9"			[!$WIN32]	
+		"ypos"			"9"			[$OSX]	
 		"ypos"			"7"			[$WIN32]		
 		"zpos"			"2"
 		"wide"			"640"		//640
@@ -136,7 +136,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"0"	
-		"ypos"			"7"			[!$WIN32]
+		"ypos"			"7"			[$OSX]
 		"ypos"			"9"		[$WIN32]
 		"zpos"			"5"
 		"wide"			"37"

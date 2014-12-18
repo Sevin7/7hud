@@ -119,7 +119,7 @@
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
 			"xpos"			"0"
-			"ypos"			"23"		[!$WIN32]
+			"ypos"			"23"		[$OSX]
 			"ypos"			"18"		[$WIN32]			
 			"zpos"			"5"
 			"wide"			"62"
@@ -172,7 +172,7 @@
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"Bold12"
 			"xpos"			"0"
-			"ypos"			"25"		[!$WIN32]
+			"ypos"			"25"		[$OSX]
 			"ypos"			"23"		[$WIN32]
 			"zpos"			"1"
 			"wide"			"120"
