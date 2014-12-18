@@ -9,7 +9,7 @@
 	}
 	"QuickplayButton"
 	{
-		"label" "Multiplayer" 
+		"label" "Quickplay" 
 		"command" "quickplay"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
@@ -81,7 +81,7 @@
 	}
 	"Version"
 	{
-		"label" "7HUD v4.05" 
+		"label" "7HUD v4.10" 
 		"command"	"engine echo To check for updates view the steam group page"
 	}
 	"Scoreboard"

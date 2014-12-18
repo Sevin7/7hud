@@ -59,7 +59,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
 		"xpos"			"c-85"
-		"ypos"			"r300"		
+		"ypos"			"r185"		
 		"wide"			"250"		
 		"tall"			"120"		
 		"visible"		"1"
@@ -97,7 +97,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"FreezeLabel"
-			"font"			"Medium9Shadow"
+			"font"			"Bold9"
 			"xpos"			"-5"
 			"ypos"			"3"
 			"zpos"			"1"
@@ -118,41 +118,62 @@
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
-			"xpos"			"-1"
-			"ypos"			"17"
+			"xpos"			"0"
+			"ypos"			"23"		[!$WIN32]
+			"ypos"			"18"		[$WIN32]			
 			"zpos"			"5"
 			"wide"			"62"
 			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"	
+			"TFFont"		"Bold14"
+			"TextColor"		"White"
 			"HealthBonusPosAdj"	"9"
 			"HealthDeathWarning"	"0.49"
-			"TFFont"		"HudFontSmall"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
-			"TextColor"		"HudOffWhite"
 		}
+		
+		"FreezePanelHealthBG"		
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"FreezePanelHealthBG"
+			"xpos"		"0"
+			"ypos"		"23"
+			"zpos"		"4"
+			"wide"		"12"
+			"tall"		"27"
+			"autoResize"	"0"
+			"pinCorner"	"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"defaultBgColor_Override"		"HudBGStatus"
+			"PaintBackgroundType""0"
+        	"textinsety" "99"
+		}
+				
 		"FreezeLabelBackground"
 		{
 			"controlName"	"ImagePanel"
 			"fieldName"		"VerticalLine"
-			"xpos"			"8"
+			"xpos"			"9"
 			"ypos"			"18"		//23
 			"zpos"			"-1"
-			"wide"			"155"
+			"wide"			"170"
 			"tall"			"27"		//16
 			"autoResize"		"0"
 			"pinCorner"		"0"
-			"fillcolor"		"0 0 0 214"									
-			"visible"			"0"
+			"fillcolor"		"0 0 0 140"									
+			"visible"			"1"
 			"enabled"			"1"
 		}
 		"FreezeLabelKiller"
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"Medium13Shadow"
+			"font"			"Bold12"
 			"xpos"			"0"
-			"ypos"			"21"
+			"ypos"			"25"		[!$WIN32]
+			"ypos"			"23"		[$WIN32]
 			"zpos"			"1"
 			"wide"			"120"
 			"tall"			"19"
@@ -162,7 +183,7 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 			"labelText"		"%killername%"
-			"textAlignment"		"west"
+			"textAlignment"		"east"
 		}
 
 		"AvatarImage"

@@ -61,7 +61,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"		"HudFontMediumSmallBold"
+		"font"		"Heavy26"
 		"fgcolor"		"255 255 255 255"
 	}
 	"teambutton0"
@@ -320,10 +320,11 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
 		"xpos"			"c-76"
-		"ypos"			"c-9"
+		"ypos"			"c-9"		[!$WIN32]
+		"ypos"			"c-13"		[$WIN32]
 		"zpos"			"1"
 		"wide"			"55"
-		"tall"			"18"
+		"tall"			"23"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -332,7 +333,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"Heavy26"
 		"fgcolor"		"White"
 	}		
 	
@@ -341,10 +342,11 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
 		"xpos"			"c24"
-		"ypos"			"c-9"
+		"ypos"			"c-9"		[!$WIN32]
+		"ypos"			"c-13"		[$WIN32]
 		"zpos"			"1"
 		"wide"			"55"
-		"tall"			"18"
+		"tall"			"23"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -353,7 +355,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"Heavy26"
 		"fgcolor"		"White"
 	}	
 
@@ -361,10 +363,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"blueframe"
-		"xpos"			"c-135"
+		"xpos"			"c-155"
 		"ypos"			"c-3"
 		"zpos"			"1"		
-		"wide"			"135"
+		"wide"			"155"
 		"tall"			"5"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -387,7 +389,7 @@
 		"xpos"			"c0"
 		"ypos"			"c-3"
 		"zpos"			"1"
-		"wide"			"135"
+		"wide"			"155"
 		"tall"			"5"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -419,7 +421,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"Heavy26"
 		"fgcolor"		"White"
 	}		
 	
@@ -440,7 +442,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"Heavy26"
 		"fgcolor"		"White"
 	}	
 	"RandomFrame"

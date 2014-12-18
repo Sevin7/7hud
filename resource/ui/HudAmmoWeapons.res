@@ -21,7 +21,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"Heavy48"
+		"font"			"Heavy48"		[!$WIN32]
+		"font"			"Heavy52"		[$WIN32]
 		"fgcolor"		"Ammo"
 		"xpos"	"53"						//1
 		"ypos"	"0"						//0		
@@ -38,7 +39,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"Heavy28"
+		"font"			"Heavy28"			[!$WIN32]
+		"font"			"Heavy30"			[$WIN32]		
 		"fgcolor"		"AmmoReserve"
 		"xpos"	"40"							//104
 		"ypos"			"-1"					//9
@@ -55,7 +57,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"Heavy48"
+		"font"			"Heavy48"		[!$WIN32]
+		"font"			"Heavy52"		[$WIN32]
 		"fgcolor"		"Ammo"
 		"xpos"	"53"					//67
 		"ypos"	"-1"
@@ -71,7 +74,8 @@
 	{	
 	"ControlName"	"CExLabel"	
 	"fieldName"	 "AmmoInClipShadow"	
-	"font"	 "Heavy48"	
+	"font"	 "Heavy48"				[!$WIN32]
+	"font"	 "Heavy52"				[$WIN32]
 	"fgcolor"	 "HudShadow"	
 	"xpos"	 "54"	
 	"ypos"	 "2"	
@@ -88,7 +92,8 @@
 	{	
 	"ControlName"	 "CExLabel"	
 	"fieldName"	 "AmmoInReserveShadow"	
-	"font"	 "Heavy28"	
+	"font"	 "Heavy28"					[!$WIN32]
+	"font"	 "Heavy30"					[$WIN32]		
 	"fgcolor"	 "HudShadow"	
 	"xpos"	 "41"	
 	"ypos"	 "0"	
@@ -105,7 +110,8 @@
 	{	
 	"ControlName"	 "CExLabel"	
 	"fieldName"	 "AmmoNoClipShadow"	
-	"font"	 "Heavy48"	
+	"font"	 "Heavy48"				[!$WIN32]
+	"font"	 "Heavy52"				[$WIN32]
 	"fgcolor"	 "HudShadow"	
 	"xpos"	"54"					
 	"ypos"	"1"

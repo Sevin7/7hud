@@ -18,12 +18,14 @@
 			"font"			"HudFontSmallBP"
 			"textAlignment"	"center"
 			"textinsetx"	"0"
+			"textinsety"	"3"		[!$WIN32]
+			"textinsety"	"1"		[$WIN32]
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		""
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"centerwrap"	"1"
+			"centerwrap"	"0"
 		}			
 	}
 }

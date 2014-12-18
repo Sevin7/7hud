@@ -50,19 +50,19 @@
 
 		"MaxDeathNotices" "12"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "8"
-		"LineSpacing"	  "-1"
+		"LineHeight"	  "11"
+		"LineSpacing"	  "1"
 		"CornerRadius"	  "1"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"Regular8"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"White"
+		"TeamBlue"		"91 122 140 255"
+		"TeamRed"		"189 59 59 255"
+		"IconColor"		"190 180 170 255"
 		"LocalPlayerColor"	"Black"
 
-		"BaseBackgroundColor"	"0 0 0 0"		
+		"BaseBackgroundColor"	"32 32 32 200"		
 		"LocalBackgroundColor"	"255 255 255 189"	
 	}
 
@@ -682,8 +682,8 @@
 		"wide"	"300"
 		"tall"	"480"
 		
-		"blue_active_xpos"			"120"	//59
-		"red_active_xpos"			"170"	//227
+		"blue_active_xpos"			"121"	//59
+		"red_active_xpos"			"169"	//227
 	}	
 
 	HudItemEffectMeter
@@ -717,7 +717,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-59"
-		"ypos"			"r96"	//r133
+		"ypos"			"r95"	//r133
 		"zpos"			"2"
 		"wide"			"118"
 		"tall"			"10"
@@ -858,7 +858,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"322"			//270
+		"ypos"		"312"			//270
 		"wide"	 	"f0"			//60
 		"tall"	 	"39"
 		"priority"	"40"
@@ -882,7 +882,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"342"			//294
+		"ypos"		"337"			//294
 		"wide"	 	"f0"			//60
 		"tall"	 	"39"
 		"priority"	"35"
@@ -1372,8 +1372,8 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"		
-		"ypos"					"185"		//0
+		"xpos"					"c-120"		
+		"ypos"					"225"		//0
 		"wide"					"f0"
 		"tall"					"480"
 	}
@@ -1383,8 +1383,8 @@
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"185"
+		"xpos"					"c-180"
+		"ypos"					"225"
 		"wide"					"f0"
 		"tall"					"480"
 	}
@@ -1506,6 +1506,18 @@
 		"ypos"			"c-92"
 		"wide"			"470"
 		"tall"			"200"
+		"PaintBackgroundType"	"0"
+	}
+
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-125"
+		"ypos"			"c-55"
+		"wide"			"250"
+		"tall"			"195"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1876,4 +1888,19 @@ ItemQuickSwitchPanel
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
+<<<<<<< HEAD
+		
+	HudMiniGame
+	{
+		"fieldName" 	"HudMiniGame"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos" 			"0"
+		"ypos" 			"0"
+		"wide" 			"f0"
+		"tall" 			"480"
+	}
 }
+=======
+}
+>>>>>>> FETCH_HEAD

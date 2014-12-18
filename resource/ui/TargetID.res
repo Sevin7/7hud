@@ -94,7 +94,8 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"Bold9"				
 		"xpos"			"43"			//59
-		"ypos"			"7"		//
+		"ypos"			"9"			[!$WIN32]	
+		"ypos"			"7"			[$WIN32]		
 		"zpos"			"2"
 		"wide"			"640"		//640
 		"tall"			"24"
@@ -134,8 +135,9 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"0"		//0
-		"ypos"			"9"
+		"xpos"			"0"	
+		"ypos"			"7"			[!$WIN32]
+		"ypos"			"9"		[$WIN32]
 		"zpos"			"5"
 		"wide"			"37"
 		"tall"			"37"
@@ -152,8 +154,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"2"
-		"ypos"			"27"		// -1
+		"xpos"			"43"
+		"ypos"			"26"		// -1
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -168,7 +170,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"2"
-		"ypos"			"-3"
+		"ypos"			"26"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"

@@ -63,7 +63,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"-30"
+		"xpos"			"17"
 		"ypos"			"1"
 		"zpos"			"5"
 		"wide"			"76"
@@ -71,7 +71,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"	
 		"font"			"Heavy23"
 		"fgcolor"		"White"
 	}								

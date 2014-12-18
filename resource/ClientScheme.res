@@ -26,15 +26,15 @@ Scheme
 		
 		"Damage"                        "255 255 255 175"		//Damage display
 
-		"Ammo"                          "255 255 255 225"		//Current Clip
-		"AmmoReserve"                   "255 255 255 225"		//Total reserve
+		"Ammo"                          "240 240 240 225"		//Current Clip
+		"AmmoReserve"                   "240 240 240 225"		//Total reserve
 
-		"Health"			"255 255 255 225"		//Normal health color
+		"Health"			"240 240 240 225"		//Normal health color
 		
 		"Buff"				"71 168 198 255" 		//Boosted health color
 		"SpecBuff"			"61 125 150 255"			//Darker color for SpecHUD
 		
-		"LowHP"				"200 47 47 255"			//Low health and ammo warning color
+		"LowHP"				"255 47 47 255"			//Low health and ammo warning color - text
 		"LowHPBG"			"200 47 47 180"			//Low health and ammo warning color
 		"RedHP"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
 		"LowAmmo"			"200 47 47 255"			//Low health and ammo warning color
@@ -54,7 +54,8 @@ Scheme
 		"yABuff"			"21 207 100 154"		//Buff color of new box HUD
 		"MainMenuBG"		"0 0 0 100"			//BG of black box on menu
 
-		"Select"			"35 219 247 255"			//This is the hover color for buttons
+		"Select"			"35 219 247 255"			//Blue color for hovering over buttons
+		"ButtonBG"			"209 108 36 255"			//Orange color for buttons
 		
 
 
@@ -65,7 +66,7 @@ Scheme
 		"Name"				"255 255 255 175"		//TargetID name label color
 		"Time"				"255 255 255 175"		//Respawn and Map time
 		
-		"MvMBG"				"189 59 59 200"		//MvM panels purple color
+		"MvMBG"				"189 59 59 200"		//MvM panels red color
 		"MvMBG2"			"91 122 140 200"	//MvM panels blue color
 		
 		"MenuBGColor"			"0 124 88 255"			//Color option for alt main menu
@@ -302,10 +303,10 @@ Scheme
 		
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"TanDark"
-		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
+		Econ.Button.FgColor									"TanDark"
+		Econ.Button.ArmedBgColor							"ButtonBG"
 		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
+		Econ.Button.DepressedBgColor						"ButtonBG"
 		Econ.Button.DepressedFgColor						"Black"
 		
 		Econ.Button.PresetDefaultColorFg					"TanLight"
@@ -321,13 +322,13 @@ Scheme
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
+		Button.BgColor					"Blank"
 		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
+		Button.ArmedBgColor				"ButtonBG"
 		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
+		Button.SelectedBgColor			"ButtonBG"
 		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.DepressedBgColor			"ButtonBG"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -620,7 +621,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"FuturaStd-Medium"
+				"name"		"FuturaStd-Medium"			[$WIN32]
+				"name"		"FuturaStd-Medium_mac"		[!$WIN32]				
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -706,8 +708,6 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"480 599"
-
-
 			}
 
 			"2"
@@ -717,8 +717,6 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"600 767"
-
-
 			}
 
 			"3"
@@ -727,7 +725,6 @@ Scheme
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-
 				"yres"			"768 1023"
 				"antialias"		"1"
 			}
@@ -739,8 +736,6 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"1024 1199"
-
-
 				"antialias"		"1"
 			}
 
@@ -1078,7 +1073,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Neutra Display Titling"
 				"tall"		"52"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1122,8 +1117,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Biko-Black"
-				"tall"		"64"
+				"name"		"Neutra Display Titling"
+				"tall"		"48"
 				"additive"		"0"
 				"antialias"	"1"
 				"dropshadow"	"0"
@@ -1134,8 +1129,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Biko-Black"
-				"tall"		"64"
+				"name"		"Neutra Display Titling"
+				"tall"		"48"
 				"additive"		"0"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -1146,8 +1141,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Biko-Black"
-				"tall"		"63"
+				"name"		"Neutra Display Titling"
+				"tall"		"47"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -1268,7 +1263,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Neutra Display Titling"
 				"tall"		"30"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1279,8 +1274,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Biko-Black"
-				"tall"		"35"
+				"name"		"Neutra Display Titling"
+				"tall"		"28"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -1290,8 +1285,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
-				"tall"		"28"
+				"name"		"Clear Sans Bold"
+				"tall"		"26"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -1301,8 +1296,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Biko-Black"
-				"tall"		"30"
+				"name"		"Neutra Display Titling"
+				"tall"		"24"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -1357,7 +1352,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Clear Sans Bold"
 				"tall"		"20"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1401,8 +1396,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Biko-Black"
-				"tall"		"18"
+				"name"		"Neutra Display Titling"
+				"tall"		"14"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -1780,8 +1775,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text TF SC Alt Bold"
-				"tall"		"27"
+				"name"		"Clear Sans Bold"
+				"tall"		"25"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -1836,7 +1831,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Biko-Black"
+				"name"		"Neutra Display Titling"
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2182,8 +2177,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text SC"
-				"tall"		"43"
+				"name"		"Clear Sans Bold"
+				"tall"		"41"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -2281,8 +2276,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text SC"
-				"tall"		"34"
+				"name"		"Clear Sans Bold"
+				"tall"		"32"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -2508,7 +2503,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Clear Sans Bold"
 				"tall"		"16"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2554,8 +2549,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
-				"tall"		"16"
+				"name"		"Clear Sans Bold"
+				"tall"		"14"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -2576,12 +2571,12 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Black"
-
 				"tall"		"13"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
+
 		"Medium13Shadow"
 		{
 			"1"
@@ -2677,13 +2672,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text SC"
-				"tall"		"10"
+				"name"		"Clear Sans Bold"
+				"tall"		"8"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
-		
 		"Medium8T"
 		{
 			"1"
@@ -2694,12 +2688,13 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
 		"Medium8Shadow"
 		{
 			"1"
 			{
-				"name"		"Neutra Text SC"
-				"tall"		"10"
+				"name"		"Clear Sans Bold"
+				"tall"		"8"
 				"additive"		"0"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -3019,7 +3014,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Biko-Black"
+				"name"		"Neutra Display Titling"
 				"tall"		"23"
 				"additive"		"0"
 				"antialias"	"1"
@@ -3053,7 +3048,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Biko-Black"
+				"name"		"Neutra Display Titling"
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
@@ -3121,7 +3116,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text SC"
+				"name"		"Clear Sans Bold"
 				"tall"		"16"
 				"additive"		"0"
 				"antialias"	"1"
@@ -3150,7 +3145,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
 		
 		"Regular14"
 		{
@@ -3190,7 +3184,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Compass"
+				"name"		"Clear Sans Bold"
 				"tall"		"12"
 				"additive"		"0"
 				"antialias"	"1"
@@ -3214,7 +3208,7 @@ Scheme
 			"1"
 			{
 				"name"		"Clear Sans Bold"
-				"tall"		"13"
+				"tall"		"11"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -3237,7 +3231,7 @@ Scheme
 			"1"
 			{
 				"name"		"Clear Sans Bold"
-				"tall"		"12"
+				"tall"		"10"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -3259,8 +3253,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text TF SC Alt Bold"
-				"tall"		"11"
+				"name"		"Clear Sans Bold"
+				"tall"		"9"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -3270,13 +3264,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text TF SC Alt Bold"
-				"tall"		"11"
+				"name"		"Clear Sans Bold"
+				"tall"		"9"
 				"additive"		"0"
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
 		}
+
 		"Novecento9"
 		{
 			"1"
@@ -3324,8 +3319,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text SC"
-				"tall"		"9"
+				"name"		"Clear Sans Bold"
+				"tall"		"7"
 				"additive"		"0"
 				"antialias"	"1"
 			}
@@ -3335,8 +3330,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text SC"
-				"tall"		"9"
+				"name"		"Clear Sans Bold"
+				"tall"		"7"
 				"additive"		"0"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -3376,6 +3371,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
 		"Light28"
 		{
 			"1"
@@ -3440,8 +3436,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text TF SC Alt Bold"
-				"tall"		"21"
+				"name"		"Clear Sans Bold"
+				"tall"		"19"
 				"additive"		"0"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -3481,8 +3477,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text TF SC Alt Bold"
-				"tall"		"18"
+				"name"		"Clear Sans Bold"
+				"tall"		"16"
 				"additive"		"0"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -3790,8 +3786,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
-				"tall"		"42"
+				"name"		"Clear Sans Bold"
+				"tall"		"40"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3812,7 +3808,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Clear Sans Bold"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
@@ -3832,8 +3828,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
-				"tall"		"30"
+				"name"		"Clear Sans Bold"
+				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3862,8 +3858,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text TF SC Alt Bold"
-				"tall"		"24"
+				"name"		"Clear Sans Bold"
+				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3872,8 +3868,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
-				"tall"		"24"
+				"name"		"Clear Sans Bold"
+				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3882,8 +3878,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
-				"tall"		"20"
+				"name"		"Clear Sans Bold"
+				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3912,7 +3908,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-heavy"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3922,8 +3918,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text TF SC Alt Bold"
-				"tall"		"16"
+				"name"		"Clear Sans Bold"
+				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -3942,8 +3938,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
-				"tall"		"16"
+				"name"		"Clear Sans Bold"
+				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -4044,7 +4040,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Clear Sans Bold"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -4437,7 +4433,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"FuturaStd-Medium"
+				"name"		"FuturaStd-Medium"			[$WIN32]
+				"name"		"FuturaStd-Medium_mac"		[!$WIN32]	
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -4447,7 +4444,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"FuturaStd-Medium"
+				"name"		"FuturaStd-Medium"			[$WIN32]
+				"name"		"FuturaStd-Medium_mac"		[!$WIN32]	
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -4457,8 +4455,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text TF SC Alt Bold"
-				"tall"		"16"
+				"name"		"Clear Sans Bold"
+				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -4467,8 +4465,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Text TF SC Alt Bold"
-				"tall"		"22"
+				"name"		"Clear Sans Bold"
+				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -4902,7 +4900,6 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Medium"
-
 				"tall"		"7"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -5233,34 +5230,40 @@ Scheme
 		ScrollBarButtonBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
 		}
 
 		ScrollBarButtonDepressedBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
 		}
 
 		ButtonBorder
 		{
-		"color"		"Blank"
-		"offset"	"0 0"
+			"inset" "0 0 0 0"
+			"backgroundtype" "0"
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
-		"inset" "0 0 0 0"
-		"backgroundtype" "2"
+			"inset" "0 0 0 0"
+			"backgroundtype" "0"
 		}
 
 		ButtonDepressedBorder
 		{
-		"inset" "0 0 0 0"
-		"backgroundtype" "2"
+			"inset" "0 0 0 0"
+			"backgroundtype" "0"
 		}
-
+		
+		BPBorder
+		{
+			"color" "32 32 32 255"
+			"offset" "0 0"
+		}
+		
 		ComboBoxBorder
 		{
 			"inset" "0 0 1 1"
@@ -5575,13 +5578,11 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"backpack_rect_mouseover_color"
-			"color"					"GrayBGDarkest"
-			
+			"image"					"loadout_rect"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
 		}
 		
 		StoreFreeTrialBorder
@@ -5601,9 +5602,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"backpack_rect_mouseover_color"
-			"color"					"0 0 0 0"
-			
+			"image"					"loadout_rect"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5624,9 +5623,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"32 32 32 215"
 			
-			"image"					"backpack_rect_mouseover_color"
-			"color"					"GrayBGDark"
+			"image"					"loadout_rect_mouseover"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5637,8 +5636,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"backpack_rect_mouseover_color"
-			"color"					"GrayBGDarkest"
+			"image"					"button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6728,8 +6726,7 @@ Scheme
 			"font" "resource/fonts/symbol.ttf"
 			"name" "symbol"
 		}
-		"8"
-		
+		"8" 
 		{
 			"font" "resource/fonts/Paula.ttf"
 			"name" "Paula"
@@ -6801,35 +6798,20 @@ Scheme
 		}
 		"22"
 		{
-			"font" "resource/fonts/Biko_Black.otf"
-			"name" "Biko-Black"
-		}
-		"23"
-		{
-			"font" "resource/fonts/Compass.ttf"
-			"name" "Compass"
-		}
-		"24"
-		{
 			"font" "resource/fonts/Neutra Display Titling.ttf"
 			"name" "Neutra Display Titling"
 		}
-		"25"
+		"23"
 		{
-			"font" "resource/fonts/Neutra Text TF SC Alt Bold.ttf"
-			"name" "Neutra Text TF SC Alt Bold"
+			"font" "resource/fonts/FuturaStd-Medium_mac.otf"
+			"name" "FuturaStd-Medium_mac"
 		}
-		"26"
-		{
-			"font" "resource/fonts/Neutra Text SC.ttf"
-			"name" "Neutra Text SC"
-		}
-		"27"
+		"24"
 		{
 			"font" "resource/fonts/FuturaStd-Medium.otf"
 			"name" "FuturaStd-Medium"
 		}
-		"28"
+		"25"
 		{
 			"font" "resource/fonts/ClearSans-Bold.ttf"
 			"name" "Clear Sans Bold"
