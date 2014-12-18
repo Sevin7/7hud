@@ -30,7 +30,7 @@
 		"font"			"Bold11"
 		"fgcolor"		"White"
 		"xpos"			"32"
-		"ypos"			"-3"		[$OSX]
+		"ypos"			"-2"		[$OSX]
 		"ypos"			"-4"		[$WIN32]		
 		"zpos"			"3"
 		"wide"			"88"
