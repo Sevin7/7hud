@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HealthBG"
-		"xpos"		"64"
+		"xpos"		"54"
 		"ypos"		"133"
-		"zpos"		"1"
-		"wide"		"106"
+		"zpos"		"4"
+		"wide"		"116"
 		"tall"		"45"
 		"autoResize"	"0"
 		"pinCorner"	"0"
@@ -30,7 +30,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"east"			
-		"font"			"Heavy48"
+		"font"			"Heavy48"		[$OSX]
+		"font"			"Heavy52"		[$WIN32]		
 		"fgcolor"		"Health"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -39,14 +40,15 @@
 		"fieldName"	 "PlayerStatusHealthValueShadow"	
 		"xpos"	 "10"	
 		"ypos"	 "131"	
-		"zpos"	 "4"	
+		"zpos"	 "3"	
 		"wide"	 "159"	
 		"tall"	 "56"	
 		"visible"	 "1"	
 		"enabled"	 "1"	
 		"labelText"	 "%Health%"	
 		"textAlignment"	 "east"	
-		"font"	 "Heavy48"	
+		"font"			"Heavy48"		[$OSX]
+		"font"			"Heavy52"		[$WIN32]	
 		"fgcolor"	 "HudShadow"
 	}
 	"HudPlayerHealth"
@@ -208,7 +210,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"57"	
+		"xpos"			"47"	
 		"ypos"			"126" 	
 		"zpos"			"4"
 		"wide"			"0"		//76	
@@ -383,6 +385,21 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_Parachute"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_Parachute"
+		"xpos"			"0"
+		"ypos"			"143"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			""
 		"fgcolor"		"TanDark"
 	}
 }
