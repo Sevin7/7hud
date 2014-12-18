@@ -943,8 +943,7 @@
 		if_mvm
 		{
 			"font"		"Regular16"
-			"xpos"		"c147"		[$OSX]
-			"xpos"		"c119"		[!$OSX]
+			"xpos"		"c119"
 			"ypos"		"r155"
 			"tall"		"51"
 		}
