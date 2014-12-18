@@ -5,9 +5,11 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AmmoBG"
 		"xpos"		"49"
-		"ypos"		"3"
+		"ypos"		"3"					[$OSX]
+		"ypos"		"5"					[!$OSX]		
 		"zpos"		"4"
-		"wide"		"116"
+		"wide"		"116"				[$OSX]
+		"wide"		"120"				[!$OSX]		
 		"tall"		"45"
 		"autoResize"	"0"
 		"pinCorner"	"0"
@@ -22,7 +24,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"font"			"Heavy48"		[$OSX]
-		"font"			"Heavy52"		[$WIN32]
+		"font"			"Heavy56"		[!$OSX]
 		"fgcolor"		"Ammo"
 		"xpos"	"53"						//1
 		"ypos"	"0"						//0		
@@ -40,7 +42,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
 		"font"			"Heavy28"			[$OSX]
-		"font"			"Heavy30"			[$WIN32]		
+		"font"			"Heavy32"			[!$OSX]		
 		"fgcolor"		"AmmoReserve"
 		"xpos"	"40"							//104
 		"ypos"			"-1"					//9
@@ -58,12 +60,13 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
 		"font"			"Heavy48"		[$OSX]
-		"font"			"Heavy52"		[$WIN32]
+		"font"			"Heavy56"		[!$OSX]
 		"fgcolor"		"Ammo"
 		"xpos"	"53"					//67
 		"ypos"	"-1"
 		"zpos"			"5"
-		"wide"	"100" 
+		"wide"	"100" 					[$OSX]
+		"wide"	"115" 					[!$OSX]	
 		"tall"	"56" 
 		"visible"		"0"
 		"enabled"		"1"
@@ -75,7 +78,7 @@
 	"ControlName"	"CExLabel"	
 	"fieldName"	 "AmmoInClipShadow"	
 	"font"	 "Heavy48"				[$OSX]
-	"font"	 "Heavy52"				[$WIN32]
+	"font"	 "Heavy56"				[!$OSX]
 	"fgcolor"	 "HudShadow"	
 	"xpos"	 "54"	
 	"ypos"	 "2"	
@@ -93,7 +96,7 @@
 	"ControlName"	 "CExLabel"	
 	"fieldName"	 "AmmoInReserveShadow"	
 	"font"	 "Heavy28"					[$OSX]
-	"font"	 "Heavy30"					[$WIN32]		
+	"font"	 "Heavy32"					[!$OSX]		
 	"fgcolor"	 "HudShadow"	
 	"xpos"	 "41"	
 	"ypos"	 "0"	
@@ -111,7 +114,7 @@
 	"ControlName"	 "CExLabel"	
 	"fieldName"	 "AmmoNoClipShadow"	
 	"font"	 "Heavy48"				[$OSX]
-	"font"	 "Heavy52"				[$WIN32]
+	"font"	 "Heavy56"				[!$OSX]
 	"fgcolor"	 "HudShadow"	
 	"xpos"	"54"					
 	"ypos"	"1"

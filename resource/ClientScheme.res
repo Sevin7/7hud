@@ -1051,7 +1051,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Neutra Display Titling"		[!$OSX]
+				"name"		"DOCK11 Heavy"					[$OSX]
 				"tall"		"56"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1073,8 +1074,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"		[!$OSX]
-				"name"		"DOCK11 Heavy"					[$OSX]
+				"name"		"AvenirLTStd-Black"
 				"tall"		"52"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1244,7 +1244,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Neutra Display Titling"		[!$OSX]
+				"name"		"DOCK11 Heavy"					[$OSX]
 				"tall"		"32"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1267,8 +1268,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"		[!$OSX]
-				"name"		"DOCK11 Heavy"					[$OSX]
+				"name"		"AvenirLTStd-Black"
 				"tall"		"30"
 				"additive"		"0"
 				"antialias"	"1"

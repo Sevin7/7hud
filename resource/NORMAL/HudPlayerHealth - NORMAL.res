@@ -4,10 +4,13 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HealthBG"
-		"xpos"		"64"
-		"ypos"		"133"
+		"xpos"		"64"		[$OSX]
+		"xpos"		"54"		[!$OSX]	
+		"ypos"		"133"		[$OSX]
+		"ypos"		"135"		[!$OSX]	
 		"zpos"		"1"
-		"wide"		"106"
+		"wide"		"106"		[$OSX]
+		"wide"		"120"		[!$OSX]
 		"tall"		"45"
 		"autoResize"	"0"
 		"pinCorner"	"0"
@@ -30,7 +33,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"east"			
-		"font"			"Heavy48"
+		"font"			"Heavy48"		[$OSX]
+		"font"			"Heavy56"		[!$OSX]	
 		"fgcolor"		"Health"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -46,7 +50,8 @@
 		"enabled"	 "1"	
 		"labelText"	 "%Health%"	
 		"textAlignment"	 "east"	
-		"font"	 "Heavy48"	
+		"font"			"Heavy48"		[$OSX]
+		"font"			"Heavy56"		[!$OSX]		
 		"fgcolor"	 "HudShadow"
 	}
 	"HudPlayerHealth"

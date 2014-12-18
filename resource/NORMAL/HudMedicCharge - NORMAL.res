@@ -4,7 +4,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"MedicBG"
-		"xpos"		"c73"
+		"xpos"		"c73"		[$OSX]
+		"xpos"		"c58"		[!$OSX]		
 		"ypos"		"332"
 		"zpos"		"1"
 		"wide"		"98"
@@ -119,7 +120,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Heavy48"
+		"font"			"Heavy48"		[$OSX]
+		"font"			"Heavy56"		[!$OSX]	
 		"fgcolor"		"BuildingUber"
 	}
 	"ChargeLabelShadow"
@@ -140,7 +142,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Heavy48"
+		"font"			"Heavy48"		[$OSX]
+		"font"			"Heavy56"		[!$OSX]	
 		"fgcolor"		"HudShadow"
 	}
 	"ChargeLabelBG2"
