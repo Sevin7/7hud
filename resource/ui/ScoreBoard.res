@@ -248,7 +248,7 @@
 		"xpos"			"c-251"
 		"xpos_minmode"		"232"
 		"ypos"			"r299"			[$OSX]
-		"ypos"			"r302"			[$WIN32]		
+		"ypos"			"r302"			[!$OSX]		
 		"ypos_minmode"		"r343"
 		"zpos"			"5"
 		"wide"			"100"
@@ -275,7 +275,7 @@
 		"xpos"			"c-85"
 		"xpos_minmode"		"0"
 		"ypos"			"r312"			[$OSX]
-		"ypos"			"r318"			[$WIN32]
+		"ypos"			"r318"			[!$OSX]
 		"ypos_minmode"		"r357"
 		"zpos"			"5"
 		"wide"			"99"
@@ -389,7 +389,7 @@
 		"xpos"			"c150"
 		"xpos_minmode"		"232"
 		"ypos"			"r299"			[$OSX]
-		"ypos"			"r302"			[$WIN32]
+		"ypos"			"r302"			[!$OSX]
 		"ypos_minmode"		"r149"
 		"wide"			"100"
 		"tall"			"20"
@@ -415,7 +415,7 @@
 		"xpos"			"c-14"
 		"xpos_minmode"		"0"
 		"ypos"			"r312"			[$OSX]
-		"ypos"			"r318"			[$WIN32]
+		"ypos"			"r318"			[!$OSX]
 		"ypos_minmode"		"r151"
 		"zpos"			"5"
 		"wide"			"99"
@@ -619,7 +619,7 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"10"
 		"xpos_hidef"	"30"
-		"ypos"			"372"	[$WIN32]
+		"ypos"			"372"	[!$OSX]
 		"ypos"			"297"	[$X360]
 		"zpos"			"2"
 		"wide"			"580"
@@ -645,7 +645,7 @@
 		"fieldName"		"ClassImage"
 		"xpos"			"22"
 		"xpos_lodef"	"12"
-		"ypos"			"350"	[$WIN32]
+		"ypos"			"350"	[!$OSX]
 		"ypos"			"275"	[$X360]
 		"zpos"			"3"
 		"wide"			"0"
@@ -671,10 +671,10 @@
 		"textAlignment"		"west"
 		"xpos"			"115"
 		"xpos_lodef"	"105"
-		"ypos"			"377"	[$WIN32]
+		"ypos"			"377"	[!$OSX]
 		"ypos"			"302"	[$X360]
 		"zpos"			"3"
-		"wide"			"325"	[$WIN32]
+		"wide"			"325"	[!$OSX]
 		"wide"			"410"	[$X360]
 		"tall"			"20"
 		"autoResize"	"0"
@@ -944,7 +944,7 @@
 		{
 			"font"		"Regular16"
 			"xpos"		"c147"		[$OSX]
-			"xpos"		"c119"		[$WIN32]
+			"xpos"		"c119"		[!$OSX]
 			"ypos"		"r155"
 			"tall"		"51"
 		}
