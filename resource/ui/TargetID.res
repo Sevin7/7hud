@@ -137,7 +137,7 @@
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"0"	
 		"ypos"			"10"			[$OSX]
-		"ypos"			"9"		[$WIN32]
+		"ypos"			"7"		[$WIN32]
 		"zpos"			"5"
 		"wide"			"37"
 		"tall"			"37"

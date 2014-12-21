@@ -5,10 +5,11 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TargetHPBG"
 		"xpos"		"-2"
-		"ypos"		"3"
+		"ypos"		"3"					[$OSX]
+		"ypos"		"6"					[!$OSX]		
 		"zpos"		"4"
 		"wide"		"30"
-		"tall"		"12"
+		"tall"		"12"				
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"		"1"
