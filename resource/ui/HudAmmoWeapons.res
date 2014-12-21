@@ -63,7 +63,7 @@
 		"font"			"Heavy56"		[!$OSX]
 		"fgcolor"		"Ammo"
 		"xpos"	"53"					//67
-		"ypos"	"-1"
+		"ypos"	"0"
 		"zpos"			"5"
 		"wide"	"100" 					[$OSX]
 		"wide"	"115" 					[!$OSX]	
