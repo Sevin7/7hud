@@ -1888,9 +1888,8 @@ ItemQuickSwitchPanel
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
-<<<<<<< HEAD
 		
-	HudMiniGame
+	"HudMiniGame"
 	{
 		"fieldName" 	"HudMiniGame"
 		"visible" 		"1"
@@ -1901,6 +1900,3 @@ ItemQuickSwitchPanel
 		"tall" 			"480"
 	}
 }
-=======
-}
->>>>>>> FETCH_HEAD

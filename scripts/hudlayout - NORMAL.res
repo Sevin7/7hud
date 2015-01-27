@@ -1889,7 +1889,7 @@ ItemQuickSwitchPanel
 		"PaintBackgroundType"	"0"
 	}
 		
-	HudMiniGame
+	"HudMiniGame"
 	{
 		"fieldName" 	"HudMiniGame"
 		"visible" 		"1"
