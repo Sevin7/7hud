@@ -2953,8 +2953,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FavoriteServer2"
-		"xpos"			"r47"
-		"ypos"			"r43"
+		"xpos"			"r45"
+		"ypos"			"r47"
 		"zpos"			"11"
 		"wide"			"50"
 		"tall"			"50"
@@ -3012,8 +3012,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FavoriteServer1"
-		"xpos"			"r47"
-		"ypos"			"-9"
+		"xpos"			"r45"
+		"ypos"			"-15"
 		"zpos"			"11"
 		"wide"			"50"
 		"tall"			"50"

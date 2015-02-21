@@ -4,12 +4,13 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"MedicBG"
-		"xpos"		"c73"		[$OSX]
-		"xpos"		"c58"		[!$OSX]		
-		"ypos"		"332"
+		"xpos"		"c83"		[$OSX]
+		"xpos"		"c68"		[!$OSX]		
+		"ypos"		"336"
 		"zpos"		"1"
-		"wide"		"98"
-		"tall"		"43"
+		"wide"		"106"		[$OSX]
+		"wide"		"120"		[!$OSX]
+		"tall"		"44"
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"		"1"
@@ -23,7 +24,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelTiny"
 		"xpos"			"c-44"
-		"ypos"			"c-15"
+		"ypos"			"c-85"
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"50"
@@ -44,7 +45,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"UberLabel"
 		"xpos"			"c-64"
-		"ypos"			"r128"
+		"ypos"			"r148"
 		"zpos"			"3"
 		"wide"			"118"	
 		"tall"			"12"	
@@ -65,7 +66,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ReadyLabel"
 		"xpos"			"c-64"
-		"ypos"			"r128"
+		"ypos"			"r148"
 		"zpos"			"3"
 		"wide"			"118"	
 		"tall"			"12"	
@@ -85,8 +86,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PercentLabel"
-		"xpos"	        "c83"
-		"ypos"			"334"
+		"xpos"	        "c70"
+		"ypos"			"340"
 		"zpos"			"5"
 		"wide"			"94"
 		"tall"			"15"
@@ -106,8 +107,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c48"
-		"ypos"			"325"	
+		"xpos"			"c70"
+		"ypos"			"329"	
 		"zpos"			"2"
 		"wide"			"159"	
 		"tall"			"57"	
@@ -117,19 +118,19 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Heavy48"		[$OSX]
-		"font"			"Heavy56"		[!$OSX]	
+		"font"			"Heavy56"		[!$OSX]		
 		"fgcolor"		"BuildingUber"
 	}
 	"ChargeLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"c49"
-		"ypos"			"326"	
+		"xpos"			"c71"
+		"ypos"			"330"	
 		"zpos"			"1"
 		"wide"			"159"	
 		"tall"			"57"	
@@ -139,11 +140,11 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Heavy48"		[$OSX]
-		"font"			"Heavy56"		[!$OSX]	
+		"font"			"Heavy56"		[!$OSX]
 		"fgcolor"		"HudShadow"
 	}
 	"ChargeLabelBG2"
@@ -206,7 +207,7 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"c-64"
-		"ypos"			"350"
+		"ypos"			"330"
 		"zpos"			"2"
 		"wide"			"118"
 		"tall"			"2"				
@@ -225,8 +226,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"c-69"
-		"ypos"			"350"
+		"xpos"			"c-64"
+		"ypos"			"330"
 		"zpos"			"2"
 		"wide"			"27"
 		"tall"			"2"				
@@ -246,8 +247,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
-		"xpos"			"c-36"
-		"ypos"			"350"
+		"xpos"			"c-31"
+		"ypos"			"330"
 		"zpos"			"2"
 		"wide"			"27"
 		"tall"			"2"				
@@ -267,8 +268,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"c-4"
-		"ypos"			"350"
+		"xpos"			"c1"
+		"ypos"			"330"
 		"zpos"			"2"
 		"wide"			"27"
 		"tall"			"2"				
@@ -288,8 +289,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"c29"
-		"ypos"			"350"
+		"xpos"			"c34"
+		"ypos"			"330"
 		"zpos"			"2"
 		"wide"			"27"
 		"tall"			"2"				

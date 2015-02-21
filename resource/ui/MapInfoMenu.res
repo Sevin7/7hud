@@ -37,7 +37,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoType"
-		"xpos"			"c-143"
+		"xpos"			"c-134"
 		"ypos"			"r300"
 		"zpos"			"3"
 		"wide"			"135"
@@ -48,7 +48,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
-		"font"			"Medium8"
+		"font"			"Regular10"
 		"fgcolor"		"220 220 220 255"
 	}
 
@@ -59,10 +59,10 @@
 		"ControlName"	"CTFRichText"
 		"fieldName"		"MapInfoText"
 		"font"			"Regular9"
-		"xpos"			"c-147"
+		"xpos"			"c-137"
 		"ypos"			"r281"
 		"zpos"			"3"
-		"wide"			"291"
+		"wide"			"200"
 		"tall"			"96"
 		"autoResize"	"3"
 		"pinCorner"		"0"
@@ -77,7 +77,7 @@
 	{
 		"ControlName"	"CTFButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"c-147"
+		"xpos"			"c-150"
 		"ypos"			"r176"
 		"zpos"			"3"
 		"wide"			"300"
@@ -106,7 +106,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EnterSC"
-		"xpos"			"c43"		
+		"xpos"			"c33"		
 		"ypos"			"r176"		
 		"zpos"			"3"
 		"wide"			"21"
@@ -133,8 +133,8 @@
 	{
 		"ControlName"	"CTFButton"
 		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"c12"
-		"ypos"			"r300"
+		"xpos"			"c-134"		// c12
+		"ypos"			"r192"		// r300
 		"zpos"			"3"
 		"wide"			"135"
 		"tall"			"15"
@@ -143,7 +143,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_WatchIntro"
-		"textAlignment"	"east"
+		"textAlignment"	"west"		// east
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"intro"
@@ -151,7 +151,7 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Medium8"
+		"font"			"Regular6"
 		"fgcolor"		"White"
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "Select"
@@ -189,15 +189,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MapImage"
-		"xpos"			"11111"
-		"ypos"			"11111"
+		"xpos"			"c50"
+		"ypos"			"r295"
 		"zpos"			"2"
-		"wide"			"0"
-		"wide_hidef"			"0"
-		"wide_lodef"	"0"
-		"tall"			"0"
-		"tall_hidef"			"0"
-		"tall_lodef"	"0"
+		"wide"			"125"
+		"tall"			"125"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
