@@ -416,10 +416,14 @@
 		{
 			"image"		"../console/background_xmas2011"
 		}
-		//if_eotl_launch
-		//{
+		if_eotl_launch
+		{
 			//"image"		"../console/title_eotl01"
-		//}
+		}
+		if_operation
+		{
+			"image"		"../console/title_summer_operation_2015"
+		}
 	}
 					
 	"TFLogoImage"
