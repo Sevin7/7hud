@@ -214,7 +214,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"57"	
-		"ypos"			"126" 	
+		"ypos"			"99999"	//126 	
 		"zpos"			"4"
 		"wide"			"0"		//76	
 		"tall"			"0"		//76

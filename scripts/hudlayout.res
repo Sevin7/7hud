@@ -656,7 +656,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c35"
-		"ypos"	"r80"
+		"ypos"	"r150"
 		"wide"	"200"
 		"tall"	"80"
 	}
@@ -704,7 +704,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"			"0"		//c-95
-		"ypos"			"70"		//"r164"	
+		"ypos"			"0"		//"r164"	
 		"wide"			"f0"		
 		"tall"			"600"		//100
 		"MeterFG"		"White"
@@ -717,7 +717,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-59"
-		"ypos"			"r95"	//r133
+		"ypos"			"r113"	//r133
 		"zpos"			"2"
 		"wide"			"118"
 		"tall"			"10"
@@ -808,7 +808,7 @@
 	{
 		"fieldName"			"CHudAccountPanel"
 		"xpos"			"c-59"	
-		"ypos"			"r126"	
+		"ypos"			"r164"	
 		"wide"			"118"
 		"tall"			"60"
 		"visible" 				"1"
@@ -858,7 +858,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"312"			//270
+		"ypos"		"272"			//270
 		"wide"	 	"f0"			//60
 		"tall"	 	"39"
 		"priority"	"40"
@@ -882,7 +882,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"337"			//294
+		"ypos"		"297"			//294
 		"wide"	 	"f0"			//60
 		"tall"	 	"39"
 		"priority"	"35"
@@ -1125,7 +1125,7 @@
 		"tall"	 "480"
 		"zpos" 	"2"
 		"xpos"			"238"
-		"ypos"			"r140"
+		"ypos"			"r210"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
@@ -1539,7 +1539,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-59"	
-		"ypos"			"r194"	
+		"ypos"			"r164"	
 		"wide"			"118"
 		"tall"			"60"
 	}	
