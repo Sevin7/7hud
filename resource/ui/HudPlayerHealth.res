@@ -5,9 +5,9 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HealthBG"
 		"xpos"		"64"		[$OSX]
-		"xpos"		"54"		[!$OSX]	
+		"xpos"		"54"		[!$OSX]		
 		"ypos"		"133"		[$OSX]
-		"ypos"		"135"		[!$OSX]	
+		"ypos"		"135"		[!$OSX]		
 		"zpos"		"1"
 		"wide"		"106"		[$OSX]
 		"wide"		"120"		[!$OSX]
@@ -34,7 +34,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"east"			
 		"font"			"Heavy48"		[$OSX]
-		"font"			"Heavy56"		[!$OSX]	
+		"font"			"Heavy56"		[!$OSX]		
 		"fgcolor"		"Health"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -51,7 +51,7 @@
 		"labelText"	 "%Health%"	
 		"textAlignment"	 "east"	
 		"font"			"Heavy48"		[$OSX]
-		"font"			"Heavy56"		[!$OSX]		
+		"font"			"Heavy56"		[!$OSX]	
 		"fgcolor"	 "HudShadow"
 	}
 	"HudPlayerHealth"
@@ -59,7 +59,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-264"		
-		"ypos"			"r281"
+		"ypos"			"r211"
 		"zpos"			"2"
 		"wide"			"310"
 		"tall"			"222"
@@ -214,7 +214,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"57"	
-		"ypos"			"126" 	
+		"ypos"			"99999"	//126 	
 		"zpos"			"4"
 		"wide"			"0"		//76	
 		"tall"			"0"		//76

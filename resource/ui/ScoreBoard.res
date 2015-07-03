@@ -10,14 +10,17 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
+		"medal_width"		"15"
 		"avatar_width"		"57"
-		"name_width"		"100"
+		"name_width"		"84"
 		"name_width_minmode"	"77"
 		"status_width"		"15"
 		"nemesis_width"		"15"
 		"class_width"		"15"
 		"score_width"		"25"
 		"ping_width"		"17"
+		"stats_width"		"30"
+		"killstreak_width"	"20"
 	}
 	
 	"MainBG"

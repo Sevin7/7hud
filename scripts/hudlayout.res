@@ -656,7 +656,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c35"
-		"ypos"	"r150"
+		"ypos"	"r80"
 		"wide"	"200"
 		"tall"	"80"
 	}
@@ -704,7 +704,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"			"0"		//c-95
-		"ypos"			"0"		//"r164"	
+		"ypos"			"70"		//"r164"	
 		"wide"			"f0"		
 		"tall"			"600"		//100
 		"MeterFG"		"White"
@@ -717,7 +717,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-59"
-		"ypos"			"r113"	//r133
+		"ypos"			"r95"	//r133
 		"zpos"			"2"
 		"wide"			"118"
 		"tall"			"10"
@@ -808,7 +808,7 @@
 	{
 		"fieldName"			"CHudAccountPanel"
 		"xpos"			"c-59"	
-		"ypos"			"r164"	
+		"ypos"			"r126"	
 		"wide"			"118"
 		"tall"			"60"
 		"visible" 				"1"
@@ -858,7 +858,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"272"			//270
+		"ypos"		"312"			//270
 		"wide"	 	"f0"			//60
 		"tall"	 	"39"
 		"priority"	"40"
@@ -882,7 +882,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"297"			//294
+		"ypos"		"337"			//294
 		"wide"	 	"f0"			//60
 		"tall"	 	"39"
 		"priority"	"35"
@@ -1125,7 +1125,7 @@
 		"tall"	 "480"
 		"zpos" 	"2"
 		"xpos"			"238"
-		"ypos"			"r210"
+		"ypos"			"r140"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
@@ -1539,7 +1539,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-59"	
-		"ypos"			"r164"	
+		"ypos"			"r194"	
 		"wide"			"118"
 		"tall"			"60"
 	}	
@@ -1889,6 +1889,18 @@ ItemQuickSwitchPanel
 		"PaintBackgroundType"	"0"
 	}
 		
+	"ItemAttributeTracker"
+	{
+		"fieldName" 	"ItemAttributeTracker"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f5"
+		"tall"			"f0"
+		"PaintBackgroundType"	"0"
+	}
+
 	"HudMiniGame"
 	{
 		"fieldName" 	"HudMiniGame"
@@ -1899,4 +1911,27 @@ ItemQuickSwitchPanel
 		"wide" 			"f0"
 		"tall" 			"480"
 	}
+	
+	"QuestNotificationPanel"
+	{
+		"fieldName"	"QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	"QuestLogContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"QuestLogContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}	
 }
