@@ -14,15 +14,6 @@ GlobalComboBox("HudPosition", "Hud Position")
 [Name:Chat, Default:Top]
 DynamicFileSwitcher("resource\ui\BaseChat.res", "Chat Position");
 
-[Name:Scoreboard, Default:Normal]
-GlobalComboBox("Scoreboard", "Scoreboard Background")
-{
-	Normal
-	No top BG's
-	No main BG
-	No main or top BG's
-}
-
 [Name:4by3, Default:False]
 GlobalCheckBox("4by3", "", "Is your aspect ratio 4:3?");
 
@@ -117,22 +108,6 @@ HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
 	Copy("resource\4by3\hud_obj_tele_exit - 4by3.res", "resource\ui\hud_obj_tele_entrance.res");
 	Copy("resource\4by3\mvmscoreboard - 4by3.res", "resource\ui\mvmscoreboard.res");
 	Copy("resource\4by3\huditemeffectmeter_killstreak - 4by3.res", "resource\ui\huditemeffectmeter_killstreak.res");
-	#if Scoreboard == "No main or top BG's"
-	{
-		Copy("resource\4by3\Scoreboard - NO MAIN OR TOP BG'S - 4by3.res", "resource\ui\scoreboard.res");
-	}
-	#if Scoreboard == "No top BG's"
-	{
-		Copy("resource\4by3\Scoreboard - NO TOP BG'S - 4by3.res", "resource\ui\scoreboard.res");
-	}
-	#if Scoreboard == "No main BG"
-	{
-		Copy("resource\4by3\Scoreboard - NO MAIN BG'S - 4by3.res", "resource\ui\scoreboard.res");
-	}
-	#if Scoreboard == "Normal"
-	{
-		Copy("resource\4by3\Scoreboard - NORMAL - 4by3.res", "resource\ui\scoreboard.res");
-	}
 }
 #else
 {
@@ -144,20 +119,4 @@ HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
 	Copy("resource\4by3\hud_obj_tele_exit - others.res", "resource\ui\hud_obj_tele_exit.res");
 	Copy("resource\4by3\mvmscoreboard - others.res", "resource\ui\mvmscoreboard.res");
 	Copy("resource\4by3\huditemeffectmeter_killstreak - others.res", "resource\ui\huditemeffectmeter_killstreak.res");
-	#if Scoreboard == "No main or top BG's"
-	{
-		Copy("resource\4by3\Scoreboard - NO MAIN OR TOP BG'S.res", "resource\ui\scoreboard.res");
-	}
-	#if Scoreboard == "No top BG's"
-	{
-		Copy("resource\4by3\Scoreboard - NO TOP BG's.res", "resource\ui\scoreboard.res");
-	}
-	#if Scoreboard == "No main BG"
-	{
-		Copy("resource\4by3\Scoreboard - NO MAIN BG's.res", "resource\ui\scoreboard.res");
-	}
-	#if Scoreboard == "Normal"
-	{
-		Copy("resource\4by3\Scoreboard - NORMAL.res", "resource\ui\scoreboard.res");
-	}
 }

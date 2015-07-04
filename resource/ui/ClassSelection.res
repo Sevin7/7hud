@@ -112,11 +112,11 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"			"Select"
-			"defaultFgColor_override" "Select"
-		"armedFgColor_override" "Select"
-		"depressedFgColor_override" "Select"
-		"selectedFgColor_override" "Select"
+		"fgcolor"			"Highlight"
+			"defaultFgColor_override" "Highlight"
+		"armedFgColor_override" "Highlight"
+		"depressedFgColor_override" "Highlight"
+		"selectedFgColor_override" "Highlight"
 	}
 		
 	"Offense"
@@ -780,11 +780,11 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"			"Select"
-			"defaultFgColor_override" "Select"
-		"armedFgColor_override" "Select"
-		"depressedFgColor_override" "Select"
-		"selectedFgColor_override" "Select"
+		"fgcolor"			"Highlight"
+			"defaultFgColor_override" "Highlight"
+		"armedFgColor_override" "Highlight"
+		"depressedFgColor_override" "Highlight"
+		"selectedFgColor_override" "Highlight"
 	}
 	
 	"EditLoadoutButton"  
@@ -836,11 +836,11 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"			"Select"
-			"defaultFgColor_override" "Select"
-		"armedFgColor_override" "Select"
-		"depressedFgColor_override" "Select"
-		"selectedFgColor_override" "Select"
+		"fgcolor"			"Highlight"
+			"defaultFgColor_override" "Highlight"
+		"armedFgColor_override" "Highlight"
+		"depressedFgColor_override" "Highlight"
+		"selectedFgColor_override" "Highlight"
 	}
 
 	"ResetButton"  
@@ -1244,7 +1244,7 @@
 		"labelText"		"%numScout%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"Select"
+		"fgcolor"		"Highlight"
 	}	
 	
 	"numSoldier" 
@@ -1262,7 +1262,7 @@
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"Select"
+		"fgcolor"		"Highlight"
 	}		
 	
 	"numPyro" 
@@ -1280,7 +1280,7 @@
 		"labelText"		"%numPyro%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"Select"
+		"fgcolor"		"Highlight"
 	}			
 	
 	"numDemoman" 
@@ -1297,7 +1297,7 @@
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"Select"
+		"fgcolor"		"Highlight"
 	}				
 	
 	"numHeavy" 
@@ -1315,7 +1315,7 @@
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"Select"
+		"fgcolor"		"Highlight"
 	}					
 	
 	"numEngineer" 
@@ -1333,7 +1333,7 @@
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"Select"
+		"fgcolor"		"Highlight"
 	}						
 	
 	"numMedic" 
@@ -1351,7 +1351,7 @@
 		"labelText"		"%numMedic%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"Select"
+		"fgcolor"		"Highlight"
 	}							
 	
 	"numSniper" 
@@ -1369,7 +1369,7 @@
 		"labelText"		"%numSniper%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"Select"
+		"fgcolor"		"Highlight"
 	}						
 	
 	"numSpy" 
@@ -1387,7 +1387,7 @@
 		"labelText"		"%numSpy%"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"Select"
+		"fgcolor"		"Highlight"
 	}								
 	
 	"TFPlayerModel"
