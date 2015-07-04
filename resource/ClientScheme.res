@@ -54,8 +54,10 @@ Scheme
 		"yABuff"			"21 207 100 154"		//Buff color of new box HUD
 		"MainMenuBG"		"0 0 0 100"			//BG of black box on menu
 
-		"Select"			"35 219 247 255"			//Blue color for hovering over buttons
-		"ButtonBG"			"209 108 36 255"			//Orange color for buttons
+		"Select"			"43 43 42 255"			//Dark grey for default buttons
+		"ButtonBG"			"35 33 32 255"			//Darker grey for armed buttons
+		
+		"Highlight"			"7 199 254 255"			//Blue color for hovering over buttons
 		
 
 
@@ -130,8 +132,9 @@ Scheme
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
+		
+		"QuestGold"			"208 147 75 255"
 
-	
 		"Red"				"192 28 0 140"
 		"RedSolid"			"192 28 0 255"
 		"Blue"				"104 124 155 175"		//0 28 162 140"
@@ -239,6 +242,24 @@ Scheme
 		"QualityColorCompleted"					"134 80 172 255"
 		"QualityColorHaunted"					"56 243 171 255"
 		"QualityColorCollectors"                "170 0 0 255"
+		"QualityColorPaintkitWeapon"			"250 250 250 255"
+
+		"ItemRarityDefault"						"131 126 119 255"
+		"ItemRarityCommon"						"176 195 217 255"
+		"ItemRarityUncommon"					"94 152 217 255"
+		"ItemRarityRare"						"75 105 255 255"
+		"ItemRarityMythical"					"136 71 255 255"
+		"ItemRarityLegendary"					"211 44 230 255"
+		"ItemRarityAncient"						"235 75 75 255"
+		
+		"ItemRarityDefault_GreyedOut"			"44 42 40 255"
+		"ItemRarityCommon_GreyedOut"			"59 65 72 255"
+		"ItemRarityUncommon_GreyedOut"			"31 50 72 255"
+		"ItemRarityRare_GreyedOut"				"25 35 85 255"
+		"ItemRarityMythical_GreyedOut"			"45 24 85 255"
+		"ItemRarityLegendary_GreyedOut"			"70 15 77 255"
+		"ItemRarityAncient_GreyedOut"			"78 25 25 255"
+				
 		
 		 "QualityColorNormal_GreyedOut"                        "44 44 44 255"
     	"QualityColorrarity1_GreyedOut"                        "20 29 21 255"
@@ -4619,9 +4640,48 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
-				"tall"		"9"
-				"antialias"		"1"
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"12"
+				"weight"	"700"
+				"yres"		"480 599"
+				"dropshadow"	"1"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"12"
+				"weight"	"700"
+				"yres"		"600 767"
+				"dropshadow"	"1"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"13"
+				"weight"	"700"
+				"yres"		"768 1023"
+				"dropshadow"	"1"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"14"
+				"weight"	"700"
+				"yres"		"1024 1199"
+				"dropshadow"	"1"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"15"
+				"weight"	"700"
+				"yres"		"1200 10000"
+				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 		}
 

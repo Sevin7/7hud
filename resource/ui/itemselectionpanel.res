@@ -210,8 +210,8 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"NoItemsLabel"
@@ -281,10 +281,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowBackpack"
-		"xpos"			"c100"
+		"xpos"			"c180"
 		"ypos"			"340"
 		"zpos"			"20"
-		"wide"			"200"
+		"wide"			"120"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"

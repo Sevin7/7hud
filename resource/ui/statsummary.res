@@ -343,9 +343,10 @@
 			"tall"		"480"
 			"visible"	"1"
 			"enabled"	"1"
+			"bgcolor_override"		"0 0 0 100"
 
 			"BarChartComboA"
-			{
+			{Q
 				"ControlName"		"ComboBox"
 				"fieldName"		"BarChartComboA"
 				"xpos"		"c-285"
@@ -425,6 +426,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"bgcolor_override"		"0 0 0 100"			
 			"border"		"TFThinLineBorder"
 		}
 		"AveragesLabel"
@@ -467,7 +469,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarBG1B"
@@ -488,7 +490,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar1A"
@@ -616,7 +618,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG2B"
@@ -637,7 +639,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar2A"
@@ -765,7 +767,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG3B"
@@ -786,7 +788,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar3A"
@@ -914,7 +916,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG4B"
@@ -935,7 +937,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar4A"
@@ -1063,7 +1065,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG5B"
@@ -1084,7 +1086,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar5A"
@@ -1212,7 +1214,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG6B"
@@ -1233,7 +1235,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar6A"
@@ -1361,7 +1363,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG7B"
@@ -1382,7 +1384,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar7A"
@@ -1510,7 +1512,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG8B"
@@ -1531,7 +1533,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar8A"
@@ -1659,7 +1661,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG9B"
@@ -1680,7 +1682,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar9A"
@@ -1853,7 +1855,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 130"
 			"PaintBackgroundType"	"0"
 		}
 		"RecordsLabel"
