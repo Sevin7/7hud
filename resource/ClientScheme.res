@@ -621,8 +621,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"FuturaStd-Medium"			[!$OSX]
-				"name"		"FuturaStd-Medium_mac"		[$OSX]				
+				"name"		"AvenirLTStd-Medium-Medium"				
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -4444,8 +4443,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"FuturaStd-Medium"			[!$OSX]
-				"name"		"FuturaStd-Medium_mac"		[$OSX]	
+				"name"		"AvenirLTStd-Medium-Medium"			
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -4455,8 +4453,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"FuturaStd-Medium"			[!$OSX]
-				"name"		"FuturaStd-Medium_mac"		[$OSX]	
+				"name"		"AvenirLTStd-Medium-Medium"			
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -6814,20 +6811,10 @@ Scheme
 		}
 		"23"
 		{
-			"font" "resource/fonts/FuturaStd-Medium_mac.otf"
-			"name" "FuturaStd-Medium_mac"
-		}
-		"24"
-		{
-			"font" "resource/fonts/FuturaStd-Medium.otf"
-			"name" "FuturaStd-Medium"
-		}
-		"25"
-		{
 			"font" "resource/fonts/ClearSans-Bold.ttf"
 			"name" "Clear Sans Bold"
 		}
-		"26"
+		"24"
 		{
 			"font" "resource/fonts/heavy_dock11.otf"
 			"name" "DOCK11 Heavy"
