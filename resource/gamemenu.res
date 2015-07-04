@@ -9,35 +9,35 @@
 	}
 	"QuickplayButton"
 	{
-		"label" "Quickplay" 
+		"label" "Quickplay"
 		"command" "quickplay"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
 	"QuickplayChangeButton"
 	{
-		"label" "#MMenu_NewGame" 
+		"label" "#MMenu_NewGame"
 		"command" "quickplay"
 		"subimage" "glyph_server"
 		"OnlyInGame" "1"
 	}
 	"PlayPVEButton"
 	{
-		"label" "Cooperative" 
+		"label" "Cooperative"
 		"command" "playpve"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
 	}
 	"ServerBrowserButton"
 	{
-		"label" "Servers" 
+		"label" "Servers"
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyAtMenu" "1"
-	} 
+	}
 	"ChangeServerButton"
 	{
-		"label" "#MMenu_ChangeServer" 
+		"label" "#MMenu_ChangeServer"
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
@@ -81,8 +81,15 @@
 	}
 	"Version"
 	{
-		"label" "7HUD v4.12" 
-		"command"	"engine echo To check for updates view the steam group page"
+		"label" "7HUD v4.12"
+		"command"		"engine toggleconsole;
+			play vo/pauling/plng_contract_complete_allclass_25.mp3;
+			echo -------------------------------------------------------------------------------;
+			echo -------------------------------------------------------------------------------;
+			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;
+			echo -------------------------------------------------------------------------------;
+			echo -------------------------------------------------------------------------------"
+		"subimage" "glyph_muted"
 	}
 	"Scoreboard"
     {
@@ -94,8 +101,8 @@
         "label" "demoui"
         "command"   "engine demoui"
     }
-	
-	// These buttons get positioned by the MainMenuOverride.res	
+
+	// These buttons get positioned by the MainMenuOverride.res
 	"CreateServerButton"
 	{
 		"label" "Create"
@@ -107,7 +114,7 @@
 		"label" "Store"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
-	}	
+	}
 	"CharacterSetupButton"
 	{
 		"label" "Items"
