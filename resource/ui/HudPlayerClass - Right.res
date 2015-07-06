@@ -61,13 +61,13 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"          "r14"  
+		"xpos"          "9999"  		//r14
         "ypos"          "r32"
         "zpos"          "51"
-        "wide"          "14"
-        "tall"          "14"
-		"visible"		"1"
-		"enabled"		"1"
+        "wide"          "0"				//14
+        "tall"          "0"				//14
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 		"image"				"replay/thumbnails/bg_blank"	
 		"teambg_1"			"replay/thumbnails/bg_blank"
@@ -194,7 +194,7 @@
 				"fov"			"27"
 				"angles_x"		"0"
 				"angles_y"		"90"
-				"angles_z"		"-10"
+				"angles_z"		"0"
 				"origin_x"		"145"
 				"origin_y"		"-15"
 				"origin_z"		"-47"

@@ -180,21 +180,17 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
+		"border_default"	""
+		"border_armed"		""
 		"paintbackground"	"1"
 		
-		// default style
-		"defaultBgColor_override"	"55 53 52 255"
-		"defaultFgColor_override" "HudWhite"
-		"border_default"		"BPBorder"
-        
-		// armed style
-		"armedBgColor_override"	"ButtonBG"
-		"armedFgColor_override" 	"HudWhite"
-		"border_armed"		"BPBorder"
-    
-		// depressed style    
-		"depressedBgColor_override"	"55 53 52 255"
-		"depressedFgColor_override" "HudWhite"
+		"defaultBgColor_override"	"Select"
+		"armedBgColor_override"		"ButtonBG"
+		"depressedBgColor_override"	"ButtonBG"
+			
+		"defaultFgColor_override" "235 235 235 255"
+		"armedFgColor_override" "250 250 250 255"
+		"depressedFgColor_override" "250 250 250 255"		
 	}		
 	
 	"armory_panel"
@@ -276,21 +272,17 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
+		"border_default"	""
+		"border_armed"		""
 		"paintbackground"	"1"
 		
-		// default style
-		"defaultBgColor_override"	"55 53 52 255"
-		"defaultFgColor_override" "HudWhite"
-		"border_default"		"BPBorder"
-        
-		// armed style
-		"armedBgColor_override"	"ButtonBG"
-		"armedFgColor_override" 	"HudWhite"
-		"border_armed"		"BPBorder"
-    
-		// depressed style    
-		"depressedBgColor_override"	"55 53 52 255"
-		"depressedFgColor_override" "Black"
+		"defaultBgColor_override"	"Select"
+		"armedBgColor_override"		"ButtonBG"
+		"depressedBgColor_override"	"ButtonBG"
+			
+		"defaultFgColor_override" "235 235 235 255"
+		"armedFgColor_override" "250 250 250 255"
+		"depressedFgColor_override" "250 250 250 255"		
 	}	
 	
 }

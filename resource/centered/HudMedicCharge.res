@@ -4,11 +4,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"MedicBG"
-		"xpos"		"c73"		[$OSX]
-		"xpos"		"c58"		[!$OSX]		
+		"xpos"		"c100"		[$OSX]
+		"xpos"		"c88"		[!$OSX]		
 		"ypos"		"332"
 		"zpos"		"1"
-		"wide"		"98"
+		"wide"		"101"
 		"tall"		"43"
 		"autoResize"	"0"
 		"pinCorner"	"0"
@@ -22,8 +22,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelTiny"
-		"xpos"			"c-44"
-		"ypos"			"c-15"
+		"xpos"			"c-49"
+		"ypos"			"c-18"
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"50"
@@ -85,8 +85,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PercentLabel"
-		"xpos"	        "c83"
-		"ypos"			"334"
+		"xpos"	        "c82"
+		"ypos"			"335"
 		"zpos"			"5"
 		"wide"			"94"
 		"tall"			"15"
@@ -106,7 +106,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c48"
+		"xpos"			"c92"
 		"ypos"			"325"	
 		"zpos"			"2"
 		"wide"			"159"	
@@ -117,7 +117,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Heavy48"		[$OSX]
@@ -128,7 +128,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"c49"
+		"xpos"			"c93"
 		"ypos"			"326"	
 		"zpos"			"1"
 		"wide"			"159"	
@@ -139,7 +139,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Heavy48"		[$OSX]
@@ -225,7 +225,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"c-69"
+		"xpos"			"c-64"
 		"ypos"			"350"
 		"zpos"			"2"
 		"wide"			"27"
@@ -246,7 +246,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
-		"xpos"			"c-36"
+		"xpos"			"c-31"
 		"ypos"			"350"
 		"zpos"			"2"
 		"wide"			"27"
@@ -267,7 +267,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"c-4"
+		"xpos"			"c1"
 		"ypos"			"350"
 		"zpos"			"2"
 		"wide"			"27"
@@ -288,7 +288,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"c29"
+		"xpos"			"c34"
 		"ypos"			"350"
 		"zpos"			"2"
 		"wide"			"27"

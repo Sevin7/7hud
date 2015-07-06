@@ -7,7 +7,7 @@
 		"visible" 		        "1"
 		"enabled" 		        "1"
 		"xpos"			          "1"
-		"ypos"			          "329"
+		"ypos"			          "314"
 		"wide"	 		          "242"
 		"tall"	 		          "120"
 		"fgcolor"		"Garm3nWhite"

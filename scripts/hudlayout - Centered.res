@@ -656,7 +656,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c35"
-		"ypos"	"r150"
+		"ypos"	"r152"
 		"wide"	"200"
 		"tall"	"80"
 	}
@@ -703,7 +703,7 @@
 		"fieldName"		"HudMedicCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"			"0"		//c-95
+		"xpos"			"5"		//c-95
 		"ypos"			"0"		//"r164"	
 		"wide"			"f0"		
 		"tall"			"600"		//100
@@ -1889,18 +1889,6 @@ ItemQuickSwitchPanel
 		"PaintBackgroundType"	"0"
 	}
 		
-	"ItemAttributeTracker"
-	{
-		"fieldName" 	"ItemAttributeTracker"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f5"
-		"tall"			"f0"
-		"PaintBackgroundType"	"0"
-	}
-
 	"HudMiniGame"
 	{
 		"fieldName" 	"HudMiniGame"
@@ -1911,7 +1899,7 @@ ItemQuickSwitchPanel
 		"wide" 			"f0"
 		"tall" 			"480"
 	}
-	
+
 	"QuestNotificationPanel"
 	{
 		"fieldName"	"QuestNotificationPanel"
@@ -1933,5 +1921,5 @@ ItemQuickSwitchPanel
 		"ypos"			"0"
 		"wide"	 		"f0"
 		"tall"	 		"f0"
-	}	
+	}		
 }

@@ -4,13 +4,12 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"MedicBG"
-		"xpos"		"c83"		[$OSX]
-		"xpos"		"c68"		[!$OSX]		
-		"ypos"		"336"
+		"xpos"		"c100"		[$OSX]
+		"xpos"		"c88"		[!$OSX]		
+		"ypos"		"332"
 		"zpos"		"1"
-		"wide"		"106"		[$OSX]
-		"wide"		"120"		[!$OSX]
-		"tall"		"44"
+		"wide"		"101"
+		"tall"		"43"
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"		"1"
@@ -23,8 +22,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelTiny"
-		"xpos"			"c-44"
-		"ypos"			"c-85"
+		"xpos"			"c-49"
+		"ypos"			"c-18"
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"50"
@@ -45,7 +44,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"UberLabel"
 		"xpos"			"c-64"
-		"ypos"			"r148"
+		"ypos"			"r128"
 		"zpos"			"3"
 		"wide"			"118"	
 		"tall"			"12"	
@@ -66,7 +65,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ReadyLabel"
 		"xpos"			"c-64"
-		"ypos"			"r148"
+		"ypos"			"r128"
 		"zpos"			"3"
 		"wide"			"118"	
 		"tall"			"12"	
@@ -86,8 +85,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PercentLabel"
-		"xpos"	        "c70"
-		"ypos"			"340"
+		"xpos"	        "c82"
+		"ypos"			"335"
 		"zpos"			"5"
 		"wide"			"94"
 		"tall"			"15"
@@ -107,8 +106,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c70"
-		"ypos"			"329"	
+		"xpos"			"c92"
+		"ypos"			"325"	
 		"zpos"			"2"
 		"wide"			"159"	
 		"tall"			"57"	
@@ -122,15 +121,15 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Heavy48"		[$OSX]
-		"font"			"Heavy56"		[!$OSX]		
+		"font"			"Heavy56"		[!$OSX]	
 		"fgcolor"		"BuildingUber"
 	}
 	"ChargeLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"c71"
-		"ypos"			"330"	
+		"xpos"			"c93"
+		"ypos"			"326"	
 		"zpos"			"1"
 		"wide"			"159"	
 		"tall"			"57"	
@@ -144,7 +143,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Heavy48"		[$OSX]
-		"font"			"Heavy56"		[!$OSX]
+		"font"			"Heavy56"		[!$OSX]	
 		"fgcolor"		"HudShadow"
 	}
 	"ChargeLabelBG2"
@@ -207,7 +206,7 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"c-64"
-		"ypos"			"330"
+		"ypos"			"350"
 		"zpos"			"2"
 		"wide"			"118"
 		"tall"			"2"				
@@ -227,7 +226,7 @@
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
 		"xpos"			"c-64"
-		"ypos"			"330"
+		"ypos"			"350"
 		"zpos"			"2"
 		"wide"			"27"
 		"tall"			"2"				
@@ -248,7 +247,7 @@
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
 		"xpos"			"c-31"
-		"ypos"			"330"
+		"ypos"			"350"
 		"zpos"			"2"
 		"wide"			"27"
 		"tall"			"2"				
@@ -269,7 +268,7 @@
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
 		"xpos"			"c1"
-		"ypos"			"330"
+		"ypos"			"350"
 		"zpos"			"2"
 		"wide"			"27"
 		"tall"			"2"				
@@ -290,7 +289,7 @@
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
 		"xpos"			"c34"
-		"ypos"			"330"
+		"ypos"			"350"
 		"zpos"			"2"
 		"wide"			"27"
 		"tall"			"2"				

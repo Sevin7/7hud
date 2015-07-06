@@ -45,7 +45,7 @@
 		"font"			"Heavy32"			[!$OSX]		
 		"fgcolor"		"AmmoReserve"
 		"xpos"	"40"							//104
-		"ypos"			"-1"					//9
+		"ypos"			"0"					//9
 		"zpos"			"5"
 		"wide"			"120"
 		"tall"			"42"
@@ -99,7 +99,7 @@
 	"font"	 "Heavy32"					[!$OSX]		
 	"fgcolor"	 "HudShadow"	
 	"xpos"	 "41"	
-	"ypos"	 "0"	
+	"ypos"	 "1"	
 	"zpos"	 "4"	
 	"wide"	 "120"	
 	"tall"	 "42"	
@@ -119,7 +119,8 @@
 	"xpos"	"54"					
 	"ypos"	"1"
 	"zpos"	"3"
-	"wide"	"100" 
+	"wide"	"100" 					[$OSX]
+	"wide"	"115" 					[!$OSX]	
 	"tall"	"56" 
 	"visible"	 "0"	
 	"enabled"	 "1"	
