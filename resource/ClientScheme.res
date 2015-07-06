@@ -24,6 +24,15 @@ Scheme
 
 		//"Control Name"		"R   G   B   Transparency"	//Description
 
+		"G_White"				"255 255 255 255"
+		"G_Black"				"0 0 0 255"
+		"G_Shadow"				"0 0 0 220" // Shadow color
+		"G_LightShadow"			"0 0 0 110"
+		"G_WhiteShadow"			"255 255 255 50"
+		"G_WhiteShadowDim"		"255 255 255 40"
+		"G_Grey"				"54 54 54 255"
+		"G_LightGrey"			"180 180 180 255"
+
 		"Damage"                        "255 255 255 175"		//Damage display
 
 		"Ammo"                          "240 240 240 225"		//Current Clip
@@ -276,6 +285,7 @@ Scheme
         "QualityColorCompleted_GreyedOut"                "34 20 43 255"
         "QualityColorHaunted_GreyedOut"                        "14 61 43 255"
         "QualityColorCollectors_GreyedOut"                "60 0 0 255"
+				"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 
 		"SaleGreen"								"76 107 34 255"
 
@@ -5711,476 +5721,3551 @@ Scheme
 			"draw_corner_height" 	"0"
 		}
 
-		BackpackItemGrayedOut
+	BackpackItemGrayedOut
+	{
+		"inset" "0 0 0 0"
+		Left
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"Black"
-
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
 		}
 
-		BackpackItemGrayedOut_Selected
+		Right
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"Gray"
-
-			"image"					"backpack_rect_selected"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
 		}
 
-		BackpackItemBorder
+		Top
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			//"color"					"Gray"
-			"image"					"backpack_rect_mouseover_color"
-			"color"					"GrayBGDark"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
-		}
-		BackpackItemGreyedOutBorder
-        {
-                "bordertype"                        "scalable_image"
-                "backgroundtype"                "2"
-                "color"                                        "Black"
-
-                "image"                                        "backpack_rect_color"
-                "src_corner_height"                "24"                                // pixels inside the image
-                "src_corner_width"                "24"
-                "draw_corner_width"                "11"                                // screen size of the corners ( and sides ), proportional
-                "draw_corner_height"         "11"
-        }
-        BackpackItemGreyedOutSelectedBorder
-        {
-                "bordertype"                        "scalable_image"
-                "backgroundtype"                "2"
-                "color"                                        "Gray"
-
-                "image"                                        "backpack_rect_selected"
-                "src_corner_height"                "24"                                // pixels inside the image
-                "src_corner_width"                "24"
-                "draw_corner_width"                "11"                                // screen size of the corners ( and sides ), proportional
-                "draw_corner_height"         "11"
-        }
-        BackpackItemGreyedOutBorder_Unique
-        {
-                "bordertype"                        "scalable_image"
-                "backgroundtype"                "2"
-                "color"                                        "QualityColorUnique_GreyedOut"
-
-                "image"                                        "backpack_rect_color"
-                "src_corner_height"                "24"                                // pixels inside the image
-                "src_corner_width"                "24"
-                "draw_corner_width"                "11"                                // screen size of the corners ( and sides ), proportional
-                "draw_corner_height"         "11"
-        }
-        BackpackItemGreyedOutSelectedBorder_Unique
-        {
-                "bordertype"                        "scalable_image"
-                "backgroundtype"                "2"
-                "color"                                        "QualityColorUnique_GreyedOut"
-
-                "image"                                        "backpack_rect_mouseover_color"
-                "src_corner_height"                "24"                                // pixels inside the image
-                "src_corner_width"                "24"
-                "draw_corner_width"                "11"                                // screen size of the corners ( and sides ), proportional
-                "draw_corner_height"         "11"
-        }
-        BackpackItemGreyedOutBorder_1
-        {
-                "bordertype"                        "scalable_image"
-                "backgroundtype"                "2"
-                "color"                                        "QualityColorrarity1_GreyedOut"
-
-                "image"                                        "backpack_rect_color"
-                "src_corner_height"                "24"                                // pixels inside the image
-                "src_corner_width"                "24"
-                "draw_corner_width"                "11"                                // screen size of the corners ( and sides ), proportional
-                "draw_corner_height"         "11"
-        }
-        BackpackItemGreyedOutSelectedBorder_1
-        {
-                "bordertype"                        "scalable_image"
-                "backgroundtype"                "2"
-                "color"                                        "QualityColorrarity1_GreyedOut"
-
-                "image"                                        "backpack_rect_mouseover_color"
-                "src_corner_height"                "24"                                // pixels inside the image
-                "src_corner_width"                "24"
-                "draw_corner_width"                "11"                                // screen size of the corners ( and sides ), proportional
-                "draw_corner_height"         "11"
-        }
-        BackpackItemGreyedOutBorder_2
-        {
-                "bordertype"                        "scalable_image"
-                "backgroundtype"                "2"
-                "color"                                        "QualityColorrarity2_GreyedOut"
-
-                 "image"                                        "backpack_rect_color"
-                "src_corner_height"                "24"                                // pixels inside the image
-                "src_corner_width"                "24"
-                "draw_corner_width"                "11"                                // screen size of the corners ( and sides ), proportional
-                "draw_corner_height"         "11"
-        }
-        BackpackItemGreyedOutSelectedBorder_2
-        {
-                "bordertype"                        "scalable_image"
-                "backgroundtype"                "2"
-                "color"                                        "QualityColorrarity2_GreyedOut"
-                "image"                                        "backpack_rect_mouseover_color"
-                "src_corner_height"                "24"                                // pixels inside the image
-                "src_corner_width"                "24"
-                "draw_corner_width"                "11"                                // screen size of the corners ( and sides ), proportional
-                "draw_corner_height"         "11"
-        }
-		BackpackItemMouseOverBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-
-			"image"					"backpack_rect_mouseover_color"
-			"color"					"Gray"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
-		}
-		BackpackItemSelectedBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-
-			"image"					"backpack_rect_mouseover_color"
-			"color"					"Gray"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
 		}
 
-		BackpackItemBorder_Unique
+		Bottom
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorUnique"
-
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
 		}
-		BackpackItemMouseOverBorder_Unique
+	}
+
+	BackpackItemGrayedOut_Selected
+	{
+		"inset" "0 0 0 0"
+		Left
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorUnique"
-
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
 		}
-		BackpackItemBorder_1
+
+		Right
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorrarity1"
-
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
 		}
-		BackpackItemMouseOverBorder_1
+
+		Top
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorrarity1"
-
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
 		}
-		BackpackItemBorder_2
+
+		Bottom
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorrarity2"
-
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
 		}
-		BackpackItemMouseOverBorder_2
+	}
+
+	// Standard ------------------------------------------------------------------------------------------------
+	BackpackItemBorder
+	{
+		"inset" "0 0 0 0"
+		Left
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorrarity2"
-
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_WhiteShadowDim"
+				"offset" "2 2"
+			}
 		}
-		BackpackItemBorder_3
+
+		Right
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorrarity3"
-
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_WhiteShadowDim"
+				"offset" "1 1"
+			}
 		}
-		BackpackItemMouseOverBorder_3
+
+		Top
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorrarity3"
-
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_WhiteShadowDim"
+				"offset" "1 2"
+			}
 		}
-		BackpackItemBorder_4
+
+		Bottom
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorrarity4"
-
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_WhiteShadowDim"
+				"offset" "1 2"
+			}
 		}
-		BackpackItemMouseOverBorder_4
+	}
+	BackpackItemMouseOverBorder
+	{
+		"inset" "0 0 0 0"
+		Left
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorrarity4"
-
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_WhiteShadowDim"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_WhiteShadowDim"
+				"offset" "2 2"
+			}
 		}
-		BackpackItemBorder_Haunted
+
+		Right
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorHaunted"
-
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_WhiteShadowDim"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_WhiteShadowDim"
+				"offset" "1 1"
+			}
 		}
-		BackpackItemMouseOverBorder_Haunted
+
+		Top
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorHaunted"
-
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_WhiteShadowDim"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_WhiteShadowDim"
+				"offset" "1 2"
+			}
 		}
-		BackpackItemBorder_Vintage
+
+		Bottom
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorVintage"
-
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_WhiteShadowDim"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_WhiteShadowDim"
+				"offset" "1 2"
+			}
 		}
-		BackpackItemMouseOverBorder_Vintage
+	}
+	BackpackItemSelectedBorder
+	{
+		"inset" "0 0 0 0"
+		Left
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorVintage"
-
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_White"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_White"
+				"offset" "2 2"
+			}
+			"3"
+			{
+				"color" "G_White"
+				"offset" "3 3"
+			}
 		}
-		BackpackItemBorder_Community
+
+		Right
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorCommunity"
-
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "185 185 185 255"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "185 185 185 255"
+				"offset" "1 1"
+			}
+			"3"
+			{
+				"color" "185 185 185 255"
+				"offset" "2 2"
+			}
 		}
-		BackpackItemMouseOverBorder_Community
+
+		Top
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorCommunity"
-
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_White"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_White"
+				"offset" "1 2"
+			}
+			"3"
+			{
+				"color" "G_White"
+				"offset" "2 3"
+			}
 		}
-		BackpackItemBorder_Developer
+
+		Bottom
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorDeveloper"
-
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "185 185 185 255"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "185 185 185 255"
+				"offset" "1 2"
+			}
+			"3"
+			{
+				"color" "185 185 185 255"
+				"offset" "2 3"
+			}
 		}
-		BackpackItemMouseOverBorder_Developer
+	}
+
+	BackpackItemGreyedOutBorder
+	{
+		"inset" "0 0 0 0"
+		Left
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorDeveloper"
-
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_Black"
+				"offset" "2 2"
+			}
 		}
-		BackpackItemBorder_SelfMade
+
+		Right
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorSelfMade"
-
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_Black"
+				"offset" "1 1"
+			}
 		}
-		BackpackItemMouseOverBorder_SelfMade
+
+		Top
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorSelfMade"
-
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_Black"
+				"offset" "1 2"
+			}
 		}
-		BackpackItemBorder_Customized
+
+		Bottom
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorCustomized"
-
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_Black"
+				"offset" "1 2"
+			}
 		}
-		BackpackItemMouseOverBorder_Customized
+	}
+
+	BackpackItemGreyedOutSelectedBorder
+	{
+		"inset" "0 0 0 0"
+		Left
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorCustomized"
-
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_Black"
+				"offset" "2 2"
+			}
+			"3"
+			{
+				"color" "G_Black"
+				"offset" "3 3"
+			}
 		}
-		BackpackItemBorder_Strange
+
+		Right
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorStrange"
-
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_Black"
+				"offset" "1 1"
+			}
+			"3"
+			{
+				"color" "G_Black"
+				"offset" "2 2"
+			}
 		}
-		BackpackItemMouseOverBorder_Strange
+
+		Top
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorStrange"
-
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_Black"
+				"offset" "1 2"
+			}
+			"3"
+			{
+				"color" "G_Black"
+				"offset" "2 3"
+			}
 		}
-		BackpackItemBorder_Completed
+
+		Bottom
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorCompleted"
-
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "G_Black"
+				"offset" "1 2"
+			}
+			"3"
+			{
+				"color" "G_Black"
+				"offset" "2 3"
+			}
 		}
-		BackpackItemMouseOverBorder_Completed
+	}
+
+	// Unique ------------------------------------------------------------------------------------------------
+	BackpackItemBorder_Unique
+	{
+		"inset" "0 0 0 0"
+		Left
 		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorCompleted"
-
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique"
+				"offset" "2 2"
+			}
 		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique"
+				"offset" "1 2"
+			}
+		}
+	}
+	BackpackItemMouseOverBorder_Unique
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorUnique"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorUnique"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorUnique"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorUnique"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutBorder_Unique
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+	BackpackItemGreyedOutSelectedBorder_Unique
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorUnique_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorUnique_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorUnique_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorUnique_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorUnique_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	// Rarity1 ------------------------------------------------------------------------------------------------
+	BackpackItemBorder_1
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1"
+				"offset" "1 2"
+			}
+		}
+	}
+	BackpackItemMouseOverBorder_1
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorrarity1"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorrarity1"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorrarity1"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorrarity1"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutBorder_1
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+	BackpackItemGreyedOutSelectedBorder_1
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorrarity1_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorrarity1_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorrarity1_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorrarity1_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity1_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	// Rarity2 ------------------------------------------------------------------------------------------------
+	BackpackItemBorder_2
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2"
+				"offset" "1 2"
+			}
+		}
+	}
+	BackpackItemMouseOverBorder_2
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorrarity2"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorrarity2"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorrarity2"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorrarity2"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutBorder_2
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+	BackpackItemGreyedOutSelectedBorder_2
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorrarity2_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorrarity2_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorrarity2_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorrarity2_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity2_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	// Rarity3 ------------------------------------------------------------------------------------------------
+	BackpackItemBorder_3
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3"
+				"offset" "1 2"
+			}
+		}
+	}
+	BackpackItemMouseOverBorder_3
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorrarity3"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorrarity3"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorrarity3"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorrarity3"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutBorder_3
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+	BackpackItemGreyedOutSelectedBorder_3
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorrarity3_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorrarity3_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorrarity3_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorrarity3_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity3_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	// Rarity4 ------------------------------------------------------------------------------------------------
+	BackpackItemBorder_4
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4"
+				"offset" "1 2"
+			}
+		}
+	}
+	BackpackItemMouseOverBorder_4
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorrarity4"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorrarity4"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorrarity4"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorrarity4"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutBorder_4
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+	BackpackItemGreyedOutSelectedBorder_4
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorrarity4_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorrarity4_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorrarity4_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorrarity4_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorrarity4_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	// Haunted ------------------------------------------------------------------------------------------------
+	BackpackItemBorder_Haunted
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemMouseOverBorder_Haunted
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorHaunted"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorHaunted"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorHaunted"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorHaunted"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutBorder_Haunted
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutSelectedBorder_Haunted
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorHaunted_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorHaunted_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorHaunted_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorHaunted_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorHaunted_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+
+
+
+	// Vintage ------------------------------------------------------------------------------------------------
+	BackpackItemBorder_Vintage
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemMouseOverBorder_Vintage
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorVintage"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorVintage"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorVintage"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorVintage"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutBorder_Vintage
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutSelectedBorder_Vintage
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorVintage_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorVintage_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorVintage_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorVintage_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorVintage_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+
+	// Community ------------------------------------------------------------------------------------------------
+	BackpackItemBorder_Community
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemMouseOverBorder_Community
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorCommunity"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorCommunity"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorCommunity"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorCommunity"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutBorder_Community
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutSelectedBorder_Community
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorCommunity_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorCommunity_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorCommunity_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorCommunity_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCommunity_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	// Developer ------------------------------------------------------------------------------------------------
+	BackpackItemBorder_Developer
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemMouseOverBorder_Developer
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorDeveloper"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorDeveloper"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorDeveloper"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorDeveloper"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutBorder_Developer
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutSelectedBorder_Developer
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorDeveloper_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorDeveloper_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorDeveloper_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorDeveloper_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorDeveloper_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	// SelfMade ------------------------------------------------------------------------------------------------
+	BackpackItemBorder_SelfMade
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemMouseOverBorder_SelfMade
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorSelfMade"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorSelfMade"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorSelfMade"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorSelfMade"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutBorder_SelfMade
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutSelectedBorder_SelfMade
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorSelfMade_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorSelfMade_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorSelfMade_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorSelfMade_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorSelfMade_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	// Customized ------------------------------------------------------------------------------------------------
+	BackpackItemBorder_Customized
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemMouseOverBorder_Customized
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorCustomized"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorCustomized"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorCustomized"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorCustomized"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutBorder_Customized
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutSelectedBorder_Customized
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorCustomized_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorCustomized_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorCustomized_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorCustomized_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCustomized_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	// Strange ------------------------------------------------------------------------------------------------
+	BackpackItemBorder_Strange
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemMouseOverBorder_Strange
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorStrange"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorStrange"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorStrange"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorStrange"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutBorder_Strange
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutSelectedBorder_Strange
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorStrange_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorStrange_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorStrange_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorStrange_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorStrange_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	// Completed ------------------------------------------------------------------------------------------------
+	BackpackItemBorder_Completed
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemMouseOverBorder_Completed
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorCompleted"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorCompleted"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorCompleted"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorCompleted"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutBorder_Completed
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "G_Black"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
+
+	BackpackItemGreyedOutSelectedBorder_Completed
+	{
+		"inset" "0 0 0 0"
+		Left
+		{
+			"1"
+			{
+				"color" "QualityColorCompleted_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted_GreyedOut"
+				"offset" "2 2"
+			}
+		}
+
+		Right
+		{
+			"1"
+			{
+				"color" "QualityColorCompleted_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted_GreyedOut"
+				"offset" "1 1"
+			}
+		}
+
+		Top
+		{
+			"1"
+			{
+				"color" "QualityColorCompleted_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+
+		Bottom
+		{
+			"1"
+			{
+				"color" "QualityColorCompleted_GreyedOut"
+				"offset" "0 0"
+			}
+			"2"
+			{
+				"color" "QualityColorCompleted_GreyedOut"
+				"offset" "1 2"
+			}
+		}
+	}
 		StoreItemBorder
 		{
 			"inset" "0 0 1 1"
