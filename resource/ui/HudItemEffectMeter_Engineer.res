@@ -92,4 +92,24 @@
 		"fgcolor"		"White"
 		"font"				"Regular21"
 	}
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ItemEffectMeterCount"
+		"xpos"			"c-43"
+		"ypos"			"c141"
+		"zpos"					"1"
+		"wide"					"90"
+		"tall"					"26"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"fgcolor"		"HudShadow"
+		"font"				"Regular21"
+	}
 }
