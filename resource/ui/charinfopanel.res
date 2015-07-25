@@ -150,7 +150,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-295"
+		"xpos"			"c-290"
 		"ypos"			"447"
 		"zpos"			"2"
 		"wide"			"100"
@@ -177,7 +177,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c210"
+		"xpos"			"c187"
 		"ypos"			"447"
 		"zpos"			"2"
 		"wide"			"100"

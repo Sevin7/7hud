@@ -346,7 +346,7 @@
 			"bgcolor_override"		"0 0 0 100"
 
 			"BarChartComboA"
-			{Q
+			{
 				"ControlName"		"ComboBox"
 				"fieldName"		"BarChartComboA"
 				"xpos"		"c-285"

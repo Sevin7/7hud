@@ -28,6 +28,13 @@
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
 	}
+    "PlayCompButton"
+    {
+        "label" "Competitive" 
+        "command" "ladder_ui_show"
+        "subimage" "glyph_practice"
+        "OnlyAtMenu" "1"
+    }	
 	"ServerBrowserButton"
 	{
 		"label" "Servers"
@@ -81,7 +88,7 @@
 	}
 	"Version"
 	{
-		"label" "7HUD v4.14"
+		"label" "7HUD v4.20"
 		"command"		"engine toggleconsole;
 			play vo/pauling/plng_contract_complete_allclass_25.mp3;
 			echo -------------------------------------------------------------------------------;

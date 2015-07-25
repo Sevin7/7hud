@@ -7,8 +7,8 @@
 		"xpos"		"64"		[$OSX]
 		"xpos"		"54"		[!$OSX]	
 		"ypos"		"133"		[$OSX]
-		"ypos"		"135"		[!$OSX]	
-		"zpos"		"1"
+		"ypos"		"136"		[!$OSX]	
+		"zpos"		"4"
 		"wide"		"106"		[$OSX]
 		"wide"		"120"		[!$OSX]
 		"tall"		"45"
@@ -17,6 +17,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"defaultBgColor_Override"		"HudBGStatus"
+		"border_default"				"noborder"		
 		"PaintBackgroundType""0"
         "textinsety" "99"
     }
@@ -43,7 +44,7 @@
 		"fieldName"	 "PlayerStatusHealthValueShadow"	
 		"xpos"	 "10"	
 		"ypos"	 "131"	
-		"zpos"	 "4"	
+		"zpos"	 "3"	
 		"wide"	 "159"	
 		"tall"	 "56"	
 		"visible"	 "1"	

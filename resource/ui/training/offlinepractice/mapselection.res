@@ -163,13 +163,17 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"border_default"	"quickplayborder"
+		"border_armed"		"quickplayborder"
+		"paintbackground"	"1"
+			
+		"defaultBgColor_override"	"Select"
+		"armedBgColor_override"		"ButtonBG"
+		"depressedBgColor_override"	"ButtonBG"
+			
+		"defaultFgColor_override" "235 235 235 255"
+		"armedFgColor_override" "250 250 250 255"
+		"depressedFgColor_override" "250 250 250 255"
 	}
 	
 	"DifficultyLabel"

@@ -56,7 +56,7 @@ HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
 #if HudPosition == "Lowered"
 {
 	Copy("resource\lowered\HudMedicCharge.res", "resource\ui\HudMedicCharge.res");
-	Copy("scripts\hudlayout - Lowered.res", "scripts\hudlayout.res");
+	Copy("resource\lowered\hudlayout.res", "scripts\hudlayout.res");
 	Copy("resource\lowered\HudDamageAccount.res", "resource\ui\HudDamageAccount.res");
 	Copy("resource\lowered\HudPlayerHealth.res", "resource\ui\HudPlayerHealth.res");
 	Copy("resource\lowered\huddemomanpipes.res", "resource\ui\huddemomanpipes.res");
@@ -78,7 +78,7 @@ HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
 #else
 {
 	Copy("resource\centered\HudMedicCharge.res", "resource\ui\HudMedicCharge.res");
-	Copy("scripts\hudlayout - Centered.res", "scripts\hudlayout.res");
+	Copy("resource\centered\hudlayout.res", "scripts\hudlayout.res");
 	Copy("resource\centered\HudDamageAccount.res", "resource\ui\HudDamageAccount.res");
 	Copy("resource\centered\HudPlayerHealth.res", "resource\ui\HudPlayerHealth.res");
 	Copy("resource\centered\huddemomanpipes.res", "resource\ui\huddemomanpipes.res");

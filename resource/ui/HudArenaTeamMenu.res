@@ -89,7 +89,7 @@
 		"font"			"Medium14"
 		"fgcolor"		"White"		//215 55 54 255
 		"defaultFgColor_override" "White"	//RedTeamS"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "Highlight"
 	}
 	
 	"teambutton3"
@@ -116,7 +116,7 @@
 		"font"			"Medium14"
 		"fgcolor"		"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Select"
+		"armedFgColor_override" "Highlight"
 	}
 	
 	"CancelButton" [$WIN32] 
@@ -390,8 +390,8 @@
 		
 		"button"
 		{
-			"name"		"select"
-			"text"		"#GameUI_Select"
+			"name"		"Highlight"
+			"text"		"#GameUI_Highlight"
 			"icon"		"#GameUI_Icons_A_BUTTON"	
 		}
 	}	

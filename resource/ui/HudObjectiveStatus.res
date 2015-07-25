@@ -27,11 +27,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TimePanelValue"
-		"font"			"Bold11"
+		"font"			"Bold12"
 		"fgcolor"		"White"
 		"xpos"			"32"
-		"ypos"			"-2"		[$OSX]
-		"ypos"			"-4"		[$WIN32]		
+		"ypos"			"-1"		[$OSX]
+		"ypos"			"-3"		[$WIN32]		
 		"zpos"			"3"
 		"wide"			"88"
 		"tall"			"22"

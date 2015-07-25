@@ -6,7 +6,7 @@
 		"fieldName"		"AmmoBG"
 		"xpos"		"49"
 		"ypos"		"3"					[$OSX]
-		"ypos"		"5"					[!$OSX]		
+		"ypos"		"7"					[!$OSX]		
 		"zpos"		"4"
 		"wide"		"116"				[$OSX]
 		"wide"		"120"				[!$OSX]		
@@ -16,6 +16,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"defaultBgColor_Override"		"HudBGStatus"
+		"border_default"				"noborder"		
 		"PaintBackgroundType""0"
         "textinsety" "99"
     }
@@ -26,7 +27,7 @@
 		"font"			"Heavy48"		[$OSX]
 		"font"			"Heavy56"		[!$OSX]
 		"fgcolor"		"Ammo"
-		"xpos"	"53"						//1
+		"xpos"	"56"						//1
 		"ypos"	"0"						//0		
 		"zpos"			"7"
 		"wide"	"71" 
@@ -44,7 +45,7 @@
 		"font"			"Heavy28"			[$OSX]
 		"font"			"Heavy32"			[!$OSX]		
 		"fgcolor"		"AmmoReserve"
-		"xpos"	"40"							//104
+		"xpos"	"43"							//104
 		"ypos"			"0"					//9
 		"zpos"			"5"
 		"wide"			"120"
@@ -62,7 +63,7 @@
 		"font"			"Heavy48"		[$OSX]
 		"font"			"Heavy56"		[!$OSX]
 		"fgcolor"		"Ammo"
-		"xpos"	"53"					//67
+		"xpos"	"56"					//67
 		"ypos"	"0"
 		"zpos"			"5"
 		"wide"	"100" 					[$OSX]
@@ -80,7 +81,7 @@
 	"font"	 "Heavy48"				[$OSX]
 	"font"	 "Heavy56"				[!$OSX]
 	"fgcolor"	 "HudShadow"	
-	"xpos"	 "54"	
+	"xpos"	 "57"	
 	"ypos"	 "2"	
 	"zpos"	 "3"	
 	"wide"	"71" 
@@ -98,9 +99,9 @@
 	"font"	 "Heavy28"					[$OSX]
 	"font"	 "Heavy32"					[!$OSX]		
 	"fgcolor"	 "HudShadow"	
-	"xpos"	 "41"	
+	"xpos"	 "44"	
 	"ypos"	 "1"	
-	"zpos"	 "4"	
+	"zpos"	 "3"	
 	"wide"	 "120"	
 	"tall"	 "42"	
 	"visible"	 "0"	
@@ -116,7 +117,7 @@
 	"font"	 "Heavy48"				[$OSX]
 	"font"	 "Heavy56"				[!$OSX]
 	"fgcolor"	 "HudShadow"	
-	"xpos"	"54"					
+	"xpos"	"57"					
 	"ypos"	"1"
 	"zpos"	"3"
 	"wide"	"100" 					[$OSX]

@@ -17,9 +17,9 @@
 			"tabPosition"	"0"
 			"font"			"HudFontSmallBP"
 			"textAlignment"	"center"
-			"textinsetx"	"0"
+			"textinsetx"	"0"					
 			"textinsety"	"3"		[$OSX]
-			"textinsety"	"1"		[$WIN32]
+			"textinsety"	"-1"		[$WIN32]
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		""

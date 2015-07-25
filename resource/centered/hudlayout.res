@@ -44,18 +44,18 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r631"	
-		"ypos"	 "0"	
+		"ypos"	 "5"	
 		"wide"	 "628"
 		"tall"	 "468"
 
 		"MaxDeathNotices" "12"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "11"
+		"IconScale"	  "0.3"
+		"LineHeight"	  "13"
 		"LineSpacing"	  "1"
 		"CornerRadius"	  "1"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Regular8"
+		"TextFont"		"Regular10"
 		
 		"TeamBlue"		"91 122 140 255"
 		"TeamRed"		"189 59 59 255"
@@ -655,8 +655,8 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c35"
-		"ypos"	"r150"
+		"xpos"	"c41"
+		"ypos"	"r152"
 		"wide"	"200"
 		"tall"	"80"
 	}
@@ -703,8 +703,8 @@
 		"fieldName"		"HudMedicCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"			"0"		//c-95
-		"ypos"			"0"		//"r164"	
+		"xpos"			"5"		//c-95
+		"ypos"			"2"		//"r164"	
 		"wide"			"f0"		
 		"tall"			"600"		//100
 		"MeterFG"		"White"
@@ -1372,10 +1372,10 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-120"		
-		"ypos"					"225"		//0
+		"xpos"					"c-360"		
+		"ypos"					"r132"
 		"wide"					"f0"
-		"tall"					"480"
+		"tall"					"132"
 	}
 
 	ArenaWinPanel
@@ -1383,10 +1383,10 @@
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-180"
-		"ypos"					"225"
+		"xpos"					"c-360"
+		"ypos"					"r132"
 		"wide"					"f0"
-		"tall"					"480"
+		"tall"					"132"
 	}
 
 	PVEWinPanel
@@ -1758,7 +1758,7 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"0"
+		"xpos"					"r190"
 		"ypos"					"0"
 		"zpos"					"10"
 		"wide"					"270"
@@ -1899,4 +1899,27 @@ ItemQuickSwitchPanel
 		"wide" 			"f0"
 		"tall" 			"480"
 	}
+
+	"QuestNotificationPanel"
+	{
+		"fieldName"	"QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	"QuestLogContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"QuestLogContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}		
 }

@@ -5,16 +5,17 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"MedicBG"
 		"xpos"		"c100"		[$OSX]
-		"xpos"		"c88"		[!$OSX]		
-		"ypos"		"332"
-		"zpos"		"1"
-		"wide"		"101"
-		"tall"		"43"
+		"xpos"		"c85"		[!$OSX]		
+		"ypos"		"333"
+		"zpos"		"2"
+		"wide"		"120"
+		"tall"		"45"
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"defaultBgColor_Override"		"HudBGStatus"
+		"border_default"				"noborder"		
 		"PaintBackgroundType""0"
         "textinsety" "99"
 	}
@@ -86,7 +87,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PercentLabel"
 		"xpos"	        "c82"
-		"ypos"			"335"
+		"ypos"			"336"
 		"zpos"			"5"
 		"wide"			"94"
 		"tall"			"15"
@@ -100,15 +101,15 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"DataLabelBig"
-		"fgcolor"		"BuildingUber"
+		"fgcolor"		"Health"
 	}
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"xpos"			"c92"
-		"ypos"			"325"	
-		"zpos"			"2"
+		"ypos"			"326"	
+		"zpos"			"3"
 		"wide"			"159"	
 		"tall"			"57"	
 		"autoResize"	"1"
@@ -122,14 +123,14 @@
 		"brighttext"	"0"
 		"font"			"Heavy48"		[$OSX]
 		"font"			"Heavy56"		[!$OSX]		
-		"fgcolor"		"BuildingUber"
+		"fgcolor"		"Health"
 	}
 	"ChargeLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
 		"xpos"			"c93"
-		"ypos"			"326"	
+		"ypos"			"327"	
 		"zpos"			"1"
 		"wide"			"159"	
 		"tall"			"57"	
@@ -216,7 +217,7 @@
 		"enabled"		"1"
 		"textAlignment"	"Left"
 		"bgcolor_override" "HudBG"
-		"fgcolor_override" "BuildingUber"
+		"fgcolor_override" "Health"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}

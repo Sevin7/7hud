@@ -22,7 +22,7 @@
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
-		"titletextinsetY"	"0"
+		"titletextinsetY"	"-40"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
@@ -31,23 +31,6 @@
 		"sheetinset_bottom"				"40"
 	}
 	
-	"BackgroundHeaderCustom"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundHeader2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"f0"
-		"tall"			"120"
-		"visible"		"1"
-		"enabled"		"1"
-		"pinCorner"		"0"
-		"autoResize"	"0"
-		"PaintBackgroundType"	"2"
-		"border"				"NoBorder"
-		"bgcolor_override"		"32 32 32 255"
-	}
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -61,16 +44,16 @@
 		"enabled"		"0"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}
-	"BackgroundFooterCustom"
+	}	
+	"BackgroundHeaderCustom"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundFooter2"
+		"fieldName"		"BackgroundHeader2"
 		"xpos"			"0"
-		"ypos"			"420"
-		"zpos"			"1"
+		"ypos"			"0"
+		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"162"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"pinCorner"		"0"
@@ -78,7 +61,7 @@
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
 		"bgcolor_override"		"32 32 32 255"
-	}	
+	}		
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -92,7 +75,24 @@
 		"enabled"		"0"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-	}				
+	}
+	"BackgroundFooterCustom"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundFooter2"
+		"xpos"			"0"
+		"ypos"			"437"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"43"
+		"visible"		"1"
+		"enabled"		"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"PaintBackgroundType"	"2"
+		"border"				"NoBorder"
+		"bgcolor_override"		"32 32 32 255"
+	}		
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -106,16 +106,16 @@
 		"enabled"		"0"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}				
+	}		
 	
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"10"
-		"tabxdelta"		"3"
-		"tabxfittotext"	"1"
-		"tabheight"		"34"
+		"tabxindent"	"5"
+		"tabxdelta"		"0"
+		"tabwidth"		"100"
+		"tabheight"		"25"
 		"transition_time" "0"
 		
 		"HeaderLine"
@@ -128,31 +128,21 @@
 			"wide"			"f0"
 			"tall"			"10"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
 		}				
 		
 		"tabskv"
 		{
-			"textinsetx"		"6"
-			"textinsety"		"7"
-			"textAlignment"		"center"
-			"font"				"Heavy20"
-			"defaultBgColor_override"	"46 43 42 255"
+			"textinsetx"		"5"
+			"font"				"Heavy12"
 			"selectedcolor"		"HudWhite"
 			"unselectedcolor"	"95 95 95 255"	
-			"paintbackground"	"1"
-			"activeborder_override"	"BPBorder"
-			"normalborder_override" "BPBorder"
-			
-			"fgcolor"	"55 53 52 255"
-			"defaultBgColor_override" "46 43 42 255"
-			"defaultFgColor_override" "95 95 95 255"
-			"armedBgColor_override" "32 32 32 255"
-			"armedFgColor_override" "HudWhite"
-			"selectedBgColor_override" "46 43 42 255"
-			"selectedFgColor_override"	"46 43 42 255"
+			"defaultBgColor_override"	"42 42 42 255"
+			"paintbackground"	"0"
+			"activeborder_override"	""
+			"normalborder_override" ""
 		}
 	}
 	
@@ -161,7 +151,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"c-300"
-		"ypos"			"437"
+		"ypos"			"447"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"23"
@@ -253,7 +243,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CheckoutButton"
 		"xpos"			"c170"
-		"ypos"			"437"
+		"ypos"			"447"
 		"zpos"			"5"
 		"wide"			"130"
 		"tall"			"23"

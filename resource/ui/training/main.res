@@ -126,6 +126,18 @@
 			"Command"		"prevpage"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	""
+			"border_armed"		"quickplayborder"
+			"paintbackground"	"1"
+			
+			"defaultBgColor_override"	"Blank"
+			"armedBgColor_override"		"ButtonBG"
+			"depressedBgColor_override"	"ButtonBG"
+			
+			"defaultFgColor_override" "235 235 235 255"
+			"armedFgColor_override" "250 250 250 255"
+			"depressedFgColor_override" "250 250 250 255"			
 		}	
 		
 		"CancelButton"
@@ -150,6 +162,18 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	""
+			"border_armed"		"quickplayborder"
+			"paintbackground"	"1"
+			
+			"defaultBgColor_override"	"Blank"
+			"armedBgColor_override"		"ButtonBG"
+			"depressedBgColor_override"	"ButtonBG"
+			
+			"defaultFgColor_override" "235 235 235 255"
+			"armedFgColor_override" "250 250 250 255"
+			"depressedFgColor_override" "250 250 250 255"			
 		}			
 		
 		"ModeSelectionPanel"

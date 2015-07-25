@@ -9,12 +9,13 @@
 		"ypos"		"6"					[!$OSX]		
 		"zpos"		"4"
 		"wide"		"30"
-		"tall"		"12"				
+		"tall"		"13"				
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"defaultBgColor_Override"		"HudBGStatus"
+		"border_default"				"noborder"
 		"PaintBackgroundType""0"
         "textinsety" "99"
 	}

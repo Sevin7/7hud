@@ -17,6 +17,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"defaultBgColor_Override"		"HudBGStatus"
+		"border_default"				"noborder"		
 		"PaintBackgroundType""0"
         "textinsety" "99"
     }

@@ -219,7 +219,7 @@
 				"scaleImage"	"1"
 			}	
 		}		
-	}	
+	}
 	"Scoreboard"
 	{
 		"ControlName"	"EditablePanel"
@@ -1960,7 +1960,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuickplayButton"
 		"xpos"			"65"
-		"ypos"			"121"
+		"ypos"			"107"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"14"
@@ -2146,7 +2146,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayPVEButton"
 		"xpos"			"65"
-		"ypos"			"135"
+		"ypos"			"121"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"14"
@@ -2202,6 +2202,70 @@
 			}
 		}
 	}
+	
+    "PlayCompButton"
+    {
+        "ControlName"   "EditablePanel"
+        "fieldname"     "PlayCompButton"
+        "xpos"          "65"
+        "ypos"          "135"
+        "zpos"          "11"
+        "wide"          "100"
+        "tall"          "14"
+        "visible"       "1"
+        "enabled"       "1"
+        "PaintBackgroundType"   "0"
+
+
+        "SubButton"
+        {
+            "ControlName"   "CExImageButton"
+            "fieldName"     "SubButton"
+            "xpos"          "0"
+            "ypos"          "0"
+            "wide"          "100"
+            "tall"          "14"
+            "autoResize"    "0"
+            "pinCorner"     "3"
+            "visible"       "1"
+            "enabled"       "1"
+            "tabPosition"   "0"
+            "textinsetx"    "0"
+            "use_proportional_insets" "1"
+            "font"          "Regular8"
+            "textAlignment" "west"
+            "dulltext"      "0"
+            "brighttext"    "0"
+            "default"       "1"
+            "sound_depressed"   "UI/buttonclick.wav"
+            "sound_released"    "UI/buttonclickrelease.wav"
+            
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "OmpText"
+			"armedFgColor_override" "35 219 247 255"
+			"depressedFgColor_override" "35 219 247 255"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+
+            "SubImage"
+            {
+                "ControlName"   "ImagePanel"
+                "fieldName"     "SubImage"
+                "xpos"          "9999"
+                "ypos"          "9999"
+                "zpos"          "1"
+                "wide"          "14"
+                "tall"          "14"
+                "visible"       "1"
+                "enabled"       "1"
+                "scaleImage"    "1"
+            }
+        }
+    }	
 		
 	"ServerBrowserButton"
 	{
