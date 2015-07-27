@@ -1,6 +1,7 @@
-====
+============
 7HUD
-====
+============
+
 To install:
 
 	- Download via the "Download ZIP" button on the right side of the github page. 
@@ -44,12 +45,26 @@ BINDING 2 FAVORITE SERVERS TO MENU BUTTONS W/ 4PLUG:
 	- Change server IP’s and passwords to correct values.
 	- If there is no password, simply don’t put anything in the password box.
 	- DO NOT CHANGE THE TEXT VALUE, LEAVE IT AS 7 AND 6. These are the labels of the icons on the main menu.
+	
+------------------------------------------------------
+SETTING THE 3D MODEL POSITION W/ 4PLUG:
+------------------------------------------------------	
+
+	- Open 4Plug and click the settings button (the one next to the  bank of 4 buttons)
+	- Click the drop down under “3D Model Position” and select the desired position
+	- Click apply and launch TF2 OR if you're already in-game, alt-tab back in and input "hud_reloadscheme" into console.
 
 ------------------------------------------------------
+HAVE A 4:3 MONITOR? LET 4PLUG KNOW:
 ------------------------------------------------------
+
+	- Open 4Plug and click the settings button (the one next to the  bank of 4 buttons)
+	- Tick the box next to "Is your aspect ratio 4:3?" 
+	- Click apply and launch TF2 OR if you're already in-game, alt-tab back in and input "hud_reloadscheme" into console.	
+
+===========
 CUSTOMIZING
-------------------------------------------------------
-------------------------------------------------------
+===========
 
 FOG'S CROSSHAIRS:
 	
@@ -98,6 +113,7 @@ CHAT BOX:
 SCOREBOARD:
 
 	To change scoreboard to 6v6, simply hit click the "Scoreboard" button on the main menu or the in-game menu.
+	To revert to 9v9+, simply click the button again.
 
 ------------------------------------------------------
 
@@ -121,11 +137,9 @@ KILLFEED:
 
 You can enable a background for the KILLFEED in the CLIENTSCHEME 
 
-------------------------------------------------------
-------------------------------------------------------
+========================
 PERSONAL TROUBLESHOOTING
-------------------------------------------------------
-------------------------------------------------------
+========================
 
 SCOREBOARD PING CLIPPING:
 
@@ -135,11 +149,9 @@ SCOREBOARD PING CLIPPING:
 	4. You can also change the "name_width" and/or "score_width" values I move it over more all-togetherly
 
 
-------------------------------------------------------
-------------------------------------------------------
+========================
 RECOMMENDED OPTIONS
-------------------------------------------------------
-------------------------------------------------------
+========================
 
 CHANGE NET_GRAPH SIZE IF YOU USE IT:
 
