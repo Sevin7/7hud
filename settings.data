@@ -14,9 +14,6 @@ GlobalComboBox("HudPosition", "Hud Position")
 [Name:Chat, Default:Top]
 DynamicFileSwitcher("resource\ui\BaseChat.res", "Chat Position");
 
-[Name:4by3, Default:False]
-GlobalCheckBox("4by3", "", "Is your aspect ratio 4:3?");
-
 [Name:3d model pos, Default:Left]
 GlobalComboBox("3d", "3D Model Position")
 {
@@ -96,27 +93,4 @@ HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
 	Copy("resource\centered\huditemeffectmeter_spy.res", "resource\ui\Huditemeffectmeter_spy.res");
 	Copy("resource\centered\huditemeffectmeter_spyknife.res", "resource\ui\huditemeffectmeter_spyknife.res");
 	Copy("resource\centered\huditemeffectmeter.res", "resource\ui\huditemeffectmeter.res");
-}
-
-#if 4by3 == "true"
-{
-	Copy("resource\4by3\backpackpanel - 4by3.res", "resource\ui\econ\backpackpanel.res");
-	Copy("resource\4by3\hud_obj_dispenser - 4by3.res", "resource\ui\hud_obj_dispenser.res");
-	Copy("resource\4by3\hud_obj_sentrygun - 4by3.res", "resource\ui\hud_obj_sentrygun.res");
-	Copy("resource\4by3\hud_obj_sentrygun_disp - 4by3.res", "resource\ui\hud_obj_sentrygun_disp.res");
-	Copy("resource\4by3\hud_obj_tele_entrance - 4by3.res", "resource\ui\huddemomanpipes.res");
-	Copy("resource\4by3\hud_obj_tele_exit - 4by3.res", "resource\ui\hud_obj_tele_entrance.res");
-	Copy("resource\4by3\mvmscoreboard - 4by3.res", "resource\ui\mvmscoreboard.res");
-	Copy("resource\4by3\huditemeffectmeter_killstreak - 4by3.res", "resource\ui\huditemeffectmeter_killstreak.res");
-}
-#else
-{
-	Copy("resource\4by3\backpackpanel - others.res", "resource\ui\econ\backpackpanel.res");
-	Copy("resource\4by3\hud_obj_dispenser - others.res", "resource\ui\hud_obj_dispenser.res");
-	Copy("resource\4by3\hud_obj_sentrygun - others.res", "resource\ui\hud_obj_sentrygun.res");
-	Copy("resource\4by3\hud_obj_sentrygun_disp - others.res", "resource\ui\hud_obj_sentrygun_disp.res");
-	Copy("resource\4by3\hud_obj_tele_entrance - others.res", "resource\ui\hud_obj_tele_entrance.res");
-	Copy("resource\4by3\hud_obj_tele_exit - others.res", "resource\ui\hud_obj_tele_exit.res");
-	Copy("resource\4by3\mvmscoreboard - others.res", "resource\ui\mvmscoreboard.res");
-	Copy("resource\4by3\huditemeffectmeter_killstreak - others.res", "resource\ui\huditemeffectmeter_killstreak.res");
 }

@@ -54,14 +54,6 @@ SETTING THE 3D MODEL POSITION W/ 4PLUG:
 	- Click the drop down under “3D Model Position” and select the desired position
 	- Click apply and launch TF2 OR if you're already in-game, alt-tab back in and input "hud_reloadscheme" into console.
 
-------------------------------------------------------
-HAVE A 4:3 MONITOR? LET 4PLUG KNOW:
-------------------------------------------------------
-
-	- Open 4Plug and click the settings button (the one next to the  bank of 4 buttons)
-	- Tick the box next to "Is your aspect ratio 4:3?" 
-	- Click apply and launch TF2 OR if you're already in-game, alt-tab back in and input "hud_reloadscheme" into console.	
-
 ===========
 CUSTOMIZING
 ===========

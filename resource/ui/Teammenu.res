@@ -49,9 +49,9 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"mapname"
-		"xpos"			"c-100"
+		"xpos"			"c-150"
 		"ypos"			"c-150"
-		"wide"			"200"
+		"wide"			"300"
 		"tall"			"60"
 		"autoResize"	"0"
 		"pinCorner"		"0"
