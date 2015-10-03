@@ -88,7 +88,7 @@
 	}
 	"Version"
 	{
-		"label" "7HUD v4.21"
+		"label" "7HUD v4.22"
 		"command"		"engine toggleconsole;
 			play vo/pauling/plng_contract_complete_allclass_25.mp3;
 			echo -------------------------------------------------------------------------------;
