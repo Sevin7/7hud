@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_tele_exit.res"
+"Resource/UI/hud_obj_tele_entrance.res"
 {
 	"BuildingStatusItem"
 	{
@@ -25,7 +25,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	"Icon_Teleport_Exit"
+	"Icon_Teleport_Entrance"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
@@ -36,7 +36,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"obj_status_tele_exit"
+		"icon"			"obj_status_tele_entrance"
 		"iconColor"		"228 228 242 255"
 	}
 	"NotBuiltPanel"
@@ -99,7 +99,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"#Building_hud_tele_exit_not_built"
+			"labelText"		"#Building_hud_tele_enter_not_built"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"

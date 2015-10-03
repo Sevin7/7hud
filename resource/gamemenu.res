@@ -88,9 +88,9 @@
 	}
 	"Version"
 	{
-		"label" "7HUD v4.22"
+		"label" "7HUD v4.23"
 		"command"		"engine toggleconsole;
-			play vo/pauling/plng_contract_complete_allclass_25.mp3;
+			play vo/scout_award12.mp3
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;
