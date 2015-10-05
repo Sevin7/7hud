@@ -88,7 +88,7 @@
 	}
 	"Version"
 	{
-		"label" "7HUD v4.23"
+		"label" "7HUD v4.24"
 		"command"		"engine toggleconsole;
 			play vo/scout_award12.mp3
 			echo -------------------------------------------------------------------------------;

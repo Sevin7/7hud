@@ -60,7 +60,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ChatMiniFont"
+		"font"			"Regular9"
 		"fgcolor"			"Health"
 	}			
 	"WaitingForPlayersBG"
@@ -96,7 +96,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ChatMiniFont"
+		"font"			"Regular9"
 		"fgcolor"			"Health"
 	}			
 	"OvertimeBG"
@@ -131,7 +131,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ChatMiniFont"
+		"font"			"Regular9"
 		"fgcolor"			"Health"
 	}			
 	"SuddenDeathBG"
@@ -166,7 +166,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ChatMiniFont"
+		"font"			"Regular9"
 		"fgcolor"			"Health"
 	}	
 	"SetupBG"

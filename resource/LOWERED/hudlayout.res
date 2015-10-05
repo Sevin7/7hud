@@ -682,7 +682,7 @@
 		"wide"	"300"
 		"tall"	"480"
 		
-		"blue_active_xpos"			"103"
+		"blue_active_xpos"			"110"
 		"red_active_xpos"			"211"
 	}	
 
@@ -1883,8 +1883,8 @@ ItemQuickSwitchPanel
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-235"
-		"ypos"			"c-85"
-		"wide"			"470"
+		"ypos"			"c-0"
+		"wide"			"490"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}

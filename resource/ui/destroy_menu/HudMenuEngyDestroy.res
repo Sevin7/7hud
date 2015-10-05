@@ -5,13 +5,45 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"102"
-		"ypos"			"52"
+		"ypos"			"63"
 		"zpos"			"0"
 		"wide"			"245"
-		"tall"			"82"
+		"tall"			"74"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"46 43 42 150"
+		"fillcolor"		"ButtonBGT"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+	}
+	
+	"Background2"	
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Background2"
+		"xpos"			"107"
+		"ypos"			"83"
+		"zpos"			"0"
+		"wide"			"235"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"ButtonBGT"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+	}	
+	
+	"TopTrim"	
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TopTrim"
+		"xpos"			"102"
+		"ypos"			"63"
+		"zpos"			"0"
+		"wide"			"245"
+		"tall"			"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"RedSolid"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 	}
@@ -57,9 +89,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Regular8"
-		"xpos"			"102"			// align me to the left edge of the first selection
-		"ypos"			"44"
+		"font"			"Regular16"
+		"xpos"			"107"			// align me to the left edge of the first selection
+		"ypos"			"56"
 		"zpos"			"2"
 		"wide"			"244"
 		"tall"			"34"
@@ -68,8 +100,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_menu_demolish_title"
-		"textAlignment"	"center"
-		"fgcolor"	"White"
+		"textAlignment"	"west"
+		"fgcolor"	"WhiteS"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}

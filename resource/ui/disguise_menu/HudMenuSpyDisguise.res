@@ -11,10 +11,26 @@
 		"tall"			"85"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HudBG"
+		"fillcolor"		"ButtonBGT"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 	}
+	
+	"Background2"	
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Background2"
+		"xpos"			"88"
+		"ypos"			"80"
+		"zpos"			"0"
+		"wide"			"290"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"ButtonBGT"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+	}	
 	
 	"TitleLabel"
 	{	
@@ -22,7 +38,7 @@
 		"fieldName"		"TitleLabel"
 		"font"			"Medium16"
 		"fgcolor"			"White"
-		"xpos"			"83"			// align me to the left edge of the first selection
+		"xpos"			"88"			// align me to the left edge of the first selection
 		"ypos"			"54"
 		"zpos"			"3"
 		"wide"			"300"
@@ -32,7 +48,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -42,17 +58,17 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToggleLabel"
 		"font"			"Medium8"
-		"xpos"			"94"
-		"ypos"			"68"
+		"xpos"			"177"
+		"ypos"			"60"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Spy_Minus_Toggle"
-		"textAlignment"	"west"
+		"textAlignment"	"east"
 		"fgcolor"			"White"
 		"dulltext"		"0"
 		"brighttext"	"0"

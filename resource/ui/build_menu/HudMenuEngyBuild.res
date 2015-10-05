@@ -5,16 +5,48 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LabelsBG"
 		"xpos"			"102"
-		"ypos"			"52"
+		"ypos"			"63"
 		"zpos"			"0"
 		"wide"			"245"
-		"tall"			"82"
+		"tall"			"74"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"255 255 255 25"
+		"fillcolor"		"ButtonBGT"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 	}
+	
+	"LabelsBG2"	
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LabelsBG2"
+		"xpos"			"107"
+		"ypos"			"83"
+		"zpos"			"0"
+		"wide"			"235"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"ButtonBGT"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+	}
+
+	"TopTrim"	
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TopTrim"
+		"xpos"			"102"
+		"ypos"			"63"
+		"zpos"			"0"
+		"wide"			"245"
+		"tall"			"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"GreenSolid"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+	}	
 	
 	"BuildIcon"	
 	{
@@ -52,9 +84,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Regular8"
-		"xpos"			"102"			// align me to the left edge of the first selection
-		"ypos"			"44"
+		"font"			"Regular16"
+		"xpos"			"107"			// align me to the left edge of the first selection
+		"ypos"			"56"
 		"zpos"			"2"
 		"wide"			"244"
 		"tall"			"34"
@@ -63,8 +95,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_menu_build_title"
-		"textAlignment"	"center"
-		"fgcolor"	"Black"
+		"textAlignment"	"west"
+		"fgcolor"	"WhiteS"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -74,7 +106,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
-		"fgcolor"	"Black"
+		"fgcolor"	"WhiteS"
 		"xpos"			"51"
 		"ypos"			"57"
 		"zpos"			"1"
