@@ -88,9 +88,9 @@
 	}
 	"Version"
 	{
-		"label" "7HUD v4.24"
+		"label" "7HUD v4.25"
 		"command"		"engine toggleconsole;
-			play vo/scout_award12.mp3
+			play ui/hitsound_vortex3.wav
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;

@@ -420,6 +420,10 @@
 		//{
 			//"image"		"../console/title_eotl01"
 		//}
+		if_community_update
+		{
+			"image"		"../console/title_invasion"
+		}
 	}
 					
 	"TFLogoImage"
