@@ -35,7 +35,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"Notification_Label"
-		"font"			"ChatMiniFont"
+		"font"			"Regular11"
 		"fgcolor_override" "Health"
 		"xpos"			"20"
 		"ypos"			"20"
