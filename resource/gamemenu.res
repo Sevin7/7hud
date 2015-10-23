@@ -88,7 +88,7 @@
 	}
 	"Version"
 	{
-		"label" "7HUD v4.25"
+		"label" "7HUD v4.26"
 		"command"		"engine toggleconsole;
 			play ui/hitsound_vortex3.wav
 			echo -------------------------------------------------------------------------------;

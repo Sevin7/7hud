@@ -4491,6 +4491,16 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		"ScoreboardMediumSmall2"
+		{
+			"1"
+			{
+				"name"		"Clear Sans Bold"
+				"tall"		"18"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 		"ScoreboardMedium"
 		{
 			"1"

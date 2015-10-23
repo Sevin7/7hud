@@ -391,7 +391,7 @@
 		"button"
 		{
 			"name"		"Highlight"
-			"text"		"#GameUI_Highlight"
+			"text"		"#GameUI_Select"
 			"icon"		"#GameUI_Icons_A_BUTTON"	
 		}
 	}	
