@@ -135,6 +135,11 @@ Scheme
 		"TFOrange"			"145 73 59 255"
 		
 		"QuestGold"			"208 147 75 255"
+		"HalloweenThemeColor2015_Light"	"238 126 17 255"
+		"HalloweenThemeColor2015"		"135 54 16 255"
+		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
+		"QuestStandardHighlight"	"0 255 0 255"
+		"QuestBonusHighlight"		"150 160 255 255"		
 
 		"Red"				"192 28 0 140"
 		"RedSolid"			"192 28 0 255"
