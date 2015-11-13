@@ -5,9 +5,9 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HealthBG"
 		"xpos"		"64"		[$OSX]
-		"xpos"		"54"		[!$OSX]	
+		"xpos"		"54"		[!$OSX]
 		"ypos"		"133"		[$OSX]
-		"ypos"		"136"		[!$OSX]	
+		"ypos"		"136"		[!$OSX]
 		"zpos"		"4"
 		"wide"		"106"		[$OSX]
 		"wide"		"120"		[!$OSX]
@@ -17,7 +17,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"defaultBgColor_Override"		"HudBGStatus"
-		"border_default"				"noborder"		
+		"border_default"				"noborder"
 		"PaintBackgroundType""0"
         "textinsety" "99"
     }
@@ -35,7 +35,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"east"			
 		"font"			"Heavy48"		[$OSX]
-		"font"			"Heavy56"		[!$OSX]	
+		"font"			"Heavy56"		[!$OSX]
 		"fgcolor"		"Health"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -52,7 +52,7 @@
 		"labelText"	 "%Health%"	
 		"textAlignment"	 "east"	
 		"font"			"Heavy48"		[$OSX]
-		"font"			"Heavy56"		[!$OSX]		
+		"font"			"Heavy56"		[!$OSX]
 		"fgcolor"	 "HudShadow"
 	}
 	"HudPlayerHealth"
@@ -60,7 +60,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-264"		
-		"ypos"			"r281"
+		"ypos"			"r211"
 		"zpos"			"2"
 		"wide"			"310"
 		"tall"			"222"
@@ -238,7 +238,7 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
-	}	
+	}
 	"PlayerStatusHookBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -420,7 +420,7 @@
 		"scaleImage"	"1"	
 		"image"			""
 		"fgcolor"		"TanDark"
-	}
+	}	
 	"PlayerStatus_Parachute"
 	{
 		"ControlName"	"ImagePanel"
@@ -435,7 +435,7 @@
 		"scaleImage"	"1"	
 		"image"			""
 		"fgcolor"		"TanDark"
-	}		
+	}
 	
 	"PlayerStatus_RuneStrength"
 	{
@@ -577,8 +577,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneKing"
 		"xpos"			"85"
-		"xpos_minmode"	"110"
-		"ypos"			"0"
+		"ypos"			"110"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -593,8 +592,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RunePlague"
 		"xpos"			"85"
-		"xpos_minmode"	"110"
-		"ypos"			"0"
+		"ypos"			"110"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -609,8 +607,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneSupernova"
 		"xpos"			"85"
-		"xpos_minmode"	"110"
-		"ypos"			"0"
+		"ypos"			"110"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -619,6 +616,6 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_supernova_hud"
 		"fgcolor"		"TanDark"
-	}		
+	}	
 }
 
