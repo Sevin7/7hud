@@ -88,7 +88,7 @@
 	}
 	"Version"
 	{
-		"label" "7HUD v4.27"
+		"label" "7HUD v4.28"
 		"command"		"engine toggleconsole;
 			play vo/halloween_merasmus/hall2015_reward_14.mp3
 			echo -------------------------------------------------------------------------------;
