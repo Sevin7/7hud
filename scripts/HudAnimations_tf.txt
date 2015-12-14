@@ -240,12 +240,12 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthValueTour 	FgColor		"Buff"	         Accel 0.0 0.0
 
     Animate	HealthBG 	    BgColor		"71 168 198 180"	        Accel 0.0 0.0
-    Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
-	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
+    Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.1
+	Animate	HealthBG 	    Alpha		"255"		        Accel 0.1 0.3
 	
 	Animate	TargetHPBG 	    BgColor		"Buff"	    Accel 0.0 0.0
-    Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
-	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
+    Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.1
+	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.1 0.3
 
 	Animate	xHairNormal 	                                FgColor		"Buff"	         Accel 0.0 0.0
 	Animate	xHairThin 	                                FgColor		"Buff"	         Accel 0.0 0.0
@@ -327,12 +327,12 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthValueTour 	FgColor		"LowHP"	         Accel 0.0 0.0
 
     Animate	HealthBG 	    BgColor		"LowHPBG"	    		Accel 0.0 0.0
-    Animate	HealthBG 	   	Alpha		"255"		        Accel 0.0 0.3
-	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
+    Animate	HealthBG 	   	Alpha		"255"		        Accel 0.0 0.1
+	Animate	HealthBG 	    Alpha		"255"		        Accel 0.1 0.3
 	
 	Animate	TargetHPBG 	    BgColor	    "LowHP"	    Accel 0.0 0.0
-    Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
-	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
+    Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.1
+	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.1 0.3
 
 	Animate xHairNormal 	                                FgColor		"RedHP"	         Accel 0.0 0.0
 	Animate xHairThin 	                                                FgColor		"RedHP"	         Accel 0.0 0.0

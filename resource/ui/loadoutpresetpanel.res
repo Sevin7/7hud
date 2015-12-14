@@ -8,14 +8,14 @@
 		"presetbutton_kv"
 		{
 			"zpos"			"20"
-			"wide"			"15"
-			"tall"			"15"
+			"wide"			"18"
+			"tall"			"18"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HudFontSmallBP"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"0"					
 			"textinsety"	"3"		[$OSX]

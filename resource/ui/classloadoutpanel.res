@@ -111,7 +111,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBoldBP"
+		"font"			"HudFontMediumBigBold"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-310"		//c-285
@@ -151,7 +151,7 @@
 		"zpos"			"2"
 		"wide"			"613"
 		"tall"			"10"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"loadout_dotted_line"
 		"tileImage"		"1"
@@ -453,7 +453,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"RedButton"
 		"xpos"				"c238"
-		"ypos"				"13"
+		"ypos"				"18"
 		"zpos"				"12"	
 		"wide"				"20"
 		"tall"				"20"
@@ -490,7 +490,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"BlueButton"
 		"xpos"				"c213"
-		"ypos"				"13"
+		"ypos"				"18"
 		"zpos"				"12"	
 		"wide"				"20"
 		"tall"				"20"
@@ -526,9 +526,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
-		"labelText"		"Loadout"
+		"labelText"		""
 		"font"			"Regular8"
-		"xpos"			"c-109"
+		"xpos"			"c-74"
 		"ypos"			"c-180"
 		"zpos"			"200"
 		"wide"			"30"
@@ -565,13 +565,13 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"9999"		//4
+			"xpos"			"4"		//4
 			"ypos"			"4"
 			"zpos"			"1"
-			"wide"			"17"
-			"tall"			"17"
-			"visible"		"0"
-			"enabled"		"0"
+			"wide"			"11"
+			"tall"			"11"
+			"visible"		"1"
+			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"glyph_items"
 		}
@@ -581,9 +581,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TauntLoadoutButton"
-		"labelText"		"#TF_Taunt"
+		"labelText"		""
 		"font"			"Regular8"
-		"xpos"			"c60"
+		"xpos"			"c50"
 		"ypos"			"c-180"
 		"zpos"			"200"
 		"wide"			"30"
@@ -620,13 +620,13 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"9999"		//4
+			"xpos"			"4"		//4
 			"ypos"			"4"
 			"zpos"			"1"
-			"wide"			"17"
-			"tall"			"17"
-			"visible"		"0"
-			"enabled"		"0"
+			"wide"			"11"
+			"tall"			"11"
+			"visible"		"1"
+			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"../hud/ico_reel"
 		}
