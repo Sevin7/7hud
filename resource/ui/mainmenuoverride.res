@@ -744,7 +744,7 @@
 		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		
