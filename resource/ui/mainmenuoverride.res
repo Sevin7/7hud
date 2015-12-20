@@ -392,46 +392,10 @@
 		"image"			""
 		"scaleImage"	"1"
 		
-		if_halloween_0
+		if_operation
 		{
-			"image"		"../console/title_team_halloween2011"
+			"image"		"../console/title_team_tough_break"
 		}
-		if_halloween_1
-		{
-			"image"		"../console/title_team_halloween2012"
-		}
-		if_halloween_2
-		{
-			"image"		"../console/title_team_halloween2013"
-		}
-		if_halloween_3
-		{
-			"image"		"../console/title_team_halloween2014"
-		}
-		if_halloween_4
-		{
-			"image"		"../console/title_team_halloween2015"
-		}
-		if_fullmoon
-		{
-			"image"		"../console/title_fullmoon"
-		}
-		if_christmas
-		{
-			"image"		"../console/background_xmas2011"
-		}
-//		if_eotl_launch
-//		{
-//			"image"		"../console/title_eotl01"
-//		}
-//		if_operation
-//		{
-//			"image"		"../console/title_team_halloween2015"
-//		}
-//		if_community_update
-//		{
-//			"image"		"../console/title_invasion"
-//		}
 	}
 					
 	"TFLogoImage"
@@ -4039,10 +4003,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"Background"
 			"xpos"			"cs-0.5"
-			"ypos"			"315"
+			"ypos"			"300"
 			"zpos"			"0"
 			"wide"			"p0.8"
-			"tall"			"90"
+			"tall"			"120"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -4056,10 +4020,10 @@
 				"fieldName"		"OperationTitleLabel"
 				"font"			"HudFontSmallBold"
 				"labelText"		"#MMenu_Update"
-				"textAlignment"	"west"
-				"xpos"			"0"
+				"textAlignment"	"center"
+				"xpos"			"p0.05"
 				"ypos"			"0"
-				"wide"			"f0"
+				"wide"			"p0.9"
 				"tall"			"30"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -4067,21 +4031,21 @@
 				"enabled"		"1"
 				"textinsetx"	"20"
 				"fgcolor_override"	"235 227 203 255"
+				"proportionaltoparent"	"1"
 			}
 
 			"ViewDetailsButton"
 			{
 				"ControlName"	"EditablePanel"
 				"fieldname"		"ViewDetailsButton"
-				"xpos"			"p0.02"
+				"xpos"			"p0.25"
 				"ypos"			"27"
 				"zpos"			"11"
 				"wide"			"p0.48"
 				"tall"			"26"
-				"visible"		"0"
+				"visible"		"1"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
-
 				"SubButton"
 				{
 					"ControlName"	"CExImageButton"
