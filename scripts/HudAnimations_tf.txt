@@ -981,6 +981,30 @@ event RespecEarnedPulseEndLoss
 	StopEvent RespecEarnedPulseLoopLoss	0.0
 }
 
+event RDPositiveScorePulse
+{
+	Animate Score FgColor	"25 255 25 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+
+	Animate Score Position	"3 5"		Deaccel 0.0 0.05
+	Animate Score Position	"3 10"		Accel 0.05 0.2
+
+	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score FgColor	"255 75 75 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+
+	Animate Score Position	"3 5"		Deaccel 0.0 0.05
+	Animate Score Position	"3 10"		Accel 0.05 0.2
+
+	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+}
+
 event QuestNotification_Present
 {
 	Animate MainContainer Position	"r0 94"		Deaccel 0		0
@@ -1206,6 +1230,44 @@ event CollectionCrafting_ShowFailure
 	SetVisible CloseButton		1	0
 }
 
+event CollectionCrafting_WaitForItemsOnly
+{
+	// Set Everything Invisible
+	SetVisible ReturnModel			0					0
+	SetVisible	SendEvelopeButton		 0				0 
+	SetVisible ResponseTimeout		0					0
+	SetVisible WaitingForResponse	0					0
+	SetVisible ShowExplanationsButton1			0					0
+	SetVisible ShowExplanationsButton2			0					0
+	SetVisible ShowExplanationsButton2	0			0
+	SetVisible	SendEvelopeButton		0			0 
+	SetVisible CloseButton		0					0
+	
+	SetVisible ApplyStampButton		0					0
+	SetVisible Stamp				0					0
+	Animate Stamp					xpos c140	Accel	0 0
+	Animate DrawingPanel			xpos c0		Accel	0 0
+	Animate DrawingPanel			wide 0		Accel	0 0
+	Animate LetterFront				xpos c0		Accel	0 0
+	Animate LetterFront				wide 0		Accel	0 0
+	Animate LetterBack_Top		xpos c-250	Accel	0 0
+	Animate LetterBack_Top		ypos 400	Accel	0 0
+	Animate LetterBack_Top		wide 500	Accel	0 0
+	Animate LetterBack_Bottom		xpos c-250	Accel	0 0
+	Animate LetterBack_Bottom		ypos 400	Accel	0 0
+	Animate LetterBack_Bottom		wide 500	Accel	0 0
+	Animate LetterBack_Flap			xpos c-250	Accel	0 0
+	Animate LetterBack_Flap			ypos 400	Accel	0 0
+	Animate LetterBack_Flap			wide 500	Accel	0 0
+	Animate LetterBack_Flap			tall 0		Deaccel 0.6 0.4
+	Animate LetterBack_Top			ypos 400	Accel	0 0
+	
+	// Slider BG up
+	Animate BG			Position	"0 34"	Deaccel	0	0.3
+
+	// Fade dimmer down
+	Animate Dimmer Alpha "255" Linear 0 0.4
+}
 //--------------------------------------------------------------------------
 event QuestItem_Identify_Expand
 {
@@ -1239,12 +1301,25 @@ event QuestItem_Complete_Progress
 	Animate Dimmer	xpos 142	Linear 0 5
 }
 
+event QuestItem_Options_Flash
+{
+	Animate OptionsButton FgColor LightOrange	Linear 0	 0.1
+	Animate OptionsButton FgColor TanLight		Linear 0.1	 0.1
+	Animate OptionsButton FgColor LightOrange	Linear 0.2	 0.1
+	Animate OptionsButton FgColor TanLight		Linear 0.3	 0.1
+	Animate OptionsButton FgColor LightOrange	Linear 0.4	 0.1
+	Animate OptionsButton FgColor TanLight		Linear 0.5	 0.1
+}
+
 //--------------------------------------------------------------------------
 event QuestItem_Expand
 {
 	Animate FrontFolderContainer		ypos 240	Gain 0.75 0 0.4
 	RunEventChild IdentifyButtonContainer QuestItem_Identify_Expand 0
 	RunEventChild TurnInContainer QuestItem_Complete_Expand 0
+
+	SetInputEnabled FrontFolderContainer 0 0
+	RunEvent QuestItem_Options_Flash 1
 }
 
 event QuestItem_Collapse
@@ -1252,6 +1327,8 @@ event QuestItem_Collapse
 	Animate FrontFolderContainer		ypos 0	Gain 0.75 0 0.4
 	RunEventChild IdentifyButtonContainer QuestItem_Identify_Collapse 0
 	RunEventChild TurnInContainer QuestItem_Complete_Collapse 0
+
+	SetInputEnabled FrontFolderContainer 1 0
 }
 
 event QuestItem_TurningIn
@@ -1264,6 +1341,65 @@ event QuestItem_Reset
 	Animate FrontFolderContainer		ypos 0	Linear 0 0
 	RunEventChild IdentifyButtonContainer QuestItem_Identify_Collapse 0
 	RunEventChild TurnInContainer QuestItem_Complete_Collapse 0
+
+	SetInputEnabled FrontFolderContainer 1 0
+}
+
+//--------------------------------------------------------------------------
+event QuestItem_Operation2_Expand
+{
+	StopEvent QuestItem_Operation2_Collapse 0
+
+	RunEventChild IdentifyButtonContainer QuestItem_Identify_Expand 0.4
+	RunEventChild TurnInContainer QuestItem_Complete_Expand 0.4
+
+	Animate FrontFolderContainer	xpos -270	Gain 0.75 0.4 0.3
+	Animate BackFolderContainer		xpos -270	Gain 0.75 0.4 0.3
+	Animate FrontFolderContainer	xpos -10	Gain 0.75 0.7 0.3
+	Animate BackFolderContainer		xpos 0	Gain 0.75 0.7 0.3
+	SetVisible FrontFolderContainer 0 0.7
+	SetVisible BackFolderContainer 1 0.7
+
+	SetInputEnabled FrontFolderContainer 0 0
+	RunEvent QuestItem_Options_Flash 1
+}
+
+event QuestItem_Operation2_Collapse
+{
+	StopEvent QuestItem_Operation2_Expand 0
+
+	RunEventChild IdentifyButtonContainer QuestItem_Identify_Collapse 0
+	RunEventChild TurnInContainer QuestItem_Complete_Collapse 0
+
+	Animate FrontFolderContainer	xpos -270	Gain 0.75 0.0 0.3
+	Animate BackFolderContainer		xpos -270	Gain 0.75 0.0 0.3
+	Animate FrontFolderContainer	xpos 0	Gain 0.75 0.3 0.4
+	Animate BackFolderContainer		xpos 0	Gain 0.75 0.3 0.4
+	SetVisible FrontFolderContainer 1 0.3
+	SetVisible BackFolderContainer 0 0.3
+
+	SetInputEnabled FrontFolderContainer 1 0
+}
+
+event QuestItem_Operation2_TurningIn
+{
+	RunEventChild TurnInContainer QuestItem_Complete_Progress 0
+}
+
+event QuestItem_Operation2_Reset
+{
+	StopEvent QuestItem_Operation2_Collapse 0
+	StopEvent QuestItem_Operation2_Expand 0
+
+	RunEventChild IdentifyButtonContainer QuestItem_Identify_Collapse 0
+	RunEventChild TurnInContainer QuestItem_Complete_Collapse 0
+
+	Animate FrontFolderContainer	xpos 0	Linear 0 0
+	Animate BackFolderContainer		xpos 0	Linear 0 0
+	SetVisible FrontFolderContainer 1 0
+	SetVisible BackFolderContainer 0 0
+
+	SetInputEnabled FrontFolderContainer 1 0
 }
 
 //--------------------------------------------------------------------------
@@ -1283,6 +1419,7 @@ event QuestItem_Expand_Halloween
 
 	// Immediately disable the mouse proxy so the inactive hint goes away
 	RunEventChild FrontFolderContainer	QuestItem_DisableFrontMouse 0
+	SetInputEnabled FrontFolderContainer 0 0
 
 	// Slide the sleeve
 	Animate SleeveImage xpos 300 Bias 0.2  0.0 0.4
@@ -1297,7 +1434,7 @@ event QuestItem_Expand_Halloween
 	Animate FrontFolderContainer		ypos 240	Gain 0.75 0.4 0.4
 	Animate QuestPaperContainer			tall 300    Gain 0.75 0.4 0.4
 
-	SetVisible FrontFolderContainer 0 0.8
+	RunEvent QuestItem_Options_Flash 1
 }
 
 event QuestItem_Collapse_Halloween
@@ -1318,8 +1455,7 @@ event QuestItem_Collapse_Halloween
 	Animate ReadyToTurnInStatus xpos 10		Bias 0.8 0.5 0.2
 	Animate InactiveStatus		xpos 10		Bias 0.8 0.5 0.2
 	Animate EncodedStatus		xpos 10		Bias 0.8 0.5 0.2
-
-	SetVisible FrontFolderContainer 1 0
+	SetInputEnabled FrontFolderContainer 1 0
 }
 
 event QuestItem_Reset_Halloween
@@ -1337,6 +1473,7 @@ event QuestItem_Reset_Halloween
 
 	// Put the sleeve back
 	Animate SleeveImage xpos 15	Linear 0 0
+	SetInputEnabled FrontFolderContainer 1 0
 }
 
 //--------------------------------------------------------------------------
@@ -1362,7 +1499,7 @@ event QuestItem_Front_NoneSelected
 	StopEvent QuestItem_Front_Selected 0
 	StopEvent QuestItem_Front_OtherSelected 0
 
-	Animate			MainContainer		ypos 180	Gain 0.75 0 0.4
+	Animate			MainContainer		ypos 120	Gain 0.75 0 0.4
 }
 
 //--------------------------------------------------------------------------
@@ -1388,7 +1525,7 @@ event QuestItem_Back_NoneSelected
 	StopEvent QuestItem_Back_Selected 0
 	StopEvent QuestItem_Back_OtherSelected 0
 
-	Animate			MainContainer		ypos 100	Gain 0.75 0 0.4
+	Animate			MainContainer		ypos 0		Gain 0.75 0 0.4
 }
 
 //--------------------------------------------------------------------------
