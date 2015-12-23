@@ -57,9 +57,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "209 108 36 255"
+		"armedFgColor_override" "Highlight2"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "209 108 36 255"
+		"selectedFgColor_override" "Highlight2"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -67,7 +67,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"209 108 36 255"
+		"image_drawcolor"		"Highlight2"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
@@ -171,9 +171,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "209 108 36 255"
+		"armedFgColor_override" "Highlight2"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "209 108 36 255"
+		"selectedFgColor_override" "Highlight2"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -230,9 +230,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "209 108 36 255"
+		"armedFgColor_override" "Highlight2"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "209 108 36 255"
+		"selectedFgColor_override" "Highlight2"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -289,9 +289,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "209 108 36 255"
+		"armedFgColor_override" "Highlight2"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "209 108 36 255"
+		"selectedFgColor_override" "Highlight2"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -375,9 +375,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "209 108 36 255"
+		"armedFgColor_override" "Highlight2"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "209 108 36 255"
+		"selectedFgColor_override" "Highlight2"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -434,9 +434,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "209 108 36 255"
+		"armedFgColor_override" "Highlight2"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "209 108 36 255"
+		"selectedFgColor_override" "Highlight2"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -493,9 +493,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "209 108 36 255"
+		"armedFgColor_override" "Highlight2"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "209 108 36 255"
+		"selectedFgColor_override" "Highlight2"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -579,9 +579,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "209 108 36 255"
+		"armedFgColor_override" "Highlight2"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "209 108 36 255"
+		"selectedFgColor_override" "Highlight2"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -638,9 +638,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "209 108 36 255"
+		"armedFgColor_override" "Highlight2"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "209 108 36 255"
+		"selectedFgColor_override" "Highlight2"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -697,9 +697,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "209 108 36 255"
+		"armedFgColor_override" "Highlight2"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "209 108 36 255"
+		"selectedFgColor_override" "Highlight2"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -754,9 +754,9 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "209 108 36 255"
+		"armedFgColor_override" "Highlight2"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "209 108 36 255"
+		"selectedFgColor_override" "Highlight2"
 	}
 	
 	"QuitButtonLetter"  
@@ -810,9 +810,9 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "209 108 36 255"
+		"armedFgColor_override" "Highlight2"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "209 108 36 255"
+		"selectedFgColor_override" "Highlight2"
 	}
 	
 	"EditLoadoutButtonLetter"  

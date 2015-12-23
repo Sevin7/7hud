@@ -1,0 +1,351 @@
+======================
+7HUD through the years
+======================
+
+v4.33
+12/23/2015
+
+- reworked main menu a bit more
+- new highlight color (from blue to bright gold)
+- new select color (from orange to bright green)
+- applied build menu theme to eureka effect menu
+- fixed some hudplayerclass files calling for missing materials 
+- removed unneeded font
+- added changelog file (includes all previous versions, viewable from 4plug as well)
+
+v4.32
+12/22/2015
+
+- upped the font size of the main menu and shrunk the background a bit 
+- integrated a text “contracts” button into the menu instead of the folder awkwardly sitting next to pauling’s face 
+
+v4.31
+12/17/2015
+
+- updated for tough break 
+
+v4.30
+12/14/2015
+
+- sped up animation of health backgrounds 
+- aligned favorite server buttons a bit better 
+- tweaked class loadout panel display 
+
+v4.29
+12/02/2015
+
+- added comp stuff
+
+v4.28
+11/13/2015
+
+- removed halloween stuff 
+- made tip text container taller in loading screen 
+- added INsane’s smaller net_graph tweak 
+
+v4.27
+10/28/2015
+
+- updated for scream fortress 2015 
+
+v4.26
+10/22/2015
+
+- redesigned stats loading screen to better reflect main menu 
+- redesigned replay menu container to reflect mvm/backpack/store menus 
+- added new comp and pd stuff (dont get excited) 
+- fixed accidental find/replace in hudarenateammenu a couple patches back :0 
+
+v4.25
+10/07/2015
+
+- added Invasion background 
+- added Invasion image to quickplay 
+
+v4.24
+10/05/2015
+
+- enlarged a few objective labels (setup/overtime etc.) 
+- enlarged in game notification labels 
+- fixed blue koth capped status being too far left 
+- redesigned taunt hud 
+- redesigned engi build and destroy menus 
+- redesigned spy disguise menu 
+
+v4.23
+10/03/2015
+
+- fixed engi build panel showing 2 exits 
+- tweaked koth display 
+
+v4.22
+10/02/2015
+
+- added mannpower icons 
+- added base jumper icon 
+
+v4.21
+09/26/2015
+
+- removed 4:3 version as it was causing lots of conflicts and updated readme accordingly 
+- widened map name display on server join 
+- added trade up stuff 
+- updated tournament spec hud for gun mettle 
+
+v4.20
+07/25/2015
+
+- new winpanels! thanks to goat_ as i used his winpanels as a base. the arena winpanel may clip with things in the lowered hud a little, but it needs to be larger to fit the extra info it has. who plays arena anyway :( 
+- redid time remaining panels for every mode to match arena 
+- fixed green on scoreboard 
+- fixed quality color borders not displaying in backpack 
+- added competitive beta button to menu 
+- fixed inspect panel not displaying information/weapon model 
+- made mouseover panels across the menus flat instead of gradiented 
+- fixed loadout presets not centered 
+- applied new button theme to training panels 
+- applied header theme from backpack/mvm to store page 
+- centered back and close buttons in backpack underneath weapon and cosmetic selection boxes
+- widened the class model panel in the loadout section and lowered the default origin of the models 
+- removed rounding from some in-game displays 
+- fixed backpack page numbers not always appearing 
+- repositioned spectator labels on scoreboard to be above server info labels and cleaned up some other positionings 
+- made killfeed a little larger 
+- fixed ammo display being too far left 
+- fixed medic display being slightly out of alignment, changed font color to match hp/ammo, widened medic background to match hp/ammo 
+- fixed some number shadows rendering over the backgrounds in-game 
+- fixed some highlight issues on some in-game menus 
+- fixed console error related to statsummary.res 
+
+v4.14
+07/06/2015
+
+- fixed ammo without a clip (flamethrower, minigun) having an ellipses as a dropshadow 
+- fixed bottom chat position clipping with the 3d model 
+- fixed 4plug not displaying default chat position and took chat position choices off caps lock 
+- renamed “normal” version to “centered” and took version folders off caps lock 
+- so apparently the ammo has always been 3 pixels lower than the health. i just noticed this. god help me. the reserve ammo was also 2 pixels above the line. i need to get my eyes checked. 
+- adjusted the orientations and positioning of some of the 3d models, especially at the “by hp” position 
+- aligned medic charge to west (i thought i already did this a few updates ago?) and fixed some other positional problems with the medic hud 
+- continued adding button theme across menus and rounded the ones without borders (backpack, mvm, store page) 
+- tweaked mvm menus 
+
+v4.13
+07/04/2015
+
+- continued adding support for gun mettle (please make an issue on github with any problems you find!) 
+- replaced the buggy futura font with avenir book for now 
+- added “to check for updates…” console text when you click the 7HUD version button on the main menu (+ a word from ms. pauling) 
+- redesigned buttons for the menus (no more ugly orange-ish gradients) 
+- redesigned quickplay and mvm menus 
+- cleaned up header in backpack panel 
+- fixed tiny lobby text in mvm 
+- removed defunct scoreboard options from 4plug 
+- deleted random unnecessary files 
+- darkened stats summary panel when joining a server so the text doesn’t blend into the bg so much 
+
+v4.12
+07/03/2015
+
+- fixed scoreboard for gun mettle 
+- disabled overheal cross by default 
+- added some gun mettle positionings in hudlayout 
+
+v4.11
+02/20/2015
+
+- fixed placement of favorite server buttons on main menu for windows 
+- removed normal/lowered extensions for easier manual switch between hud versions 
+- added map images to map info panel on server join 
+- added scroll bar to motd and map info panels 
+- changed medic charge text alignment to the left to match ammo alignments (will probably mess up Mac alignment) 
+
+v4.10
+12/17/2014
+
+- COMBINED MAC AND WINDOWS VERSIONS (parsed os placements using tags instead of whole other versions) 
+- replaced biko with neutra titling (was already in hud) for windows version 
+- fixed killstreak icon placement on target ID’s 
+- made default killfeed much more readable 
+- removed bg on killstreak notices 
+- added killstreaks to winpanel and moved up 
+- switched fonts around again 
+- added damage and support to scoreboard 
+- added server time limit label to main hud (requires that tf_hud_show_servertimelimit be set to 1)
+- disabled main menu eotl stuff (can be bought in store if you want) 
+- removed white borders from control point icons (didn't really like em anymore) 
+- fixed blank box in upper left corner of menu appearing 
+- updated for 2014 halloween… heh 
+- added support for eureka effect menu… HEH 
+- various alignment fixes (as always) 
+- revised backpack/loadout panels 
+- revised store page 
+- scoreboard design altered slightly 
+- altered freezepanel slightly 
+- mvm scoreboard updated to include all values 
+- swapped out snowy barnblitz menu for icy version 
+
+v4.05
+09/10/2014
+
+- fixed engineer target ID 
+- adjusted positioning of lowered meters and target ID’s to not clip
+
+v4.04
+08/15/2014
+
+- added Clear Sans Bold and removed Market Deco 
+- support for BASE Jumper 
+- taunt HUD 
+- support for taunt selection in backpack 
+- fixed engi build panel being removed with using 4plug options 
+- added a working robot destruction display until I can decide on a design 
+- added buttons to preview both red and blu versions of loadouts in the class loadout panel (works only in main menu or servers with sv_cheats set to 1) 
+- fixed bomb showing with huntsman
+
+v4.03
+04/20/2014
+
+- updated backpack panel for the April 1 patch
+
+v4.02
+02/18/2014
+
+- new class select menu 
+- new team select menu
+
+v4.01
+02/10/2014
+
+- giant building progress bars for engi (from omni) 
+- new chat scheme! (from xetsog) 
+- 4:3 version! 
+- orange stat bars 
+- fixed engineer panel moving up behind chat while in spectate/dead 
+- ammo alignments tweaked again 
+- adjusted zpos of HP BG and matched ammo and HP BG’s colors 
+- FINALLY FIXED THE DAMN LABELS ABOVE THE PLAYER LISTS ON THE SCOREBOARD 
+- made some fonts more readable 
+- Added 7HUD version number at top left of menu 
+- arena display adjusted 
+- tournament mode update 
+- new, more traditional winpanels (essentially from omp) 
+- more random placement fixes 
+- most buttons rounded 
+- feb. 7, 2014 patch support 
+- deleted 3 mgb's worth of unneeded files (praise god hallelujah)
+
+v4
+01/04/2014
+
+- total MvM revamp! 
+- inspect panels (spec + in-game) moved right 
+- added new font for many menus 
+- added option to press “e” to get past MOTD and map info dialog 
+- minor color alterations 
+- fixed low ammo BG not going away and positioning 
+- bunch of random placement fixes 
+- revamped scoreboard and background options! 
+- more 3D model positions! 
+
+v3
+12/29/2013
+
+- v3 of Fog’s crosshairs integrated 
+- fixed low ammo BG not showing! 
+- fixed lower chat covering 3D model 
+- fixed metal value clipping on Macs 
+- fixed 6v6 scoreboard ping 
+- fixed purple and black checkered box in lower-right hand corner on Windows!
+
+v2.1
+12/24/2013
+
+- new BP UI! 
+- collectors colors fix in BP
+
+v2
+12/13/2013
+
+- lowered version 
+- 4Plug full support 
+- fixed target ID's, medic charge related placements 
+- a few other small things
+
+v1.5
+11/30/2013
+
+- more killstreak support 
+- new target ID's! 
+- different HP and ammo alignments 
+- altered fonts in a few minor places 
+- nicer vaccinator HUD 
+- and a few more small fixes
+
+v1.4
+11/23/2013
+
+- two cities support
+
+v1.3
+10/30/2013
+
+- scream fortress 2013 support
+
+v1.2
+10/19/2013
+
+- added transparency to engineer build and destroy menus for Windows version 
+- added my black and white menu pack to the main menu instead of just one image 
+- added giant control point progress bars 
+- added white borders around control points
+
+v1.1
+09/30/2013
+
+- optimized for windows
+
+v1
+09/27/2013
+
+- initial release of new 7hud
+
+
+======================
+7HUD legacy version
+======================
+
+
+v1.5
+06/07/2013
+
+- removed rayshud blue theme
+- timer backgrounds updated
+- cerbetica font used more 
+
+v1.4
+05/06/2013
+
+- steampipe support
+
+v1.3
+04/03/2013
+
+- major fixes (i know, vague)
+
+v1.2
+03/23/2013
+
+- bunch of bug fixes
+- bunch of placement fixes
+- support for new items
+
+v1.1
+03/12/2013
+
+- "several things added and fixed"
+
+v1
+03/10/2013
+
+- initial release of legacy 7hud

@@ -52,13 +52,17 @@ Scheme
 		"BuildingUber"      "242 242 242 255"  	 	//Uber label color
 		"HudBGStatus"		"0 0 0 0"
 		"yABuff"			"21 207 100 154"		//Buff color of new box HUD
-		"MainMenuBG"		"0 0 0 115"			//BG of black box on menu
+		"MainMenuBG"		"11 7 6 190"				//BG of black box on menu
 
 		"Select"			"43 43 42 255"			//Dark grey for default buttons
 		"ButtonBG"			"35 33 32 255"			//Darker grey for armed buttons
 		"ButtonBGT"			"35 33 32 220"
 		
-		"Highlight"			"7 199 254 255"			//Blue color for hovering over buttons
+		"Highlight"			"226 180 20 255"			//Orange color for hovering over buttons
+		"HighlightT"		"226 180 20 130"			//Semi-transparent orange color for hovering over buttons	
+
+		"Highlight2"		"117 226 20 255"			//Green color for hovering over buttons
+		"Highlight2T"		"117 226 20 130"			//Semi-transparent green color for hovering over buttons
 		
 
 
@@ -4349,6 +4353,28 @@ Scheme
 			{
 				"name"		"Clear Sans Bold"
 				"tall"		"11"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"VersionFont"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Black"
+				"tall"		"14"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"VersionFont2"
+		{
+			"1"
+			{
+				"name"		"Clear Sans Bold"
+				"tall"		"9"
 				"additive"		"0"
 				"antialias"	"1"
 			}

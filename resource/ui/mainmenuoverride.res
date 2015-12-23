@@ -159,12 +159,12 @@
 			"centerwrap"	"1"
 		}			
 	}	
-	"Version"
+	"7HUD"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"Version"
-		"xpos"			"13"
-		"ypos"			"7"
+		"fieldname"		"7HUD"
+		"xpos"			"53"
+		"ypos"			"65"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"14"
@@ -185,7 +185,68 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Novecento6"
+			"font"			"VersionFont"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "Highlight"
+			"armedFgColor_override" "OmpText"
+			"depressedFgColor_override" "OmpText"
+			
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"	
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"9999"
+				"ypos"			"9999"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_create"
+				"scaleImage"	"1"
+			}	
+		}		
+	}
+	"Version"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"Version"
+		"xpos"			"10"
+		"ypos"			"r18"
+		"zpos"			"11"
+		"wide"			"100"
+		"tall"			"14"
+		"visible"		"1"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"100"
+			"tall"			"14"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets" "1"
+			"font"			"VersionFont2"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -198,8 +259,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight"
+			"depressedFgColor_override" "Highlight"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"	
@@ -224,8 +285,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"Scoreboard"
-		"xpos"			"13"
-		"ypos"			"r28"
+		"xpos"			"53"
+		"ypos"			"331"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"14"
@@ -246,7 +307,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Novecento6"
+			"font"			"MainMenuFont"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -259,8 +320,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -285,8 +346,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"demoui"
-		"xpos"			"13"
-		"ypos"			"r21"
+		"xpos"			"53"
+		"ypos"			"345"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"14"
@@ -307,7 +368,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Novecento6"
+			"font"			"MainMenuFont"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -320,8 +381,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -395,7 +456,7 @@
 		if_operation
 		{
 			"image"		"../console/title_team_tough_break"
-		}
+		}		
 	}
 					
 	"TFLogoImage"
@@ -554,8 +615,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -745,8 +806,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1475,8 +1536,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1536,8 +1597,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1597,8 +1658,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1658,8 +1719,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1733,8 +1794,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1968,8 +2029,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2030,8 +2091,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2154,8 +2215,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2218,8 +2279,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2280,8 +2341,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2342,8 +2403,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2403,8 +2464,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2464,8 +2525,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2526,8 +2587,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "35 219 247 255"
-			"depressedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
+			"depressedFgColor_override" "Highlight2"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2607,7 +2668,7 @@
 		"paintbackground"	"0"
 		"PaintBackgroundType" "0"
 		
-		"image_drawcolor"	"157 81 27 255"
+		"image_drawcolor"	"226 180 20 255"
 		"image_armedcolor"	"White"
 		"SubImage"
 		{
@@ -2654,7 +2715,7 @@
 		"paintbackground"	"0"
 		"PaintBackgroundType" "0"
 		
-		"image_drawcolor"	"157 81 27 255"
+		"image_drawcolor"	"226 180 20 255"
 		"image_armedcolor"	"White"
 		"SubImage"
 		{
@@ -2701,7 +2762,7 @@
 		"paintbackground"	"0"
 		"PaintBackgroundType" "0"
 		
-		"image_drawcolor"	"157 81 27 255"
+		"image_drawcolor"	"226 180 20 255"
 		"image_armedcolor"	"White"
 		"SubImage"
 		{
@@ -2748,7 +2809,7 @@
 		"paintbackground"	"0"
 		"PaintBackgroundType" "0"
 		
-		"image_drawcolor"	"157 81 27 255"
+		"image_drawcolor"	"226 180 20 255"
 		"image_armedcolor"	"White"
 		"SubImage"
 		{
@@ -2795,7 +2856,7 @@
 		"paintbackground"	"0"
 		"PaintBackgroundType" "0"
 		
-		"image_drawcolor"	"157 81 27 255"
+		"image_drawcolor"	"226 180 20 255"
 		"image_armedcolor"	"White"
 		"SubImage"
 		{
@@ -2844,8 +2905,8 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "35 219 247 255"
-		"depressedFgColor_override" "35 219 247 255"
+		"armedFgColor_override" "Highlight2"
+		"depressedFgColor_override" "Highlight2"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
@@ -2897,8 +2958,8 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "35 219 247 255"
-		"depressedFgColor_override" "35 219 247 255"
+		"armedFgColor_override" "Highlight2"
+		"depressedFgColor_override" "Highlight2"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
@@ -2922,7 +2983,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"QuitButton"
 		"xpos"			"53"
-		"ypos"			"345"
+		"ypos"			"373"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"14"
@@ -2949,8 +3010,8 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "35 219 247 255"
-		"depressedFgColor_override" "35 219 247 255"
+		"armedFgColor_override" "Highlight2"
+		"depressedFgColor_override" "Highlight2"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
@@ -2974,7 +3035,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DisconnectButton"
 		"xpos"			"53"
-		"ypos"			"345"
+		"ypos"			"373"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"14"
@@ -3000,8 +3061,8 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "35 219 247 255"
-		"depressedFgColor_override" "35 219 247 255"
+		"armedFgColor_override" "Highlight2"
+		"depressedFgColor_override" "Highlight2"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
@@ -3271,10 +3332,10 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
 			"depressedFgColor_override" "255 255 255 255"
 			
-			"image_drawcolor"	"35 219 247 255"
+			"image_drawcolor"	"Highlight2"
 			"image_armedcolor"  "255 255 255 255"
 			"SubImage"
 			{
@@ -3330,10 +3391,10 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "35 219 247 255"
+			"armedFgColor_override" "Highlight2"
 			"depressedFgColor_override" "255 255 255 255"
 			
-			"image_drawcolor"	"35 219 247 255"
+			"image_drawcolor"	"Highlight2"
 			"image_armedcolor"  "255 255 255 255"
 			"SubImage"
 			{
@@ -3965,12 +4026,13 @@
 			}				
 		}		
 	}
+
 	"EventPromo"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
-		"xpos"			"c0"
-		"ypos"			"0"
+		"xpos"			"c30"
+		"ypos"			"55"
 		"zpos"			"-60"
 		"wide"			"320"
 		"tall"			"f0"
@@ -4005,11 +4067,11 @@
 			"wide"			"p0.8"
 			"tall"			"120"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-
-			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
+			"bgcolor_override"	"40 37 37 255"
+			"proportionalToParent"	"1"
+			
+			"paintbackground"		"1"
+			"border"				"quickplayborder"
 
 			"OperationTitleLabel"
 			{
@@ -4035,14 +4097,15 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldname"		"ViewDetailsButton"
-				"xpos"			"p0.25"
+				"xpos"			"p0.35"
 				"ypos"			"27"
 				"zpos"			"11"
-				"wide"			"p0.48"
+				"wide"			"p0.30"
 				"tall"			"26"
 				"visible"		"1"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
+
 				"SubButton"
 				{
 					"ControlName"	"CExImageButton"
@@ -4069,16 +4132,17 @@
 					"command"		"view_update_page"
 					"actionsignallevel"	"4"
 			
-					"border_default"	"MainMenuButtonDefault"
-					"border_armed"		"MainMenuButtonArmed"
-					"paintbackground"	"0"
+					"border_default"	"noborder"
+					"border_armed"		"noborder"
+					"paintbackground"	"1"
 			
-					"defaultFgColor_override" "46 43 42 255"
-					"armedFgColor_override" "235 226 202 255"
-					"depressedFgColor_override" "46 43 42 255"
+					"defaultBgColor_override"	"Select"
+					"armedBgColor_override"		"ButtonBG"
+					"depressedBgColor_override"	"ButtonBG"
 			
-					"image_drawcolor"	"117 107 94 255"
-					"image_armedcolor"	"235 226 202 255"
+					"defaultFgColor_override" "235 235 235 255"
+					"armedFgColor_override" "250 250 250 255"
+					"depressedFgColor_override" "250 250 250 255"
 				}
 			}
 			
@@ -4139,10 +4203,10 @@
 				"ControlName"			"CCyclingAdContainerPanel"
 				"fieldName"				"CyclingAd"
 				"xpos"					"5"
-				"ypos"					"25"
+				"ypos"					"p0.47"
 				"zpos"					"100"
 				"wide"					"f10"
-				"tall"					"60"
+				"tall"					"p0.5"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -4154,23 +4218,40 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2015 Key"
+						"item"		 	"Unused Operation Tough Break Pass"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2015 case"
+						"item"		"Tough Break Case 01 Pyroland"
+						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Taunt: Zoomin' Broom"
-						"show_market"	"0"
+						"item"		"Tough Break Case 02 Warbirds"
+						"show_market"	"1"
 					}
 					"3"
 					{
-						"item"		"Taunt: Soldier's Requiem"
+						"item"		"Tough Break Key"
 						"show_market"	"0"
 					}
+					"4"
+					{
+						"item"		"Tough Break Cosmetic Case"
+						"show_market"	"1"
+					}
+					"5"
+					{
+						"item"		"Tough Break Cosmetic Key"
+						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Taunt: Aerobic Taunt"
+						"show_market"	"0"
+					}
+					
 				}
 			}
 
