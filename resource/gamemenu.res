@@ -88,9 +88,9 @@
 	}
 	"Version"
 	{
-		"label" "7HUD v4.31"
+		"label" "7HUD v4.32"
 		"command"		"engine toggleconsole;
-			play vo/halloween_merasmus/hall2015_reward_14.mp3
+			play vo/toughbreak/plng_toughbreak_contractgiverare_beergarden.mp3
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;

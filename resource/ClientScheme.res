@@ -52,7 +52,7 @@ Scheme
 		"BuildingUber"      "242 242 242 255"  	 	//Uber label color
 		"HudBGStatus"		"0 0 0 0"
 		"yABuff"			"21 207 100 154"		//Buff color of new box HUD
-		"MainMenuBG"		"0 0 0 100"			//BG of black box on menu
+		"MainMenuBG"		"0 0 0 115"			//BG of black box on menu
 
 		"Select"			"43 43 42 255"			//Dark grey for default buttons
 		"ButtonBG"			"35 33 32 255"			//Darker grey for armed buttons
@@ -4342,6 +4342,18 @@ Scheme
 				"antialias" "1"
 			}
 		}
+				
+		"MainMenuFont"
+		{
+			"1"
+			{
+				"name"		"Clear Sans Bold"
+				"tall"		"11"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
 		"CloseCaption_Normal"
 		{
 			"1"
