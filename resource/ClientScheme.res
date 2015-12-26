@@ -626,7 +626,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"				
+				"name"		"AvenirLTStd-Medium-Medium"				
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -4390,7 +4390,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"			
+				"name"		"AvenirLTStd-Medium-Medium"			
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -4400,7 +4400,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"			
+				"name"		"AvenirLTStd-Medium-Medium"			
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
