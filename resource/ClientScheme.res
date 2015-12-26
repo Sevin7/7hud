@@ -23,48 +23,36 @@ Scheme
 		//You will need to restart TF2 for any changes to take effect!
 		
 		//"Control Name"		"R   G   B   Transparency"	//Description
-		
-		"Damage"                        "255 255 255 175"		//Damage display
 
-		"Ammo"                          "240 240 240 225"		//Current Clip
-		"AmmoReserve"                   "240 240 240 225"		//Total reserve
-
-		"Health"			"240 240 240 225"		//Normal health color
-		
+		"HudBGStatus"		"0 0 0 0"				//Transparent BG for HP/Ammo boxes
+		"Health"			"240 240 240 225"		//Normal health color			
 		"Buff"				"71 168 198 255" 		//Boosted health color
-		"SpecBuff"			"61 125 150 255"			//Darker color for SpecHUD
-		
-		"LowHP"				"255 47 47 255"			//Low health and ammo warning color - text
+		"Ammo"              "240 240 240 225"		//Current Clip
+		"AmmoReserve"       "240 240 240 225"		//Total reserve
+		"Damage"            "255 255 255 175"		//Damage display		
+		"LowHP"				"255 47 47 255"			//Low health and ammo warning color
 		"LowHPBG"			"200 47 47 180"			//Low health and ammo warning color
 		"RedHP"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
-		"LowAmmo"			"200 47 47 255"			//Low health and ammo warning color
-		"RedAmmo"			"255 0 0 175"			//"Low Ammo/HP" animation flash color
-		   "LowT"			"184 54 54 214"			//Red animation for underline
-		   "LowS"			"184 54 54 255"			//Flash color for underline
-			
+		
+		"BuildingUber"      "242 242 242 255"  	 	//Uber label color		
 		"UberLabel"			"255 150 0 154" 		//Uber ready color %
 		"UberMeter"			"255 150 0 255" 		//Uber ready color for meter	
 		"UberLabelFlash"	"57 120 144 175"		//Uber ready flash color %
-		"UberMeterFlash"	"15 95 14 100"			//Uber ready flash color meter	
-		"MeterText"         "84 235 54 255" 		//Item charge meter labels
-		"MeterText2"		"230 48 48 255"
-		"MeterText3"		"48 220 230 255"
-		"BuildingUber"      "242 242 242 255"  	 	//Uber label color
-		"HudBGStatus"		"0 0 0 0"
-		"yABuff"			"21 207 100 154"		//Buff color of new box HUD
-		"MainMenuBG"		"11 7 6 190"				//BG of black box on menu
+		"UberMeterFlash"	"15 95 14 100"			//Uber ready flash color meter
+		
+		"MeterText"         "84 235 54 255" 		//Green meter label
+		"MeterText2"		"230 48 48 255"			//Red meter label
+		"MeterText3"		"48 220 230 255"		//Blue meter label
+		
+		"MainMenuBG"		"11 7 6 190"			//BG of main menu box
 
 		"Select"			"43 43 42 255"			//Dark grey for default buttons
 		"ButtonBG"			"35 33 32 255"			//Darker grey for armed buttons
-		"ButtonBGT"			"35 33 32 220"
-		
-		"Highlight"			"226 180 20 255"			//Orange color for hovering over buttons
-		"HighlightT"		"226 180 20 130"			//Semi-transparent orange color for hovering over buttons	
+		"ButtonBGT"			"35 33 32 220"			//Transparent darker grey
+		"Highlight"			"226 180 20 255"		//Gold color for hovering over buttons
+		"Highlight2"		"117 226 20 255"		//Green color for hovering over buttons		
 
-		"Highlight2"		"117 226 20 255"			//Green color for hovering over buttons
-		"Highlight2T"		"117 226 20 130"			//Semi-transparent green color for hovering over buttons
-
-		"StatSummaryBars"	"7 199 254 130"				//Bar color in statsummary and statsummary_embedded
+		"StatSummaryBars"	"7 199 254 130"			//Bar color in statsummary and statsummary_embedded
 		
 
 
@@ -78,16 +66,11 @@ Scheme
 		"MvMBG"				"189 59 59 200"		//MvM panels red color
 		"MvMBG2"			"91 122 140 200"	//MvM panels blue color
 		
-		"MenuBGColor"			"0 124 88 255"			//Color option for alt main menu
-		
 		"Underline"			"0 0 0 0"			//Blank base color for HP and ammo underline
 		
 		"HudBG"				"0 0 0 214"			//Black HUD background
 		"HudShadow"			"0 0 0 120"			//Used for shadows on various numbers
 										//make last value 0 to remove them, or 255 to make them black
-
-		"HudBGC"			"21 207 100 255" 		//General color background
-		"HudBGCT"			"25 225 74 175"			//General color background transparent
 		
 		
 		
@@ -96,8 +79,6 @@ Scheme
 		"ButtonBG"			"107 107 107 255"					//Standard button color
 		"ButtonArmed"			"54 54 54 255"				//Armed color
 		"ButtonSelect"		"27 27 27 255"
-		
-		"yAHUDBlue" 			"40 140 247 255"			//Logo hover color
 		
 		"GrayBG"			"74 74 74 255"				//MenuBG
 		"GrayBGDark"			"57 57 57 255"				//Darker MenuBG
@@ -629,18 +610,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
-		"BlocksSharp64"
-		{
-			"1"
-			{
-				"name"		"Blocks"
-				"tall"		"64"
-				"additive"	"0"
-				"antialias" "0"
-			}
-		}
-	
+
 		"MainMenu"
 		{
 			"1"
@@ -656,7 +626,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium-Medium"				
+				"name"		"AvenirLTStd-Medium"				
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -935,118 +905,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
-		"BoldNumbers10"
-		{
-			"1"
-			{
-				"name"			"BoldNumbers"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}		
-		
-		"MediumNumbers20Shadow"
-		{
-			"1"
-			{
-				"name"			"MediumNumbers"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
-			}
-		}		
-		"MediumNumbers16Shadow"
-		{
-			"1"
-			{
-				"name"			"MediumNumbers"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
-			}
-		}	
-		"MediumNumbers14Shadow"
-		{
-			"1"
-			{
-				"name"			"MediumNumbers"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
-			}
-		}	
-		"MediumNumbers12Shadow"
-		{
-			"1"
-			{
-				"name"			"MediumNumbers"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
-			}
-		}		
-		"MediumNumbers10Shadow"
-		{
-			"1"
-			{
-				"name"			"MediumNumbers"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
-			}
-		}
-		
-		"LightNumbers20Shadow"
-		{
-			"1"
-			{
-				"name"			"LightNumbers"
-				"tall"		"29"
-				"additive"	"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
-			}
-		}
-		"LightNumbers19"
-		{
-			"1"
-			{
-				"name"			"LightNumbers"
-				"tall"		"19"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"LightNumbers19Shadow"
-		{
-			"1"
-			{
-				"name"			"LightNumbers"
-				"tall"		"19"
-				"additive"	"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
-			}
-		}
-		"LightNumbers18Shadow"
-		{
-			"1"
-			{
-				"name"			"LightNumbers"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" 	"1"
-				"dropshadow"	"1"
-			}
-		}
-		
 		
 		"Heavy59"
 		{
@@ -1565,18 +1423,6 @@ Scheme
 				"tall"		"56"
 				"additive"		"0"
 				"antialias"	"1"
-			}
-		}
-	
-		"BoldNumbers54"             //Used for hp & ammo
-		{
-			"1"
-			{
-				"name"			"BoldNumbers"
-				"tall"		"54"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
 			}
 		}
 
@@ -4544,7 +4390,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium-Medium"			
+				"name"		"AvenirLTStd-Medium"			
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -4554,7 +4400,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium-Medium"			
+				"name"		"AvenirLTStd-Medium"			
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -7929,62 +7775,42 @@ Scheme
 			"font" "resource/fonts/Crosshairs.otf"
 			"name" "Crosshairs"
 		}
-		"13"
-		{
-			"font" "resource/fonts/Blocks.ttf"
-			"name" "Blocks"
-		}
-		"14" 
+		"13" 
 		{
 			"font" "resource/fonts/AvenirLTStd-Book.otf"
 			"name" "AvenirLTStd-Book"
 		}	
-		"15"
+		"14"
 		{
 			"font" "resource/fonts/Entypo.otf"
 			"name" "Entypo"
 		}
-		"16" 
+		"15" 
 		{
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
 		}
-		"17" 
-		{
-			"font" "resource/fonts/MediumNumbers.otf"
-			"name" "MediumNumbers"
-		}
-		"18" 
-		{
-			"font" "resource/fonts/LightNumbers.otf"
-			"name" "LightNumbers"
-		}
-		"19" 
-		{
-			"font" "resource/fonts/BoldNumbers.otf"
-			"name" "BoldNumbers"
-		}
-        "20" 
+        "16" 
 		{
 			"font" "resource/fonts/NovecentoMedium.ttf"
 			"name" "NovecentoMedium" 
 		}
-        "21" 
+        "17" 
 		{
 			"font" "resource/fonts/NovecentoBook.ttf"
 			"name" "NovecentoBook"  
 		}
-		"22"
+		"18"
 		{
 			"font" "resource/fonts/Neutra Display Titling.ttf"
 			"name" "Neutra Display Titling"
 		}
-		"23"
+		"19"
 		{
 			"font" "resource/fonts/ClearSans-Bold.ttf"
 			"name" "Clear Sans Bold"
 		}
-		"24"
+		"20"
 		{
 			"font" "resource/fonts/heavy_dock11.otf"
 			"name" "DOCK11 Heavy"

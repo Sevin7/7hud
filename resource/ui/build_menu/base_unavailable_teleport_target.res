@@ -99,7 +99,7 @@
 		"font"			"Novecento9"
 		"fgcolor"		"WhiteS"
 		"xpos"			"-17"
-		"ypos"			"53"
+		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"18"

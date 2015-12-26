@@ -2,6 +2,18 @@
 7HUD through the years
 ======================
 
+v4.34
+12/26/2015
+
+- tweaked eureka effect menu
+- centered destroy menu icons better
+- cleaned up clientscheme color definitions a bit
+- got rid of some unneeded font definitions/fonts
+- deleted a few unmodified files
+- added missing hudlayout entries (no more text related to 7hud in console)
+- added back button, rearranged, and fixed “continue” and “(E)” being separate in map info panel
+- tweaked “save this moment” freeze panel stuff
+
 v4.33
 12/23/2015
 
@@ -149,7 +161,8 @@ v4.12
 
 - fixed scoreboard for gun mettle 
 - disabled overheal cross by default 
-- added some gun mettle positionings in hudlayout 
+- added some gun mettle positionings in hudlayout
+- 4plug auto-update feature added 
 
 v4.11
 02/20/2015

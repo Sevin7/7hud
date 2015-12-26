@@ -42,7 +42,7 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"DestroyIcon"
 		"xpos"			"32"
-		"ypos"			"41"
+		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"35"
 		"tall"			"35"

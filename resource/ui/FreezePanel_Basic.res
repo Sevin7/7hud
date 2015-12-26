@@ -252,7 +252,7 @@
 			{	
 				"ControlName"		"CExLabel"
 				"fieldName"		"NemesisLabel"
-				"font"			"Garm3nFontTargetSmaller"
+				"font"			"HudFontMediumSmall"
 				"xpos"			"87"
 				"ypos"			"21"
 				"zpos"			"6"
@@ -306,7 +306,7 @@
 			"zpos"			"0"
 			"wide"			"166"
 			"tall"			"38"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/freezecam_black_bg"
 			"scaleImage"		"1"
@@ -329,8 +329,8 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"ScreenshotLabel"
-			"font"			"SpectatorKeyHints"
-			"xpos"			"40"
+			"font"			"Regular8"
+			"xpos"			"46"
 			"ypos"			"25"
 			"zpos"			"2"
 			"wide"			"133"
