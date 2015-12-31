@@ -58,10 +58,11 @@ SETTING THE 3D MODEL POSITION W/ 4PLUG:
 CUSTOMIZING
 ===========
 
-FOG'S CROSSHAIRS:
+FOG'S OR KNUCKLE'S CROSSHAIRS:
 	
-	- To enable Fog's Crosshairs, navigate to your hudlayout.res file, found in the scripts folder. Change the "enabled" value under the Fog's Crosshairs heading to "1". Then pick your Crosshair using the included list of crosshairs and insert the character of the crosshair in the "labeltext" line.
+	- To enable these crosshairs, navigate to your hudlayout.res file, found in the scripts folder. Change the "enabled" value under the Fog's Crosshairs or Knuckle's Crosshairs heading to "1". Then pick your Crosshair using the included images of the crosshairs and insert the character of the crosshair in the "labeltext" line.
 	- To enable a crosshair flash when you hit a player, find HudAnimations_tf.txt in the scripts folder and under the first heading, DamagedPlayer, there will be instructions.
+	- If you would like a border added to the crosshairs, find the respective font file in ClientScheme.res and change the "outline" parameter to "1".
 
 ------------------------------------------------------
 
