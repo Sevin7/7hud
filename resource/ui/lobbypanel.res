@@ -1580,7 +1580,7 @@
 			"ypos"			"170"
 			"zpos"			"0"
 			"wide"			"200"
-			"tall"			"150"
+			"tall"			"110"
 			"bgcolor_override"	"0 0 0 200"
 			"border"		"QuickplayBorder"
 		}
@@ -1591,7 +1591,7 @@
 			"fieldName"		"ChatTextEntry"
 			"font"			"ChatFont"
 			"xpos"			"0"
-			"ypos"			"330"
+			"ypos"			"290"
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"20"
@@ -1605,7 +1605,7 @@
 		"ControlName"		"CheckButton"
 		"fieldName"		"JoinLateCheckButton"
 		"xpos"		"c+100"
-		"ypos"		"385"
+		"ypos"		"325"
 		"zpos"		"-1"
 		"wide"		"200"
 		"tall"		"20"
@@ -1643,7 +1643,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"LadderLabel"
-			"xpos"			"60"
+			"xpos"			"43"
 			"ypos"			"20"
 			"zpos"			"0"
 			"wide"			"50"
@@ -1655,14 +1655,14 @@
 			"textAlignment"	"west"
 			"labelText"		"LADDER:"
 		}
-		
+
 		// Dropdown
 		"CompetitiveModeComboBox"
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"CompetitiveModeComboBox"
 			"Font"				"HudFontSmallestBold"
-			"xpos"				"130"
+			"xpos"				"95"
 			"ypos"				"21"
 			"zpos"				"0"
 			"wide"				"85"
@@ -1686,13 +1686,13 @@
 			"selectionTextColor_override" "235 226 202 255"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
-		
+
 		"RankLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RankLabel"
-			"xpos"			"60"
-			"ypos"			"64"
+			"xpos"			"95"
+			"ypos"			"54"
 			"zpos"			"0"
 			"wide"			"100"
 			"tall"			"20"
@@ -1708,11 +1708,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"RankIcon"
-			"xpos"			"130"
-			"ypos"			"90"
+			"xpos"			"37"
+			"ypos"			"46"
 			"zpos"			"0"
-			"wide"			"100"
-			"tall"			"100"
+			"wide"			"55"
+			"tall"			"55"
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
@@ -1724,8 +1724,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RankTitle"
-			"xpos"			"130"
-			"ypos"			"64"
+			"xpos"			"135"
+			"ypos"			"54"
 			"zpos"			"0"
 			"wide"			"150"
 			"tall"			"20"
@@ -1735,13 +1735,14 @@
 			"fgcolor_override"	"250 114 45 255"
 			"textAlignment"	"west"
 			"labelText"		"%ranktitle%"
-		}		
+		}
+
 		"LevelLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RankLabel"
-			"xpos"			"60"
-			"ypos"			"44"
+			"xpos"			"95"
+			"ypos"			"74"
 			"zpos"			"0"
 			"wide"			"100"
 			"tall"			"20"
@@ -1757,8 +1758,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"LevelLabel"
-			"xpos"			"130"
-			"ypos"			"44"
+			"xpos"			"135"
+			"ypos"			"74"
 			"zpos"			"0"
 			"wide"			"20"
 			"tall"			"20"
@@ -1775,10 +1776,10 @@
 			"ControlName"	"ContinuousProgressBar"
 			"fieldName"		"LevelProgressMeter"
 			"font"			"HudFontSmallestBold"
-			"xpos"			"145"
-			"ypos"			"49"
+			"xpos"			"147"
+			"ypos"			"80"
 			"zpos"			"2"
-			"wide"			"90"
+			"wide"			"100"
 			"tall"			"9"				
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -1814,7 +1815,7 @@
 			"ypos"			"20"
 			"zpos"			"0"
 			"wide"			"350"
-			"tall"			"300"
+			"tall"			"290"
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
@@ -1830,20 +1831,20 @@
 			"ypos"			"20"
 			"zpos"			"0"
 			"wide"			"350"
-			"tall"			"300"
+			"tall"			"290"
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
 			"scaleImage"	"1"
 			"entry_step"	"25"
 		}
-		
+
 		"StatsLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"StatsLabel"
-			"xpos"			"120"
-			"ypos"			"195"
+			"xpos"			"135"
+			"ypos"			"175"
 			"zpos"			"0"
 			"wide"			"150"
 			"tall"			"20"
@@ -1860,7 +1861,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"StatLine"
 			"xpos"				"p0.05"
-			"ypos"				"215"
+			"ypos"				"195"
 			"zpos"				"1"
 			"wide"				"240"
 			"tall"				"2"
@@ -1873,14 +1874,14 @@
 		{
 			"ControlName"	"SectionedListPanel"
 			"fieldName"		"StatList"
-			"xpos"			"55"
-			"ypos"			"210"
-			"zpos"			"0"
-			"wide"			"245"
+			"xpos"			"35"
+			"ypos"			"190"
+			"zpos"			"1"
+			"wide"			"350"
 			"tall"			"150"
 			"autoresize"	"3"
 			"linespacing"	"16"
 			"bgcolor_override"	"46 43 42 255"
-		}		
+		}
 	}
 }

@@ -27,18 +27,17 @@ Scheme
 		"HudBGStatus"		"0 0 0 0"				//Transparent BG for HP/Ammo boxes
 		"Health"			"240 240 240 225"		//Normal health color			
 		"Buff"				"71 168 198 255" 		//Boosted health color
+		"BuffBG"			"71 168 198 180" 		//Boosted health color for BG		
 		"Ammo"              "240 240 240 225"		//Current Clip
 		"AmmoReserve"       "240 240 240 225"		//Total reserve
 		"Damage"            "255 255 255 175"		//Damage display		
 		"LowHP"				"255 47 47 255"			//Low health and ammo warning color
-		"LowHPBG"			"200 47 47 180"			//Low health and ammo warning color
+		"LowHPBG"			"200 47 47 180"			//Low health and ammo warning color for BG
 		"RedHP"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
 		
 		"BuildingUber"      "242 242 242 255"  	 	//Uber label color		
 		"UberLabel"			"255 150 0 154" 		//Uber ready color %
 		"UberMeter"			"255 150 0 255" 		//Uber ready color for meter	
-		"UberLabelFlash"	"57 120 144 175"		//Uber ready flash color %
-		"UberMeterFlash"	"15 95 14 100"			//Uber ready flash color meter
 		
 		"MeterText"         "84 235 54 255" 		//Green meter label
 		"MeterText2"		"230 48 48 255"			//Red meter label
@@ -584,6 +583,32 @@ Scheme
 				"outline"	"0"
 			}
 		}
+		
+
+		"knucklesCrosshair"			//knuckles's crosshair
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" 	"1"
+				"weight"	"0"
+				"outline"	"0"
+			}
+		}
+		"knucklesCrosshairSmall"			//knuckles's crosshair
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+				"weight"	"0"
+				"outline"	"0"
+			}
+		}		
 		
 		
 		"BarCrosshair"
@@ -7772,45 +7797,50 @@ Scheme
 		}		
 		"12" 
 		{
-			"font" "resource/fonts/Crosshairs.otf"
+			"font" "resource/fonts/FogsCrosshairs.otf"
 			"name" "Crosshairs"
 		}
 		"13" 
 		{
+			"font" "resource/fonts/KnucklesCrosses.ttf"
+			"name" "KnucklesCrosses"
+		}		
+		"14" 
+		{
 			"font" "resource/fonts/AvenirLTStd-Book.otf"
 			"name" "AvenirLTStd-Book"
 		}	
-		"14"
+		"15"
 		{
 			"font" "resource/fonts/Entypo.otf"
 			"name" "Entypo"
 		}
-		"15" 
+		"16" 
 		{
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
 		}
-        "16" 
+        "17" 
 		{
 			"font" "resource/fonts/NovecentoMedium.ttf"
 			"name" "NovecentoMedium" 
 		}
-        "17" 
+        "18" 
 		{
 			"font" "resource/fonts/NovecentoBook.ttf"
 			"name" "NovecentoBook"  
 		}
-		"18"
+		"19"
 		{
 			"font" "resource/fonts/Neutra Display Titling.ttf"
 			"name" "Neutra Display Titling"
 		}
-		"19"
+		"20"
 		{
 			"font" "resource/fonts/ClearSans-Bold.ttf"
 			"name" "Clear Sans Bold"
 		}
-		"20"
+		"21"
 		{
 			"font" "resource/fonts/heavy_dock11.otf"
 			"name" "DOCK11 Heavy"

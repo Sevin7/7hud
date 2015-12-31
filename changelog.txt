@@ -2,6 +2,15 @@
 7HUD through the years
 ======================
 
+v4.35
+12/30/2015
+
+- integrated knuckle’s crosshairs because why not
+- removed some unneeded menu character .vtf’s
+- lengthened default damage account value lifetime
+- more clientscheme color definition cleanup
+- added dec. 30 comp menu stuff
+
 v4.34
 12/26/2015
 
