@@ -6,8 +6,8 @@
 		"fieldName" 		      "HudChat"
 		"visible" 		        "1"
 		"enabled" 		        "1"
-		"xpos"			          "1"
-		"ypos"			          "25"		//around 150 for center
+		"xpos"			          "-7"
+		"ypos"			          "-6"		//around 150 for center
 		"wide"	 		          "242"
 		"tall"	 		          "120"
 		"fgcolor"		"Garm3nWhite"
@@ -44,7 +44,7 @@
 		"textAlignment"		    "center"
 		"dulltext"		        "0"
 		"brighttext"		      "0"
-		"Default"		          "0"		
+		"Default"		          "0"
 	}
 
 	"HudChatHistory"
