@@ -3055,7 +3055,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Clear Sans Bold"
 				"tall"		"15"
 				"additive"		"0"
 				"antialias"	"1"
@@ -4851,6 +4851,39 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"ImportToolSmallestBold"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"600"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"ImportToolSmallest"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"SpectatorVerySmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}		
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
 		"DefaultVerySmallFallBack"
 		{
@@ -7777,57 +7810,57 @@ Scheme
 		}
 		"8" 
 		{
-			"font" "resource/fonts/Paula.ttf"
+			"font" "resource/fonts/paula.ttf"
 			"name" "Paula"
 		}
 		"9" 
 		{
-			"font" "resource/fonts/AvenirLTStd-Black.ttf"
+			"font" "resource/fonts/avenirltstd-black.ttf"
 			"name" "AvenirLTStd-Black"
 		}
 		"10" 
 		{
-			"font" "resource/fonts/AvenirLTStd-Medium.otf"
+			"font" "resource/fonts/avenirltstd-medium.otf"
 			"name" "AvenirLTStd-Medium"
 		}	
 		"11" 
 		{
-			"font" "resource/fonts/AvenirLTStd-Heavy.otf"
+			"font" "resource/fonts/avenirltstd-heavy.otf"
 			"name" "AvenirLTStd-Heavy"
 		}		
 		"12" 
 		{
-			"font" "resource/fonts/FogsCrosshairs.otf"
+			"font" "resource/fonts/fogscrosshairs.otf"
 			"name" "Crosshairs"
 		}
 		"13" 
 		{
-			"font" "resource/fonts/KnucklesCrosses.ttf"
+			"font" "resource/fonts/knucklescrosses.ttf"
 			"name" "KnucklesCrosses"
 		}		
 		"14" 
 		{
-			"font" "resource/fonts/AvenirLTStd-Book.otf"
+			"font" "resource/fonts/avenirltstd-book.otf"
 			"name" "AvenirLTStd-Book"
 		}	
 		"15"
 		{
-			"font" "resource/fonts/Entypo.otf"
+			"font" "resource/fonts/entypo.otf"
 			"name" "Entypo"
 		}
 		"16" 
 		{
-			"font" "resource/fonts/Garm3nFont.ttf"
+			"font" "resource/fonts/garm3nfont.ttf"
 			"name" "Garm3nFont"
 		}
         "17" 
 		{
-			"font" "resource/fonts/NovecentoMedium.ttf"
+			"font" "resource/fonts/novecentomedium.ttf"
 			"name" "NovecentoMedium" 
 		}
         "18" 
 		{
-			"font" "resource/fonts/NovecentoBook.ttf"
+			"font" "resource/fonts/novecentobook.ttf"
 			"name" "NovecentoBook"  
 		}
 		"19"
@@ -7837,7 +7870,7 @@ Scheme
 		}
 		"20"
 		{
-			"font" "resource/fonts/ClearSans-Bold.ttf"
+			"font" "resource/fonts/clearsans-bold.ttf"
 			"name" "Clear Sans Bold"
 		}
 		"21"

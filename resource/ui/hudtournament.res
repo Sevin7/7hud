@@ -13,11 +13,11 @@
 		"team1_player_base_offset_x"		"-75"
 		"team1_player_base_y"				"0"
 		"team1_player_delta_x"				"-47"
-		"team1_player_delta_y"				"0"
+		"team1_player_delta_y"				"-20"
 		"team2_player_base_offset_x"		"25"
 		"team2_player_base_y"				"0"
 		"team2_player_delta_x"				"47"
-		"team2_player_delta_y"				"0"
+		"team2_player_delta_y"				"-20"
 		
 		"playerpanels_kv"
 		{
@@ -66,7 +66,7 @@
 					
 				if_mvm
 				{
-					"xpos"				"4"
+					"xpos"				"-9"
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
@@ -76,7 +76,7 @@
 				
 				if_competitive
 				{
-					"xpos"				"4"
+					"xpos"				"-9"
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
@@ -85,7 +85,7 @@
 
 				if_readymode
 				{
-					"xpos"				"4"
+					"xpos"				"-9"
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
@@ -314,19 +314,19 @@
 			
 			if_mvm
 			{
-				"wide"		"55"
+				"wide"		"30"
 				"tall"		"35"
 			}
 			
 			if_competitive
 			{
-				"wide"		"55"
+				"wide"		"30"
 				"tall"		"35"
 			}
 
 			if_readymode
 			{
-				"wide"		"55"
+				"wide"		"30"
 				"tall"		"35"
 			}
 		}
@@ -686,6 +686,13 @@
 			"visible"		"0"
 		}
 		
+		if_readymode
+		{
+			"xpos"			"0"
+			"ypos"			"-4"
+			"visible"		"1"
+		}		
+		
 	}
 
 	"HudTournamentBGHelp"
@@ -744,6 +751,11 @@
 		{
 			"visible"		"0"
 		}
+		
+		if_readymode
+		{
+			"ypos"			"6"
+		}
 	}
 	
 	"TournamentInstructionsLabel"
@@ -774,6 +786,11 @@
 			"zpos"			"3"
 		}
 		
+		if_readymode
+		{
+			"ypos"			"32"
+		}		
+		
 	}
 	
 	"InstructionsBackground"
@@ -793,6 +810,11 @@
 		if_mvm
 		{
 			"visible"		"0"
+		}
+		
+		if_readymode
+		{
+			"ypos"			"30"
 		}
 	}
 	

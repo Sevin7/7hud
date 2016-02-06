@@ -4,22 +4,22 @@ Window();
 [Border:0, FG:#000000]
 Banner("7hud.png", "auto", "topleft");
 
-[Name:HUD Position, Default:Centered]
-GlobalComboBox("HudPosition", "Hud Position")
+[Name:HUD Position, Default:centered]
+GlobalComboBox("HUDPosition", "HUD Position")
 {
-	Centered
-	Lowered
+	centered
+	lowered
 }
 
-[Name:Chat, Default:Top]
-DynamicFileSwitcher("resource\ui\BaseChat.res", "Chat Position");
+[Name:Chat, Default:top]
+DynamicFileSwitcher("resource\ui\basechat.res", "Chat Position");
 
-[Name:3d model pos, Default:Left]
+[Name:3d model pos, Default:left]
 GlobalComboBox("3d", "3D Model Position")
 {
-	Left
-	Right
-	By HP
+	left
+	right
+	hp
 }
 
 [Portion:2]
@@ -30,67 +30,67 @@ HudMenuConnectButton(“FavoriteServer1”, “Favorite Server 1”);
 [Name:Fave2, Default:text=6|ip=|pass=]
 HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
 
-#if 3d == "Left"
+#if 3d == "left"
 {
-	Copy("resource\ui\HudPlayerClass - Left.res", "resource\ui\HudPlayerClass.res");
+	Copy("resource\ui\hudplayerclass - left.res", "resource\ui\hudplayerclass.res");
 }
-#if 3d == "Right"
+#if 3d == "right"
 {
-	Copy("resource\ui\HudPlayerClass - Right.res", "resource\ui\HudPlayerClass.res");
+	Copy("resource\ui\hudplayerclass - right.res", "resource\ui\hudplayerclass.res");
 }
-#if 3d == "By HP"
+#if 3d == "hp"
 {
-	#if HudPosition == "Centered"
+	#if HudPosition == "centered"
 	{
-		Copy("resource\ui\HudPlayerClass - HP Top.res", "resource\ui\HudPlayerClass.res");
+		Copy("resource\ui\hudplayerclass - hp top.res", "resource\ui\hudplayerclass.res");
 	}
 	#else
 	{
-		Copy("resource\ui\HudPlayerClass - HP Bottom.res", "resource\ui\HudPlayerClass.res");
+		Copy("resource\ui\hudplayerclass - hp bottom.res", "resource\ui\hudplayerclass.res");
 	}
 }
 
-#if HudPosition == "Lowered"
+#if HUDPosition == "lowered"
 {
-	copy("resource\lowered\hudmediccharge.res", "resource\ui\hudmediccharge.res");
-	copy("resource\lowered\hudlayout.res", "scripts\hudlayout.res");
-	copy("resource\lowered\huddamageaccount.res", "resource\ui\huddamageaccount.res");
-	copy("resource\lowered\hudplayerhealth.res", "resource\ui\hudplayerhealth.res");
-	copy("resource\lowered\huddemomanpipes.res", "resource\ui\huddemomanpipes.res");
-	copy("resource\lowered\huditemeffectmeter_cleaver.res", "resource\ui\huditemeffectmeter_cleaver.res");
-	copy("resource\lowered\huditemeffectmeter_demoman.res", "resource\ui\huditemeffectmeter_demoman.res");
-	copy("resource\lowered\huditemeffectmeter_engineer.res", "resource\ui\huditemeffectmeter_engineer.res");
-	copy("resource\lowered\huditemeffectmeter_killstreak.res", "resource\ui\huditemeffectmeter_killstreak.res");
-	copy("resource\lowered\huditemeffectmeter_particlecannon.res", "resource\ui\huditemeffectmeter_particlecannon.res");
-	copy("resource\lowered\huditemeffectmeter_pomson.res", "resource\ui\huditemeffectmeter_pomson.res");
-	copy("resource\lowered\huditemeffectmeter_raygun.res", "resource\ui\huditemeffectmeter_raygun.res");
-	copy("resource\lowered\huditemeffectmeter_scout.res", "resource\ui\huditemeffectmeter_scout.res");
-	copy("resource\lowered\huditemeffectmeter_sniper.res", "resource\ui\huditemeffectmeter_sniper.res");
-	copy("resource\lowered\huditemeffectmeter_sniperfocus.res", "resource\ui\huditemeffectmeter_sniperfocus.res");
-	copy("resource\lowered\huditemeffectmeter_sodapopper.res", "resource\ui\huditemeffectmeter_sodapopper.res");
-	copy("resource\lowered\huditemeffectmeter_spy.res", "resource\ui\huditemeffectmeter_spy.res");
-	copy("resource\lowered\huditemeffectmeter_spyknife.res", "resource\ui\huditemeffectmeter_spyknife.res");
-	copy("resource\lowered\huditemeffectmeter.res", "resource\ui\huditemeffectmeter.res");
+	Copy("resource\lowered\hudmediccharge.res", "resource\ui\hudmediccharge.res");
+	Copy("resource\lowered\hudlayout.res", "scripts\hudlayout.res");
+	Copy("resource\lowered\huddamageaccount.res", "resource\ui\huddamageaccount.res");
+	Copy("resource\lowered\hudplayerhealth.res", "resource\ui\hudplayerhealth.res");
+	Copy("resource\lowered\huddemomanpipes.res", "resource\ui\huddemomanpipes.res");
+	Copy("resource\lowered\huditemeffectmeter_cleaver.res", "resource\ui\huditemeffectmeter_cleaver.res");
+	Copy("resource\lowered\huditemeffectmeter_demoman.res", "resource\ui\huditemeffectmeter_demoman.res");
+	Copy("resource\lowered\huditemeffectmeter_engineer.res", "resource\ui\huditemeffectmeter_engineer.res");
+	Copy("resource\lowered\huditemeffectmeter_killstreak.res", "resource\ui\huditemeffectmeter_killstreak.res");
+	Copy("resource\lowered\huditemeffectmeter_particlecannon.res", "resource\ui\huditemeffectmeter_particlecannon.res");
+	Copy("resource\lowered\huditemeffectmeter_pomson.res", "resource\ui\huditemeffectmeter_pomson.res");
+	Copy("resource\lowered\huditemeffectmeter_raygun.res", "resource\ui\huditemeffectmeter_raygun.res");
+	Copy("resource\lowered\huditemeffectmeter_scout.res", "resource\ui\huditemeffectmeter_scout.res");
+	Copy("resource\lowered\huditemeffectmeter_sniper.res", "resource\ui\huditemeffectmeter_sniper.res");
+	Copy("resource\lowered\huditemeffectmeter_sniperfocus.res", "resource\ui\huditemeffectmeter_sniperfocus.res");
+	Copy("resource\lowered\huditemeffectmeter_sodapopper.res", "resource\ui\huditemeffectmeter_sodapopper.res");
+	Copy("resource\lowered\huditemeffectmeter_spy.res", "resource\ui\huditemeffectmeter_spy.res");
+	Copy("resource\lowered\huditemeffectmeter_spyknife.res", "resource\ui\huditemeffectmeter_spyknife.res");
+	Copy("resource\lowered\huditemeffectmeter.res", "resource\ui\huditemeffectmeter.res");
 }
 #else
 {
-	copy("resource\centered\hudmediccharge.res", "resource\ui\hudmediccharge.res");
-	copy("resource\centered\hudlayout.res", "scripts\hudlayout.res");
-	copy("resource\centered\huddamageaccount.res", "resource\ui\huddamageaccount.res");
-	copy("resource\centered\hudplayerhealth.res", "resource\ui\hudplayerhealth.res");
-	copy("resource\centered\huddemomanpipes.res", "resource\ui\huddemomanpipes.res");
-	copy("resource\centered\huditemeffectmeter_cleaver.res", "resource\ui\huditemeffectmeter_cleaver.res");
-	copy("resource\centered\huditemeffectmeter_demoman.res", "resource\ui\huditemeffectmeter_demoman.res");
-	copy("resource\centered\huditemeffectmeter_engineer.res", "resource\ui\huditemeffectmeter_engineer.res");
-	copy("resource\centered\huditemeffectmeter_killstreak.res", "resource\ui\huditemeffectmeter_killstreak.res");
-	copy("resource\centered\huditemeffectmeter_particlecannon.res", "resource\ui\huditemeffectmeter_particlecannon.res");
-	copy("resource\centered\huditemeffectmeter_pomson.res", "resource\ui\huditemeffectmeter_pomson.res");
-	copy("resource\centered\huditemeffectmeter_raygun.res", "resource\ui\huditemeffectmeter_raygun.res");
-	copy("resource\centered\huditemeffectmeter_scout.res", "resource\ui\huditemeffectmeter_scout.res");
-	copy("resource\centered\huditemeffectmeter_sniper.res", "resource\ui\huditemeffectmeter_sniper.res");
-	copy("resource\centered\huditemeffectmeter_sniperfocus.res", "resource\ui\huditemeffectmeter_sniperfocus.res");
-	copy("resource\centered\huditemeffectmeter_sodapopper.res", "resource\ui\huditemeffectmeter_sodapopper.res");
-	copy("resource\centered\huditemeffectmeter_spy.res", "resource\ui\huditemeffectmeter_spy.res");
-	copy("resource\centered\huditemeffectmeter_spyknife.res", "resource\ui\huditemeffectmeter_spyknife.res");
-	copy("resource\centered\huditemeffectmeter.res", "resource\ui\huditemeffectmeter.res");
+	Copy("resource\centered\hudmediccharge.res", "resource\ui\hudmediccharge.res");
+	Copy("resource\centered\hudlayout.res", "scripts\hudlayout.res");
+	Copy("resource\centered\huddamageaccount.res", "resource\ui\huddamageaccount.res");
+	Copy("resource\centered\hudplayerhealth.res", "resource\ui\hudplayerhealth.res");
+	Copy("resource\centered\huddemomanpipes.res", "resource\ui\huddemomanpipes.res");
+	Copy("resource\centered\huditemeffectmeter_cleaver.res", "resource\ui\huditemeffectmeter_cleaver.res");
+	Copy("resource\centered\huditemeffectmeter_demoman.res", "resource\ui\huditemeffectmeter_demoman.res");
+	Copy("resource\centered\huditemeffectmeter_engineer.res", "resource\ui\huditemeffectmeter_engineer.res");
+	Copy("resource\centered\huditemeffectmeter_killstreak.res", "resource\ui\huditemeffectmeter_killstreak.res");
+	Copy("resource\centered\huditemeffectmeter_particlecannon.res", "resource\ui\huditemeffectmeter_particlecannon.res");
+	Copy("resource\centered\huditemeffectmeter_pomson.res", "resource\ui\huditemeffectmeter_pomson.res");
+	Copy("resource\centered\huditemeffectmeter_raygun.res", "resource\ui\huditemeffectmeter_raygun.res");
+	Copy("resource\centered\huditemeffectmeter_scout.res", "resource\ui\huditemeffectmeter_scout.res");
+	Copy("resource\centered\huditemeffectmeter_sniper.res", "resource\ui\huditemeffectmeter_sniper.res");
+	Copy("resource\centered\huditemeffectmeter_sniperfocus.res", "resource\ui\huditemeffectmeter_sniperfocus.res");
+	Copy("resource\centered\huditemeffectmeter_sodapopper.res", "resource\ui\huditemeffectmeter_sodapopper.res");
+	Copy("resource\centered\huditemeffectmeter_spy.res", "resource\ui\huditemeffectmeter_spy.res");
+	Copy("resource\centered\huditemeffectmeter_spyknife.res", "resource\ui\huditemeffectmeter_spyknife.res");
+	Copy("resource\centered\huditemeffectmeter.res", "resource\ui\huditemeffectmeter.res");
 }

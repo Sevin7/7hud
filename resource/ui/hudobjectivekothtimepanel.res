@@ -16,7 +16,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Bold12"
+			"font"			"Regular15"
 			"fgcolor"		"White"
 			"xpos"			"32"	//3
 			"ypos"			"-1"		[$OSX]
@@ -47,7 +47,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Bold12"
+			"font"			"Regular15"
 			"fgcolor"		"White"
 			"xpos"			"32"
 			"ypos"			"-1"		[$OSX]

@@ -2,6 +2,14 @@
 7HUD through the years
 ======================
 
+v4.36
+sometime
+
+- lowercased all folder/file names
+- separated 7hud animations from hudanimations_tf so it can't go out of date (thanks wiet)
+- fixed up and altered the design of some tournament stuff
+- changed time remaining font
+
 v4.35
 12/30/2015
 

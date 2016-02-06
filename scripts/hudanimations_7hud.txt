@@ -1,0 +1,256 @@
+//-----------------------------------------------------
+//Fog's Crosshair
+//-----------------------------------------------------
+
+event DamagedPlayer
+{
+	Animate fogCrosshair 	FgColor 	"255 0 0 255" 	Linear 0.0 0.00001
+	Animate fogCrosshair 	FgColor 	"WhiteS" 	Linear 0.20 0.10001
+	
+	// Set the second line ("255 255 255 255") to whatever color you have changed
+	// your crosshair to be. So if you crosshair is green, the second line should
+	// also have that same value.
+	// "255 255 255 255"	= White
+	// "255 255 0 255 	= Yellow
+	// "145 225 25 255"	= Green
+	//
+	//You can also look into the clientscheme.res file in /resource/,
+	//there you can find various colors that are already defined for the HUD
+	//such as "Green", "Red", "Gray" and so on
+	//
+	//
+}
+
+//-----------------------------------------------------
+
+//Health Bonus Pulse
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"205"		    Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		        Linear 0.2 0.4
+
+	Animate	PlayerStatusHealthValueCam 		FgColor		"Buff"	        Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour 	FgColor		"Buff"	         Accel 0.0 0.0
+
+    Animate	HealthBG 	    BgColor		"BuffBG"	        Accel 0.0 0.0
+    Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.1
+	Animate	HealthBG 	    Alpha		"255"		        Accel 0.1 0.3
+	
+	Animate	TargetHPBG 	    BgColor		"Buff"	    Accel 0.0 0.0
+    Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.1
+	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.1 0.3
+
+	Animate	xHairNormal 	                                FgColor		"Buff"	         Accel 0.0 0.0
+	Animate	xHairThin 	                                FgColor		"Buff"	         Accel 0.0 0.0
+	Animate	xHairThinOutline	                                FgColor		"Buff"	         Accel 0.0 0.0
+	Animate	xHairRequest 	                                FgColor		"Buff"	         Accel 0.0 0.0
+	Animate	xHairCircle	                                FgColor		"Buff"	         Accel 0.0 0.0
+	Animate	xHairDotOutline 	                                FgColor		"Buff"	         Accel 0.0 0.0
+
+	RunEvent HudHealthBonusPulseLoop	0.6
+}
+
+// call to loop HudHealthBonusPulse
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+	RunEvent PlayerStatusHealthValue 0.0
+	RunEvent PlayerStatusHealthValueCam 0.0
+	RunEvent PlayerStatusHealthValueSpec 0.0
+        	RunEvent xHairNormal 0.0
+        	RunEvent xHairThin 0.0
+        	RunEvent xHairThinOutline 0.0
+        	RunEvent xHairRequest 0.0
+        	RunEvent xHairCircle 0.0
+        	RunEvent xHairDotOutline 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
+	StopEvent PlayerStatusHealthValue 0.0
+	StopEvent PlayerStatusHealthValueCam 0.0
+	StopEvent PlayerStatusHealthValueSpec 0.0
+        	StopEvent xHairNormal 0.0
+        	StopEvent xHairThin 0.0
+        	StopEvent xHairThinOutline 0.0
+        	StopEvent xHairRequest 0.0
+        	StopEvent xHairCircle 0.0
+        	StopEvent xHairDotOutline 0.0
+
+	Animate PlayerStatusHealthValue 	                FgColor		"Health"	         Accel 0.0 0.0
+
+                Animate PlayerStatusHealthValueCam 	                FgColor		"Health"	         Accel 0.0 0.0
+
+                Animate PlayerStatusHealthValueSpec 	                FgColor		"WhiteS"	         Accel 0.0 0.0
+                
+                Animate	PlayerStatusHealthValueTour 	FgColor		"Black"	         Accel 0.0 0.0
+
+
+	Animate xHairNormal 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+
+	Animate xHairThin 	                                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+
+	Animate xHairThinOutline 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+
+	Animate xHairRequest 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+
+	Animate xHairCircle 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+
+	Animate xHairDotOutline 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	
+    Animate	HealthBG 	     BgColor		"HudBGStatus"	       Accel 0.0 0.0
+    Animate	HealthBG 	     Alpha		    "0"		           Accel 0.0 0.0
+    
+    Animate	TargetHPBG 	     BgColor		"HudBGStatus"	       Accel 0.0 0.0
+    Animate	TargetHPBG 	     Alpha		    "255"		           Accel 0.0 0.0
+}
+
+//===========================================
+
+//Health Dying Pulse
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"175"		         Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		         Linear 0.125 0.075
+
+	Animate	PlayerStatusHealthValueCam 	FgColor		"LowHP"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour 	FgColor		"LowHP"	         Accel 0.0 0.0
+
+    Animate	HealthBG 	    BgColor		"LowHPBG"	    		Accel 0.0 0.0
+    Animate	HealthBG 	   	Alpha		"255"		        Accel 0.0 0.1
+	Animate	HealthBG 	    Alpha		"255"		        Accel 0.1 0.3
+	
+	Animate	TargetHPBG 	    BgColor	    "LowHP"	    Accel 0.0 0.0
+    Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.1
+	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.1 0.3
+
+	Animate xHairNormal 	                                FgColor		"RedHP"	         Accel 0.0 0.0
+	Animate xHairThin 	                                                FgColor		"RedHP"	         Accel 0.0 0.0
+	Animate xHairThinOutline 	                                FgColor		"RedHP"	         Accel 0.0 0.0
+	Animate xHairRequest 	                                FgColor		"RedHP"	         Accel 0.0 0.0
+	Animate xHairCircle 	                                FgColor		"RedHP"	         Accel 0.0 0.0
+	Animate xHairDot 	                                                FgColor		"RedHP"	         Accel 0.0 0.0
+
+	RunEvent HudHealthDyingPulseLoop	0.25
+}
+
+// call to loop HudHealthDyingPulse
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 0.0
+	RunEvent PlayerStatusHealthValue 0.0
+	RunEvent PlayerStatusHealthValueCam 0.0
+	RunEvent PlayerStatusHealthValueSpec 0.0
+	RunEvent xHairNormal 0.0
+	RunEvent xHairThin 0.0
+	RunEvent xHairThinOutline 0.0
+	RunEvent xHairRequest 0.0
+	RunEvent xHairCircle 0.0
+	RunEvent xHairDot 0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
+	StopEvent PlayerStatusHealthValue 0.0
+	StopEvent PlayerStatusHealthValueCam 0.0
+	StopEvent PlayerStatusHealthValueSpec 0.0
+	StopEvent PlayerStatusHealthValueTour 0.0
+	StopEvent xHairNormal 0.0
+	StopEvent xHairThin 0.0
+	StopEvent xHairThinOutline 0.0
+	StopEvent xHairRequest 0.0
+	StopEvent xHairCircle 0.0
+	StopEvent xHairDot 0.0
+
+	Animate	PlayerStatusHealthValue 	                FgColor		"Health"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueCam 	FgColor		"Health"               Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour 	FgColor		"WhiteS"	         Accel 0.0 0.0
+
+	Animate xHairNormal 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairThin 	                                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairThinOutline 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairRequest 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairCircle 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairDot 	                                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	
+	Animate	HealthBG 	     BgColor		"HudBGStatus"	        Accel 0.0 0.0
+	Animate	HealthBG 	     Alpha		    "0"		            Accel 0.0 0.0
+	
+	Animate	TargetHPBG 	     BgColor		"HudBGStatus"	        Accel 0.0 0.0
+    Animate	TargetHPBG 	     Alpha		    "255"		            Accel 0.0 0.0
+}
+
+//===========================================
+
+
+event HudLowAmmoPulse
+{
+	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
+	Animate	HudWeaponLowAmmoImage		Alpha		"0"		Linear 0.125 0.075
+	
+    Animate	AmmoBG	    BgColor		"LowHPBG"	    		Accel 0.0 0.0
+    Animate	AmmoBG 	   	Alpha		"255"		        Accel 0.0 0.3
+	Animate	AmmoBG 	    Alpha		"255"		        Accel 0.3 0.6
+	
+	RunEvent HudLowAmmoPulseLoop	0.25
+}
+
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
+	
+	Animate AmmoBG 	     BgColor		"HudBGStatus"	        Accel 0.0 0.0
+	Animate	AmmoBG 	   	Alpha		"255"		        Accel 0.0 0.3
+}
+
+// Flash the medic charge hud when we have full charge
+
+event HudMedicCharged
+{
+	Animate	MedicBG 	            BgColor		"UberLabel"		linear 0.0 0.0
+	
+	Animate	UberLabel 	        	FgColor		"Blank"		linear 0.0 0.0
+    Animate	PercentLabel 	        FgColor		"Blank"		linear 0.0 0.0
+    Animate	Readylabel 	            FgColor		"White"		linear 0.0 0.0
+	Animate	ChargeMeter 	        FgColor		"UberLabel"		Linear 0.0 0.1
+	Animate	ChargeMeter 	        FgColor		"Blank"		Linear 0.4 0.4
+    Animate	ChargeMeter 	        BgColor		"0 0 0 100"		linear 0.0 0.0
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+	RunEvent ChargeLabel 0.0
+	RunEvent ChargeMeter 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	StopEvent ChargeLabel 0.0
+	StopEvent ChargeMeter 0.0
+
+    Animate	MedicBG 	            BgColor		"HudBGStatus"		linear 0.0 0.0
+	Animate	ChargeLabel 	        FgColor		"BuildingUber"		Linear 0.0 0.0001
+    Animate	PercentLabel 	        FgColor		"BuildingUber"		linear 0.0 0.0
+    Animate	ReadyLabel 	            FgColor		"Blank"		        linear 0.0 0.0
+	Animate	ChargeMeter 	        FgColor		"BuildingUber"		Linear 0.0 0.0001
+    Animate	ChargeMeter 	        BgColor		"HudBG"		        linear 0.0 0.0
+}

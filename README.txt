@@ -118,7 +118,7 @@ KILLFEED:
 		2. Search for "DeathNotice" (ctrl+F)
 		3. Increase the value for "LineSpacing"
 			The higher the value the bigger the distance between entries in the Killfeed
-		3: Save
+		3. Save
 	
 	To increase size:
 	
@@ -127,8 +127,8 @@ KILLFEED:
 		3. Change the number in the "font" value to 9, 10, or 11.
 		4. Change the "LineHeight" value in accordance with your new font number. 
 			- i.e. font: Regular10. LineHeight: 10.
+		5. Save
 
-You can enable a background for the KILLFEED in the CLIENTSCHEME 
 
 ========================
 PERSONAL TROUBLESHOOTING
@@ -136,10 +136,10 @@ PERSONAL TROUBLESHOOTING
 
 SCOREBOARD PING CLIPPING:
 
-	1. Navigate to ScoreBoard.res in your resource/ui folder
+	1. Navigate to scoreboard.res in your resource/ui folder
 	2. Under the first heading (scores), find "ping_width".
 	3. Lower the value, maybe 3-4 down, save the file, alt-tab into the game if it's open and put "hud_reloadscheme" into the console. This refreshes all the .res files in your 7HUD folder. If you're not in-game, simply launch TF2
-	4. You can also change the "name_width" and/or "score_width" values I move it over more all-togetherly
+	4. You can also change the "name_width" and/or "score_width" values to move it over more all-togetherly
 
 
 ========================
