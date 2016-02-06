@@ -66,7 +66,7 @@
 					
 				if_mvm
 				{
-					"xpos"				"-9"
+					"xpos"				"2"
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
@@ -314,7 +314,7 @@
 			
 			if_mvm
 			{
-				"wide"		"30"
+				"wide"		"51"
 				"tall"		"35"
 			}
 			
@@ -333,12 +333,12 @@
 		
 		if_mvm
 		{
-			"xpos"					"c-250"
+			"xpos"					"c-247"
 			"ypos"					"0"
 			"wide"					"500"
 			"tall"					"480"
 
-			"team1_player_base_y"			"68"
+			"team1_player_base_y"			"88"
 			"team2_player_delta_x"			"52"
 		}
 
