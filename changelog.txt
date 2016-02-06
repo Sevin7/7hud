@@ -3,11 +3,12 @@
 ======================
 
 v4.36
-sometime
+02/06/2016
 
 - lowercased all folder/file names
 - separated 7hud animations from hudanimations_tf so it can't go out of date (thanks wiet)
 - fixed up and altered the design of some tournament stuff
+- added player names above floating health in spectate
 - changed time remaining font
 
 v4.35
