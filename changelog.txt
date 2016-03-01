@@ -2,6 +2,12 @@
 7HUD through the years
 ======================
 
+v4.37
+03/01/2016
+
+- updated for feb. 29 patch
+- integrated competitive beta changes
+
 v4.36
 02/06/2016
 
