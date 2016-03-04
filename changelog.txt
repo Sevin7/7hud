@@ -2,6 +2,13 @@
 7HUD through the years
 ======================
 
+v4.38
+03/04/2016
+
+- motd panel entirely removed from main menu
+- working on matchmaking some more
+- fixed class loadout panel popups being offcenter
+
 v4.37
 03/01/2016
 

@@ -19,7 +19,7 @@
 		"team2_player_base_y"				"0"
 		"team2_player_delta_x"				"47"
 		"team2_player_delta_y"				"0"
-		"teams_player_delta_x_comp"			"42"
+		"teams_player_delta_x_comp"			"50"
 
 		"avatar_width"	"63"
 		"spacer"		"5"
@@ -45,7 +45,7 @@
 			"wide"							"f0"
 			"tall"							"480"
 
-			"team1_player_base_y"			"75"
+			"team1_player_base_y"			"60"
 			"team2_player_base_y"			"66"
 			"team2_player_base_offset_x"	"5"
 		}
@@ -68,7 +68,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"ModeImage"
 			"xpos"			"cs-0.5"
-			"ypos"			"35"
+			"ypos"			"45"
 			"zpos"			"0"
 			"wide"			"60"
 			"tall"			"60"
@@ -104,13 +104,13 @@
 						
 			if_competitive
 			{
-				"wide"		"30"
+				"wide"		"48"
 				"tall"		"35"
 			}
 
 			if_readymode
 			{
-				"wide"		"30"
+				"wide"		"51"
 				"tall"		"35"
 			}
 			
@@ -142,9 +142,9 @@
 
 				if_competitive
 				{
-					"xpos"				"-9"
-					"ypos"				"21"
-					"wide"				"p0.9"
+					"xpos"				"0"
+					"ypos"				"25"
+					"wide"				"p1"
 					"tall"				"p0.22"
 					"textAlignment"		"center"
 					"font"				"PlayerPanelPlayerName"
@@ -153,7 +153,7 @@
 
 				if_readymode
 				{
-					"xpos"				"-9"
+					"xpos"				"0"
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
@@ -364,8 +364,8 @@
 				
 				if_competitive
 				{
-					"xpos"			"31"
-					"ypos"			"15"
+					"xpos"			"9"
+					"ypos"			"10"
 					"wide"			"p0.41"
 					"tall"			"p0.28"
 					"proportionaltoparent" "1"
@@ -741,7 +741,7 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%winconditions%"
-		"textAlignment"		"north-west"
+		"textAlignment"		"center"
 		
 		if_mvm
 		{
@@ -750,8 +750,8 @@
 
 		if_competitive
 		{
-			"xpos"			"c-45"
-			"ypos"			"10"
+			"xpos"			"cs-0.5"
+			"ypos"			"-5"
 			"tall"			"35"
 			"visible"		"1"
 			"font"			"InstructionalText"
@@ -808,7 +808,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreboardBackground"
-		"xpos"			"c-225"
+		"xpos"			"c-228"
 		"ypos"			"26"
 		"zpos"			"-1"
 		"wide"			"250"
@@ -822,6 +822,16 @@
 		{
 			"visible"		"0"
 		}
+		
+		if_competitive
+		{
+			"visible"		"1"
+			"xpos"			"cs-0.5"
+			"ypos"			"0"
+			"tall"			"38"
+			"wide"			"115"
+			"fillcolor"		"ButtonBGT"
+		}		
 		
 		if_readymode
 		{
@@ -862,7 +872,7 @@
 		{
 			"font"			"InstructionalText"
 			"xpos"			"cs-0.5"
-			"ypos"			"32"
+			"ypos"			"17"
 			"wide"			"190"
 			"tall"			"12"
 			"zpos"			"3"
@@ -883,7 +893,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"InstructionBackground"
-		"xpos"			"c-225"
+		"xpos"			"c-228"
 		"ypos"			"50"
 		"zpos"			"-1"
 		"wide"			"250"
@@ -897,6 +907,16 @@
 		{
 			"visible"		"0"
 		}
+		
+		if_competitive
+		{
+			"visible"		"1"
+			"xpos"			"cs-0.5"
+			"ypos"			"4"
+			"tall"			"29"
+			"wide"			"105"
+			"fillcolor"		"ButtonBGT"
+		}				
 		
 		if_readymode
 		{
