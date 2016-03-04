@@ -932,7 +932,7 @@
 		"fieldName"		"CountdownBG"
 		"xpos"			"230"
 		"ypos"			"r55"
-		"zpos"			"-1"
+		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"40"
 		"autoResize"		"0"
@@ -946,18 +946,31 @@
 		
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" "5"	
+		"proportionaltoparent"	"1"
+
+		if_competitive
+		{
+			"xpos"			"9999"		//cs-0.5
+			"ypos"			"150"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
 	}
 
 	"CountdownLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"Cerbetica24"
+		"font"			"HudFontMediumBold"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
 		"tall"			"40"
-		"zpos"			"1"
+		"zpos"			"5"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -965,12 +978,14 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-	
-	
+		"proportionaltoparent"	"1"
+
 		if_competitive
 		{
-			"xpos"			"300"
-			"ypos"			"130"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.1"
+			"fgcolor"		"TanLight"
+			"font"			"HudFontMediumBold"
 		}
 
 		if_readymode
@@ -985,12 +1000,12 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"Cerbetica24"
+		"font"			"HudFontMediumBold"
 		"xpos"			"231"
 		"ypos"			"r54"
 		"wide"			"40"
 		"tall"			"40"
-		"zpos"			"1"
+		"zpos"			"4"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -999,11 +1014,13 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		"fgcolor"		"Black"
-		
+		"proportionaltoparent"	"1"
+
 		if_competitive
 		{
-			"xpos"			"300"
-			"ypos"			"130"
+			"xpos"			"cs-0.48"
+			"ypos"			"cs-0.08"
+			"font"			"HudFontMediumBold"
 		}
 
 		if_readymode
