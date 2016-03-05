@@ -484,8 +484,8 @@
 		
 		if_competitive
 		{
-			"xpos"			"c+120"
-			"ypos"			"388"
+			"xpos"			"cs-0.5"
+			"ypos"			"410"
 		}
 
 		"NavUp"			"Sheet"
@@ -843,7 +843,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
-			}
 		}
 	}
 			
