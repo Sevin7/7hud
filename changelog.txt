@@ -2,12 +2,23 @@
 7HUD through the years
 ======================
 
+v4.39
+sometime
+
+- new passtime hud!
+- new robot and player destruction huds!
+- new ctf hud to reflect new passtime, rd, and pd huds!
+- fixed 3d model by hp option being broken in 4plug
+- various competitive updates and revisions (previously committed)
+- fixed extra bracket in lobbycontainerframe (previously committed)
+
 v4.38
 03/04/2016
 
 - motd panel entirely removed from main menu
 - working on matchmaking some more
 - fixed class loadout panel popups being offcenter
+- added more closed captions
 
 v4.37
 03/01/2016

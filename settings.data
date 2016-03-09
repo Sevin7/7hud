@@ -40,7 +40,7 @@ HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
 }
 #if 3d == "hp"
 {
-	#if HudPosition == "centered"
+	#if HUDPosition == "centered"
 	{
 		Copy("resource\ui\hudplayerclass - hp top.res", "resource\ui\hudplayerclass.res");
 	}

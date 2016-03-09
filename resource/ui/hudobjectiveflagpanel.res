@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusFlagPanel"
 		"xpos"				"0"	
-		"ypos"				"-9"			//0
+		"ypos"				"0"			//0
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -19,21 +19,23 @@
 		
 	}
 
-	"BlueScoreBG"
+   "BlueScoreBG"	
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"BlueScoreBG"
-		"font"			"CircleBGWin"
-		"labelText"		"o"
-		"textAlignment"		"center"
-		"xpos"			"c-89"
-		"ypos"			"r39"			//r39
-		"zpos"			"2"
-		"wide"			"40"
-		"tall"			"41"
-		"fgcolor"		"BlueTeam"
+		"xpos"			"c-81"
+		"ypos"			"r20"
+		"zpos"			"1"
+		"wide"			"36"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"defaultBgColor_Override"		"BlueTeam"
+		"border_default"				"noborder"		
+		"PaintBackgroundType""0"
+        "textinsety" "99"
 
 		"if_hybrid"
 		{
@@ -55,8 +57,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-99"
-		"ypos"			"r29"
+		"xpos"			"c-102"
+		"ypos"			"r22"
 		"zpos"			"9"
 		"wide"			"59"
 		"tall"			"23"
@@ -64,7 +66,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"Medium16"
+		"font"			"HudFontMediumBold"
 		"fgcolor"		"White"
 		
 		"if_hybrid"
@@ -82,22 +84,56 @@
 			"visible"	"0"
 		}
 	}
-
-	"RedScoreBG"
+	
+	"BlueScoreDrop"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"RedScoreBG"
-		"font"			"CircleBGWin"
-		"labelText"		"o"
-		"textAlignment"		"center"
-		"xpos"			"c49"
-		"ypos"			"r39"
-		"zpos"			"2"
-		"wide"			"41"
-		"tall"			"41"
-		"fgcolor"		"RedTeam"
+		"ControlName"	"CExLabel"
+		"fieldName"		"BlueScoreDrop"
+		"xpos"			"c-101"
+		"ypos"			"r21"
+		"zpos"			"9"
+		"wide"			"59"
+		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%bluescore%"
+		"font"			"HudFontMediumBold"
+		"fgcolor"		"Black"
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}	
+
+    "RedScoreBG"	
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"RedScoreBG"
+		"xpos"			"c45"
+		"ypos"			"r20"
+		"zpos"			"1"
+		"wide"			"36"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultBgColor_Override"		"RedTeam"
+		"border_default"				"noborder"		
+		"PaintBackgroundType""0"
+        "textinsety" "99"
 
 		"if_hybrid"
 		{
@@ -119,8 +155,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c40"
-		"ypos"			"r29"
+		"xpos"			"c43"
+		"ypos"			"r22"
 		"zpos"			"9"
 		"wide"			"59"
 		"tall"			"23"
@@ -128,7 +164,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"Medium16"
+		"font"			"HudFontMediumBold"
 		"fgcolor"		"White"		
 		
 		"if_hybrid"
@@ -145,7 +181,39 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
+
+	"RedScoreDrop"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"RedScoreDrop"
+		"xpos"			"c42"
+		"ypos"			"r21"
+		"zpos"			"9"
+		"wide"			"59"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%redscore%"
+		"font"			"HudFontMediumBold"
+		"fgcolor"		"Black"		
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}		
 
 	"OutlineBG"
 	{
@@ -196,11 +264,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"c-13"
-		"ypos"			"r37"		//r39
+		"xpos"			"cs-.5"
+		"ypos"			"r47"
 		"zpos"			"10"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"18"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
@@ -215,14 +283,65 @@
 		{
 			"visible"	"0"
 		}
-	}		
+	}
+
+	"PlayingTo"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayingTo"
+		"xpos"			"c-70"
+		"ypos"			"r25"
+		"zpos"			"4"
+		"wide"			"140"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_PlayingTo"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"HudFontSmallest"
+		"fgcolor"		"TanLight"
+	}	
+				
+	"PlayingToBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayingToBG"
+		"xpos"			"9999"		//c-75
+		"ypos"			"r60"
+		"zpos"			"3"
+		"wide"			"150"
+		"tall"			"38"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_bg_playingto"
+		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+		"scaleImage"	"1"	
+	}
+	"PlayingToBG2"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"PlayingToBG2"
+		"xpos"			"cs-.5"
+		"ypos"			"r20"
+		"zpos"			"3"
+		"wide"			"90"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultBgColor_Override"		"ButtonBGT"
+		"border_default"				"noborder"		
+		"PaintBackgroundType""0"
+		"textinsety" "99"			
+	}	
 	
 	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-90"
-		"ypos"			"r44"	
+		"xpos"			"c-118"
+		"ypos"			"r48"	
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -261,8 +380,8 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-40"
-		"ypos"			"r44"	
+		"xpos"			"c8"
+		"ypos"			"r48"	
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -302,11 +421,11 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"c-32"
+		"xpos"			"cs-.5"
 		"ypos"			"r62"	
 		"zpos"			"5"
-		"wide"			"65"
-		"tall"			"65"
+		"wide"			"40"
+		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
 		
@@ -358,8 +477,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpecCarriedImage"
 		"xpos"			"c-50"
-		"ypos"			"r137"	[$WIN32]
-		"ypos"			"r158"	[$X360]
+		"ypos"			"r137"
 		"zpos"			"10"
 		"wide"			"100"
 		"tall"			"100"

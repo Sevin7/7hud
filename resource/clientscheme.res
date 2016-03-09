@@ -97,10 +97,10 @@ Scheme
 		"White"				"255 255 255 175"			//Transparent white for text
 		"WhiteS"			"225 225 225 255"			//Matching solid white
 		
-		"RedTeam" 			"184 56 59 175"				//Team fill colors transparent
-		"BlueTeam"			"78 123 152 175"			//
-		"RedTeamS" 			"157 54 54 255"				//
-		"BlueTeamS"			"75 110 140 255"			//Team fill colors solid
+		"RedTeam" 			"189 59 59 120"				//Team fill colors transparent
+		"BlueTeam"			"45 97 124 120"			//
+		"RedTeamS" 			"189 59 59 255"				//
+		"BlueTeamS"			"45 97 124 255"			//Team fill colors solid
 		
 		"LightGray"			"212 212 212 255"
 		"Metal"				"137 159 179 255"
@@ -4252,6 +4252,17 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		"FeedFont"
+		{
+			"1"
+			{
+				"name"		"Clear Sans Bold"
+				"tall"		"10"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}		
 		
 		"CloseCaption_Normal"
 		{
