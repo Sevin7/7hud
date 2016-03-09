@@ -3,7 +3,7 @@
 ======================
 
 v4.39
-sometime
+03/09/2016
 
 - new passtime hud!
 - new robot and player destruction huds!
