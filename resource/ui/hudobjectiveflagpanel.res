@@ -302,6 +302,21 @@
 		"brighttext"	"0"
 		"font"			"HudFontSmallest"
 		"fgcolor"		"TanLight"
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}		
 	}	
 				
 	"PlayingToBG"
@@ -333,7 +348,22 @@
 		"defaultBgColor_Override"		"ButtonBGT"
 		"border_default"				"noborder"		
 		"PaintBackgroundType""0"
-		"textinsety" "99"			
+		"textinsety" "99"
+
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}		
 	}	
 	
 	"BlueFlag"

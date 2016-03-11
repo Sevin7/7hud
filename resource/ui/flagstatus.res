@@ -11,7 +11,14 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
+
+		"if_mvm"
+		{
+			"ypos"			"-13"
+			"wide"			"40"
+			"tall"			"40"
+		}			
 	}
 	"Briefcase"
 	{
@@ -29,11 +36,11 @@
 
 		"if_mvm"
 		{
-			"xpos"			"56"
-			"ypos"			"13"
+			"xpos"			"51"
+			"ypos"			"-2"
 			"zpos"     		"2"
-			"wide"			"16"
-			"tall"			"16"
+			"wide"			"18"
+			"tall"			"18"
 		}	
 		"if_specialdelivery"
 		{

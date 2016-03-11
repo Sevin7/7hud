@@ -4549,6 +4549,18 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
+		}
+
+		"CompMatchStartTeamNames"
+		{
+			"1"
+			{
+				"name"		"Clear Sans Bold"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
 		}		
 		
 		"ControlPointTimer"

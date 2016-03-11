@@ -59,7 +59,7 @@
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"c100"
+		"xpos"				"c94"
 		"ypos"				"-44"
 		"wide"				"f0"
 		"tall"				"480"

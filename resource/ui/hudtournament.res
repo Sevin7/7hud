@@ -123,7 +123,7 @@
 				"ypos"			"24"
 				"zpos"			"5"
 				"wide"			"50"
-				"tall"			"8"
+				"tall"			"10"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -133,7 +133,7 @@
 					
 				if_mvm
 				{
-					"xpos"				"4"
+					"xpos"				"0"
 					"ypos"				"25"
 					"wide"			"48"
 					"textAlignment"		"center"

@@ -2024,4 +2024,16 @@ ItemQuickSwitchPanel
 		"wide"	"f0"
 		"tall"	"f0"
 	}	
+	
+	HudCompetitive
+	{
+		"fieldName"				"HudCompetitive"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
+	}	
 }

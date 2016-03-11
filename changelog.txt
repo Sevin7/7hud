@@ -2,6 +2,14 @@
 7HUD through the years
 ======================
 
+v4.40
+03/11/2016
+
+- updated for mar. 11 patch
+- new report player button on in-game menu
+- centered freezepanel
+- mvm flag panel fixes
+
 v4.39
 03/09/2016
 

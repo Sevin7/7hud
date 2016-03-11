@@ -19,15 +19,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BG"
-		"xpos"			"4"		//15
-		"ypos"			"50"		//7
+		"xpos"			"0"		//15
+		"ypos"			"47"		//7
 		"zpos"			"2"
-		"wide"			"62"
-		"tall"			"16"
+		"wide"			"34"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"MvMBG"	
+		"bgcolor_override"	"RedTeam"	
 	}
 	
 	"MoneyImagePanel"
@@ -52,7 +52,7 @@
 		"font"			"Regular12"
 		"fgcolor"		"White"
 		"xpos"			"2"
-		"ypos"			"52"
+		"ypos"			"44"
 		"zpos"			"4"
 		"wide"			"63"
 		"tall"			"18"
@@ -67,9 +67,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
 		"font"			"Regular12"
-		"fgcolor"		"Black"
-		"xpos"			"2"
-		"ypos"			"52"
+		"fgcolor"		"WhiteS"
+		"xpos"			"-16"
+		"ypos"			"47"
 		"zpos"			"4"
 		"wide"			"63"
 		"tall"			"18"
@@ -78,4 +78,21 @@
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
 	}
+	
+	"CurrencyBadDrop"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyBadDrop"
+		"font"			"Regular12"
+		"fgcolor"		"Black"
+		"xpos"			"-17"
+		"ypos"			"48"
+		"zpos"			"4"
+		"wide"			"63"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%currency%"
+	}	
 }
