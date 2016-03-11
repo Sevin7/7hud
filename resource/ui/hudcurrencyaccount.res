@@ -6,8 +6,8 @@
 		"fieldName"		"Currency"
 		"font"			"Regular12"
 		"fgcolor"		"WhiteS"
-		"xpos"			"0"		//16
-		"ypos"			"95"
+		"xpos"			"25"		//16
+		"ypos"			"90"
 		"zpos"			"3"
 		"wide"			"62"
 		"tall"			"16"
@@ -15,19 +15,36 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
-	}	
+	}
+
+	"CurrencyDrop"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyDrop"
+		"font"			"Regular12"
+		"fgcolor"		"Black"
+		"xpos"			"26"		//16
+		"ypos"			"91"
+		"zpos"			"3"
+		"wide"			"62"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%currency%"
+	}		
 	
 	"BG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BG"
-		"xpos"			"0"		//15
-		"ypos"			"92"		//7
+		"xpos"			"40"		//15
+		"ypos"			"88"		//7
 		"zpos"			"2"
-		"wide"			"62"
-		"tall"			"16"
+		"wide"			"34"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"MvMBG2"
+		"bgcolor_override"	"BlueTeam"
 	}
 }
