@@ -68,7 +68,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"ModeImage"
 			"xpos"			"cs-0.5"
-			"ypos"			"45"
+			"ypos"			"65"
 			"zpos"			"0"
 			"wide"			"60"
 			"tall"			"60"
@@ -751,7 +751,7 @@
 		if_competitive
 		{
 			"xpos"			"cs-0.5"
-			"ypos"			"-5"
+			"ypos"			"12"
 			"tall"			"35"
 			"visible"		"1"
 			"font"			"InstructionalText"
@@ -828,7 +828,7 @@
 			"visible"		"1"
 			"xpos"			"cs-0.5"
 			"ypos"			"0"
-			"tall"			"38"
+			"tall"			"55"
 			"wide"			"115"
 			"fillcolor"		"ButtonBGT"
 		}		
@@ -872,7 +872,7 @@
 		{
 			"font"			"InstructionalText"
 			"xpos"			"cs-0.5"
-			"ypos"			"17"
+			"ypos"			"34"
 			"wide"			"190"
 			"tall"			"12"
 			"zpos"			"3"
@@ -913,7 +913,7 @@
 			"visible"		"1"
 			"xpos"			"cs-0.5"
 			"ypos"			"4"
-			"tall"			"29"
+			"tall"			"46"
 			"wide"			"105"
 			"fillcolor"		"ButtonBGT"
 		}				

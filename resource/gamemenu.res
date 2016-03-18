@@ -100,7 +100,7 @@
 	}	
 	"Version"
 	{
-		"label" "v4.40"
+		"label" "v4.41"
 		"command"		"engine toggleconsole;
 			play vo/toughbreak/plng_toughbreak_contractgiverare_beergarden.mp3
 			echo -------------------------------------------------------------------------------;

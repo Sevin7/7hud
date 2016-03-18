@@ -2,6 +2,13 @@
 7HUD through the years
 ======================
 
+v4.41
+03/17/2016
+
+- new team select menu (thanks to agoat and tf2m for advice)
+- integrated competitive changes w/ mar. 17 update and revised competitive ui
+- moved killstreak counter to a more suitable location
+
 v4.40
 03/11/2016
 

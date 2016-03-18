@@ -18,7 +18,7 @@
 		"ControlName"	"CircularProgressBar"
 		"fieldName"	"ProgressBar"
 		"xpos"		"c-30"//28
-		"ypos"		"50"
+		"ypos"		"65"
 		"zpos"		"23"
 		"wide"		"60"
 		"tall"		"60"

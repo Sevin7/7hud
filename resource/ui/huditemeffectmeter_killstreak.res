@@ -5,10 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r194"	[$WIN32]
-		"ypos"			"r152"	[$WIN32]
-		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r74"	[$WIN32]
+		"xpos"			"154"
+		"ypos"			"r40"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -35,14 +33,33 @@
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
+	"ItemEffectMeterBG2"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ItemEffectMeterBG2"
+		"xpos"		"15"	
+		"ypos"		"38"
+		"zpos"		"2"
+		"wide"		"61"
+		"tall"		"2"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultBgColor_Override"		"Highlight"
+		"border_default"				"noborder"		
+		"PaintBackgroundType""0"
+		"textinsety" "99"
+	}	
+	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"28"
-		"ypos"					"17"
+		"xpos"					"2"
+		"ypos"					"19"
 		"zpos"					"2"
-		"wide"					"41"
+		"wide"					"100"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -53,8 +70,30 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Regular8"
+		"font"					"Regular16"
 	}
+	
+	"ItemEffectMeterLabelBG"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabelBG"
+		"xpos"					"3"
+		"ypos"					"20"
+		"zpos"					"2"
+		"wide"					"100"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_KillStreak"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Regular16"
+		"fgcolor"				"HudShadow"
+	}	
 
 	"ItemEffectMeter"
 	{	
@@ -82,8 +121,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"-5"
-		"ypos"					"14"
+		"xpos"					"-13"
+		"ypos"					"17"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -95,15 +134,15 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Regular23"
+		"font"					"Heavy20"
 	}
 	
 	"ItemEffectMeterCountBG"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountBG"
-		"xpos"					"-4"
-		"ypos"					"15"
+		"xpos"					"-12"
+		"ypos"					"18"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -116,6 +155,6 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Regular23"
+		"font"					"Heavy20"
 	}
 }

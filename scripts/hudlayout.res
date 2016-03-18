@@ -160,7 +160,7 @@
 		// Otherwise the crosshair will change back to the default white color after
 		// flashing upon giving damage.
 
-	}	
+	}		
 	
 	/////////////////////////////////////////////////////////////////////////////
 	//Garm3n's Crosshairs
@@ -2012,8 +2012,8 @@ ItemQuickSwitchPanel
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
-	}	
-	
+	}
+
 	MatchSummary
 	{
 		"fieldName" "MatchSummary"
@@ -2023,11 +2023,11 @@ ItemQuickSwitchPanel
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
-	}	
-	
-	HudCompetitive
+	}
+
+	HudMatchStatus
 	{
-		"fieldName"				"HudCompetitive"
+		"fieldName"				"HudMatchStatus"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
@@ -2035,5 +2035,17 @@ ItemQuickSwitchPanel
 		"zpos"					"2"
 		"wide"					"f0"
 		"tall"					"f0"
-	}	
+	}
+
+	HudTeamStatus
+	{
+		"fieldName"				"HudTeamStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
 }
