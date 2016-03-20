@@ -86,7 +86,7 @@
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"43"
+		"tall"			"44"
 		"visible"		"1"
 		"enabled"		"1"
 		"pinCorner"		"0"
@@ -482,10 +482,22 @@
 		"brighttext"	"0"
 		"Command"		"start_party"
 		
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"Select"
+		"armedBgColor_override"		"ButtonBG"
+		"depressedBgColor_override"	"ButtonBG"
+			
+		"defaultFgColor_override" "235 235 235 255"
+		"armedFgColor_override" "250 250 250 255"
+		"depressedFgColor_override" "250 250 250 255"			
+		
 		if_competitive
 		{
 			"xpos"			"cs-0.5"
-			"ypos"			"410"
+			"ypos"			"447"			
 		}
 
 		"NavUp"			"Sheet"

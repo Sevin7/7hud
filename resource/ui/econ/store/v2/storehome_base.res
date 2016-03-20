@@ -201,8 +201,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SaxtonBackgroundPanel"
-		"xpos"			"c-315"
-		"ypos"			"10"
+		"xpos"			"c-355"
+		"ypos"			"80"
 		"zpos"			"-1"
 		"wide"			"300"
 		"tall"			"300"
@@ -433,8 +433,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BrowseTheStoreButton"
-		"xpos"			"c-265"
-		"ypos"			"c-60"
+		"xpos"			"c-305"
+		"ypos"			"c10"
 		"zpos"			"2"
 		"wide"			"160"
 		"tall"			"23"
