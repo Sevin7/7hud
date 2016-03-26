@@ -2,6 +2,13 @@
 7HUD through the years
 ======================
 
+v4.42
+03/25/2016
+
+- updated for mar. 24 patch
+- new streams button on main menu
+- competitive and mvm lobby tweaks (previously committed)
+
 v4.41
 03/17/2016
 

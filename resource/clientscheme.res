@@ -45,7 +45,7 @@ Scheme
 		
 		"MainMenuBG"		"11 7 6 190"			//BG of main menu box
 
-		"Select"			"43 43 42 255"			//Dark grey for default buttons
+		"Select"			"43 43 42 255"			//Dark grey for default buttons	
 		"ButtonBG"			"35 33 32 255"			//Darker grey for armed buttons
 		"ButtonBGT"			"35 33 32 220"			//Transparent darker grey
 		"Highlight"			"226 180 20 255"		//Gold color for hovering over buttons
@@ -7625,6 +7625,86 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		HighlightBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Highlight"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Highlight"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Highlight"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Highlight"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		WhiteBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "255 255 255 175"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "255 255 255 175"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "255 255 255 175"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "255 255 255 175"
+					"offset" "0 0"
+				}
+			}
+		}
+		
 		QuickplayBorder
 		{
 			"inset" "0 0 1 1"
