@@ -3,7 +3,9 @@
 ======================
 
 v4.43
+04/11/2016
 
+- updated for apr. 11 patch (end of tough break) 
 
 v4.42
 03/25/2016
