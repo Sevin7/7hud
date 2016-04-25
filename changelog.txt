@@ -2,6 +2,12 @@
 7HUD through the years
 ======================
 
+v4.44
+04/25/2016
+
+- fixed progress bar glitch in rd/pd
+- updated for apr. 25 patch
+
 v4.43
 04/11/2016
 

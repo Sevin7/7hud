@@ -307,3 +307,16 @@ event RDNegativeScorePulse
 	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
 	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
 }
+
+//===========================================
+
+// winpanel activation
+event WinPanel_CompPos
+{
+	Animate WinPanel ypos r132 Linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+	Animate WinPanel ypos r132 Linear 0 0
+}
