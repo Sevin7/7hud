@@ -278,7 +278,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"35 33 32 240"
+		"fillcolor"		"ButtonBGT"
 	}	
 	"WinPanelBG2"
 	{
@@ -293,7 +293,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ButtonBGT"
+		"fillcolor"		"35 33 32 240"
 	}
 	"WinPanelBG3"
 	{
@@ -308,7 +308,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"35 33 32 240"
+		"fillcolor"		"ButtonBGT"
 	}
 	"HorizontalLine1"
 	{
@@ -432,11 +432,11 @@
 		"fieldName"		"DetailsLabel"
 		"font"			"Regular6"
 		"fgcolor"		"234 230 209 255"
-		"xpos"			"150"
-		"ypos"			"110"
+		"xpos"			"135"
+		"ypos"			"114"
 		"zpos"			"1"
 		"wide"			"135"
-		"tall"			"24"
+		"tall"			"18"
 		"wrap"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"

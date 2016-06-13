@@ -2,6 +2,14 @@
 7HUD through the years
 ======================
 
+v4.45
+06/12/2016
+
+- messing around with the team select menu
+- fixed "team wins in: ..." text in pd
+- winpanel adjustments
+- fixed killstreak counter changing position when different hud version selected
+
 v4.44
 04/25/2016
 

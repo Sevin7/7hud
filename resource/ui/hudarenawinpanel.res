@@ -265,7 +265,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"35 33 32 240"
+		"fillcolor"		"ButtonBGT"
 	}
 	"WinPanelBG3"
 	{
@@ -280,7 +280,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ButtonBGT"
+		"fillcolor"		"35 33 32 240"
 	}
 	"WinPanelBG4"
 	{
@@ -295,7 +295,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"35 33 32 240"
+		"fillcolor"		"ButtonBGT"
 	}
 	"WinningTeamLabel"
 	{	
