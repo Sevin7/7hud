@@ -3,7 +3,7 @@
 ======================
 
 v4.46
-sometime
+06/29/2016
 
 - revised pl/plr display
 - darkened hp/ammo dropshadows to improve visibility
