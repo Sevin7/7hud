@@ -2,6 +2,13 @@
 7HUD through the years
 ======================
 
+v4.46
+sometime
+
+- revised pl/plr display
+- darkened hp/ammo dropshadows to improve visibility
+- hp/ammo dropshadows now completely disable when hp/ammo bg's active to avoid overlap
+
 v4.45
 06/12/2016
 

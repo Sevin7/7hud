@@ -53,7 +53,7 @@
 		"textAlignment"	 "east"	
 		"font"			"Heavy48"		[$OSX]
 		"font"			"Heavy56"		[!$OSX]
-		"fgcolor"	 "HudShadow"
+		"fgcolor"	 "HPAmmoBG"
 	}
 	"HudPlayerHealth"
 	{

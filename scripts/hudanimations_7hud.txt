@@ -32,6 +32,8 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthValueCam 		FgColor		"Buff"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	         Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueTour 	FgColor		"Buff"	         Accel 0.0 0.0
+	
+	Animate	PlayerStatusHealthValueShadow 	FgColor		"Blank"	         Accel 0.0 0.0	
 
     Animate	HealthBG 	    BgColor		"BuffBG"	        Accel 0.0 0.0
     Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.1
@@ -80,26 +82,19 @@ event HudHealthBonusPulseStop
         	StopEvent xHairCircle 0.0
         	StopEvent xHairDotOutline 0.0
 
-	Animate PlayerStatusHealthValue 	                FgColor		"Health"	         Accel 0.0 0.0
+	Animate PlayerStatusHealthValue 	    FgColor		"Health"	     Accel 0.0 0.0
+    Animate PlayerStatusHealthValueCam 	    FgColor		"Health"	     Accel 0.0 0.0
+    Animate PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	     Accel 0.0 0.0         
+    Animate	PlayerStatusHealthValueTour 	FgColor		"Black"	         Accel 0.0 0.0
+	
+	Animate	PlayerStatusHealthValueShadow 	FgColor		"HPAmmoBG"	     Accel 0.0 0.0		
 
-                Animate PlayerStatusHealthValueCam 	                FgColor		"Health"	         Accel 0.0 0.0
-
-                Animate PlayerStatusHealthValueSpec 	                FgColor		"WhiteS"	         Accel 0.0 0.0
-                
-                Animate	PlayerStatusHealthValueTour 	FgColor		"Black"	         Accel 0.0 0.0
-
-
-	Animate xHairNormal 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
-
-	Animate xHairThin 	                                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
-
-	Animate xHairThinOutline 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
-
-	Animate xHairRequest 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
-
-	Animate xHairCircle 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
-
-	Animate xHairDotOutline 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairNormal 	                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairThin 	                    FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairThinOutline 	            FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairRequest 	                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairCircle 	                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairDotOutline 	            FgColor		"Garm3nxHair"	         Accel 0.0 0.0
 	
     Animate	HealthBG 	     BgColor		"HudBGStatus"	       Accel 0.0 0.0
     Animate	HealthBG 	     Alpha		    "0"		           Accel 0.0 0.0
@@ -113,27 +108,29 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"175"		         Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		         Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"175"		    Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		        Linear 0.125 0.075
 
-	Animate	PlayerStatusHealthValueCam 	FgColor		"LowHP"	         Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	         Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueTour 	FgColor		"LowHP"	         Accel 0.0 0.0
-
-    Animate	HealthBG 	    BgColor		"LowHPBG"	    		Accel 0.0 0.0
-    Animate	HealthBG 	   	Alpha		"255"		        Accel 0.0 0.1
-	Animate	HealthBG 	    Alpha		"255"		        Accel 0.1 0.3
+	Animate	PlayerStatusHealthValueCam 		FgColor		"LowHP"	        Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	    Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour 	FgColor		"LowHP"	        Accel 0.0 0.0
 	
-	Animate	TargetHPBG 	    BgColor	    "LowHP"	    Accel 0.0 0.0
-    Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.1
-	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.1 0.3
+	Animate	PlayerStatusHealthValueShadow 	FgColor		"Blank"	     	Accel 0.0 0.0		
 
-	Animate xHairNormal 	                                FgColor		"RedHP"	         Accel 0.0 0.0
-	Animate xHairThin 	                                                FgColor		"RedHP"	         Accel 0.0 0.0
-	Animate xHairThinOutline 	                                FgColor		"RedHP"	         Accel 0.0 0.0
-	Animate xHairRequest 	                                FgColor		"RedHP"	         Accel 0.0 0.0
-	Animate xHairCircle 	                                FgColor		"RedHP"	         Accel 0.0 0.0
-	Animate xHairDot 	                                                FgColor		"RedHP"	         Accel 0.0 0.0
+    Animate	HealthBG 	    				BgColor		"LowHPBG"	   	Accel 0.0 0.0
+    Animate	HealthBG 	   					Alpha		"255"		    Accel 0.0 0.1
+	Animate	HealthBG 	    				Alpha		"255"		    Accel 0.1 0.3
+	
+	Animate	TargetHPBG 	    				BgColor	    "LowHP"	   		Accel 0.0 0.0
+    Animate	TargetHPBG 	    				Alpha		"255"		    Accel 0.0 0.1
+	Animate	TargetHPBG 	    				Alpha		"255"		    Accel 0.1 0.3
+
+	Animate xHairNormal 	                FgColor		"RedHP"	        Accel 0.0 0.0
+	Animate xHairThin 	                    FgColor		"RedHP"	        Accel 0.0 0.0
+	Animate xHairThinOutline 	            FgColor		"RedHP"	        Accel 0.0 0.0
+	Animate xHairRequest 	                FgColor		"RedHP"	        Accel 0.0 0.0
+	Animate xHairCircle 	                FgColor		"RedHP"	        Accel 0.0 0.0
+	Animate xHairDot 	                    FgColor		"RedHP"	        Accel 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -168,17 +165,19 @@ event HudHealthDyingPulseStop
 	StopEvent xHairCircle 0.0
 	StopEvent xHairDot 0.0
 
-	Animate	PlayerStatusHealthValue 	                FgColor		"Health"	         Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueCam 	FgColor		"Health"               Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	         Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueTour 	FgColor		"WhiteS"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue 	    FgColor		"Health"	        Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueCam 		FgColor		"Health"            Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	        Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour 	FgColor		"WhiteS"	        Accel 0.0 0.0
+	
+	Animate	PlayerStatusHealthValueShadow 	FgColor		"HPAmmoBG"	    	Accel 0.0 0.0	
 
-	Animate xHairNormal 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
-	Animate xHairThin 	                                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
-	Animate xHairThinOutline 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
-	Animate xHairRequest 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
-	Animate xHairCircle 	                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
-	Animate xHairDot 	                                                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairNormal 	                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairThin 	                    FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairThinOutline 	            FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairRequest 	                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairCircle 	                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
+	Animate xHairDot 	                    FgColor		"Garm3nxHair"	         Accel 0.0 0.0
 	
 	Animate	HealthBG 	     BgColor		"HudBGStatus"	        Accel 0.0 0.0
 	Animate	HealthBG 	     Alpha		    "0"		            Accel 0.0 0.0
@@ -199,6 +198,10 @@ event HudLowAmmoPulse
     Animate	AmmoBG 	   	Alpha		"255"		        Accel 0.0 0.3
 	Animate	AmmoBG 	    Alpha		"255"		        Accel 0.3 0.6
 	
+	Animate	AmmoInClipShadow 		FgColor		"Blank"	     Accel 0.0 0.0
+	Animate	AmmoInReserveShadow 	FgColor		"Blank"	     Accel 0.0 0.0
+	Animate	AmmoNoClipShadow 		FgColor		"Blank"	     Accel 0.0 0.0	
+	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
 
@@ -214,6 +217,10 @@ event HudLowAmmoPulseStop
 	
 	Animate AmmoBG 	     BgColor		"HudBGStatus"	        Accel 0.0 0.0
 	Animate	AmmoBG 	   	Alpha		"255"		        Accel 0.0 0.3
+	
+	Animate	AmmoInClipShadow 		FgColor		"HPAmmoBG"	     Accel 0.0 0.0
+	Animate	AmmoInReserveShadow 	FgColor		"HPAmmoBG"	     Accel 0.0 0.0
+	Animate	AmmoNoClipShadow 		FgColor		"HPAmmoBG"	     Accel 0.0 0.0		
 }
 
 // Flash the medic charge hud when we have full charge

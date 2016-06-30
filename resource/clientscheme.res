@@ -30,6 +30,7 @@ Scheme
 		"BuffBG"			"71 168 198 180" 		//Boosted health color for BG		
 		"Ammo"              "240 240 240 225"		//Current Clip
 		"AmmoReserve"       "240 240 240 225"		//Total reserve
+		"HPAmmoBG"			"45 35 30 235"			//Health/ammo dropshadow		
 		"Damage"            "255 255 255 175"		//Damage display		
 		"LowHP"				"255 47 47 255"			//Low health and ammo warning color
 		"LowHPBG"			"200 47 47 180"			//Low health and ammo warning color for BG
