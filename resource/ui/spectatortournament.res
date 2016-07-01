@@ -11,12 +11,12 @@
 		"enabled"		"1"
 		
 		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"222"
+		"team1_player_base_y"				"277"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-14"
 		
 		"team2_player_base_offset_x"		"0"
-		"team2_player_base_y"				"241"
+		"team2_player_base_y"				"296"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"14"
 		
@@ -58,7 +58,7 @@
 				"tall"        "14"			
 				"autoResize"		"0"
 				"pinCorner"		"0"
-				"fillcolor"		"Black"
+				"fillcolor"		"ButtonBG"
 				"visible"			"1"
 				"enabled"			"1"
 			}
@@ -90,7 +90,7 @@
 				"tall"        "14"
 				"autoResize"		"0"
 				"pinCorner"		"0"
-				"fillcolor"		"WhiteS"
+				"fillcolor"		"ButtonBG"
 				"alpha"				"255"
 				"visible"			"1"
 				"enabled"			"1"
@@ -164,7 +164,7 @@
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
 				"xpos"				"0"
-				"ypos"				"3"
+				"ypos"				"0"
 				"zpos"				"3"
 				"wide"				"180"	//160
 				"tall"				"20"
@@ -230,9 +230,9 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"	"respawntime"
-				"font"		"Medium10"		//9
+				"font"		"Bold9"		//9
 				"xpos"			"2"
-				"ypos"			"3"
+				"ypos"			"1"
 				"zpos"			"5"
 				"wide"			"23"
 				"tall"			"13"
@@ -261,27 +261,26 @@
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
+				"visible"		"0"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"east"
 				"fgcolor"		"WhiteS"
 			}
 			
-			
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"	"chargeamount"
-				"font"		"Medium10"
+				"font"		"Bold9"
 				"xpos"			"1"
-				"ypos"			"3"
+				"ypos"			"1"
 				"zpos"			"6"
 				"wide"			"25"
 				"tall"			"13"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"center"
-				"fgcolor"		"White"
+				"fgcolor"		"Highlight"
 			}
 
 			"specindex"

@@ -103,6 +103,27 @@
 		"font"			"DataLabelBig"
 		"fgcolor"		"Health"
 	}
+    "PercentLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PercentLabelShadow"
+		"xpos"	        "c83"
+		"ypos"			"337"
+		"zpos"			"5"
+		"wide"			"94"
+		"tall"			"15"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"			//change to 1 to get tiny percent icon
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%"
+		"textAlignment"	"east"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"DataLabelBig"
+		"fgcolor"		"HudShadow"
+	}		
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -130,7 +151,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
 		"xpos"			"c93"
-		"ypos"			"327"	
+		"ypos"			"328"	
 		"zpos"			"1"
 		"wide"			"159"	
 		"tall"			"57"	

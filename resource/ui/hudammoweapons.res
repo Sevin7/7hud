@@ -80,7 +80,7 @@
 	"fieldName"	 "AmmoInClipShadow"	
 	"font"	 "Heavy48"				[$OSX]
 	"font"	 "Heavy56"				[!$OSX]
-	"fgcolor"	 "HPAmmoBG"	
+	"fgcolor"	 "HudShadow"	
 	"xpos"	 "57"	
 	"ypos"	 "2"	
 	"zpos"	 "3"	
@@ -98,7 +98,7 @@
 	"fieldName"	 "AmmoInReserveShadow"	
 	"font"	 "Heavy28"					[$OSX]
 	"font"	 "Heavy32"					[!$OSX]		
-	"fgcolor"	 "HPAmmoBG"	
+	"fgcolor"	 "HudShadow"	
 	"xpos"	 "44"	
 	"ypos"	 "2"	
 	"zpos"	 "3"	
@@ -116,7 +116,7 @@
 	"fieldName"	 "AmmoNoClipShadow"	
 	"font"	 "Heavy48"				[$OSX]
 	"font"	 "Heavy56"				[!$OSX]
-	"fgcolor"	 "HPAmmoBG"	
+	"fgcolor"	 "HudShadow"	
 	"xpos"	"57"					
 	"ypos"	"2"
 	"zpos"	"3"

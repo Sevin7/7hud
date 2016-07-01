@@ -1,5 +1,23 @@
 "Resource/UI/SpectatorTournamentGUIHealth.res"
 {
+    "TargetHPBGTournament"	
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"TargetHPBGTournament"
+		"xpos"		"135"
+		"ypos"		"0"
+		"zpos"		"4"
+		"wide"		"30"
+		"tall"		"17"				
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultBgColor_Override"		"HudBGStatus"
+		"border_default"				"noborder"
+		"PaintBackgroundType""0"
+        "textinsety" "99"
+	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -82,7 +100,7 @@
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
-		"fgcolor"			"Black"
+		"fgcolor"			"Health"
 		"font"			"Bold13"
       }								
 }

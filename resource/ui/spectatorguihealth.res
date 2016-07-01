@@ -5,16 +5,16 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TargetHPBG"
 		"xpos"		"-2"
-		"ypos"		"3"					[$OSX]
-		"ypos"		"6"					[!$OSX]		
+		"ypos"		"1"					[$OSX]
+		"ypos"		"4"					[!$OSX]		
 		"zpos"		"4"
 		"wide"		"30"
-		"tall"		"13"				
+		"tall"		"14"				
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultBgColor_Override"		"HudBGStatus"
+		"defaultBgColor_Override"		"ButtonBGT"
 		"border_default"				"noborder"
 		"PaintBackgroundType""0"
         "textinsety" "99"
@@ -82,7 +82,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpec"
 		"xpos"			"-10"
-		"ypos"			"-2"
+		"ypos"			"-3"
 		"zpos"			"5"
 		"wide"			"46"
 		"tall"			"28"
@@ -90,7 +90,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Bold12"
+		"font"			"Bold13"
 		"fgcolor"		"White"
 	}			
 	"PlayerStatusHealthValueSpecShadow"
@@ -106,7 +106,7 @@
 		"enabled"		"0"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Bold12"
+		"font"			"Bold13"
 		"fgcolor"		"HudShadow"
 	}	
 

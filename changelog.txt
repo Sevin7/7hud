@@ -2,6 +2,21 @@
 7HUD through the years
 ======================
 
+v4.47
+07/01/2016
+
+- revised target id design a bit
+- cleaned up and revised tournament spec hud
+- fixed jarate clipping with bow charge in centered version
+- fixed scoreboard ping clipping in mvm
+- fixed duplicate numbers appearing in mvm scoreboard and when switching between scoreboards via menu toggle
+- fixed demo sticky charge being too high in lowered version
+- applied new dropshadows to more stuff
+- font/color definition cleanup
+- added support + damage to 6v6 scoreboard
+- removed medals from scoreboard (looks bad  and not very important)
+- deleted unnecessary materials
+
 v4.46
 06/29/2016
 

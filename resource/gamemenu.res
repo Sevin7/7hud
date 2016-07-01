@@ -100,7 +100,7 @@
 	}	
 	"Version"
 	{
-		"label" "v4.46"
+		"label" "v4.47"
 		"command"		"engine toggleconsole;
 			play vo/toughbreak/plng_toughbreak_contractgiverare_tiger.mp3
 			echo -------------------------------------------------------------------------------;

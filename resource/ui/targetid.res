@@ -76,15 +76,15 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TargetBG"
 		"xpos"		"-1"
-		"ypos"		"13"
+		"ypos"		"11"
 		"zpos"		"-10"
 		"wide"		"640"
-		"tall"		"12"
+		"tall"		"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 140"
+		"fillcolor"		"ButtonBGT"
 		"PaintBackgroundType""0"
 	}
 	
@@ -92,10 +92,10 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
-		"font"			"Bold9"				
+		"font"			"Bold10"				
 		"xpos"			"43"			//59
-		"ypos"			"9"			[$OSX]	
-		"ypos"			"7"			[$WIN32]		
+		"ypos"			"8"			[$OSX]	
+		"ypos"			"6"			[$WIN32]		
 		"zpos"			"2"
 		"wide"			"640"		//640
 		"tall"			"24"
@@ -114,9 +114,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Regular7Shadow"
+		"font"			"Regular9"
 		"xpos"			"7"			
-		"ypos"			"22"		// -3
+		"ypos"			"21"		// -3
 		"zpos"			"2"
 		"wide"			"270"
 		"tall"			"18"
@@ -170,7 +170,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"2"
-		"ypos"			"26"
+		"ypos"			"9999"		//26
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"

@@ -27,16 +27,16 @@ Scheme
 		"HudBGStatus"		"0 0 0 0"				//Transparent BG for HP/Ammo boxes
 		"Health"			"240 240 240 225"		//Normal health color			
 		"Buff"				"71 168 198 255" 		//Boosted health color
-		"BuffBG"			"71 168 198 180" 		//Boosted health color for BG		
+		"BuffBG"			"71 168 198 180" 		//Boosted health color for BG
+		"BuffSpec"			"71 168 198 110" 		//Boosted health color for target ID
 		"Ammo"              "240 240 240 225"		//Current Clip
-		"AmmoReserve"       "240 240 240 225"		//Total reserve
-		"HPAmmoBG"			"45 35 30 235"			//Health/ammo dropshadow		
+		"AmmoReserve"       "240 240 240 225"		//Total reserve	
 		"Damage"            "255 255 255 175"		//Damage display		
 		"LowHP"				"255 47 47 255"			//Low health and ammo warning color
 		"LowHPBG"			"200 47 47 180"			//Low health and ammo warning color for BG
+		"LowHPSpec"			"200 47 47 110"			//Low health and ammo warning color for target ID		
 		"RedHP"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
-		
-		"BuildingUber"      "242 242 242 255"  	 	//Uber label color		
+			
 		"UberLabel"			"255 150 0 154" 		//Uber ready color %
 		"UberMeter"			"255 150 0 255" 		//Uber ready color for meter	
 		
@@ -63,20 +63,18 @@ Scheme
 		"Name"				"255 255 255 175"		//TargetID name label color
 		"Time"				"255 255 255 175"		//Respawn and Map time
 		
-		"MvMBG"				"189 59 59 200"		//MvM panels red color
-		"MvMBG2"			"91 122 140 200"	//MvM panels blue color
+		"MvMBG"				"189 59 59 200"			//MvM panels red color
+		"MvMBG2"			"91 122 140 200"		//MvM panels blue color
 		
-		"Underline"			"0 0 0 0"			//Blank base color for HP and ammo underline
+		"Underline"			"0 0 0 0"				//Blank base color for HP and ammo underline
 		
-		"HudBG"				"0 0 0 214"			//Black HUD background
-		"HudShadow"			"0 0 0 120"			//Used for shadows on various numbers
-										//make last value 0 to remove them, or 255 to make them black
+		"HudBG"				"0 0 0 214"				//Black HUD background
+		"HudShadow"			"45 35 30 235"			//Used for shadows on various numbers
 		
 		
 		
 		// Base HUD Colors		
 		
-		"ButtonBG"			"107 107 107 255"					//Standard button color
 		"ButtonArmed"			"54 54 54 255"				//Armed color
 		"ButtonSelect"		"27 27 27 255"
 		

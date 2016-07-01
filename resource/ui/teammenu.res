@@ -511,22 +511,7 @@
 		"defaultBgColor_Override"		"91 122 140 175"	
 		"border_default"				""		
 		"PaintBackgroundType""0"
-        "textinsety" "99"
-		
-		"subimage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"BlueTeamLogo"
-			"xpos"			"-5"
-			"ypos"			"-18"
-			"zpos"			"1"
-			"wide"			"64"
-			"tall"			"64"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/blu_logo"
-			"scaleImage"	"1"
-		}		
+        "textinsety" "99"	
 	}	
 
     "RedTeamBG"	
@@ -548,21 +533,6 @@
 		"defaultBgColor_override"		"189 59 59 175"		
 		"armedBgColor_override"		"189 59 59 255"			
 		"border_default"				""
-		
-		"subimage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"RedTeamLogo"
-			"xpos"			"96"
-			"ypos"			"-20"
-			"zpos"			"1"
-			"wide"			"64"
-			"tall"			"64"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/red_logo"
-			"scaleImage"	"1"
-		}
 	}	
 	
 	"BlueLabel"

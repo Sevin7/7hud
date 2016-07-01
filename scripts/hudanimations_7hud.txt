@@ -31,7 +31,8 @@ event HudHealthBonusPulse
 
 	Animate	PlayerStatusHealthValueCam 		FgColor		"Buff"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	         Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueTour 	FgColor		"Buff"	         Accel 0.0 0.0
+	
+	Animate	TargetHPBGTournament 			BgColor		"BuffSpec"	    Accel 0.0 0.0	
 	
 	Animate	PlayerStatusHealthValueShadow 	FgColor		"Blank"	         Accel 0.0 0.0	
 
@@ -39,7 +40,7 @@ event HudHealthBonusPulse
     Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.1
 	Animate	HealthBG 	    Alpha		"255"		        Accel 0.1 0.3
 	
-	Animate	TargetHPBG 	    BgColor		"Buff"	    Accel 0.0 0.0
+	Animate	TargetHPBG 	    BgColor		"BuffSpec"	    Accel 0.0 0.0
     Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.1
 	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.1 0.3
 
@@ -85,9 +86,10 @@ event HudHealthBonusPulseStop
 	Animate PlayerStatusHealthValue 	    FgColor		"Health"	     Accel 0.0 0.0
     Animate PlayerStatusHealthValueCam 	    FgColor		"Health"	     Accel 0.0 0.0
     Animate PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	     Accel 0.0 0.0         
-    Animate	PlayerStatusHealthValueTour 	FgColor		"Black"	         Accel 0.0 0.0
 	
-	Animate	PlayerStatusHealthValueShadow 	FgColor		"HPAmmoBG"	     Accel 0.0 0.0		
+	Animate	TargetHPBGTournament 			BgColor		"HudBGStatus"	    Accel 0.0 0.0	
+	
+	Animate	PlayerStatusHealthValueShadow 	FgColor		"HudShadow"	     Accel 0.0 0.0		
 
 	Animate xHairNormal 	                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
 	Animate xHairThin 	                    FgColor		"Garm3nxHair"	         Accel 0.0 0.0
@@ -113,7 +115,8 @@ event HudHealthDyingPulse
 
 	Animate	PlayerStatusHealthValueCam 		FgColor		"LowHP"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	    Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueTour 	FgColor		"LowHP"	        Accel 0.0 0.0
+	
+	Animate	TargetHPBGTournament 			BgColor		"LowHPSpec"	    Accel 0.0 0.0
 	
 	Animate	PlayerStatusHealthValueShadow 	FgColor		"Blank"	     	Accel 0.0 0.0		
 
@@ -121,7 +124,7 @@ event HudHealthDyingPulse
     Animate	HealthBG 	   					Alpha		"255"		    Accel 0.0 0.1
 	Animate	HealthBG 	    				Alpha		"255"		    Accel 0.1 0.3
 	
-	Animate	TargetHPBG 	    				BgColor	    "LowHP"	   		Accel 0.0 0.0
+	Animate	TargetHPBG 	    				BgColor	    "LowHPSpec"	   	Accel 0.0 0.0
     Animate	TargetHPBG 	    				Alpha		"255"		    Accel 0.0 0.1
 	Animate	TargetHPBG 	    				Alpha		"255"		    Accel 0.1 0.3
 
@@ -168,9 +171,10 @@ event HudHealthDyingPulseStop
 	Animate	PlayerStatusHealthValue 	    FgColor		"Health"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueCam 		FgColor		"Health"            Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	        Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueTour 	FgColor		"WhiteS"	        Accel 0.0 0.0
 	
-	Animate	PlayerStatusHealthValueShadow 	FgColor		"HPAmmoBG"	    	Accel 0.0 0.0	
+	Animate	TargetHPBGTournament 			BgColor		"HudBGStatus"	    Accel 0.0 0.0	
+	
+	Animate	PlayerStatusHealthValueShadow 	FgColor		"HudShadow"	    	Accel 0.0 0.0	
 
 	Animate xHairNormal 	                FgColor		"Garm3nxHair"	         Accel 0.0 0.0
 	Animate xHairThin 	                    FgColor		"Garm3nxHair"	         Accel 0.0 0.0
@@ -218,9 +222,9 @@ event HudLowAmmoPulseStop
 	Animate AmmoBG 	     BgColor		"HudBGStatus"	        Accel 0.0 0.0
 	Animate	AmmoBG 	   	Alpha		"255"		        Accel 0.0 0.3
 	
-	Animate	AmmoInClipShadow 		FgColor		"HPAmmoBG"	     Accel 0.0 0.0
-	Animate	AmmoInReserveShadow 	FgColor		"HPAmmoBG"	     Accel 0.0 0.0
-	Animate	AmmoNoClipShadow 		FgColor		"HPAmmoBG"	     Accel 0.0 0.0		
+	Animate	AmmoInClipShadow 		FgColor		"HudShadow"	     Accel 0.0 0.0
+	Animate	AmmoInReserveShadow 	FgColor		"HudShadow"	     Accel 0.0 0.0
+	Animate	AmmoNoClipShadow 		FgColor		"HudShadow"	     Accel 0.0 0.0		
 }
 
 // Flash the medic charge hud when we have full charge
@@ -229,8 +233,11 @@ event HudMedicCharged
 {
 	Animate	MedicBG 	            BgColor		"UberLabel"		linear 0.0 0.0
 	
+	Animate	ChargeLabelShadow 	    FgColor		"Blank"		linear 0.0 0.0
+	
 	Animate	UberLabel 	        	FgColor		"Blank"		linear 0.0 0.0
     Animate	PercentLabel 	        FgColor		"Blank"		linear 0.0 0.0
+    Animate	PercentLabelShadow 	    FgColor		"Blank"		linear 0.0 0.0	
     Animate	Readylabel 	            FgColor		"White"		linear 0.0 0.0
 	Animate	ChargeMeter 	        FgColor		"UberLabel"		Linear 0.0 0.1
 	Animate	ChargeMeter 	        FgColor		"Blank"		Linear 0.4 0.4
@@ -255,10 +262,12 @@ event HudMedicChargedStop
 	StopEvent ChargeMeter 0.0
 
     Animate	MedicBG 	            BgColor		"HudBGStatus"		linear 0.0 0.0
-	Animate	ChargeLabel 	        FgColor		"BuildingUber"		Linear 0.0 0.0001
-    Animate	PercentLabel 	        FgColor		"BuildingUber"		linear 0.0 0.0
+	Animate	ChargeLabelShadow 	    FgColor		"HudShadow"			linear 0.0 0.0	
+	Animate	ChargeLabel 	        FgColor		"Health"		Linear 0.0 0.0001
+    Animate	PercentLabel 	        FgColor		"Health"		linear 0.0 0.0
+    Animate	PercentLabelShadow 	    FgColor		"HudShadow"		linear 0.0 0.0		
     Animate	ReadyLabel 	            FgColor		"Blank"		        linear 0.0 0.0
-	Animate	ChargeMeter 	        FgColor		"BuildingUber"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	        FgColor		"Health"		Linear 0.0 0.0001
     Animate	ChargeMeter 	        BgColor		"HudBG"		        linear 0.0 0.0
 }
 
