@@ -14,7 +14,7 @@
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultBgColor_Override"		"ButtonBGT"
+		"defaultBgColor_Override"		"HudBGStatus"
 		"border_default"				"noborder"
 		"PaintBackgroundType""0"
         "textinsety" "99"
