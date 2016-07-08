@@ -777,6 +777,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 
+			"actionsignallevel" "2"
 			"Command"		"noti_show"
 			"navActivate"	"<QuickplayButton"
 
@@ -1132,6 +1133,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
+			
+			"actionsignallevel"	"2"			
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
