@@ -2,6 +2,13 @@
 7HUD through the years
 ======================
 
+v4.48
+07/08/2016
+
+- meat your match fixes and updates
+- fixed black bar appearing in upper left corner when viewing scoreboard
+- fixed health bg misalignment in spy disguise panel
+
 v4.47
 07/01/2016
 

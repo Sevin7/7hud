@@ -19,7 +19,7 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}		
@@ -49,7 +49,7 @@
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}		
@@ -73,7 +73,7 @@
 		"font"			"Regular9"
 		"fgcolor"			"Health"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -99,7 +99,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"
 
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}		
@@ -123,7 +123,7 @@
 		"font"			"Regular9"
 		"fgcolor"			"Health"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -150,7 +150,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"
 
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}		
@@ -174,7 +174,7 @@
 		"font"			"Regular9"
 		"fgcolor"			"Health"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -199,7 +199,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"
 
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}		
@@ -223,7 +223,7 @@
 		"font"			"Regular9"
 		"fgcolor"			"Health"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -248,7 +248,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"
 
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}		
@@ -273,7 +273,7 @@
         "wrap"          "0"
         "font"          "Regular6"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -297,7 +297,7 @@
 		"enabled"		"1"
 		"fillcolor"		"35 33 32 230"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}		
@@ -320,7 +320,7 @@
         "image"         "../hud/objectives_timepanel_suddendeath"   
         "scaleImage"        "1"
 
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}			

@@ -385,7 +385,6 @@
 			}
 		}
 
-
 		"BallPowerMeterFillContainer"
 		{
 			// This exists because the bar is filled by changing the width dynamically

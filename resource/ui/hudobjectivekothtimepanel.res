@@ -2,7 +2,7 @@
 {
 	"HudKothTimeStatus"
 	{
-		if_comp
+		if_match
 		{
 			"zpos"		"5"
 		}
@@ -20,7 +20,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -53,7 +53,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 			
-			if_comp
+			if_match
 			{
 				"proportionaltoparent"	"1"
 
@@ -78,7 +78,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -111,7 +111,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 			
-			if_comp
+			if_match
 			{
 				"proportionaltoparent"	"1"
 

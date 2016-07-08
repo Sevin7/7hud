@@ -10,7 +10,7 @@
 	"QuickplayButton"
 	{
 		"label" "Quickplay"
-		"command" "quickplay"
+		"command" "play_casual"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
@@ -24,14 +24,14 @@
 	"PlayPVEButton"
 	{
 		"label" "Cooperative"
-		"command" "playpve"
+		"command" "play_mvm"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
 	}
     "PlayCompButton"
     {
         "label" "Competitive" 
-        "command" "ladder_ui_show"
+        "command" "play_competitive"
         "subimage" "glyph_practice"
         "OnlyAtMenu" "1"
     }	
@@ -90,7 +90,7 @@
 	{
 		"label" "7HUD"
 		"command"		"engine toggleconsole;
-			play vo/toughbreak/plng_toughbreak_contractgiverare_tiger.mp3
+			play vo/compmode/cm_admin_callout_no_rare_01.mp3
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;
@@ -100,9 +100,9 @@
 	}	
 	"Version"
 	{
-		"label" "v4.47"
+		"label" "v4.48"
 		"command"		"engine toggleconsole;
-			play vo/toughbreak/plng_toughbreak_contractgiverare_tiger.mp3
+			play vo/compmode/cm_admin_callout_no_rare_01.mp3
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;

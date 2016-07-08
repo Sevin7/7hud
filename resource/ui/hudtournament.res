@@ -843,7 +843,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"InstructionalText"
+		"font"			"HudFontSmallishBold"
 		"xpos"			"0"
 		"ypos"			"54"
 		"wide"			"250"
@@ -860,34 +860,87 @@
 		
 		if_mvm
 		{
-			"font"			"InstructionalText"
+			"font"			"HudFontSmallishBold"
 			"xpos"			"155"
 			"ypos"			"105"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"20"
 			"zpos"			"3"
 		}
 
 		if_competitive
 		{
-			"font"			"InstructionalText"
+			"font"			"HudFontSmallishBold"
 			"xpos"			"cs-0.5"
 			"ypos"			"34"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"20"
 			"zpos"			"3"
 		}
 
 		if_readymode
 		{
-			"font"			"InstructionalText"
+			"font"			"HudFontSmallishBold"
 			"xpos"			"227"
 			"ypos"			"32"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"20"
 			"zpos"			"3"
 		}
 	}
+	
+	"TournamentInstructionsLabelShadow"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"TournamentInstructionsLabelShadow"
+		"font"			"TFFontSmall"
+		"xpos"			"0"
+		"ypos"			"54"
+		"wide"			"250"
+		"tall"			"10"
+		"zpos"			"2"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%readylabel%"
+		"textAlignment"		"center"
+		"proportionaltoparent"	"1"
+		
+		if_mvm
+		{
+			"font"			"HudFontSmallishBold"
+			"xpos"			"156"
+			"ypos"			"106"
+			"wide"			"190"
+			"tall"			"20"
+			"visible"		"1"
+			"fgcolor"		"Black"
+		}
+
+		if_competitive
+		{
+			"font"			"HudFontSmallishBold"
+			"xpos"			"cs-0.5"
+			"ypos"			"111"
+			"wide"			"190"
+			"tall"			"20"
+			"visible"		"1"
+			"fgcolor"		"Black"
+		}
+
+		if_readymode
+		{
+			"font"			"HudFontSmallishBold"
+			"xpos"			"226"
+			"ypos"			"111"
+			"wide"			"190"
+			"tall"			"20"
+			"visible"		"1"
+			"fgcolor"		"Black"
+		}
+	}	
 	
 	"InstructionsBackground"
 	{
