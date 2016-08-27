@@ -825,7 +825,7 @@
 		
 		if_competitive
 		{
-			"visible"		"1"
+			"visible"		"0"
 			"xpos"			"cs-0.5"
 			"ypos"			"0"
 			"tall"			"55"
@@ -963,7 +963,7 @@
 		
 		if_competitive
 		{
-			"visible"		"1"
+			"visible"		"0"
 			"xpos"			"cs-0.5"
 			"ypos"			"4"
 			"tall"			"46"

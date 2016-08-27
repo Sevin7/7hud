@@ -97,10 +97,10 @@ Scheme
 		"White"				"255 255 255 175"			//Transparent white for text
 		"WhiteS"			"225 225 225 255"			//Matching solid white
 		
-		"RedTeam" 			"189 59 59 120"				//Team fill colors transparent
-		"BlueTeam"			"45 97 124 120"			//
-		"RedTeamS" 			"189 59 59 255"				//
-		"BlueTeamS"			"45 97 124 255"			//Team fill colors solid
+		"RedTeam" 			"130 56 56 200"				//Semi-transparent red team color for hud bg's
+		"RedTeamS" 			"130 56 56 255"				//Solid red team color for hud bg's
+		"BlueTeam"			"56 99 130 200"			//Semi-transparent blue team color for hud bg's
+		"BlueTeamS"			"56 99 130 255"			//Solid blue team color for hud bg's
 		
 		"LightGray"			"212 212 212 255"
 		"Metal"				"137 159 179 255"

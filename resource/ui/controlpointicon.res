@@ -33,7 +33,7 @@
 		"xpos"		"1"
 		"ypos"		"0"
 		"zpos"		"3"
-		"wide"		"10"
+		"wide"		"0"		//10
 		"tall"		"16"
 		"visible"	"0"
 		"enabled"	"1"
@@ -45,9 +45,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"Medium8"
-		"xpos"			"6"
-		"ypos"			"2"
+		"font"			"Regular10"
+		"xpos"			"1"
+		"ypos"			"1"
 		"zpos"			"4"
 		"wide"			"22"
 		"tall"			"22"

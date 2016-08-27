@@ -2,6 +2,14 @@
 7HUD through the years
 ======================
 
+v4.50
+
+- designed new cp icons
+- revised round counter display in matchmaking/casual
+- red/blu team color tweaks
+- removed heavy/pyro war button
+- fixed demo sticky positioning in centered version
+
 v4.49
 07/14/2016
 

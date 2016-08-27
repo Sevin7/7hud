@@ -192,7 +192,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"91 122 140 175"	//125 255 0 175
+		"fillcolor"		"BlueTeam"
 
 		if_mvm
 		{
@@ -333,7 +333,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"189 59 59 175"
+		"fillcolor"		"RedTeam"
 
 		if_mvm
 		{
@@ -398,6 +398,7 @@
 		"ypos"			"r299"			[$OSX]
 		"ypos"			"r302"			[!$OSX]
 		"ypos_minmode"		"r153"
+		"zpos"			"5"		
 		"wide"			"100"
 		"tall"			"20"
 		"tall_minmode"		"20"

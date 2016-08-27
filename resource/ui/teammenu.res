@@ -508,7 +508,7 @@
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultBgColor_Override"		"91 122 140 175"	
+		"defaultBgColor_Override"		"BlueTeam"	
 		"border_default"				""		
 		"PaintBackgroundType""0"
         "textinsety" "99"	
@@ -530,8 +530,7 @@
 		"labelText"		""
 		"paintbackground"	"1"
 		"PaintBackgroundType""1"		
-		"defaultBgColor_override"		"189 59 59 175"		
-		"armedBgColor_override"		"189 59 59 255"			
+		"defaultBgColor_override"		"RedTeam"		
 		"border_default"				""
 	}	
 	

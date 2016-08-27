@@ -286,7 +286,7 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"9"
+				"ypos"			"8"
 				"tall"			"10"
 				"font"			"Regular12"
 			}
