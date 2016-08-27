@@ -923,7 +923,7 @@
 		{
 			"font"			"HudFontSmallishBold"
 			"xpos"			"cs-0.5"
-			"ypos"			"111"
+			"ypos"			"35"
 			"wide"			"190"
 			"tall"			"20"
 			"visible"		"1"
@@ -934,7 +934,7 @@
 		{
 			"font"			"HudFontSmallishBold"
 			"xpos"			"226"
-			"ypos"			"111"
+			"ypos"			"33"
 			"wide"			"190"
 			"tall"			"20"
 			"visible"		"1"
