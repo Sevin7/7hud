@@ -71,8 +71,6 @@
 		"scaleImage"	"1"
 		"image"				""	
 		"teambg_1"			""
-		"teambg_2"      "replay/thumbnails/bg_redtri"
-        "teambg_3"      "replay/thumbnails/bg_bluetri"
 	}
 
 	"classmodelpanelBG"
@@ -89,10 +87,6 @@
 		"scaleImage"	"1"
 		"image"				""	
 		"teambg_1"			""
-		"teambg_2"			"replay/thumbnails/bg_red"
-		"teambg_2_lodef"	"replay/thumbnails/bg_red"
-		"teambg_3"			"replay/thumbnails/bg_blue"
-		"teambg_3_lodef"	"replay/thumbnails/bg_blue"
 	}
 
 	"classmodelpanel"

@@ -30,11 +30,11 @@
 	{
 		"ControlName"	"ImagePanel"		
 		"fieldName"	"CapPlayerImage"
-		"xpos"		"1"
+		"xpos"		"3"
 		"ypos"		"0"
 		"zpos"		"3"
-		"wide"		"0"		//10
-		"tall"		"16"
+		"wide"		"8"		//10
+		"tall"		"13"
 		"visible"	"0"
 		"enabled"	"1"
 		"image"		"capture_icon"
@@ -46,7 +46,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
 		"font"			"Regular10"
-		"xpos"			"1"
+		"xpos"			"5"
 		"ypos"			"1"
 		"zpos"			"4"
 		"wide"			"22"

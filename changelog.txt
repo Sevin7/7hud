@@ -2,6 +2,16 @@
 7HUD through the years
 ======================
 
+v4.51
+08/30/2016
+
+- koth comp/casual fixes and tweaks
+- cleaned up comp/casual end-game scoreboard
+- fixed vaccinator resistance icon not displaying when not healing
+- fixed hudplayerclass calling for nonexistent materials
+- fixed no player count appearing when one person is capping a point
+
+
 v4.50
 08/27/2016
 

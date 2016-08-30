@@ -752,17 +752,14 @@
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"12"
-			"tall"			"35"
 			"visible"		"1"
-			"font"			"InstructionalText"
 		}
 
 		if_readymode
 		{
-			"xpos"			"285"
-			"ypos"			"10"
+			"xpos"			"c-228"
+			"ypos"			"-3"
 			"visible"		"1"
-			"font"			"InstructionalText"
 		}
 	}
 
@@ -880,9 +877,9 @@
 
 		if_readymode
 		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"227"
-			"ypos"			"32"
+			"font"			"InstructionalText"
+			"xpos"			"cs-0.5"
+			"ypos"			"27"
 			"wide"			"190"
 			"tall"			"20"
 			"zpos"			"3"
@@ -937,7 +934,7 @@
 			"ypos"			"33"
 			"wide"			"190"
 			"tall"			"20"
-			"visible"		"1"
+			"visible"		"0"
 			"fgcolor"		"Black"
 		}
 	}	
@@ -1009,7 +1006,7 @@
 
 		if_readymode
 		{
-			"xpos"			"300"
+			"xpos"			"9999"		//300
 			"ypos"			"130"
 		}
 	}
@@ -1020,7 +1017,7 @@
 		"fieldName"		"CountdownLabel"
 		"font"			"HudFontMediumBold"
 		"xpos"			"230"
-		"ypos"			"r55"
+		"ypos"			"55"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"5"
@@ -1043,8 +1040,10 @@
 
 		if_readymode
 		{
-			"xpos"			"300"
-			"ypos"			"130"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.1"
+			"fgcolor"		"TanLight"
+			"font"			"HudFontMediumBold"
 		}
 	
 	}

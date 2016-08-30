@@ -64,7 +64,7 @@
 		"fieldName"		"CountdownLabel"
 		"font"			"HudFontGiant"
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.1"
+		"ypos"			"0"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"5"
@@ -90,8 +90,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"HudFontGiant"
-		"xpos"			"cs-0.48"
-		"ypos"			"cs-0.08"
+		"xpos"			"cs-0.49"
+		"ypos"			"1"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"
@@ -568,12 +568,12 @@
 		"tall"			"260"
 		"visible"		"0"
 		"enabled"		"1"
-		
+
 		if_large
 		{
 			"ypos"			"65"
 			"tall"			"385"
-		}		
+		}
 
 		"BlueTeamBG"
 		{
@@ -588,7 +588,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderBlueBGOpaque"
+			"border"		"NoBorder"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"BlueTeamS"
 		}
 		"BlueTeamImage"
 		{
@@ -667,12 +669,11 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
-			
+
 			if_large
 			{
 				"tall"			"315"
 			}
-			
 		}
 		"BluePlayerListBG"
 		{
@@ -687,8 +688,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderClearBG"
-			
+			"border"		"NoBorder"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"0 0 0 100"
+
 			if_large
 			{
 				"tall"			"325"
@@ -727,7 +730,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderRedBGOpaque"
+			"border"		"NoBorder"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"RedTeamS"
 		}
 		"RedTeamImage"
 		{
@@ -825,7 +830,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderClearBG"
+			"border"		"NoBorder"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"0 0 0 100"
 
 			if_large
 			{

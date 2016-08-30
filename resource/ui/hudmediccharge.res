@@ -326,18 +326,33 @@
 		"brighttext"	"0"
 	}
 
+	"ResistIconAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ResistIconAnchor"
+		"xpos"			"c-12"
+		"ypos"			"r232"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+	}	
+
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ResistIcon"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"scaleImage"	"0"	
-	}		
+		"scaleImage"	"1"	
+		"pin_to_sibling" "ResistIconAnchor"
+		"pin_corner_to_sibling" "1" 
+		"pin_to_sibling_corner" "1" 
+	}	
 }
 

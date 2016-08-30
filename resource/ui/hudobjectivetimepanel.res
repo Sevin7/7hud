@@ -125,7 +125,7 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
+			"xpos"					"cs-0.41"
 			"ypos"					"20"
 			"font"					"HudFontSmallestBold"
 		}		
