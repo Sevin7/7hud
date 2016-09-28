@@ -100,7 +100,7 @@
 	}	
 	"Version"
 	{
-		"label" "v4.51"
+		"label" "v4.52"
 		"command"		"engine toggleconsole;
 			play vo/compmode/cm_admin_callout_no_rare_01.mp3
 			echo -------------------------------------------------------------------------------;

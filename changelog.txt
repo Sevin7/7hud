@@ -2,6 +2,11 @@
 7HUD through the years
 ======================
 
+v4.52
+09/27/2016
+
+- updated for sept. 27 patch
+
 v4.51
 08/30/2016
 
@@ -10,7 +15,6 @@ v4.51
 - fixed vaccinator resistance icon not displaying when not healing
 - fixed hudplayerclass calling for nonexistent materials
 - fixed no player count appearing when one person is capping a point
-
 
 v4.50
 08/27/2016
