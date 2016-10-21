@@ -2,6 +2,11 @@
 7HUD through the years
 ======================
 
+v4.53
+10/21/2016
+
+- updated for scream fortress viii
+
 v4.52
 09/27/2016
 
