@@ -2,6 +2,13 @@
 7HUD through the years
 ======================
 
+v4.54
+11/13/2016
+
+- redesigned bumper car display
+- tweaked in-game quest display
+- stylized supernova mannpower powerup
+
 v4.53
 10/21/2016
 

@@ -100,7 +100,7 @@
 	}	
 	"Version"
 	{
-		"label" "v4.53"
+		"label" "v4.54"
 		"command"		"engine toggleconsole;
 			play vo/halloween_merasmus/hall2015_fightmeras_rare_02.mp3
 			echo -------------------------------------------------------------------------------;
