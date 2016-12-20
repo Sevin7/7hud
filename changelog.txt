@@ -2,6 +2,13 @@
 7HUD through the years
 ======================
 
+v4.55
+12/19/2016
+
+- lowered opacity of winpanel backgrounds
+- removed freeze panel callout background (gibbed body part locations)
+- tf_scoreboard_mouse_mode compatibility fixed itself?
+
 v4.54
 11/13/2016
 

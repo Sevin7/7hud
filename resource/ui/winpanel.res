@@ -278,7 +278,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ButtonBGT"
+		"fillcolor"		"35 33 32 130"
 	}	
 	"WinPanelBG2"
 	{
@@ -293,7 +293,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"35 33 32 240"
+		"fillcolor"		"35 33 32 190"
 	}
 	"WinPanelBG3"
 	{
@@ -308,7 +308,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ButtonBGT"
+		"fillcolor"		"35 33 32 130"
 	}
 	"HorizontalLine1"
 	{

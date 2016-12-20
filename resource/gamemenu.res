@@ -90,7 +90,7 @@
 	{
 		"label" "7HUD"
 		"command"		"engine toggleconsole;
-			play vo/halloween_merasmus/hall2015_fightmeras_rare_02.mp3
+			play vo/compmode/cm_scout_pregamefirst_rare_01.mp3
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;
@@ -100,9 +100,9 @@
 	}	
 	"Version"
 	{
-		"label" "v4.54"
+		"label" "v4.55"
 		"command"		"engine toggleconsole;
-			play vo/halloween_merasmus/hall2015_fightmeras_rare_02.mp3
+			play vo/compmode/cm_scout_pregamefirst_rare_01.mp3
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;
