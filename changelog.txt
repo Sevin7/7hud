@@ -2,6 +2,11 @@
 7HUD through the years
 ======================
 
+v4.56
+12/21/2016
+
+- updated for smissmas 2016
+
 v4.55
 12/19/2016
 
@@ -68,7 +73,7 @@ v4.47
 - applied new dropshadows to more stuff
 - font/color definition cleanup
 - added support + damage to 6v6 scoreboard
-- removed medals from scoreboard (looks bad  and not very important)
+- removed medals from scoreboard (looks bad and not very important)
 - deleted unnecessary materials
 
 v4.46

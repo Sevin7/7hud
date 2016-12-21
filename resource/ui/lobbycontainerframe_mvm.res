@@ -8,6 +8,13 @@
 		"ypos"			"349"
 	}
 	
+	"OptionsButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"OptionsButton"
+		"visible"	"0"
+	}	
+	
 	"LearnMoreButton"
 	{
 		"ControlName"	"CExImageButton"
