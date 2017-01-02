@@ -2,6 +2,15 @@
 7HUD through the years
 ======================
 
+v4.57
+01/02/2017
+
+- cleaned up backpack ui
+- cleaned up class loadout ui
+- cleaned up item selection ui
+- cleaned up store pages
+- expanded player model area in loadout panel
+
 v4.56
 12/21/2016
 
