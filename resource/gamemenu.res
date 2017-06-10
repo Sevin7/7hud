@@ -9,7 +9,7 @@
 	}
 	"QuickplayButton"
 	{
-		"label" "Quickplay"
+		"label" "#MMenu_PlayList_Casual_Button"
 		"command" "play_casual"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
@@ -100,7 +100,7 @@
 	}	
 	"Version"
 	{
-		"label" "v4.57"
+		"label" "v4.58"
 		"command"		"engine toggleconsole;
 			play vo/compmode/cm_scout_pregamefirst_rare_01.mp3
 			echo -------------------------------------------------------------------------------;

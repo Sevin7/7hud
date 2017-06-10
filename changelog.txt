@@ -2,6 +2,15 @@
 7HUD through the years
 ======================
 
+v4.58
+06/10/2017
+
+- moved disallow items with special qualities checkbox
+- removed help button from backpack
+- fixed standard quality color border not appearing in loadout panel
+- renamed "quickplay" to "casual" on main menu
+- swapped positioning of mvm and competitive buttons on main menu
+
 v4.57
 01/02/2017
 
