@@ -254,7 +254,6 @@
 		{
 			"xpos"					"cs-0.5"
 			"wide"					"130"		
-			"ypos_minmode"			"0"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"

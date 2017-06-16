@@ -92,7 +92,6 @@
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -272,7 +271,6 @@
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"17"
-			"ypos_minmode"			"17"
 			"font"					"HudFontSmallestBold"
 		}		
     }
@@ -308,7 +306,6 @@
         "zpos"          "1"
         "wide"          "78"
         "tall"          "20"
-        "tall_minmode"  "0"
         "visible"       "0"
         "enabled"       "1"
         "image"         "../hud/objectives_timepanel_suddendeath"   

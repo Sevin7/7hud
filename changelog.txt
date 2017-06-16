@@ -2,6 +2,12 @@
 7HUD through the years
 ======================
 
+v4.60
+06/16/2017
+
+- fixed black abcd box??
+- removed all unnecessary _minmode properties
+
 v4.59
 06/15/2017
 
