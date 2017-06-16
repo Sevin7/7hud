@@ -19,11 +19,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"Medium9"
+		"font"			"Regular9"
 		"labelText"		"%popfile%"
-		"textAlignment"	"center"
-		"xpos"			"9999"		//c-241
-		"ypos"			"9999"		//r19
+		"textAlignment"	"east"
+		"xpos"			"r314"		//c-241
+		"ypos"			"373"		//r19
 		"wide"			"178"
 		"tall"			"15"
 		"fgcolor"		"White"
@@ -47,7 +47,7 @@
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"west"
 			"xpos"			"c117"
-			"ypos"			"r384"
+			"ypos"			"r385"
 			"wide"			"150"
 			"tall"			"20"
 			"fgcolor"		"White"
@@ -61,7 +61,7 @@
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"east"
 			"xpos"			"c140"
-			"ypos"			"r384"
+			"ypos"			"r385"
 			"wide"			"150"
 			"tall"			"20"
 			"fgcolor"		"White"

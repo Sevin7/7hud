@@ -8,4 +8,4 @@ url=http://teamfortress.tv/forum/thread/12745-7hud
 url=http://etf2l.org/forum/huds/topic-27677/
 update_url=https://github.com/Sevin7/7HUD/archive/master.zip
 version_url=https://raw.githubusercontent.com/Sevin7/7HUD/master/version.txt
-version=4.58
+version=4.59

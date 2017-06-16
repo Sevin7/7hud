@@ -2,6 +2,13 @@
 7HUD through the years
 ======================
 
+v4.59
+06/15/2017
+
+- fixed mvm crit boosted and giant bot icons (thanks freyja!)
+- added popfile label to mvm scoreboard
+- re-aligned various things in mvm scoreboard
+
 v4.58
 06/10/2017
 

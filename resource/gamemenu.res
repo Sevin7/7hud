@@ -100,7 +100,7 @@
 	}	
 	"Version"
 	{
-		"label" "v4.58"
+		"label" "v4.59"
 		"command"		"engine toggleconsole;
 			play vo/compmode/cm_scout_pregamefirst_rare_01.mp3
 			echo -------------------------------------------------------------------------------;

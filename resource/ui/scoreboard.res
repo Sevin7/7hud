@@ -481,7 +481,7 @@
 		{
 			"textAlignment"		"west"
 			"xpos"			"30"
-			"ypos"			"374"
+			"ypos"			"373"
 			"wide"			"590"
 		}
 	}
@@ -519,7 +519,7 @@
 			"use_proportional_insets" "0"
 			"textAlignment"	"west"
 			"xpos"			"30"
-			"ypos"			"r383"
+			"ypos"			"r385"
 			"wide"			"402"
 			"tall"			"22"
 
@@ -1432,7 +1432,7 @@
 			if_mvm
 			{
 				"font"		"Medium8"
-				"xpos"		"87"
+				"xpos"		"125"
 				"ypos"		"r172"
 			}
 		}		
@@ -1484,7 +1484,7 @@
 			if_mvm
 			{
 				"font"		"Medium8"
-				"xpos"		"87"
+				"xpos"		"125"
 				"ypos"		"r162"
 			}
 		}
@@ -1510,7 +1510,7 @@
 			if_mvm
 			{
 				"font"		"Medium8"
-				"xpos"		"87"
+				"xpos"		"125"
 				"ypos"		"r162"
 			}
 		}		
@@ -1562,7 +1562,7 @@
 			if_mvm
 			{
 				"font"		"Medium8"
-				"xpos"		"87"
+				"xpos"		"125"
 				"ypos"		"r152"
 			}
 		}
@@ -1588,7 +1588,7 @@
 			if_mvm
 			{
 				"font"		"Medium8"
-				"xpos"		"87"
+				"xpos"		"125"
 				"ypos"		"r152"
 			}
 		}		
@@ -1640,7 +1640,7 @@
 			if_mvm
 			{
 				"font"		"Medium8"
-				"xpos"		"87"
+				"xpos"		"125"
 				"ypos"		"r142"
 			}
 		}
@@ -1666,7 +1666,7 @@
 			if_mvm
 			{
 				"font"		"Medium8"
-				"xpos"		"87"
+				"xpos"		"125"
 				"ypos"		"r142"
 			}
 		}		
@@ -1718,7 +1718,7 @@
 			if_mvm
 			{
 				"font"		"Medium8"
-				"xpos"		"87"
+				"xpos"		"125"
 				"ypos"		"r132"
 			}
 		}
@@ -1744,7 +1744,7 @@
 			if_mvm
 			{
 				"font"		"Medium8"
-				"xpos"		"87"
+				"xpos"		"125"
 				"ypos"		"r132"
 			}
 		}		
@@ -1796,7 +1796,7 @@
 			if_mvm
 			{
 				"font"		"Medium8"
-				"xpos"		"87"
+				"xpos"		"125"
 				"ypos"		"r122"
 			}
 		}
@@ -1822,7 +1822,7 @@
 			if_mvm
 			{
 				"font"		"Medium8"
-				"xpos"		"87"
+				"xpos"		"125"
 				"ypos"		"r122"
 			}
 		}		
@@ -2354,7 +2354,7 @@
 			if_mvm
 			{
 				"font"		"Medium8"
-				"xpos"		"87"
+				"xpos"		"125"
 				"ypos"		"r112"
 				"textAlignment"	"east"
 				"wide"		"162"
@@ -2385,7 +2385,7 @@
 			if_mvm
 			{
 				"font"		"Medium8"
-				"xpos"		"87"
+				"xpos"		"125"
 				"ypos"		"r112"
 				"textAlignment"	"east"
 				"wide"		"162"
