@@ -336,3 +336,14 @@ event WinPanel_NormalPos
 {
 	Animate WinPanel ypos r132 Linear 0 0
 }
+
+//===========================================
+
+// lingering animation on death fix
+event HudSnapShotReminderIn 
+{
+    RunEvent HudHealthDyingPulseStop 0.0
+    RunEvent HudHealthBonusPulseStop 0.0
+    RunEvent HudLowAmmoPulseStop 0.0
+    RunEvent HudMedicChargedStop 0.0
+}
