@@ -120,9 +120,9 @@ event HudHealthDyingPulse
 	
 	Animate	PlayerStatusHealthValueShadow 	FgColor		"Blank"	     	Accel 0.0 0.0		
 
-    Animate	HealthBG 	    				BgColor		"LowHPBG"	   	Accel 0.0 0.0
-    Animate	HealthBG 	   					Alpha		"255"		    Accel 0.0 0.1
-	Animate	HealthBG 	    				Alpha		"255"		    Accel 0.1 0.3
+    Animate	HealthBG 	    				BgColor		"150 46 46 255"	   	Accel 0.0 0.0
+    Animate	HealthBG 	   					Alpha		"180"		    Linear 0.0 0.075
+	Animate	HealthBG 	    				Alpha		"255"		    Linear 0.125 0.075
 	
 	Animate	TargetHPBG 	    				BgColor	    "LowHPSpec"	   	Accel 0.0 0.0
     Animate	TargetHPBG 	    				Alpha		"255"		    Accel 0.0 0.1
@@ -198,9 +198,9 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"		Linear 0.125 0.075
 	
-    Animate	AmmoBG	    BgColor		"LowHPBG"	    		Accel 0.0 0.0
-    Animate	AmmoBG 	   	Alpha		"255"		        Accel 0.0 0.3
-	Animate	AmmoBG 	    Alpha		"255"		        Accel 0.3 0.6
+    Animate	AmmoBG	    BgColor		"150 46 46 255"	    		Accel 0.0 0.0
+    Animate	AmmoBG 	   	Alpha		"180"		        Linear 0.0 0.075
+	Animate	AmmoBG 	    Alpha		"255"		        Linear 0.125 0.075
 	
 	Animate	AmmoInClipShadow 		FgColor		"Blank"	     Accel 0.0 0.0
 	Animate	AmmoInReserveShadow 	FgColor		"Blank"	     Accel 0.0 0.0

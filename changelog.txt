@@ -2,6 +2,14 @@
 7HUD through the years
 ======================
 
+v4.61
+09/27/2017
+
+- added low hp/ammo bg animations
+- slightly darkened winpanel bg's
+- renamed "7HUD" to "7hud" for linux case sensitivity issues
+- added readme instructions for manually fixing middle/bottom chat positions clipping with engi panel
+
 v4.60
 06/16/2017
 

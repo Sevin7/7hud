@@ -123,7 +123,7 @@ KILLFEED:
 	To increase size:
 	
 		1. Go to /scripts and then "hudlayout.res"
-		2. Search for DeathNotice" (ctrl+F)
+		2. Search for "DeathNotice" (ctrl+F)
 		3. Change the number in the "font" value to 9, 10, or 11.
 		4. Change the "LineHeight" value in accordance with your new font number. 
 			- i.e. font: Regular10. LineHeight: 10.
@@ -140,6 +140,14 @@ SCOREBOARD PING CLIPPING:
 	2. Under the first heading (scores), find "ping_width".
 	3. Lower the value, maybe 3-4 down, save the file, alt-tab into the game if it's open and put "hud_reloadscheme" into the console. This refreshes all the .res files in your 7HUD folder. If you're not in-game, simply launch TF2
 	4. You can also change the "name_width" and/or "score_width" values to move it over more all-togetherly
+	
+BOTTOM/MIDDLE CHAT CLIPPING WITH ENGI BUILDING STATUS:
+
+	1. Navigate to hudlayout.res in scripts.
+	2. Search for "BuildingStatus_Engineer" (ctrl+F)
+	3. Adjust ypos value to desired position
+		- try -100 for bottom chat
+		- try -200 for middle chat
 
 
 ========================

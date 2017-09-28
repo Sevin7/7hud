@@ -100,7 +100,7 @@
 	}	
 	"Version"
 	{
-		"label" "v4.60"
+		"label" "v4.61"
 		"command"		"engine toggleconsole;
 			play vo/compmode/cm_admin_callout_yes_13.mp3
 			echo -------------------------------------------------------------------------------;
