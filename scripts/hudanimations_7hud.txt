@@ -340,7 +340,7 @@ event WinPanel_NormalPos
 //===========================================
 
 // lingering animation on death fix
-event HudSnapShotReminderIn 
+event HudSnapShotReminderIn
 {
     RunEvent HudHealthDyingPulseStop 0.0
     RunEvent HudHealthBonusPulseStop 0.0
