@@ -55,6 +55,38 @@
 		"font"			"Heavy56"		[!$OSX]
 		"fgcolor"	 "HudShadow"
 	}
+	"PlayerStatusMaxHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValue"
+		"xpos"			"9"
+		"ypos"			"162"
+		"zpos"			"6"
+		"wide"			"159"
+		"tall"			"57"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"east"	
+		"font"			"DefaultVerySmall"
+		"fgcolor"		"Health"
+	}
+	"PlayerStatusMaxHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValueShadow"
+		"xpos"			"10"
+		"ypos"			"163"
+		"zpos"			"6"
+		"wide"			"159"
+		"tall"			"57"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"east"	
+		"font"			"DefaultVerySmall"
+		"fgcolor"		"HudShadow"
+	}		
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -269,6 +301,21 @@
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
 	}
+	"PlayerStatusGasImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusGasImage"
+		"xpos"			"0"
+		"ypos"			"152"
+		"zpos"			"7"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/covered_in_gas"
+		"fgcolor"		"TanDark"
+	}	
 	"PlayerStatusMarkedForDeathImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -299,22 +346,6 @@
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 	}
-	"PlayerStatus_WheelOfDoom"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"0"
-		"ypos"			"152"       //180
-		"zpos"			"7"
-		"wide"			"16"
-		"tall"			"16"
-		"visible"		"1"		//1
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"../signs/death_wheel_whammy"
-		"fgcolor"		"TanDark"
-	}
-	
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -404,6 +435,71 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
+		"fgcolor"		"TanDark"
+	}
+	
+	
+	"PlayerStatus_WheelOfDoom"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_WheelOfDoom"
+		"xpos"			"0"
+		"ypos"			"152"       //180
+		"zpos"			"7"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"		//1
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../signs/death_wheel_whammy"
+		"fgcolor"		"TanDark"
+	}
+
+	"PlayerStatus_SoldierOffenseBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_SoldierOffenseBuff"
+		"xpos"			"85"
+		"ypos"			"110"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../HUD/defense_buff_bullet_blue"
+		"fgcolor"		"TanDark"
+	}
+
+	"PlayerStatus_SoldierDefenseBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_SoldierDefenseBuff"
+		"xpos"			"85"
+		"ypos"			"110"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../HUD/defense_buff_bullet_blue"
+		"fgcolor"		"TanDark"
+	}
+
+	"PlayerStatus_SoldierHealOnHitBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_SoldierHealOnHitBuff"
+		"xpos"			"85"
+		"ypos"			"110"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatus_SpyMarked"
@@ -615,6 +711,21 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_supernova_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatusSlowed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusSlowed"
+		"xpos"			"85"
+		"ypos"			"110"
+		"zpos"			"7"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
 	}	
 }

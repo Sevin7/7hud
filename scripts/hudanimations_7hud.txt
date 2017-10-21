@@ -342,8 +342,11 @@ event WinPanel_NormalPos
 // lingering animation on death fix
 event HudSnapShotReminderIn
 {
-    RunEvent HudHealthDyingPulseStop 0.0
-    RunEvent HudHealthBonusPulseStop 0.0
-    RunEvent HudLowAmmoPulseStop 0.0
-    RunEvent HudMedicChargedStop 0.0
+	Animate ScreenshotPanel Position "c-83 -50" Linear 0.0 0.001
+	Animate ScreenshotPanel Position "c-83 13" Spline 0.001 0.2
+	RunEvent HudHealthDyingPulseStop 10.0
+	RunEvent HudHealthBonusPulseStop 10.0
+	RunEvent HudLowAmmoPulseStop 10.0
+	RunEvent HudMedicChargedStop 10.0
 }
+

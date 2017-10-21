@@ -112,18 +112,19 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"5"	
+		"tabxindent"	"165"	
 		"tabxdelta"		"0"	
 		"tabwidth"		"100"
 		"tabheight"		"20"
 		"transition_time" "0"
+		"yoffset"	"0"		
 		
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"20"
+			"ypos"			"32"
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"

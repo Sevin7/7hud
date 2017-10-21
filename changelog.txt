@@ -2,6 +2,14 @@
 7HUD through the years
 ======================
 
+v4.62
+10/21/2017
+
+- updated for jungle inferno
+- fixed void appearing behind class selection menu when attempting to switch class during freezecam (pushed 09/29, thanks mastercoms!)
+- reduced the number of times hp/ammo bg's persist color after death (pushed 09/28, thanks mastercoms!)
+- made damage text yellow
+
 v4.61
 09/27/2017
 
