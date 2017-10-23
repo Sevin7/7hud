@@ -2,6 +2,13 @@
 7HUD through the years
 ======================
 
+v4.63
+10/22/2017
+
+- reconfigured main menu to better suit jungle inferno changes
+- stylized thermal thruster effect meter
+- fixed player health positioning after switching hud location
+
 v4.62
 10/21/2017
 

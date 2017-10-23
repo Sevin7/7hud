@@ -737,7 +737,7 @@
 		"fieldname"		"Scoreboard"
 		"xpos"			"53"
 		"ypos"			"345"
-		"zpos"			"11"
+		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"14"
 		"visible"		"1"
@@ -859,7 +859,7 @@
 		"fieldName"		"MainMenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-1"
+		"zpos"			"-53"
 		"wide"			"155"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -958,6 +958,7 @@
 			"zpos"			"-53"
 			"wide"			"o2"
 			"tall"			"105"
+			"visible"		"0"
 			"image"		"../logo/jungle_inferno_logo"
 		}
 	}	
@@ -979,7 +980,7 @@
 
 		if_operation
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}	
 	}	
 	
@@ -1006,37 +1007,42 @@
 		"scaleImage"	"1"
 	}
 	
-	"MainMenuBGPanel"
+	"RankModelPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MainMenuBGPanel"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-1"
-		"wide"			"260"
-		"tall"			"120"
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankModelPanel"
+		"xpos"			"cs-0.5-418"
+		"ypos"			"cs-0.5-206"
+
+		"zpos"			"-51"
+		"wide"			"1000"
+		"tall"			"1000"
 		"visible"		"1"
-		"pinCorner"		"0"
-		"autoResize"	"0"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
-	}	
-	"PlayLabel"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+
+		"show_progress"	"0"
+	}
+	
+	"RankPanel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayLabel"
-		"font"			"MainMenuFont"
-		"labelText"		"#MMenu_Play"
-		"textAlignment"	"west"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"140"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankPanel"
+		"xpos"			"0"
+		"ypos"			"-2"
+		"zpos"			"-52"
+		"wide"			"155"
+		"tall"			"100"
 		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override"	"235 227 203 255"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+		"xp_source_notification_center_x"	"350"
+
+		"show_model"	"0"
 	}
 	
 	"TooltipPanel"
@@ -1099,7 +1105,7 @@
 		"fieldname"		"CreateServerButton"
 		"xpos"			"53"
 		"ypos"			"191"
-		"zpos"			"11"
+		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"14"
 		"visible"		"1"
@@ -1283,7 +1289,7 @@
 		"fieldName"		"WatchStreamButton"
 		"xpos"          "53"
         "ypos"          "275"
-        "zpos"          "11"
+        "zpos"          "0"
         "wide"          "100"
         "tall"          "14"
         "visible"       "1"
@@ -1364,7 +1370,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
 		"xpos"          "53"
-        "ypos"          "135"
+        "ypos"          "149"
         "zpos"          "11"
         "wide"          "100"
         "tall"          "14"
@@ -2104,7 +2110,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
 		"xpos"			"53"
-		"ypos"			"149"
+		"ypos"			"163"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"14"
@@ -2166,7 +2172,7 @@
 		"fieldname"		"ReplayBrowserButton"
 		"xpos"			"53"
 		"ypos"			"261"
-		"zpos"			"11"
+		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"14"
 		"visible"		"1"
@@ -2227,7 +2233,7 @@
 		"fieldname"		"SteamWorkshopButton"
 		"xpos"			"53"
 		"ypos"			"289"
-		"zpos"			"11"
+		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"14"
 		"visible"		"1"
@@ -2288,7 +2294,7 @@
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"53"
 		"ypos"			"233"
-		"zpos"			"11"
+		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"14"
 		"visible"		"1"
@@ -2363,7 +2369,7 @@
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"53"
 		"ypos"			"219"
-		"zpos"			"11"
+		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"14"
 		"visible"		"1"
@@ -2592,68 +2598,6 @@
 		}
 	}
 
-	"QuickplayButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"QuickplayButton"
-		"xpos"			"53"
-		"ypos"			"93"
-		"zpos"			"11"
-		"wide"			"100"
-		"tall"			"14"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"100"
-			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"0"
-			"use_proportional_insets" "1"
-			"font"			"MainMenuFont"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "Highlight2"
-			"depressedFgColor_override" "Highlight2"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"9999"
-				"ypos"			"9999"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
-
 	"ResumeGameButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2777,132 +2721,6 @@
 			}
 		}
 	}
-
-	"PlayPVEButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"PlayPVEButton"
-		"xpos"			"53"
-		"ypos"			"121"
-		"zpos"			"11"
-		"wide"			"100"
-		"tall"			"14"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"100"
-			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"0"
-			"use_proportional_insets" "1"
-			"font"			"MainMenuFont"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "Highlight2"
-			"depressedFgColor_override" "Highlight2"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"9999"
-				"ypos"			"9999"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
-	
-    "PlayCompButton"
-    {
-        "ControlName"   "EditablePanel"
-        "fieldname"     "PlayCompButton"
-        "xpos"          "53"
-        "ypos"          "107"
-        "zpos"          "11"
-        "wide"          "100"
-        "tall"          "14"
-        "visible"       "1"
-        "enabled"       "1"
-        "PaintBackgroundType"   "0"
-
-
-        "SubButton"
-        {
-            "ControlName"   "CExImageButton"
-            "fieldName"     "SubButton"
-            "xpos"          "0"
-            "ypos"          "0"
-            "wide"          "100"
-            "tall"          "14"
-            "autoResize"    "0"
-            "pinCorner"     "3"
-            "visible"       "1"
-            "enabled"       "1"
-            "tabPosition"   "0"
-            "textinsetx"    "0"
-            "use_proportional_insets" "1"
-            "font"          "MainMenuFont"
-            "textAlignment" "west"
-            "dulltext"      "0"
-            "brighttext"    "0"
-            "default"       "1"
-            "sound_depressed"   "UI/buttonclick.wav"
-            "sound_released"    "UI/buttonclickrelease.wav"
-            
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "Highlight2"
-			"depressedFgColor_override" "Highlight2"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
-
-            "SubImage"
-            {
-                "ControlName"   "ImagePanel"
-                "fieldName"     "SubImage"
-                "xpos"          "9999"
-                "ypos"          "9999"
-                "zpos"          "1"
-                "wide"          "14"
-                "tall"          "14"
-                "visible"       "1"
-                "enabled"       "1"
-                "scaleImage"    "1"
-            }
-        }
-    }	
 		
 	"ServerBrowserButton"
 	{
@@ -3218,7 +3036,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
 		"xpos"			"53"
-		"ypos"			"149"
+		"ypos"			"135"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"14"
@@ -3357,7 +3175,7 @@
 		"fieldName"		"AchievementsButton"
 		"xpos"			"13"
 		"ypos"			"206"
-		"zpos"			"3"
+		"zpos"			"0"
 		"wide"			"12"
 		"tall"			"12"
 		"autoResize"	"0"
@@ -3404,7 +3222,7 @@
 		"fieldName"		"CommentaryButton"
 		"xpos"			"13"
 		"ypos"			"228"
-		"zpos"			"4"
+		"zpos"			"0"
 		"wide"			"12"
 		"tall"			"12"
 		"autoResize"	"0"
@@ -3451,7 +3269,7 @@
 		"fieldName"		"CoachPlayersButton"
 		"xpos"			"13"
 		"ypos"			"250"
-		"zpos"			"5"
+		"zpos"			"0"
 		"wide"			"12"
 		"tall"			"12"
 		"autoResize"	"0"
@@ -3539,10 +3357,10 @@
 		}				
 	}		
 	
-	"TF2SettingsButton"
+	"TF2SettingsButton1"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"TF2SettingsButton"
+		"fieldName"		"TF2SettingsButton1"
 		"xpos"			"53"
 		"ypos"			"331"
 		"zpos"			"1"
@@ -3591,10 +3409,10 @@
 		}				
 	}		
 	
-	"SettingsButton"
+	"SettingsButton1"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"SettingsButton"
+		"fieldName"		"SettingsButton1"
 		"xpos"			"53"
 		"ypos"			"317"
 		"zpos"			"1"

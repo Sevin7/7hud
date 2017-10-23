@@ -7,13 +7,6 @@
 		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
 	}
-	"QuickplayButton"
-	{
-		"label" "#MMenu_PlayList_Casual_Button"
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu" "1"
-	}
 	"QuickplayChangeButton"
 	{
 		"label" "#MMenu_NewGame"
@@ -21,20 +14,6 @@
 		"subimage" "glyph_server"
 		"OnlyInGame" "1"
 	}
-	"PlayPVEButton"
-	{
-		"label" "Cooperative"
-		"command" "play_mvm"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
-	}
-    "PlayCompButton"
-    {
-        "label" "Competitive" 
-        "command" "play_competitive"
-        "subimage" "glyph_practice"
-        "OnlyAtMenu" "1"
-    }	
 	"ServerBrowserButton"
 	{
 		"label" "Servers"
@@ -100,7 +79,7 @@
 	}	
 	"Version"
 	{
-		"label" "v4.62"
+		"label" "v4.63"
 		"command"		"engine toggleconsole;
 			play vo/compmode/cm_admin_callout_yes_13.mp3
 			echo -------------------------------------------------------------------------------;

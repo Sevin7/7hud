@@ -3,7 +3,7 @@
 	"ChatPopup"
 	{
 		"fieldName"		"ChatPopup"
-		"zpos"			"1"
+		"zpos"			"53"
 		"wide"			"155"
 		"tall"			"30"
 		"visible"		"1"
