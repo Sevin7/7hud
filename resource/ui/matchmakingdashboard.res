@@ -63,7 +63,8 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"bgcolor_override"		"32 32 32 255"
+			"border"		"noborder"
 			"proportionaltoparent"	"1"
 		}
 

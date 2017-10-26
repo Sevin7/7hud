@@ -2,6 +2,12 @@
 7HUD through the years
 ======================
 
+v4.64
+10/25/2017
+
+- fixed phlog and gas passer effect meters overlapping (thanks valve!)
+- fixed unclickable loadout/stats, store page buttons
+
 v4.63
 10/22/2017
 
