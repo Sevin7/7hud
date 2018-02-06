@@ -617,7 +617,7 @@
 		
 		"SubButton"
 		{
-			"ControlName"	"CExImageButton"
+			"ControlName"	"CExLabel"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -631,23 +631,16 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
 			"font"			"VersionFont2"
+			"labelText"		"v4.65"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "OmpText"
-			"armedFgColor_override" "Highlight"
-			"depressedFgColor_override" "Highlight"
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"	
 			
 			"SubImage"
 			{
@@ -670,8 +663,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ViewWarButton2"
-		"xpos"			"45"
-		"ypos"			"r18"
+		"xpos"			"9999"			//45
+		"ypos"			"9999"			//r18
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"14"
