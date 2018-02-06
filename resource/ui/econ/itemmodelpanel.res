@@ -135,7 +135,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
 			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 	
 		"paint_icon"

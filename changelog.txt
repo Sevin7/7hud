@@ -2,6 +2,13 @@
 7HUD through the years
 ======================
 
+v4.65
+02/05/2018
+
+- integrated friends list panel to main menu
+- backpack panel page button, "equipped" label tweaks
+- revised war paint menu
+
 v4.64
 10/25/2017
 

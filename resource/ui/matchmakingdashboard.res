@@ -63,7 +63,7 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"		"32 32 32 255"
+			"bgcolor_override"		"ButtonBG"
 			"border"		"noborder"
 			"proportionaltoparent"	"1"
 		}

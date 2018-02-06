@@ -182,7 +182,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"ButtonBG"
+		"bgcolor_override"		"0 0 0 50"
 		"border"		"noborder"
 		"proportionaltoparent"	"1"
 
