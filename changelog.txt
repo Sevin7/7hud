@@ -2,6 +2,14 @@
 7HUD through the years
 ======================
 
+v4.66
+02/07/2018
+
+- fixed friends list panel cutting off last row of friends
+- fixed top favorite server button being hard to click
+- widened menu buttons to meet background edge
+- removed animation from find game button
+
 v4.65
 02/05/2018
 

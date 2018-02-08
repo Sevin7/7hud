@@ -513,7 +513,7 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"18"
-			"tall"			"f6"
+			"tall"			"f5"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -570,7 +570,7 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"18"
-			"tall"			"f6"
+			"tall"			"f5"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -690,6 +690,64 @@
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
+			"visible"		"0"
+			"enabled"		"0"
+			"tabPosition"	"0"
+			"font"			"Regular8"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"Command"		"find_game"
+			"proportionaltoparent"	"1"
+			"labeltext"		""
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+			"actionsignallevel"	"2"
+			"roundedcorners"	"1"
+			"textinsety"	"7"
+			"textinsetx"	"25"
+			"use_proportional_insets"	"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"armedBgColor_override"		"CreditsGreen"
+			"defaultBgColor_override"	"GreenSolid"
+
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "TanLight"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"rs1-4"
+				"zpos"			"1"
+				"wide"			"8"
+				"tall"			"8"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+				"image"			"glyph_multiplayer"
+				"drawcolor_override" "TanLight"
+			}
+		}
+		
+		"FindAGameButtonStatic"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"FindAGameButtonStatic"
+			"xpos"			"94"			//109
+			"ypos"			"0"
+			"zpos"			"100"
+			"wide"			"18"
+			"tall"			"f5"
+			"autoResize"	"0"
+			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
@@ -735,6 +793,6 @@
 				"image"			"glyph_multiplayer"
 				"drawcolor_override" "TanLight"
 			}
-		}
+		}		
 	}
 }
