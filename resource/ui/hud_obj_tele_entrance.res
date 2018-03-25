@@ -64,28 +64,6 @@
 			"fillcolor"				"HudBGBuilding"
 			"PaintBackgroundType"	"0"
 		}			
-		"TeamColoredUnderline"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"TeamColoredUnderline"
-			"xpos"			"9999"
-			"ypos"			"9999"		
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}
-		"TeamColoredUnderline2"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"TeamColoredUnderline2"
-			"xpos"			"9999"
-			"ypos"			"9999"		
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -354,10 +332,85 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
 			"xpos"			"50"
-			"ypos"			"-5"
+			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
+			
+			"TeleportedIcon"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"TeleportedIcon"
+				"xpos"			"0"
+				"ypos"			"5"
+				"zpos"			"1"
+				"wide"			"10"
+				"tall"			"10"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../hud/hud_obj_status_teleport_64"
+				"drawcolor"		"ProgressOffWhite"
+				"scaleImage"	"1"
+			}
+			
+			"ChargingPanel"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"ChargingPanel"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"100"
+				"tall"			"31"
+				"visible"		"0"
+				
+				"Recharge"
+				{	
+					"ControlName"	"ContinuousProgressBar"
+					"fieldName"		"Recharge"
+					"font"			"Regular9"
+					"xpos"			"12"
+					"ypos"			"6"
+					"wide"			"38"
+					"tall"			"8"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"textAlignment"	"Left"
+					"dulltext"		"0"
+					"brighttext"	"0"
+				}	
+			}
+			
+			"FullyChargedPanel"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"FullyChargedPanel"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"100"
+				"tall"			"31"
+				"visible"		"0"
+				
+				"TimesUsedLabel"
+				{	
+					"ControlName"	"CExLabel"
+					"fieldName"		"TimesUsedLabel"
+					"font"			"Regular9"
+					"xpos"			"12"
+					"ypos"			"5"
+					"wide"			"200"
+					"tall"			"25"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"labelText"		"%timesused%"
+					"textAlignment"	"north-west"
+					"dulltext"		"0"
+					"brighttext"	"0"
+				}
+			}				
 			"UpgradeIcon"
 			{
 				"ControlName"	"CIconPanel"

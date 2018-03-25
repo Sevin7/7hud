@@ -354,7 +354,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
 			"xpos"			"50"
-			"ypos"			"-5"
+			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"

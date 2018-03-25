@@ -69,28 +69,6 @@
 			"fillcolor"				"EngineerPanelBG"
 			"PaintBackgroundType"	"0"
 		}			
-		"TeamColoredUnderline"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"TeamColoredUnderline"
-			"xpos"			"9999"
-			"ypos"			"9999"		
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}
-		"TeamColoredUnderline2"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"TeamColoredUnderline2"
-			"xpos"			"9999"
-			"ypos"			"9999"		
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"

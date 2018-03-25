@@ -631,7 +631,7 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
 			"font"			"VersionFont2"
-			"labelText"		"v4.66"
+			"labelText"		"v4.67"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -924,10 +924,6 @@
 		{
 			"image"		"../console/background_xmas2011_widescreen"
 		}
-		if_operation
-		{
-			"image"		"../console/title_team_jungle_inferno_2017_widescreen"
-		}		
 	}
 					
 	"TFLogoImage"
@@ -943,54 +939,14 @@
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
-		
-		if_operation
-		{
-			"xpos"			"c-260"
-			"ypos"			"10"
-			"zpos"			"-53"
-			"wide"			"o2"
-			"tall"			"105"
-			"visible"		"0"
-			"image"		"../logo/jungle_inferno_logo"
-		}
-	}	
-
-	"JungleInfernoImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"JungleInfernoImage"
-		"xpos"			"c-290+64"
-		"ypos"			"64"
-		"zpos"			"1"
-		"wide"			"o4"
-		"tall"			"32"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"		"../logo/inferno_logo_anim"
-		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
-
-		if_operation
-		{
-			"visible"		"0"
-		}	
 	}	
 	
 	"TFCharacterImage"
 	{
-		"ControlName"	"ImagePanel"
+		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"r605"
-		
-		if_taller
-		{
-			if_operation
-			{
-				"xpos"		"c-300"
-			}
-		}		
-		
+		"xpos"			"r605"			
 		"ypos"			"-22"
 		"zpos"			"-99"
 		"wide"			"600"

@@ -2,6 +2,13 @@
 7HUD through the years
 ======================
 
+v4.67
+03/25/2018
+
+- removed jungle inferno stuff from main menu
+- fixed engineer panel not displaying number of teleports
+- fixed pomson and spycicle having incorrect meter theme in centered version
+
 v4.66
 02/07/2018
 
