@@ -2,6 +2,12 @@
 7HUD through the years
 ======================
 
+v4.68
+
+- standardized shadows/font for meter count labels
+- fixed revenge crits overlapping metal account in lowered version
+- added wrench icon to engineer metal acccount value
+
 v4.67
 03/25/2018
 

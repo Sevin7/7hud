@@ -77,7 +77,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterCount"
 		"xpos"			"c-46"	
-		"ypos"			"c130"
+		"ypos"			"c118"
 		"zpos"					"2"
 		"wide"					"90"
 		"tall"					"26"	
@@ -90,6 +90,27 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"		"White"
-		"font"				"Regular21"
+		"font"				"Heavy19"
 	}
+	
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ItemEffectMeterCountShadow"
+		"xpos"			"c-45"	
+		"ypos"			"c119"
+		"zpos"					"2"
+		"wide"					"90"
+		"tall"					"26"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"fgcolor"		"HudShadow"
+		"font"				"Heavy19"
+	}	
 }
