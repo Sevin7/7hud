@@ -3,6 +3,7 @@
 ======================
 
 v4.68
+03/26/2018
 
 - standardized shadows/font for meter count labels
 - fixed revenge crits overlapping metal account in lowered version
