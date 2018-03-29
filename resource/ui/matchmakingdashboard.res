@@ -300,6 +300,35 @@
 				"border"		"ReplayDefaultBorder"
 			}
 
+			"QueueLogoButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"QueueLogoButton"
+				"xpos"			"0"
+				"ypos"			"1"
+				"zpos"			"10"
+				"wide"			"o1"
+				"tall"			"f0"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labeltext"		""
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"1"
+				"Command"		"queue_logo_clicked"
+				"proportionaltoparent"	"1"
+				"actionsignallevel"	"3"
+				"button_activation_type"	"1"
+			
+				"paintbackground"	"0"
+				"paintborder"		"0"				
+			}			
+			
 			"CTFLogoPanel"
 			{
 				"ControlName"	"CTFLogoPanel"
@@ -352,6 +381,56 @@
 					}
 				}
 			}
+			
+			"MultiQueuesManageButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"MultiQueuesManageButton"
+				"xpos"			"rs1-6"
+				"ypos"			"9"
+				"zpos"			"10"
+				"wide"			"14"
+				"tall"			"14"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labeltext"		""
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"1"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				"Command"		"manage_queues"
+				"proportionaltoparent"	"1"
+				"actionsignallevel"	"3"
+			
+				"paintbackground"	"0"
+			
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
+			
+				"image_drawcolor"	"117 107 94 255"
+				"image_armedcolor"	"200 80 60 255"
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"1"
+					"wide"			"14"
+					"tall"			"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"glyph_options"
+					"scaleImage"	"1"
+				}				
+			}					
 
 			"CloseButton"
 			{

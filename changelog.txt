@@ -2,6 +2,11 @@
 7HUD through the years
 ======================
 
+v4.69
+03/28/2018
+
+- updated for mar. 28 patch
+
 v4.68
 03/26/2018
 

@@ -21,8 +21,7 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
-		"matchgroup"	"MatchGroup_Ladder_6v6"
-		"xp_source_notification_center_x"	"350"		
+		"matchgroup"	"MatchGroup_Ladder_6v6"	
 	}
 
 	"StartExplanation"

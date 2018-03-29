@@ -179,11 +179,11 @@
 		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"155"
-		"tall"			"16"
+		"tall"			"26"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"0 0 0 50"
-		"border"		"noborder"
+		"bgcolor_override"		"0 0 0 0"
+		"border"		"blank"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -193,13 +193,29 @@
 			"tall"			"35"
 			"wide"			"505"
 		}
+		
+		"ActualBGPanel"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"ActualBGPanel"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"155"
+			"tall"			"16"
+			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"		"0 0 0 50"
+			"border"		"noborder"
+			"proportionaltoparent"	"1"	
+		}			
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"5"
-			"ypos"			"12"
+			"xpos"			"30"
+			"ypos"			"2"
 			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
@@ -207,7 +223,7 @@
 			"enabled"		"1"
 			"font"			"ItemFontAttribSmallBP"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"textAlignment"	"west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
@@ -217,21 +233,21 @@
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
-			"xpos"			"32"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"r207"
 			"ypos"			"2"
-			"wide"			"f0"
+			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"ItemFontAttribSmallBP"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"	"west"
-			"labelText"		"%level%"
+			"textAlignment"	"east"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -240,6 +256,24 @@
 				"ypos"	"4"
 			}
 		}
+		
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"r198"
+			"ypos"			"11"
+			"wide"			"195"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"ItemFontAttribSmallBP"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"east"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+		}		
 
 		"StatsContainer"
 		{
