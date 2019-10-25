@@ -20,6 +20,7 @@
 		"PaintBackgroundType""0"
         "textinsety" "99"
     }
+	
     "AmmoInClip"
 	{
 		"ControlName"	"CExLabel"
@@ -35,9 +36,27 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"west"				//east
-		"labelText"		"%Ammo%"
-		
-	}		
+		"labelText"		"%Ammo%"	
+	}
+
+	"AmmoInClipShadow"	
+	{	
+		"ControlName"	"CExLabel"	
+		"fieldName"	 "AmmoInClipShadow"	
+		"font"	 "Heavy48"				[$OSX]
+		"font"	 "Heavy56"				[!$OSX]
+		"fgcolor"	 "HudShadow"	
+		"xpos"	 "57"	
+		"ypos"	 "2"	
+		"zpos"	 "3"	
+		"wide"	"71" 
+		"tall"	"56" 
+		"visible"	 "0"	
+		"enabled"	 "1"	
+		"textAlignment"	 "west"	
+		"labelText"	 "%Ammo%"
+	}	
+	
 	"AmmoInReserve"
 	{
 		"ControlName"	"CExLabel"
@@ -53,9 +72,27 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"east"
-		"labelText"		"%AmmoInReserve%"
-		
-	}			
+		"labelText"		"%AmmoInReserve%"	
+	}
+
+	"AmmoInReserveShadow"	
+	{	
+		"ControlName"	 "CExLabel"	
+		"fieldName"	 "AmmoInReserveShadow"	
+		"font"	 "Heavy28"					[$OSX]
+		"font"	 "Heavy32"					[!$OSX]		
+		"fgcolor"	 "HudShadow"	
+		"xpos"	 "44"	
+		"ypos"	 "2"	
+		"zpos"	 "3"	
+		"wide"	 "120"	
+		"tall"	 "42"	
+		"visible"	 "0"	
+		"enabled"	 "1"	
+		"textAlignment"	 "east"	
+		"labelText"	 "%AmmoInReserve%"
+	}	
+	
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
@@ -74,61 +111,27 @@
 		"textAlignment"	"west"
 		"labelText"		"%Ammo%"
 	}
-	"AmmoInClipShadow"	
-	{	
-	"ControlName"	"CExLabel"	
-	"fieldName"	 "AmmoInClipShadow"	
-	"font"	 "Heavy48"				[$OSX]
-	"font"	 "Heavy56"				[!$OSX]
-	"fgcolor"	 "HudShadow"	
-	"xpos"	 "57"	
-	"ypos"	 "2"	
-	"zpos"	 "3"	
-	"wide"	"71" 
-	"tall"	"56" 
-	"visible"	 "0"	
-	"enabled"	 "1"	
-	"textAlignment"	 "west"	
-	"labelText"	 "%Ammo%"
-	}
-
-	"AmmoInReserveShadow"	
-	{	
-	"ControlName"	 "CExLabel"	
-	"fieldName"	 "AmmoInReserveShadow"	
-	"font"	 "Heavy28"					[$OSX]
-	"font"	 "Heavy32"					[!$OSX]		
-	"fgcolor"	 "HudShadow"	
-	"xpos"	 "44"	
-	"ypos"	 "2"	
-	"zpos"	 "3"	
-	"wide"	 "120"	
-	"tall"	 "42"	
-	"visible"	 "0"	
-	"enabled"	 "1"	
-	"textAlignment"	 "east"	
-	"labelText"	 "%AmmoInReserve%"
-	}
 	
 	"AmmoNoClipShadow"		
 	{	
-	"ControlName"	 "CExLabel"	
-	"fieldName"	 "AmmoNoClipShadow"	
-	"font"	 "Heavy48"				[$OSX]
-	"font"	 "Heavy56"				[!$OSX]
-	"fgcolor"	 "HudShadow"	
-	"xpos"	"57"					
-	"ypos"	"2"
-	"zpos"	"3"
-	"wide"	"100" 					[$OSX]
-	"wide"	"115" 					[!$OSX]	
-	"tall"	"56" 
-	"visible"	 "0"	
-	"enabled"	 "1"	
-	"textAlignment"	 "west"	
-	"labelText"	 "%Ammo%"	
-	}
+		"ControlName"	 "CExLabel"	
+		"fieldName"	 "AmmoNoClipShadow"	
+		"font"	 "Heavy48"				[$OSX]
+		"font"	 "Heavy56"				[!$OSX]
+		"fgcolor"	 "HudShadow"	
+		"xpos"	"57"					
+		"ypos"	"2"
+		"zpos"	"3"
+		"wide"	"100" 					[$OSX]
+		"wide"	"115" 					[!$OSX]	
+		"tall"	"56" 
+		"visible"	 "0"	
+		"enabled"	 "1"	
+		"textAlignment"	 "west"	
+		"labelText"	 "%Ammo%"	
+	}	
 		
+
 	//removed
 
 	"HudWeaponAmmoBG"

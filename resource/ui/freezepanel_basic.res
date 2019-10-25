@@ -31,6 +31,8 @@
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
+			"inventory_image_type"	"1"
+			"antialias"				"1"			
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}

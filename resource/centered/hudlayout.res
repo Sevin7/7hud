@@ -62,8 +62,8 @@
 		"IconColor"		"190 180 170 255"
 		"LocalPlayerColor"	"Black"
 
-		"BaseBackgroundColor"	"32 32 32 200"		
-		"LocalBackgroundColor"	"255 255 255 189"	
+		"BaseBackgroundColor"	"40 38 36 255"		
+		"LocalBackgroundColor"	"250 245 240 255"	
 	}
 
 	/////////////////////////////////////////////////////////////////////////////
@@ -1802,7 +1802,7 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r190"
+		"xpos"					"r200"
 		"ypos"					"0"
 		"zpos"					"10"
 		"wide"					"270"

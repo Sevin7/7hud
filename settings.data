@@ -22,6 +22,13 @@ GlobalComboBox("3d", "3D Model Position")
 	hp
 }
 
+[Name:Show friends list panel?, Default:yes]
+GlobalComboBox("friends", "Show friends list panel?")
+{
+	yes
+	no
+}
+
 [Portion:2]
 [Name:Fave1, Default:text=7|ip=|pass=]
 HudMenuConnectButton(“FavoriteServer1”, “Favorite Server 1”);
@@ -48,6 +55,15 @@ HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
 	{
 		Copy("resource\ui\hudplayerclass - hp bottom.res", "resource\ui\hudplayerclass.res");
 	}
+}
+
+#if friends == "yes"
+{
+	Copy("resource\ui\mainmenuoverride - friends panel.res", "resource\ui\mainmenuoverride.res");
+}
+#if friends == "no"
+{
+	Copy("resource\ui\mainmenuoverride - no friends panel.res", "resource\ui\mainmenuoverride.res");
 }
 
 #if HUDPosition == "lowered"

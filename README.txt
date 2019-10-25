@@ -146,8 +146,8 @@ BOTTOM/MIDDLE CHAT CLIPPING WITH ENGI BUILDING STATUS:
 	1. Navigate to hudlayout.res in scripts.
 	2. Search for "BuildingStatus_Engineer" (ctrl+F)
 	3. Adjust ypos value to desired position
-		- try -100 for bottom chat
-		- try -200 for middle chat
+		- try -100 w/ bottom chat
+		- try -200 w/ middle chat
 
 
 ========================
@@ -161,7 +161,7 @@ If you use net_graph to monitor FPS/ping/lerp etc., I recommend changing the net
 	1. Put these in your console for best results:
 	2. net_graph 1
 	3. net_graphproportionalfont 0
-	4. net_graphheight 48
+	4. net_graphheight 128
 	5. net_graphpos 1
 
 ------------------------------------------------------

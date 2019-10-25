@@ -2,6 +2,27 @@
 7HUD through the years
 ======================
 
+v4.70
+10/25/2019
+
+- added 4plug option to toggle friends list panel on main menu (causes stutters when accessing menus)
+- begun converting to #base method
+- added wiet's hq item icon tweak
+- adjusted thermal thruster meter/icon positioning
+- added full screen bg to class selection menu and moved model left
+- reordered hudammoweapons.res
+- enlarged max health value 
+- moved inspect panel left 10
+- made killfeed bg's opaque
+- updated vita-saw meter count label
+- fixed loadout item/taunt buttons clipping through item description panes
+- fixed clipping of attributes in class loadout panel
+- fixed objective time panel label misalignments
+- added outline to charge label under xhair
+- made medi gun charge bar slightly taller and removed "uber" labels
+- revised vaccinator display so the persistent shadow isn't as big an issue
+- fixed mvm mann up victory panel not displaying properly
+
 v4.69
 03/28/2018
 

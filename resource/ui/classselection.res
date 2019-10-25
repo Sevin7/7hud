@@ -31,6 +31,25 @@
 		"tabPosition"	"0"
 	}
 	
+    "FullBG"	
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"FullBG"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"-1"
+		"wide"		"f0"
+		"tall"		"f0"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultBgColor_Override"		"40 38 36 180"
+		"border_default"				"noborder"		
+		"PaintBackgroundType""0"
+        "textinsety" "9999"
+	}	
+	
 	"random"
 	{
 		"ControlName"		"CExImageButton"
@@ -1395,10 +1414,10 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"c-350"
-		"ypos"			"r490"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"6"		
-		"wide"			"600"
+		"wide"			"480"
 		"tall"			"480"
 		
 		"autoResize"	"0"
@@ -1407,7 +1426,7 @@
 		"enabled"		"1"
 		
 		"render_texture"    "0"
-		"fov"			"25"
+		"fov"			"42"
 		"allow_rot"		"0"
 
 		"paintbackground" "1"		
@@ -1421,8 +1440,8 @@
 			"angles_x" "0"
 			"angles_y" "180"
 			"angles_z" "0"
-			"origin_x" "520"
-			"origin_y" "-50"
+			"origin_x" "320"
+			"origin_y" "20"
 			"origin_z" "-49"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"

@@ -3276,6 +3276,18 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		"Regular6O"
+		{
+			"1"
+			{
+				"name"		"Clear Sans Bold"
+				"tall"		"8"
+				"outline"	"1"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}		
 
 		"Regular6Shadow"
 		{

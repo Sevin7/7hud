@@ -68,7 +68,7 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"east"	
-		"font"			"DefaultVerySmall"
+		"font"			"Heavy9"
 		"fgcolor"		"Health"
 	}
 	"PlayerStatusMaxHealthValueShadow"
@@ -84,7 +84,7 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"east"	
-		"font"			"DefaultVerySmall"
+		"font"			"Heavy9"
 		"fgcolor"		"HudShadow"
 	}		
 	"HudPlayerHealth"

@@ -58,10 +58,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"15"
+		"xpos"			"27"
 		"ypos"			"15"
 		"zpos"			"5"
-		"wide"			"p1"
+		"wide"			"100"
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"1"
@@ -70,15 +70,14 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Regular9"
+		"font"			"HudFontSmallestBold"
 		"fgcolor"			"Health"
 		
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
+			"xpos"					"16"
 			"ypos"					"20"
-			"font"					"HudFontSmallestBold"
 		}		
 	}			
 	"WaitingForPlayersBG"
@@ -106,10 +105,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"15"
+		"xpos"			"26"
 		"ypos"			"15"
 		"zpos"			"5"
-		"wide"			"p1"
+		"wide"			"100"
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"1"
@@ -118,15 +117,14 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Regular9"
+		"font"			"HudFontSmallestBold"
 		"fgcolor"			"Health"
 		
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.41"
+			"xpos"					"15"
 			"ypos"					"20"
-			"font"					"HudFontSmallestBold"
 		}		
 	}			
 	"OvertimeBG"
@@ -154,10 +152,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"15"
+		"xpos"			"26"
 		"ypos"			"23"
 		"zpos"			"5"
-		"wide"			"p1"
+		"wide"			"100"
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"1"
@@ -166,15 +164,14 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Regular9"
+		"font"			"HudFontSmallestBold"
 		"fgcolor"			"Health"
 		
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
+			"xpos"					"15"
 			"ypos"					"20"
-			"font"					"HudFontSmallestBold"
 		}		
 	}			
 	"SuddenDeathBG"
@@ -202,10 +199,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"15"
+		"xpos"			"26"
 		"ypos"			"15"
 		"zpos"			"5"
-		"wide"			"p1"
+		"wide"			"100"
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"1"
@@ -214,15 +211,14 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Regular9"
+		"font"			"HudFontSmallestBold"
 		"fgcolor"			"Health"
 		
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
+			"xpos"					"15"
 			"ypos"					"20"
-			"font"					"HudFontSmallestBold"
 		}		
 	}	
 	"SetupBG"

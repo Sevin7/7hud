@@ -2188,7 +2188,7 @@
 		"zpos"			"5"
 		"wide"			"155"
 		"tall"			"63"
-		"visible"		"1"
+		"visible"		"0"
 
 		"bgcolor_override"	"0 0 0 0"
 		"border"		"noborder"
