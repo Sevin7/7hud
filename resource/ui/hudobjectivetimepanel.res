@@ -260,14 +260,13 @@
         "dulltext"      "0"
         "brighttext"        "0"
         "wrap"          "0"
-        "font"          "Regular6"
+        "font"          "Regular9"
 		
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"17"
-			"font"					"HudFontSmallestBold"
+			"xpos"					"49"
+			"ypos"					"22"
 		}		
     }
     "ServerTimeLimitLabelBG2"	
