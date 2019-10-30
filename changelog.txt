@@ -2,6 +2,14 @@
 7HUD through the years
 ======================
 
+v4.71
+10/30/2019
+
+- removed #base stuff (decided it doesn't seem a worthwhile setup)
+- adjusted net_graph font
+- chat box refinements
+- fixed pd red escrow value placement (don't know what messed this up)
+
 v4.70
 10/25/2019
 

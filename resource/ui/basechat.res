@@ -20,9 +20,9 @@
 		"fieldName" 		      "ChatInputLine"
 		"visible" 		        "1"
 		"enabled" 		        "1"
-		"xpos"			          "7"
+		"xpos"			          "3"
 		"ypos"			          "395"
-		"wide"	 		          "228"
+		"wide"	 		          "236"
 		"tall"	 		          "2"
 		"PaintBackgroundType"	"0"
 	}
@@ -51,8 +51,8 @@
 	{
 		"ControlName"		      "RichText"
 		"fieldName"		        "HudChatHistory"
-		"xpos"			          "7"
-		"ypos"			          "8"
+		"xpos"			          "0"
+		"ypos"			          "0"
 		"wide"	 		          "242"
 		"tall"			          "75"
 		"wrap"			          "1"
