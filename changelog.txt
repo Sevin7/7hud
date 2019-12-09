@@ -2,6 +2,12 @@
 7HUD through the years
 ======================
 
+v4.72
+12/09/2019
+
+- fixed store page buttons missing
+- added tweak preventing chat position reset in competitive (thanks Honster!)
+
 v4.71
 10/30/2019
 

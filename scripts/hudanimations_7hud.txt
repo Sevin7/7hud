@@ -350,3 +350,18 @@ event HudSnapShotReminderIn
 	RunEvent HudMedicChargedStop 10.0
 }
 
+//===========================================
+
+// disable chat position reset in competitive
+event CompetitiveGame_LowerChatWindow
+{
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+}
+
+event HudTournament_MoveChatWindow
+{
+}
+
