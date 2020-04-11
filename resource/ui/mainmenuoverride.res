@@ -3294,7 +3294,12 @@
 			}				
 		}
 	}
-	
+
+	"DashboardDimmer"
+	{
+		"visible" "0"
+	}
+
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
