@@ -2,6 +2,12 @@
 7HUD through the years
 ======================
 
+v4.73
+07/03/2020
+
+- added readme instructions for hiding crosshair ubercharge
+- added support for new mute menu (thanks mastercoms!)
+
 v4.72
 12/09/2019
 

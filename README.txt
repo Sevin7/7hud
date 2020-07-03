@@ -77,7 +77,7 @@ Change visible from 0 to 1.
 
 	If the crosshair isn’t centralized do the following:
 
-	1. Go to your scripts folder and then hudlayout.
+	1. Go to /scripts and then "hudlayout.res".
 	2. Change the xpos and ypos values. (xpos is for horizontal and ypos is for vertical).
 	3. Start TF2 and see if it’s centralized.
 	4. If not, Alt+TAB and try another value. 
@@ -115,19 +115,26 @@ KILLFEED:
 	To increase line spacing:
 	
 		1. Go to /scripts and then "hudlayout.res"
-		2. Search for "DeathNotice" (ctrl+F)
-		3. Increase the value for "LineSpacing"
-			The higher the value the bigger the distance between entries in the Killfeed
+		2. Search for "DeathNotice" (ctrl+F).
+		3. Increase the value for "LineSpacing".
+			The higher the value the bigger the distance between entries in the killfeed.
 		3. Save
 	
 	To increase size:
 	
 		1. Go to /scripts and then "hudlayout.res"
-		2. Search for "DeathNotice" (ctrl+F)
+		2. Search for "DeathNotice" (ctrl+F).
 		3. Change the number in the "font" value to 9, 10, or 11.
 		4. Change the "LineHeight" value in accordance with your new font number. 
 			- i.e. font: Regular10. LineHeight: 10.
 		5. Save
+
+------------------------------------------------------
+
+HIDING THE CROSSHAIR UBERCHARGE METER:
+
+	1. Go to your resource/ui folder and then "hudmediccharge.res".
+	2. Set the "visible" parameter under "ChargeLabelTiny" to 0 and save.
 
 
 ========================
