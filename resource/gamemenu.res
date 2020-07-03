@@ -120,7 +120,7 @@
 	"MutePlayersButton"
 	{
 		"label"			"Mute Players"
-		"command"		"OpenPlayerListDialog"
+		"command"		"OpenMutePlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
 	}
