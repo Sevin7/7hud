@@ -328,7 +328,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"EscrowBlue"
-				"xpos"			"83"
+				"xpos"			"86"
 				"ypos"			"11"
 				"zpos"			"4"
 				"wide"			"25"
@@ -346,7 +346,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"EscrowBlueShadow"
-				"xpos"			"84"
+				"xpos"			"87"
 				"ypos"			"12"
 				"zpos"			"4"
 				"wide"			"25"

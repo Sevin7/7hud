@@ -2,6 +2,15 @@
 7HUD through the years
 ======================
 
+v4.75
+07/07/2020
+
+- moved scoreboard player lists into headers above
+- categorized scoreboard stats
+- optimized scoreboard size for 16v16 max
+- added dropshadows to scoreboard team scores
+- altered pd blue escrow value placement
+
 v4.74
 07/06/2020
 
