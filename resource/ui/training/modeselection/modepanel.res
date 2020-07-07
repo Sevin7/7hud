@@ -107,8 +107,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	"quickplayborder"
-		"border_armed"		"quickplayborder"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
 		"paintbackground"	"1"
 			
 		"defaultBgColor_override"	"Select"

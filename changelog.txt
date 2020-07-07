@@ -2,6 +2,14 @@
 7HUD through the years
 ======================
 
+v4.74
+07/06/2020
+
+- redesigned 9v9+ scoreboard for quicker stats readability
+- added scoreboard rank medals back
+- re-integrated scoreboard stat green non-zero functionality
+- training menu revisions
+
 v4.73
 07/03/2020
 
@@ -53,7 +61,7 @@ v4.68
 
 - standardized shadows/font for meter count labels
 - fixed revenge crits overlapping metal account in lowered version
-- added wrench icon to engineer metal acccount value
+- added wrench icon to engineer metal account value
 
 v4.67
 03/25/2018

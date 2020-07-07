@@ -38,8 +38,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"FieldName"		"GradientBgPanel"
-			"xpos"			"10"
-			"ypos"			"135"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"1"
 			"wide"			"430"
 			"tall"			"400"
@@ -108,10 +108,10 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"BackButton"
-			"ypos"			"368"
+			"ypos"			"363"
 			"zpos"			"20"
 			"wide"			"100"
-			"tall"			"25"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -127,11 +127,11 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	""
-			"border_armed"		"quickplayborder"
+			"border_default"	"noborder"
+			"border_armed"		"noborder"
 			"paintbackground"	"1"
 			
-			"defaultBgColor_override"	"Blank"
+			"defaultBgColor_override"	"Select"
 			"armedBgColor_override"		"ButtonBG"
 			"depressedBgColor_override"	"ButtonBG"
 			
@@ -144,10 +144,10 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"CancelButton"
-			"ypos"			"368"
+			"ypos"			"363"
 			"zpos"			"20"
 			"wide"			"100"
-			"tall"			"25"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -163,11 +163,11 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	""
-			"border_armed"		"quickplayborder"
+			"border_default"	"noborder"
+			"border_armed"		"noborder"
 			"paintbackground"	"1"
 			
-			"defaultBgColor_override"	"Blank"
+			"defaultBgColor_override"	"Select"
 			"armedBgColor_override"		"ButtonBG"
 			"depressedBgColor_override"	"ButtonBG"
 			
