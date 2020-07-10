@@ -2,7 +2,7 @@
 7HUD through the years
 ======================
 
-v4.76
+v5.00
 07/09/2020
 
 - matchmaking dashboard/panels polish and tweaks
