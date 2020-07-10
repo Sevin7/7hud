@@ -46,8 +46,8 @@ Scheme
 		
 		"MainMenuBG"		"11 7 6 190"			//BG of main menu box
 
-		"Select"			"43 43 42 255"			//Dark grey for default buttons	
-		"ButtonBG"			"35 33 32 255"			//Darker grey for armed buttons
+		"Select"			"36 34 33 255"			//Dark grey for default buttons	
+		"ButtonBG"			"30 28 27 255"			//Darker grey for armed buttons
 		"ButtonBGT"			"35 33 32 220"			//Transparent darker grey
 		"ButtonBGD"			"25 23 22 255"			//Darkest grey for armed buttons
 		"Highlight"			"226 180 20 255"		//Gold color for hovering over buttons
@@ -348,7 +348,7 @@ Scheme
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"TanLight"
-		Button.BgColor					"Blank"
+		Button.BgColor					"Select"
 		Button.ArmedTextColor			"TanLight"
 		Button.ArmedBgColor				"ButtonBG"
 		Button.SelectedTextColor		"TanLight"
@@ -3884,6 +3884,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontSmallBoldCarat"
+		{
+			"1"
+			{
+				"name"		"Clear Sans Bold"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}		
 		"HudFontSmallBoldShadow"
 		{
 			"1"

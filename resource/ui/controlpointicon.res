@@ -80,11 +80,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CPTimerLabel"
-		"xpos"			"0"
+		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"9"
-		"tall"			"20"
+		"wide"			"24"
+		"tall"			"24"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"60"
@@ -92,21 +92,21 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"ControlPointTimer"
+		"font"			"Regular12"
 	}
 				
 	"CPTimerBG"
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"CPTimerBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
-		"wide"		"66"
-		"tall"		"33"
+		"wide"		"0"
+		"tall"		"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_timer"	
+		"enabled"		"0"
+		"image"			""	
 		"scaleImage"	"1"	
 	}
 }

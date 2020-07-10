@@ -38,7 +38,6 @@
 
 		"DescLine1"
 		{
-			"xpos"				"r214"
 			
 			if_mini
 			{
@@ -54,11 +53,6 @@
 					"2"		"FontStorePrice"
 				}
 			}
-		}
-		
-		"DescLine2"
-		{
-			"xpos"				"r193"
 		}
 
 		"StatsContainer"

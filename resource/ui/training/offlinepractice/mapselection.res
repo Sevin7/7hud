@@ -29,7 +29,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"40 37 37 255"
+		"bgcolor_override"	"46 43 42 255"
 	}
 	
 	"GradientPanel"

@@ -18,7 +18,7 @@
 		"ControlName"	"CircularProgressBar"
 		"fieldName"	"ProgressBar"
 		"xpos"		"c-30"//28
-		"ypos"		"65"
+		"ypos"		"90"
 		"zpos"		"23"
 		"wide"		"60"
 		"tall"		"60"
@@ -35,7 +35,7 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"	"Teardrop"
 		"xpos"		"9999"
-		"ypos"		"0"
+		"ypos"		"9999"
 		"zpos"		"21"
 		"wide"		"54"
 		"tall"		"65"
@@ -50,8 +50,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"	"TeardropSide"
-		"xpos"		"0"
-		"ypos"		"0"
+		"xpos"		"9999"
+		"ypos"		"9999"
 		"zpos"		"21"
 		"wide"		"54"
 		"tall"		"54"

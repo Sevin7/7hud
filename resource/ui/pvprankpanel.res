@@ -176,14 +176,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
 		"xpos"			"rs1"
-		"ypos"			"20"
+		"ypos"			"45"
 		"zpos"			"-1"
 		"wide"			"155"
 		"tall"			"26"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"0 0 0 0"
-		"border"		"blank"
+		"border"		"noborder"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -192,6 +192,7 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
+			"bgcolor_override"	"46 43 42 255"			
 		}
 		
 		"ActualBGPanel"
@@ -208,13 +209,18 @@
 			"bgcolor_override"		"0 0 0 50"
 			"border"		"noborder"
 			"proportionaltoparent"	"1"	
+			
+			if_mini
+			{
+				"visible"	"0"
+			}
 		}			
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"30"
+			"xpos"			"9999"
 			"ypos"			"2"
 			"wide"			"f0"
 			"zpos"			"100"
@@ -237,7 +243,7 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"r207"
+			"xpos"			"cs-0.5"
 			"ypos"			"2"
 			"wide"			"195"
 			"zpos"			"100"
@@ -246,14 +252,15 @@
 			"enabled"		"1"
 			"font"			"ItemFontAttribSmallBP"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"	"east"
+			"textAlignment"	"center"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
-				"xpos"	"67"
-				"ypos"	"4"
+				"xpos"	"cs-0.5+30"
+				"ypos"	"13"
+				"font"	"ItemFontAttribSmall"
 			}
 		}
 		
@@ -261,7 +268,7 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"r198"
+			"xpos"			"r205"
 			"ypos"			"11"
 			"wide"			"195"
 			"zpos"			"100"
@@ -288,38 +295,42 @@
 			if_mini
 			{
 				"xpos"			"rs1-10"
-				"ypos"			"0"
-				"wide"			"p0.85"
+				"ypos"			"10"
+				"wide"			"p0.82"
 			}
 
 			"XPBar"
 			{
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
-				"xpos"			"2"
+				"xpos"			"1"
 				"ypos"			"-8"
-				"wide"			"153"
+				"wide"			"p1"
 				"tall"			"25"
 				"proportionaltoparent"	"1"
-
-	
 
 				"CurrentXPLabel"
 				{
 					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
-					"xpos"			"4"
-					"ypos"			"-2"
+					"xpos"			"3"
+					"ypos"			"3"
 					"zpos"			"6"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"0"
+					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmallBP"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"font"	"ItemFontAttribSmall"
+						"ypos"	"6"
+					}
 				}
 
 				"NextLevelXPLabel"
@@ -327,17 +338,23 @@
 					"ControlName"	"Label"
 					"fieldName"		"NextLevelXPLabel"
 					"xpos"			"rs1-3"
-					"ypos"			"-2"
+					"ypos"			"3"
 					"zpos"			"6"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"0"
+					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmallBP"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"font"	"ItemFontAttribSmall"
+						"ypos"	"6"
+					}					
 				}
 
 				"ProgressBarsContainer"

@@ -48,13 +48,6 @@
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" "glyph_steamworkshop"
 	}
-	"TrainingButton"
-	{
-		"label" "Training"
-		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-	}
 	"FavoriteServer2"
 	{
 		"label" "6"
@@ -89,12 +82,6 @@
     }
 
 	// These buttons get positioned by the MainMenuOverride.res
-	"CreateServerButton"
-	{
-		"label" "Create"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-	}
 	"GeneralStoreButton"
 	{
 		"label" "Store"

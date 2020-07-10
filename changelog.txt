@@ -2,6 +2,21 @@
 7HUD through the years
 ======================
 
+v4.76
+07/09/2020
+
+- matchmaking dashboard/panels polish and tweaks
+- reverted to stock full-width dashboard layout 
+- removed training and create server buttons from main menu (accessible from matchmaking panel)
+- shuffled a few buttons in in-game main menu
+- moved game coordinator disconnection message to rank panel
+- fixed positioning of rank xp bars in matchmaking panels and round-end
+- fixed disconnect dialog icon underlapping button
+- lowered cp cap progress icon to position better for 3cp a/d (gravelpit, degrootkeep)
+- fixed broken looking icon when final point capping active on 3cp a/d (gravelpit, degrootkeep)
+- fixed black bg in top left corner when capping point
+- global button color tweaks
+
 v4.75
 07/07/2020
 

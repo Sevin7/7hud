@@ -176,9 +176,8 @@
 		"border_armed"		""
 		"paintbackground"	"1"
 		
-		"defaultBgColor_override"	"Select"
-		"armedBgColor_override"		"ButtonBG"
-		"depressedBgColor_override"	"ButtonBG"
+		"defaultBgColor_override"	"46 44 43 255"		
+		"armedBgColor_override"		"40 38 37 255"
 			
 		"defaultFgColor_override" "235 235 235 255"
 		"armedFgColor_override" "250 250 250 255"
@@ -268,9 +267,8 @@
 		"border_armed"		""
 		"paintbackground"	"1"
 		
-		"defaultBgColor_override"	"Select"
-		"armedBgColor_override"		"ButtonBG"
-		"depressedBgColor_override"	"ButtonBG"
+		"defaultBgColor_override"	"46 44 43 255"		
+		"armedBgColor_override"		"40 38 37 255"
 			
 		"defaultFgColor_override" "235 235 235 255"
 		"armedFgColor_override" "250 250 250 255"
