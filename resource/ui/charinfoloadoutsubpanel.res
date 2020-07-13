@@ -22,7 +22,7 @@
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"
 		
-		"class_ypos"				"40"
+		"class_ypos"				"50"
 		"class_xdelta"				"5"
 		"class_wide_min"			"60"
 		"class_wide_max"			"100"
@@ -263,12 +263,12 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
 	
-		"ShowBackpackButton"
+	"ShowBackpackButton"
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowBackpackButton"
 		"xpos"				"c-290"
-		"ypos"				"235"
+		"ypos"				"250"
 		"zpos"				"6"
 		"wide"				"60"
 		"tall"				"60"
@@ -314,7 +314,7 @@
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowCraftingButton"
 		"xpos"				"c-160"
-		"ypos"				"235"
+		"ypos"				"250"
 		"zpos"				"6"
 		"wide"				"60"
 		"tall"				"60"
@@ -360,7 +360,7 @@
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowArmoryButton"
 		"xpos"				"c-30"
-		"ypos"				"235"
+		"ypos"				"250"
 		"zpos"				"6"
 		"wide"				"60"
 		"tall"				"60"
@@ -406,7 +406,7 @@
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowTradeButton"
 		"xpos"				"c100"
-		"ypos"				"235"
+		"ypos"				"250"
 		"zpos"				"6"
 		"wide"				"60"
 		"tall"				"60"
@@ -453,7 +453,7 @@
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowPaintkitsButton"
 		"xpos"				"c230"
-		"ypos"				"235"
+		"ypos"				"250"
 		"zpos"				"6"
 		"wide"				"60"
 		"tall"				"60"
@@ -521,10 +521,10 @@
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
-		"ypos"			"215"
+		"ypos"			"220"
 		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"30"
+		"wide"			"200"
+		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -576,16 +576,16 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"#SelectClassLoadout"
 		"textAlignment"	"north"
-		"xpos"			"0"
-		"ypos"			"300"
+		"xpos"			"9999"		//0
+		"ypos"			"9999"		//300
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"visible"		"0"
+		"enabled"		"0"
+		"fgcolor_override" "0 0 0 0"
 	}
 	"LoadoutChangesLabel"
 	{
@@ -2137,5 +2137,21 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"30 25 25 245"
 	}
-
+	
+	"Wall"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Wall"
+		"xpos"			"0"
+		"ypos"			"75"
+		"zpos"			"-5"		
+		"wide"			"f0"
+		"tall"			"255"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"32 32 32 255"
+	}		
 }

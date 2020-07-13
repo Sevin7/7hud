@@ -89,6 +89,9 @@
         	"default"                "1"
         	"sound_depressed"        "UI/buttonclick.wav"
         	"sound_released"        "UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"blank"
+			"armedBgColor_override"			"blank"
 
     	}
     }
@@ -167,30 +170,30 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"c-184"
-		"ypos"			"20"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-1"		
-		"wide"			"366"
-		"tall"			"330"
+		"wide"			"f0"
+		"tall"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"34"
+		"fov"			"75"
 		"allow_manip"		"1"
 				
 		"model"
 		{
 			"force_pos"	"1"
 
-			"angles_x" "0"
+			"angles_x" "3"
 			"angles_y" "170"
-			"angles_z" "0"
+			"angles_z" "00"
 			"origin_x" "190"
 			"origin_y" "0"
-			"origin_z" "-45"
+			"origin_z" "-30"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
@@ -396,8 +399,8 @@
             "tall"                        "75"
             "autoResize"        "1"
             "visible"                "0"
-            "bgcolor_override"			"69 64 63 255"
-            "PaintBackgroundType"		"2"
+            "bgcolor_override"			"46 43 42 255"
+            "PaintBackgroundType"		"0"
     }
     
 	"RedButton"

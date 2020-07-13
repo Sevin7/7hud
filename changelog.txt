@@ -2,6 +2,18 @@
 7HUD through the years
 ======================
 
+v5.01
+07/12/2020
+
+- applied backpack theme to loadout sub panel, mann co. catalog, and crafting panel
+- reverted to rounded backpack item borders
+- main menu tooltip border tweaked
+- class loadout panel tweaks
+- fixed collection items highlighting wrong item in backpack mouseover
+- fixed "select style" model preview not showing
+- fixed backpack "NEW!" label not having correct background
+- fixed positioning of "you have pending alerts!" text
+
 v5.00
 07/09/2020
 

@@ -94,7 +94,7 @@
 				"mouseinputenabled" "0"
 				"paintbackground"	"1"
 				"proportionaltoparent"	"1"
-				"border"		"ButtonBorder"
+				"border"		"StoreNewBorder"
 				"fgcolor"		"10 10 10 255"
 			}
 		}		
