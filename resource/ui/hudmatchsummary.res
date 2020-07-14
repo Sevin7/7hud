@@ -238,12 +238,17 @@
 	 			"ControlName"		"EditablePanel"
 				"fieldName"		"BlueTeamPanel"
 				"xpos"			"-320"
-				"ypos"			"15"
+				"ypos"			"0"
 				"zpos"			"0"
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
+				
+				if_large
+				{
+					"ypos"		"15"
+				}
 
 				"BlueTeamScoreBG"
 				{
@@ -437,7 +442,7 @@
 					"ControlName"		"EditablePanel"
 					"fieldName"		"BluePlayerListParent"
 					"xpos"			"12"
-					"ypos"			"125"
+					"ypos"			"137"
 					"zpos"			"1"
 					"wide"			"p.193"
 					"tall"			"215"
@@ -512,13 +517,17 @@
 	 			"ControlName"		"EditablePanel"
 				"fieldName"		"RedTeamPanel"
 				"xpos"			"320"
-				"ypos"			"15"
+				"ypos"			"0"
 				"zpos"			"0"
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-
+				
+				if_large
+				{
+					"ypos"		"15"
+				}
 				"RedTeamScoreBG"
 				{
 					"ControlName"		"EditablePanel"
@@ -710,7 +719,7 @@
 					"ControlName"		"EditablePanel"
 					"fieldName"		"RedPlayerListParent"
 					"xpos"			"r12-p.193"
-					"ypos"			"125"
+					"ypos"			"137"
 					"zpos"			"1"
 					"wide"			"p.193"
 					"tall"			"215"
