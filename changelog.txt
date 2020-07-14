@@ -3,7 +3,7 @@
 ======================
 
 v5.02
-sometime
+07/14/2020
 
 - disabled all menu characters except seasonal/event
 - fixed round-end scoreboards not showing legend
