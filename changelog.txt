@@ -2,6 +2,14 @@
 7HUD through the years
 ======================
 
+v5.02
+07/14/2020
+
+- disabled all menu characters except seasonal/event
+- fixed round-end scoreboards not showing legend
+- fixed mvm in world money placement
+- engineer target id fixes
+
 v5.01
 07/12/2020
 
