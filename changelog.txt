@@ -2,6 +2,18 @@
 7HUD through the years
 ======================
 
+v5.03
+07/15/2020
+
+- applied items header/footer theme to replay browser
+- shrunk "you have pending alerts!" dialog to fit behind match queue popup
+- spy disguise menu and concise menu tweaks
+- layout tweaks in items menu stats panel
+- fixed alignment issues in loading screen stats
+- changed items menu/loading screen stats bg to highlight2 (green)
+- fixed tool application label getting cutoff in backpack (name tag, paint cans etc. [thanks flaw!])
+- fixed mouseover panel getting cutoff in item selection panel (thanks flaminsarge!)
+
 v5.02
 07/14/2020
 
