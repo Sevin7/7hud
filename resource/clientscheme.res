@@ -53,7 +53,7 @@ Scheme
 		"Highlight"			"226 180 20 255"		//Gold color for hovering over buttons
 		"Highlight2"		"117 226 20 255"		//Green color for hovering over buttons		
 
-		"StatSummaryBars"	"7 199 254 130"			//Bar color in statsummary and statsummary_embedded
+		"StatSummaryBars"	"117 226 20 130"			//Bar color in statsummary and statsummary_embedded
 		
 
 
