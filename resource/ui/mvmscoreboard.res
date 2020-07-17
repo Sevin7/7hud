@@ -21,22 +21,22 @@
 		"fieldName"		"PopFileLabel"
 		"font"			"Regular9"
 		"labelText"		"%popfile%"
-		"textAlignment"	"east"
-		"xpos"			"r314"		//c-241
-		"ypos"			"373"		//r19
-		"wide"			"178"
-		"tall"			"15"
-		"fgcolor"		"White"
+		"textAlignment"	"west"
+		"xpos"			"c-251"		//c-241
+		"ypos"			"r356"		//r19
+		"wide"			"118"
+		"tall"			"12"
+		"fgcolor"		"TanLight"
 	}
 
 	"DifficultyContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"0"
-		"ypos"			"2"
-		"wide"			"f0"
-		"tall"			"480"
+		"xpos"			"c133"
+		"ypos"			"r356"
+		"wide"			"118"
+		"tall"			"12"
 		"visible"		"1"
 		
 		"DifficultyLabel"
@@ -46,11 +46,12 @@
 			"font"			"Regular9"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"west"
-			"xpos"			"c117"
-			"ypos"			"r385"
+			"xpos"			"0"
+			"ypos"			"0"
 			"wide"			"150"
 			"tall"			"20"
 			"fgcolor"		"White"
+			"visible"		"0"
 		}
 		
 		"DifficultyValue"
@@ -60,10 +61,10 @@
 			"font"			"Regular9"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"east"
-			"xpos"			"c140"
-			"ypos"			"r385"
-			"wide"			"150"
-			"tall"			"20"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"118"
+			"tall"			"12"
 			"fgcolor"		"White"
 		}
 	}
@@ -94,10 +95,10 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"c-406"
-		"ypos"			"r362"
+		"xpos"			"170"
+		"ypos"			"r342"
 		"wide"			"514"
-		"tall"			"171"
+		"tall"			"151"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -156,8 +157,8 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
-			"xpos"			"c108"
-			"ypos"			"r356"
+			"xpos"			"287"
+			"ypos"			"r196"
 			"tall"			"100"
 			"wide"			"200"
 			"visible"		"1"
@@ -167,8 +168,8 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"c108"
-			"ypos"			"r277"
+			"xpos"			"384"
+			"ypos"			"r196"
 			"tall"			"100"
 			"wide"			"200"
 			"visible"		"1"
@@ -178,8 +179,8 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"PreviousWaveCreditSpendPanel"
-			"xpos"			"c198"
-			"ypos"			"r356"
+			"xpos"			"287"
+			"ypos"			"r169"
 			"tall"			"100"
 			"wide"			"200"
 			"visible"		"1"
@@ -189,8 +190,8 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"c198"
-			"ypos"			"r277"
+			"xpos"			"384"
+			"ypos"			"r169"
 			"tall"			"100"
 			"wide"			"200"
 			"visible"		"1"
