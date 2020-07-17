@@ -45,6 +45,9 @@ Scheme
 		"MeterText3"		"48 220 230 255"		//Blue meter label
 		
 		"MainMenuBG"		"11 7 6 190"			//BG of main menu box
+		"HudBG"				"0 0 0 214"				//Black HUD background
+		"HudBGT"			"0 0 0 175"				//Black HUD background (stats panels)		
+		"HudShadow"			"45 35 30 235"			//Used for shadows on various numbers
 
 		"Select"			"36 34 33 255"			//Dark grey for default buttons	
 		"ButtonBG"			"30 28 27 255"			//Darker grey for armed buttons
@@ -53,25 +56,14 @@ Scheme
 		"Highlight"			"226 180 20 255"		//Gold color for hovering over buttons
 		"Highlight2"		"117 226 20 255"		//Green color for hovering over buttons		
 
-		"StatSummaryBars"	"117 226 20 130"			//Bar color in statsummary and statsummary_embedded
-		
-
-
-		//More options, partially for custom options like the line-effect or the colorful main-menu
+		"StatSummaryBars"	"117 226 20 130"		//Bar color in statsummary and statsummary_embedded
 		
 		"EngineerPanelBG"	"0 0 0 107"				// change this to "0 0 0 0" to remove the BG for the not-built panel
 		
 		"Name"				"255 255 255 175"		//TargetID name label color
 		"Time"				"255 255 255 175"		//Respawn and Map time
 		
-		"MvMBG"				"189 59 59 200"			//MvM panels red color
-		"MvMBG2"			"91 122 140 200"		//MvM panels blue color
-		
 		"Underline"			"0 0 0 0"				//Blank base color for HP and ammo underline
-		
-		"HudBG"				"0 0 0 214"				//Black HUD background
-		"HudShadow"			"45 35 30 235"			//Used for shadows on various numbers
-		
 		
 		
 		// Base HUD Colors		
@@ -109,7 +101,6 @@ Scheme
 		"WhiteBG"			"255 255 255 170"			//Background used for White Box Version
 		
 		"WhiteBGT"			"255 255 255 85"			//Used for demo stick counter
-		"HudBGT"			"0 0 0 175"				//
 		
 		
 		// Base Colors TF2
