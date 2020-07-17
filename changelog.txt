@@ -2,6 +2,15 @@
 7HUD through the years
 ======================
 
+v5.04
+07/16/2020
+
+- redesigned mvm scoreboard to better reflect new normal scoreboard
+- revised casual mvm victory panel
+- fixed white bar appearing under mvm victory panel (server change message)
+- fixed cutoff credit stats at mvm round end
+- moved in-game queue status to top left corner to avoid confliction w/ killfeed
+
 v5.03
 07/15/2020
 
