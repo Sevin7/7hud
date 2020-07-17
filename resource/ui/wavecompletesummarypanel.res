@@ -21,6 +21,21 @@
 		"draw_corner_height" 	"5"	
 	}
 	
+	"Background2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Background2"
+		"xpos"			"40"
+		"ypos"			"45"
+		"wide"			"220"
+		"tall"			"80"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"HudBGT"
+	}
+	
 	"WaveCompleteContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -43,7 +58,7 @@
 			"ypos"			"3"
 			"wide"			"245"
 			"tall"			"36"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor"		"black"		
 			
@@ -60,9 +75,9 @@
 			"font"			"Regular19Shadow"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
-			"xpos"			"17"
+			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"244"
+			"wide"			"300"
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
@@ -74,7 +89,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditContainer"
-		"xpos"			"0"
+		"xpos"			"10"
 		"ypos"			"80"
 		"wide"			"400"
 		"tall"			"400"
@@ -164,8 +179,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RatingContainer"
-		"xpos"			"140"
-		"ypos"			"80"
+		"xpos"			"150"
+		"ypos"			"75"
 		"wide"			"400"
 		"tall"			"400"
 		"autoResize"	"1"

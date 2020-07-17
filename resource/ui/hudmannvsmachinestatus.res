@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"20"
+		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"f0"
@@ -17,8 +17,8 @@
 	{
 		"ControlName"		"CWaveCompleteSummaryPanel"
 		"fieldName"			"WaveCompleteSummaryPanel"
-		"xpos"				"c-125"
-		"ypos"				"120"
+		"xpos"				"c-150"
+		"ypos"				"100"
 		"zpos"				"0"
 		"wide"				"400"
 		"tall"				"400"
@@ -47,7 +47,7 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-125"
+		"xpos"				"c-145"
 		"ypos"				"-86"
 		"wide"				"f0"
 		"tall"				"f0"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"c94"
+		"xpos"				"c74"
 		"ypos"				"-44"
 		"wide"				"f0"
 		"tall"				"480"
@@ -222,14 +222,14 @@
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"Background"
-			"xpos"			"c-150"
-			"ypos"			"400"
-			"wide"			"300"
-			"tall"			"20"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
@@ -246,13 +246,31 @@
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
 			"xpos"			"c-150"
-			"ypos"			"400"
+			"ypos"			"50"
+			"zpos"			"1"
 			"wide"			"300"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"		
+			"fgcolor"		"TanLight"		
 		}
+		
+		"ServerChangeLabelDrop"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"ServerChangeLabelDrop"
+			"font"			"HudFontSmall"
+			"textAlignment"	"center"
+			"labelText"		"%servermessage%"
+			"xpos"			"c-149"
+			"ypos"			"51"
+			"zpos"			"0"
+			"wide"			"300"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"HudShadow"		
+		}		
 	}
 	
 }
