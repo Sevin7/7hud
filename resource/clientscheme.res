@@ -135,6 +135,7 @@ Scheme
 		"Blue"				"104 124 155 175"		//0 28 162 140"
 		"Yellow"			"225 225 225 255"
 		"TransparentYellow"	"255 255 255 140"
+		"BrightYellow"		"251 235 0 255"		
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
@@ -7606,13 +7607,27 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"230 220 210 255"
 			
-			"image"					"alert_rect"
+			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
+		
+		NotificationHighPriority
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"button_holder_central"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"
+		}
+		
 		MainMenuButtonDefault
 		{
 			"bordertype"			"scalable_image"
@@ -7708,7 +7723,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"backpack_rect_color"
+			"image"					"backpack_rect_mouseover_color"
 			"color"					"46 43 42 255"
 			
 			"src_corner_height"		"32"				// pixels inside the image
