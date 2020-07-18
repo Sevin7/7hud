@@ -7708,7 +7708,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"backpack_rect_mouseover_color"
+			"image"					"backpack_rect_color"
 			"color"					"46 43 42 255"
 			
 			"src_corner_height"		"32"				// pixels inside the image

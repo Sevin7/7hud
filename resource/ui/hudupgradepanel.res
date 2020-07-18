@@ -37,6 +37,8 @@
 			
 			"model_ypos"	"5"
 			"model_tall"	"32"
+			"model_wide"	"48"
+			"model_center_x"	"1"
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
@@ -72,7 +74,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SelectWeaponPanel"
 		"xpos"			"c-250"
-		"ypos"			"85"
+		"ypos"			"75"
 		"wide"			"500"
 		"tall"			"350"
 		"autoResize"	"0"
@@ -82,10 +84,10 @@
 		"tabPosition"		"0"
 		"bgcolor_override"	"63 59 55 0"
 		
-		"OutterPanelBG"
+		"OuterPanelBG"
 		{
-			"ControlName"		"ScalableImagePanel"
-			"fieldName"		"OutterPanelBG"
+			"ControlName"		"EditablePanel"
+			"fieldName"		"OuterPanelBG"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-8"
@@ -95,15 +97,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_brown"
+			"bgcolor_override"	"Black"
+			"border"		"quickplayborder"
 
-			"src_corner_height"	"23"	// pixels inside the image
-			"src_corner_width"	"23"
-			
-			"draw_corner_width"	"8"		// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" "8"	
 
-		}
+		}		
 		
 		"InnerPanelRim"
 		{
@@ -521,11 +519,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemsLabel"
-			"font"			"HudFontSmallBP"
+			"font"			"HudFontSmall"
 			"labelText"		"%upgrade_label%"
 			"textAlignment"	"center"
 			"xpos"			"25"
-			"ypos"			"136"
+			"ypos"			"135"
 			"zpos"			"2"
 			"wide"			"130"
 			"tall"			"20"
@@ -542,8 +540,8 @@
 			"font"			"ItemFontAttribSmall"
 			"labelText"		""
 			"textAlignment"	"north-west"
-			"xpos"			"29"
-			"ypos"			"157"
+			"xpos"			"30"
+			"ypos"			"160"
 			"zpos"			"2"
 			"wide"			"120"
 			"tall"			"105"
@@ -558,11 +556,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"Heavy24"
+			"font"			"Bold25"
 			"labelText"		"%credits%"
 			"textAlignment"	"east"
-			"xpos"			"-8"
-			"ypos"			"280"
+			"xpos"			"0"
+			"ypos"			"278"
 			"wide"			"245"
 			"tall"			"30"
 			"autoResize"	"0"
@@ -576,11 +574,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsTextLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_UpgradeAmount"
 			"textAlignment"	"west"
-			"xpos"			"242"
-			"ypos"			"280"
+			"xpos"			"250"
+			"ypos"			"279"
 			"wide"			"500"
 			"tall"			"30"
 			"autoResize"	"0"
@@ -605,7 +603,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_PVE_UpgradeCancel"
-			"font"			"Regular9"
+			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -630,7 +628,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#TF_PVE_UpgradeDone"
-			"font"			"Regular9"
+			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -644,10 +642,10 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"RespecButton"
-			"xpos"			"50"
+			"xpos"			"25"
 			"ypos"			"285"
 			"zpos"			"1"
-			"wide"			"120"
+			"wide"			"130"
 			"tall"			"17"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -671,7 +669,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TipPanel"
 		"xpos"			"c-250"
-		"ypos"			"395"
+		"ypos"			"390"
 		"zpos"			"10"
 		"wide"			"500"
 		"tall"			"40"
@@ -683,7 +681,7 @@
 		
 		"TipPanelBG"
 		{
-			"ControlName"		"ScalableImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"TipPanelBG"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -694,13 +692,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_brown"
-
-			"src_corner_height"	"23"	// pixels inside the image
-			"src_corner_width"	"23"
-			
-			"draw_corner_width"	"8"		// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" "8"	
+			"bgcolor_override"	"Black"
+			"border"		"quickplayborder"
 		}
 		
 		"TipText"
