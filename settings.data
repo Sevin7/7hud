@@ -68,6 +68,7 @@ HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
 
 #if HUDPosition == "lowered"
 {
+	Copy("resource\lowered\hudmannvsmachinestatus.res", "resource\ui\hudmannvsmachinestatus.res");
 	Copy("resource\lowered\hudmediccharge.res", "resource\ui\hudmediccharge.res");
 	Copy("resource\lowered\hudlayout.res", "scripts\hudlayout.res");
 	Copy("resource\lowered\huddamageaccount.res", "resource\ui\huddamageaccount.res");
@@ -77,10 +78,13 @@ HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
 	Copy("resource\lowered\huditemeffectmeter_cleaver.res", "resource\ui\huditemeffectmeter_cleaver.res");
 	Copy("resource\lowered\huditemeffectmeter_demoman.res", "resource\ui\huditemeffectmeter_demoman.res");
 	Copy("resource\lowered\huditemeffectmeter_engineer.res", "resource\ui\huditemeffectmeter_engineer.res");
+	Copy("resource\lowered\huditemeffectmeter_heavy.res", "resource\ui\huditemeffectmeter_heavy.res");
 	Copy("resource\lowered\huditemeffectmeter_particlecannon.res", "resource\ui\huditemeffectmeter_particlecannon.res");
 	Copy("resource\lowered\huditemeffectmeter_pomson.res", "resource\ui\huditemeffectmeter_pomson.res");
+	Copy("resource\lowered\huditemeffectmeter_powerupbottle.res", "resource\ui\huditemeffectmeter_powerupbottle.res");
 	Copy("resource\lowered\huditemeffectmeter_pyro.res", "resource\ui\huditemeffectmeter_pyro.res");	
 	Copy("resource\lowered\huditemeffectmeter_raygun.res", "resource\ui\huditemeffectmeter_raygun.res");
+	Copy("resource\lowered\huditemeffectmeter_sapper.res", "resource\ui\huditemeffectmeter_sapper.res");
 	Copy("resource\lowered\huditemeffectmeter_scout.res", "resource\ui\huditemeffectmeter_scout.res");
 	Copy("resource\lowered\huditemeffectmeter_sniper.res", "resource\ui\huditemeffectmeter_sniper.res");
 	Copy("resource\lowered\huditemeffectmeter_sniperfocus.res", "resource\ui\huditemeffectmeter_sniperfocus.res");
@@ -91,19 +95,23 @@ HudMenuConnectButton(“FavoriteServer2”, “Favorite Server 2”);
 }
 #else
 {
+	Copy("resource\centered\hudmannvsmachinestatus.res", "resource\ui\hudmannvsmachinestatus.res");
 	Copy("resource\centered\hudmediccharge.res", "resource\ui\hudmediccharge.res");
 	Copy("resource\centered\hudlayout.res", "scripts\hudlayout.res");
 	Copy("resource\centered\huddamageaccount.res", "resource\ui\huddamageaccount.res");
 	Copy("resource\centered\hudplayerhealth.res", "resource\ui\hudplayerhealth.res");
 	Copy("resource\centered\huddemomanpipes.res", "resource\ui\huddemomanpipes.res");
-	Copy("resource\centered\hudrocketpack.res", "resource\ui\hudrocketpack.res");	
+	Copy("resource\centered\hudrocketpack.res", "resource\ui\hudrocketpack.res");
 	Copy("resource\centered\huditemeffectmeter_cleaver.res", "resource\ui\huditemeffectmeter_cleaver.res");
 	Copy("resource\centered\huditemeffectmeter_demoman.res", "resource\ui\huditemeffectmeter_demoman.res");
 	Copy("resource\centered\huditemeffectmeter_engineer.res", "resource\ui\huditemeffectmeter_engineer.res");
+	Copy("resource\centered\huditemeffectmeter_heavy.res", "resource\ui\huditemeffectmeter_heavy.res");
 	Copy("resource\centered\huditemeffectmeter_particlecannon.res", "resource\ui\huditemeffectmeter_particlecannon.res");
 	Copy("resource\centered\huditemeffectmeter_pomson.res", "resource\ui\huditemeffectmeter_pomson.res");
-	Copy("resource\centered\huditemeffectmeter_pyro.res", "resource\ui\huditemeffectmeter_pyro.res");		
+	Copy("resource\centered\huditemeffectmeter_powerupbottle.res", "resource\ui\huditemeffectmeter_powerupbottle.res");
+	Copy("resource\centered\huditemeffectmeter_pyro.res", "resource\ui\huditemeffectmeter_pyro.res");	
 	Copy("resource\centered\huditemeffectmeter_raygun.res", "resource\ui\huditemeffectmeter_raygun.res");
+	Copy("resource\centered\huditemeffectmeter_sapper.res", "resource\ui\huditemeffectmeter_sapper.res");
 	Copy("resource\centered\huditemeffectmeter_scout.res", "resource\ui\huditemeffectmeter_scout.res");
 	Copy("resource\centered\huditemeffectmeter_sniper.res", "resource\ui\huditemeffectmeter_sniper.res");
 	Copy("resource\centered\huditemeffectmeter_sniperfocus.res", "resource\ui\huditemeffectmeter_sniperfocus.res");
