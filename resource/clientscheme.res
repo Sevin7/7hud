@@ -7709,12 +7709,12 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"backpack_rect_mouseover_color"
-			"color"					"255 255 255 247"
+			"color"					"46 43 42 255"
 			
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 
 		TrainingResultsBG
