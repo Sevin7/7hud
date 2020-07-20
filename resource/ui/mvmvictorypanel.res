@@ -5,7 +5,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StatsContainer"
 		"xpos"			"c-265"
-		"ypos"			"100"
+		"ypos"			"50"
 		"wide"			"536"
 		"tall"			"230"
 		"visible"		"1"
@@ -47,7 +47,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"HudBGT"
+			"fillcolor"		"Black"
+			"border"		"quickplayborder"
 		}
 
 		"StatsBackground3"
@@ -62,7 +63,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"HudBGT"
+			"fillcolor"		"ButtonBG"
+			"border"		"quickplayborder"
 		}
 
 		"StatsBackground4"
@@ -77,7 +79,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"HudBGT"
+			"fillcolor"		"ButtonBG"
+			"border"		"quickplayborder"
 		}			
 		
 		"HeaderContainer"

@@ -10,7 +10,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 150"
+		"bgcolor_override"		"20 20 20 245"
 	}
 	
 
@@ -19,10 +19,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BannerContainer"
 		"xpos"			"c-300"
-		"ypos"			"80"
+		"ypos"			"10"
 		"wide"			"600"
 		"tall"			"50"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		
 		"BannerImage"
@@ -49,7 +49,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BannerTextDropShadow"
-			"font"			"HudFontBiggerBold"
+			"font"			"HudFontBig"
 			"labelText"		"#TF_MVM_Victory_Complete"
 			"textAlignment" "center"
 			"xpos"			"2"
@@ -63,14 +63,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BannerTextDropShadow"
-			"font"			"HudFontBiggerBold"
+			"font"			"HudFontBig"
 			"labelText"		"#TF_MVM_Victory_Complete"
 			"textAlignment" "center"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"600"
 			"tall"			"35"
-			"fgcolor"		"Highlight"
+			"fgcolor"		"TanLight"
 		}
 	}
 	

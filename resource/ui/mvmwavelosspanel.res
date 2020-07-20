@@ -22,10 +22,8 @@
 		"wide"			"550"
 		"tall"			"350"
 		"visible"		"1"
-		
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"bgcolor_override"	"Black"
+		"border"		"quickplayborder"		
 	}
 	
 	"WaveFailHeaderShadow"
@@ -39,7 +37,7 @@
 		"ypos"			"103"
 		"wide"			"550"
 		"tall"			"30"
-		"fgcolor"		"Black"
+		"fgcolor"		"HudShadow"
 	}
 	
 	"WaveFailHeader"
@@ -53,7 +51,7 @@
 		"ypos"			"102"
 		"wide"			"550"
 		"tall"			"30"
-		"fgcolor"		"239 152 73 255"
+		"fgcolor"		"Highlight"
 	}
 	
 	"HeaderDivider"
@@ -91,7 +89,7 @@
 		"ypos"			"132"
 		"wide"			"550"
 		"tall"			"30"
-		"fgcolor"		"Black"
+		"fgcolor"		"TanLight"
 	}
 	
 	"CollectionContainer"
@@ -114,7 +112,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"140"
-			"fgcolor"		"Black"
+			"fgcolor"		"TanLight"
 		}
 	
 		"CollectedLabel"
@@ -127,7 +125,7 @@
 			"xpos"			"0"
 			"ypos"			"25"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"TanLight"
 		}
 		
 		"CollectedCount"
@@ -153,7 +151,7 @@
 			"xpos"			"0"
 			"ypos"			"40"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"TanLight"
 		}
 		
 		"MissedCount"
@@ -179,7 +177,7 @@
 			"xpos"			"0"
 			"ypos"			"55"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"TanLight"
 		}
 		
 		"BonusCount"
@@ -216,7 +214,7 @@
 			"xpos"			"20"
 			"ypos"			"0"
 			"wide"			"195"
-			"fgcolor"		"Black"
+			"fgcolor"		"TanLight"
 		}
 	
 		"YouLabel"
@@ -229,7 +227,7 @@
 			"xpos"			"160"
 			"ypos"			"15"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"TanLight"
 		}
 		
 		"TeamLabel"
@@ -242,7 +240,7 @@
 			"xpos"			"215"
 			"ypos"			"15"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"TanLight"
 		}
 		
 		"BuybackLabel"
@@ -255,7 +253,7 @@
 			"xpos"			"0"
 			"ypos"			"25"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"TanLight"
 		}
 		
 		"BuybackCountYou"
@@ -268,7 +266,7 @@
 			"xpos"			"160"
 			"ypos"			"25"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"TanLight"
 		}
 		
 		"BuybackCountTeam"
@@ -281,7 +279,7 @@
 			"xpos"			"215"
 			"ypos"			"25"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"TanLight"
 		}
 		
 		"BottleLabel"
@@ -294,7 +292,7 @@
 			"xpos"			"0"
 			"ypos"			"40"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"TanLight"
 		}
 		
 		"BottleCountYou"
@@ -307,7 +305,7 @@
 			"xpos"			"160"
 			"ypos"			"40"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"TanLight"
 		}
 		
 		"BottleCountTeam"
@@ -320,7 +318,7 @@
 			"xpos"			"215"
 			"ypos"			"40"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"TanLight"
 		}
 		
 		"InactiveLabel"
@@ -333,7 +331,7 @@
 			"xpos"			"0"
 			"ypos"			"55"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"TanLight"
 		}
 		
 		"InactiveCountYou"
@@ -375,7 +373,7 @@
 		
 		"Background"
 		{
-			"ControlName"	"ScalableImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"Background"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -385,13 +383,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_black"
-
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"bgcolor_override"	"ButtonBG"
+			"border"		"quickplayborder"
 		}
 		
 		"Header"

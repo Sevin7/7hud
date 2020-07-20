@@ -2,6 +2,19 @@
 7HUD through the years
 ======================
 
+v5.05
+07/19/2020
+
+- mvm scoreboard tweaks
+- mvm upgrade panel/wave loss panel stylized to match other menus
+- mvm wave completed panel/victory splash positions tweaked to avoid overlap
+- fixed cutoff mouseover menu in mann up loot panel
+- tweaked mvm heavy/spy rage/sapper meters
+- moved money/canteen display to be above hp, stylized similar to stock
+- main menu notification panel color tweaks
+- itemtest panel layout aligned better
+- fixed minor engi build menu metal misalignments
+
 v5.04
 07/16/2020
 

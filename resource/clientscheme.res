@@ -45,6 +45,9 @@ Scheme
 		"MeterText3"		"48 220 230 255"		//Blue meter label
 		
 		"MainMenuBG"		"11 7 6 190"			//BG of main menu box
+		"HudBG"				"0 0 0 214"				//Black HUD background
+		"HudBGT"			"0 0 0 175"				//Black HUD background (stats panels)		
+		"HudShadow"			"45 35 30 235"			//Used for shadows on various numbers
 
 		"Select"			"36 34 33 255"			//Dark grey for default buttons	
 		"ButtonBG"			"30 28 27 255"			//Darker grey for armed buttons
@@ -53,25 +56,14 @@ Scheme
 		"Highlight"			"226 180 20 255"		//Gold color for hovering over buttons
 		"Highlight2"		"117 226 20 255"		//Green color for hovering over buttons		
 
-		"StatSummaryBars"	"117 226 20 130"			//Bar color in statsummary and statsummary_embedded
-		
-
-
-		//More options, partially for custom options like the line-effect or the colorful main-menu
+		"StatSummaryBars"	"117 226 20 130"		//Bar color in statsummary and statsummary_embedded
 		
 		"EngineerPanelBG"	"0 0 0 107"				// change this to "0 0 0 0" to remove the BG for the not-built panel
 		
 		"Name"				"255 255 255 175"		//TargetID name label color
 		"Time"				"255 255 255 175"		//Respawn and Map time
 		
-		"MvMBG"				"189 59 59 200"			//MvM panels red color
-		"MvMBG2"			"91 122 140 200"		//MvM panels blue color
-		
 		"Underline"			"0 0 0 0"				//Blank base color for HP and ammo underline
-		
-		"HudBG"				"0 0 0 214"				//Black HUD background
-		"HudShadow"			"45 35 30 235"			//Used for shadows on various numbers
-		
 		
 		
 		// Base HUD Colors		
@@ -109,7 +101,6 @@ Scheme
 		"WhiteBG"			"255 255 255 170"			//Background used for White Box Version
 		
 		"WhiteBGT"			"255 255 255 85"			//Used for demo stick counter
-		"HudBGT"			"0 0 0 175"				//
 		
 		
 		// Base Colors TF2
@@ -144,6 +135,7 @@ Scheme
 		"Blue"				"104 124 155 175"		//0 28 162 140"
 		"Yellow"			"225 225 225 255"
 		"TransparentYellow"	"255 255 255 140"
+		"BrightYellow"		"251 235 0 255"		
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
@@ -7615,13 +7607,27 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"230 220 210 255"
 			
-			"image"					"alert_rect"
+			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
+		
+		NotificationHighPriority
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"button_holder_central"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"
+		}
+		
 		MainMenuButtonDefault
 		{
 			"bordertype"			"scalable_image"
@@ -7718,12 +7724,12 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"backpack_rect_mouseover_color"
-			"color"					"255 255 255 247"
+			"color"					"46 43 42 255"
 			
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 
 		TrainingResultsBG

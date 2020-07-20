@@ -49,9 +49,9 @@
 		if_mvm
 		{
 			"xpos"			"c-256"
-			"ypos"			"r340"
+			"ypos"			"r331"
 			"wide"			"512"
-			"tall"			"149"
+			"tall"			"131"
 		}
 	}
 
@@ -81,7 +81,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMBG1"
 		"xpos"			"c-256"
-		"ypos"			"r356"
+		"ypos"			"r345"
 		"zpos"			"-1"
 		"wide"			"128"
 		"tall"			"12"
@@ -101,10 +101,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMBG2"
 		"xpos"			"c-126"
-		"ypos"			"r353"
+		"ypos"			"r341"
 		"zpos"			"-1"
 		"wide"			"252"
-		"tall"			"6"
+		"tall"			"4"
 		"fillcolor"		"Highlight"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -121,7 +121,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMBG3"
 		"xpos"			"c128"
-		"ypos"			"r356"
+		"ypos"			"r345"
 		"zpos"			"-1"
 		"wide"			"128"
 		"tall"			"12"
@@ -135,7 +135,7 @@
 		{
 			"visible"			"1"
 		}
-	}		
+	}
 	"StatsBG1"
 	{
 		"ControlName"	"ImagePanel"
@@ -159,7 +159,7 @@
 		if_mvm
 		{
 			"xpos"		"c-256"
-			"ypos"		"r188"
+			"ypos"		"r198"
 			"wide"		"158"
 			"tall"		"76"
 		}
@@ -183,7 +183,7 @@
 		if_mvm
 		{
 			"xpos"		"c-96"
-			"ypos"		"r188"
+			"ypos"		"r198"
 			"wide"		"95"
 			"tall"		"76"
 		}
@@ -207,7 +207,7 @@
 		if_mvm
 		{
 			"xpos"		"c1"
-			"ypos"		"r188"
+			"ypos"		"r198"
 			"wide"		"95"
 			"tall"		"76"			
 		}
@@ -231,7 +231,7 @@
 		if_mvm
 		{
 			"xpos"		"c98"
-			"ypos"		"r188"
+			"ypos"		"r198"
 			"wide"		"158"
 			"tall"		"37"			
 		}
@@ -255,7 +255,7 @@
 		if_mvm
 		{
 			"xpos"		"c98"
-			"ypos"		"r149"
+			"ypos"		"r159"
 			"wide"		"158"
 			"tall"		"37"			
 		}
@@ -321,7 +321,7 @@
 		if_mvm
 		{
 			"xpos"		"c-236"
-			"ypos"		"r110"
+			"ypos"		"r120"
 			"wide"		"472"
 		}
 	}
@@ -344,7 +344,7 @@
 		if_mvm
 		{
 			"xpos"		"c-236"
-			"ypos"		"r96"
+			"ypos"		"r106"
 			"wide"		"472"
 		}
 	}
@@ -699,7 +699,7 @@
 		if_mvm
 		{
 			"xpos"			"196"
-			"ypos"			"r111"
+			"ypos"			"r121"
 			"wide"			"462"
 		}
 	}
@@ -731,7 +731,7 @@
 		{
 			"textAlignment"	"center"
 			"xpos"			"c102"
-			"ypos"			"r131"
+			"ypos"			"r141"
 			"wide"			"148"
 			"tall"			"15"
 
@@ -820,7 +820,7 @@
 		if_mvm
 		{
 			"xpos"		"196"
-			"ypos"		"r97"
+			"ypos"		"r107"
 			"wide"		"462"
 		}
 	}	
@@ -1317,7 +1317,7 @@
 		{
 			"font"			"Regular16"
 			"xpos"		"c102"
-			"ypos"		"r163"
+			"ypos"		"r173"
 			"wide"		"148"
 			"tall"		"51"
 		}
@@ -1439,7 +1439,7 @@
 			if_mvm
 			{
 				"xpos"		"c29"
-				"ypos"		"r180"
+				"ypos"		"r190"
 				"tall"		"51"
 			}
 		}		
@@ -1512,7 +1512,7 @@
 			if_mvm
 			{
 				"xpos"		"c184"
-				"ypos"		"r180"
+				"ypos"		"r190"
 				"tall"		"51"
 			}
 		}		
@@ -1537,7 +1537,7 @@
 			if_mvm
 			{
 				"xpos"		"177"
-				"ypos"		"r142"
+				"ypos"		"r152"
 			}
 		}
 		"Assists"
@@ -1561,7 +1561,7 @@
 			if_mvm
 			{
 				"xpos"		"211"
-				"ypos"		"r142"
+				"ypos"		"r152"
 			}
 		}	
 		"CapturesLabel"
@@ -1585,7 +1585,7 @@
 			if_mvm
 			{
 				"xpos"		"253"
-				"ypos"		"r142"
+				"ypos"		"r152"
 			}
 		}
 		"Captures"
@@ -1609,7 +1609,7 @@
 			if_mvm
 			{
 				"xpos"		"289"
-				"ypos"		"r142"
+				"ypos"		"r152"
 			}
 		}		
 		"DefensesLabel"
@@ -1633,7 +1633,7 @@
 			if_mvm
 			{
 				"xpos"		"253"
-				"ypos"		"r132"
+				"ypos"		"r142"
 			}
 		}
 		"Defenses"
@@ -1657,7 +1657,7 @@
 			if_mvm
 			{
 				"xpos"		"289"
-				"ypos"		"r132"
+				"ypos"		"r142"
 			}
 		}		
 		"DominationLabel"
@@ -1681,7 +1681,7 @@
 			if_mvm
 			{
 				"xpos"		"253"
-				"ypos"		"r122"
+				"ypos"		"r132"
 			}
 		}
 		"Domination"
@@ -1705,7 +1705,7 @@
 			if_mvm
 			{
 				"xpos"		"289"
-				"ypos"		"r122"
+				"ypos"		"r132"
 			}
 		}		
 		"RevengeLabel"
@@ -1729,7 +1729,7 @@
 			if_mvm
 			{
 				"xpos"		"253"
-				"ypos"		"r112"
+				"ypos"		"r122"
 			}
 		}
 		"Revenge"
@@ -1753,7 +1753,7 @@
 			if_mvm
 			{
 				"xpos"		"289"
-				"ypos"		"r112"
+				"ypos"		"r122"
 			}
 		}		
 		"DestructionLabel"
@@ -1776,9 +1776,8 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
 				"xpos"		"177"
-				"ypos"		"r112"
+				"ypos"		"r122"
 			}
 		}
 		"Destruction"
@@ -1802,7 +1801,7 @@
 			if_mvm
 			{
 				"xpos"		"211"
-				"ypos"		"r112"
+				"ypos"		"r122"
 			}
 		}		
 		"HealingLabel"
@@ -1826,7 +1825,7 @@
 			if_mvm
 			{
 				"xpos"		"177"
-				"ypos"		"r132"
+				"ypos"		"r142"
 			}
 		}		
 		"Healing"
@@ -1850,7 +1849,7 @@
 			if_mvm
 			{
 				"xpos"		"211"
-				"ypos"		"r132"
+				"ypos"		"r142"
 			}
 		}		
 		"InvulnLabel"
@@ -1874,7 +1873,7 @@
 			if_mvm
 			{
 				"xpos"		"177"
-				"ypos"		"r122"
+				"ypos"		"r132"
 			}
 		}
 		"Invuln"
@@ -1898,7 +1897,7 @@
 			if_mvm
 			{
 				"xpos"		"211"
-				"ypos"		"r122"		
+				"ypos"		"r132"		
 			}
 		}		
 		"HeadshotsLabel"
@@ -1922,7 +1921,7 @@
 			if_mvm
 			{
 				"xpos"		"253"
-				"ypos"		"r162"
+				"ypos"		"r172"
 			}
 		}
 		"Headshots"
@@ -1946,7 +1945,7 @@
 			if_mvm
 			{
 				"xpos"		"289"
-				"ypos"		"r162"
+				"ypos"		"r172"
 			}
 		}		
 		"BackstabsLabel"
@@ -1970,7 +1969,7 @@
 			if_mvm
 			{
 				"xpos"		"253"
-				"ypos"		"r172"
+				"ypos"		"r182"
 			}
 		}
 		"Backstabs"
@@ -1994,7 +1993,7 @@
 			if_mvm
 			{
 				"xpos"		"289"
-				"ypos"		"r172"
+				"ypos"		"r182"
 			}
 		}		
 		"TeleportsLabel"
@@ -2018,7 +2017,7 @@
 			if_mvm
 			{
 				"xpos"		"253"
-				"ypos"		"r152"
+				"ypos"		"r162"
 			}
 		}
 		"Teleports"
@@ -2042,7 +2041,7 @@
 			if_mvm
 			{
 				"xpos"		"289"
-				"ypos"		"r152"
+				"ypos"		"r162"
 			}
 		}		
 		"BonusLabel"
@@ -2066,7 +2065,7 @@
 			if_mvm
 			{
 				"xpos"		"177"
-				"ypos"		"r152"
+				"ypos"		"r162"
 			}
 		}
 		"Bonus"
@@ -2090,7 +2089,7 @@
 			if_mvm
 			{
 				"xpos"		"211"
-				"ypos"		"r152"
+				"ypos"		"r162"
 			}
 		}		
 		"SupportLabel"
@@ -2116,7 +2115,7 @@
 			{
 				"font"		"Medium8"
 				"xpos"		"177"
-				"ypos"		"r162"
+				"ypos"		"r172"
 			}
 		}
 		"Support"
@@ -2141,7 +2140,7 @@
 			if_mvm
 			{
 				"xpos"		"211"
-				"ypos"		"r162"
+				"ypos"		"r172"
 			}
 		}		
 		"DamageLabel"
@@ -2166,7 +2165,7 @@
 			if_mvm
 			{
 				"xpos"		"177"
-				"ypos"		"r172"
+				"ypos"		"r182"
 			}
 		}
 		"Damage"
@@ -2191,7 +2190,7 @@
 			if_mvm
 			{
 				"xpos"		"211"
-				"ypos"		"r172"
+				"ypos"		"r182"
 			}
 		}
 		"Versus"
@@ -2218,7 +2217,7 @@
 			{
 				"font"		"Medium13"
 				"xpos"		"c164"
-				"ypos"		"r167"
+				"ypos"		"r177"
 				"wide"		"26"
 				"tall"		"25"
 			}

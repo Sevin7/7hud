@@ -5,7 +5,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SplashContainer"
 		"xpos"			"cs-0.5"
-		"ypos"			"c-75"
+		"ypos"			"c-150"
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"1"
