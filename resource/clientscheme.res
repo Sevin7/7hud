@@ -2905,6 +2905,18 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		"Regular26Shadow"
+		{
+			"1"
+			{
+				"name"		"Clear Sans Bold"
+				"tall"		"26"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}		
 
 		"Regular25"
 		{
@@ -3047,7 +3059,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Book"
+				"name"		"Clear Sans Bold"
 				"tall"		"16"
 				"additive"		"0"
 				"antialias"	"1"
