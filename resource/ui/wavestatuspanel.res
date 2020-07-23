@@ -57,20 +57,20 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"SeparatorBar"
-		"xpos"			"-2226"
-		"ypos"			"115"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"1"
+		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"0"
+		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
-		"bgcolor_override"	"White"
+		"bgcolor_override"	"TanLight"
 		
 		if_verbose
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 	}
 	
