@@ -2,6 +2,14 @@
 7HUD through the years
 ======================
 
+v5.06
+07/29/2020
+
+- added separator between mvm support and normal enemies
+- made default damage text smaller (including dispenser healing, metal gained), minicrits/crits larger
+- matched store page back/checkout buttons to items panel buttons
+- added bg to advanced options dialog
+
 v5.05
 07/19/2020
 
