@@ -28,7 +28,7 @@
 			{
 				"0"
 				{
-					"particle_xpos" "c0"
+					"particle_xpos" "c10"
 					"particle_ypos" "c0"
 					"particle_scale" "3"
 					"particleName"	"rankup_base"
@@ -47,8 +47,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"0"		
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"36"
+			"tall"			"36"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -122,7 +122,7 @@
 			{
 				"0"
 				{
-					"particle_xpos" "c0"
+					"particle_xpos" "c10"
 					"particle_ypos" "c0"
 					"particle_scale"	"5"
 					"particleName"	"rankup_glitter"
@@ -131,7 +131,7 @@
 				}
 				"1"
 				{
-					"particle_xpos"	"c0"
+					"particle_xpos"	"c10"
 					"particle_ypos"	"c0"
 					"particle_scale" "4"
 					"particleName"	"badgepress_base"
@@ -178,7 +178,7 @@
 		"xpos"			"rs1"
 		"ypos"			"45"
 		"zpos"			"-1"
-		"wide"			"155"
+		"wide"			"120"
 		"tall"			"26"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
@@ -268,7 +268,7 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"r205"
+			"xpos"			"rs1-13"
 			"ypos"			"11"
 			"wide"			"195"
 			"zpos"			"100"

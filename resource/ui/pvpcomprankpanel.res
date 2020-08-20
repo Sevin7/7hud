@@ -6,9 +6,13 @@
 	{
 		"RankModel"
 		{
+			"ypos"			"cs-0.5-4"
+			
+			
 			if_mini
 			{
 				"xpos"		"cs-0.5-120"
+				"ypos"		"cs-0.5"
 			}
 		}
 
@@ -26,6 +30,7 @@
 		{
 			"wide"			"270"
 			"tall"			"60"
+			"bgcolor_override"	"blank"
 		}
 
 		"PlacementLabel"
@@ -38,6 +43,8 @@
 
 		"DescLine1"
 		{
+			"xpos"		"2"
+			"textAlignment"	"west"
 			
 			if_mini
 			{
@@ -67,12 +74,14 @@
 
 			"XPBar"
 			{
-				"ypos"	"20"
+				"ypos"	"-8"
 				"alpha"	"100"
 
 				"CurrentXPLabel"
 				{
 					"visible"		"1"
+					"xpos"			"1"
+					"textAlignment"	"west"
 
 					if_mini
 					{

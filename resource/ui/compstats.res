@@ -16,7 +16,7 @@
 		{
 			"ControlName"	"CTFLocalPlayerBadgePanel"
 			"fieldName"		"RankImage"
-			"xpos"			"-8"
+			"xpos"			"4"
 			"ypos"			"-15"
 			"zpos"			"110"
 			"wide"			"o1"
@@ -33,7 +33,7 @@
 		{
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
-			"xpos"			"-75"
+			"xpos"			"-115"
 			"ypos"			"-35"
 			"zpos"			"100"
 			"wide"			"320"

@@ -631,7 +631,7 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
 			"font"			"VersionFont2"
-			"labelText"		"v5.06"
+			"labelText"		"v5.07"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -961,7 +961,7 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
 		"xpos"			"cs-0.5-418"
-		"ypos"			"cs-0.5-198"
+		"ypos"			"cs-0.5-210"
 
 		"zpos"			"-51"
 		"wide"			"1000"
@@ -979,8 +979,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"146"
-		"ypos"			"34"
+		"xpos"			"145"
+		"ypos"			"35"
 		"wide"			"9"
 		"tall"			"9"
 		"autoResize"	"0"
@@ -1033,8 +1033,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
-		"xpos"			"143"
-		"ypos"			"24"
+		"xpos"			"146"
+		"ypos"			"26"
 		"zpos"			"-1"
 		"wide"			"7"
 		"tall"			"7"
@@ -1102,7 +1102,7 @@
 		"image"			"gc_dc"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
-	}	
+	}		
 
 	"RankBorder"
 	{
