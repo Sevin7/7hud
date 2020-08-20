@@ -2,6 +2,15 @@
 7HUD through the years
 ======================
 
+v5.07
+08/20/2020
+
+- main menu rank panel tweaks
+- fixed competitive mmr not showing in rank panels
+- lowered and enlarged overtime/sudden death label to clear server time left
+- rebound team select menu blu/red/spec/random to 1/2/3/4 respectively
+- laid framework for loading screen duel stats/map contributor info (disabled for now)
+
 v5.06
 07/29/2020
 
