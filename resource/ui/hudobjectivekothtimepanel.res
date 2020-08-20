@@ -12,7 +12,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"61"
+		"xpos"				"51"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"125"
@@ -55,7 +55,7 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"35"
+				"xpos"			"25"
 				"ypos"			"8"
 				"tall"			"10"
 				"wide"			"35"
@@ -68,7 +68,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"109"
+		"xpos"				"99"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"125"
@@ -111,7 +111,7 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"rs1-15"
+				"xpos"			"rs1-25"
 				"ypos"			"8"
 				"wide"			"35"
 				"tall"			"10"

@@ -106,7 +106,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"26"
-		"ypos"			"15"
+		"ypos"			"27"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"18"
@@ -117,14 +117,14 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmall"
 		"fgcolor"			"Health"
 		
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"15"
-			"ypos"					"20"
+			"xpos"					"cs-0.5"
+			"ypos"					"32"
 		}		
 	}			
 	"OvertimeBG"
@@ -153,7 +153,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"26"
-		"ypos"			"23"
+		"ypos"			"27"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"18"
@@ -164,14 +164,14 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmall"
 		"fgcolor"			"Health"
 		
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"15"
-			"ypos"					"20"
+			"xpos"					"cs-0.5"
+			"ypos"					"32"
 		}		
 	}			
 	"SuddenDeathBG"
