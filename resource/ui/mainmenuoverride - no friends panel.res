@@ -631,7 +631,7 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
 			"font"			"VersionFont2"
-			"labelText"		"v5.07"
+			"labelText"		"v5.08"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1358,22 +1358,6 @@
 				"scaleImage"	"1"
 			}		
 		}
-	}
-
-	"StreamListPanel"
-	{
-		"ControlName"	"CTFStreamListPanel"
-		"fieldName"		"StreamListPanel"
-		"xpos"			"c5"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"314"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"1"
-		"bgcolor_override"	"35 33 32 225"
-		"border"		"quickplayborder"
 	}
 	
 	"QuestLogButton"
@@ -4766,10 +4750,12 @@
 				"ControlName"			"CCyclingAdContainerPanel"
 				"fieldName"				"CyclingAd"
 				"xpos"					"5"
-				"ypos"					"p0.47"
+//				"ypos"					"p0.47"
+				"ypos"					"27"
 				"zpos"					"100"
 				"wide"					"f10"
-				"tall"					"p0.5"
+//				"tall"					"p0.5"
+				"tall"					"60"
 				"visible"				"0"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -4781,40 +4767,14 @@
 				{
 					"0"
 					{
-						"item"		 	"Unused Operation Tough Break Pass"
+						"item"		"Summer 2020 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Tough Break Case 01 Pyroland"
+						"item"		"Summer 2020 Cosmetic Case"
 						"show_market"	"1"
 					}
-					"2"
-					{
-						"item"		"Tough Break Case 02 Warbirds"
-						"show_market"	"1"
-					}
-					"3"
-					{
-						"item"		"Tough Break Key"
-						"show_market"	"0"
-					}
-					"4"
-					{
-						"item"		"Tough Break Cosmetic Case"
-						"show_market"	"1"
-					}
-					"5"
-					{
-						"item"		"Tough Break Cosmetic Key"
-						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Taunt: Mannrobics"
-						"show_market"	"0"
-					}
-					
 				}
 			}
 
