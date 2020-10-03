@@ -162,6 +162,7 @@
 			"ypos"		"r198"
 			"wide"		"158"
 			"tall"		"76"
+			"fillcolor"		"HudBG"			
 		}
 	}
 	"StatsBG2"
@@ -186,6 +187,7 @@
 			"ypos"		"r198"
 			"wide"		"95"
 			"tall"		"76"
+			"fillcolor"		"HudBG"			
 		}
 	}
 	"StatsBG3"
@@ -209,7 +211,8 @@
 			"xpos"		"c1"
 			"ypos"		"r198"
 			"wide"		"95"
-			"tall"		"76"			
+			"tall"		"76"	
+			"fillcolor"		"HudBG"			
 		}
 	}
 	"StatsBG4"
@@ -233,7 +236,8 @@
 			"xpos"		"c98"
 			"ypos"		"r198"
 			"wide"		"158"
-			"tall"		"37"			
+			"tall"		"37"
+			"fillcolor"		"HudBG"			
 		}
 	}	
 	"StatsBG5"
@@ -257,7 +261,8 @@
 			"xpos"		"c98"
 			"ypos"		"r159"
 			"wide"		"158"
-			"tall"		"37"			
+			"tall"		"37"	
+			"fillcolor"		"HudBG"			
 		}
 	}
 	"StatsBG6"

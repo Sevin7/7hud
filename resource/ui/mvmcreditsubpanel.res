@@ -76,7 +76,7 @@
 		"xpos"			"104"
 		"ypos"			"35"
 		"wide"			"30"
-		"fgcolor"		"Red"
+		"fgcolor"		"RedSolid"
 	}
 	
 	"CreditBonusTextLabel"
