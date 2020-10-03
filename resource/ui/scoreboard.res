@@ -187,6 +187,7 @@
 			"ypos"		"r198"
 			"wide"		"95"
 			"tall"		"76"
+			"visible_minmode"	"1"
 			"fillcolor"		"HudBG"			
 		}
 	}
@@ -212,6 +213,7 @@
 			"ypos"		"r198"
 			"wide"		"95"
 			"tall"		"76"	
+			"visible_minmode"	"1"			
 			"fillcolor"		"HudBG"			
 		}
 	}
@@ -237,6 +239,7 @@
 			"ypos"		"r198"
 			"wide"		"158"
 			"tall"		"37"
+			"visible_minmode"	"1"			
 			"fillcolor"		"HudBG"			
 		}
 	}	
@@ -261,7 +264,8 @@
 			"xpos"		"c98"
 			"ypos"		"r159"
 			"wide"		"158"
-			"tall"		"37"	
+			"tall"		"37"
+			"visible_minmode"	"1"			
 			"fillcolor"		"HudBG"			
 		}
 	}
@@ -328,6 +332,7 @@
 			"xpos"		"c-236"
 			"ypos"		"r120"
 			"wide"		"472"
+			"visible_minmode"	"1"			
 		}
 	}
 	"StatsBG9"
@@ -351,6 +356,7 @@
 			"xpos"		"c-236"
 			"ypos"		"r106"
 			"wide"		"472"
+			"visible_minmode"	"1"			
 		}
 	}
 	"BlueTeamLabelBG"
