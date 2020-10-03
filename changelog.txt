@@ -2,6 +2,12 @@
 7HUD through the years
 ======================
 
+v5.09
+10/02/2020
+
+- doomsday_event minigame score position tweaks
+- mvm scoreboard stats visibility improvements
+
 v5.08
 08/21/2020
 
