@@ -1115,17 +1115,17 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
-		"xpos"			"172"
+		"xpos"			"222"
 		//"xpos_minmode"	"0"
-		"ypos"			"430"
+		"ypos"			"440"
 		"zpos"			"5"
-		"wide"			"510"
-		"tall"			"54"
+		"wide"			"410"
+		"tall"			"44"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"TFThinLineBorder"
+		"bgcolor_override"		"HudBGT"
 
 		if_mvm
 		{
@@ -1144,8 +1144,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"DuelingIcon"
-			"xpos"			"240"
-			"ypos"			"11"
+			"xpos"			"190"
+			"ypos"			"6"
 			"zpos"			"2"
 			"wide"			"32"
 			"tall"			"32"
@@ -1159,8 +1159,8 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"LocalPlayerData"
-			"xpos"			"35"
-			"ypos"			"0"
+			"xpos"			"-15"
+			"ypos"			"-6"
 			"wide"			"200"
 			"tall"			"50"
 			"visible"		"1"
@@ -1217,15 +1217,15 @@
 				"fieldName"		"Score"
 				"labelText"		"%score%"
 				"textAlignment"	"west"
-				"xpos"			"0"
+				"xpos"			"50"
 				"ypos"			"8"
 				"zpos"			"3"
 				"wide"			"90"
 				"tall"			"40"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor"		"138 192 57 255"
-				"font"			"Regular16"
+				"fgcolor"		"Highlight"
+				"font"			"Bold24"
 			}
 		}
 
@@ -1233,8 +1233,8 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"OpponentData"
-			"xpos"			"293"
-			"ypos"			"0"
+			"xpos"			"243"
+			"ypos"			"-6"
 			"wide"			"200"
 			"tall"			"50"
 			"visible"		"1"
@@ -1290,15 +1290,15 @@
 				"fieldName"		"Score"
 				"labelText"		"%score%"
 				"textAlignment"	"east"
-				"xpos"			"100"
+				"xpos"			"50"
 				"ypos"			"8"
 				"zpos"			"3"
 				"wide"			"90"
 				"tall"			"40"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor"		"170 40 40 255"
-				"font"			"Regular16"
+				"fgcolor"		"Highlight"
+				"font"			"Bold24"
 			}
 		}		
 	}
