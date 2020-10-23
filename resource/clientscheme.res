@@ -8541,77 +8541,138 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7" 
+		"7"
+		{
+			"font"	"resource/ocra.ttf"
+			"name" "ocra"
+			"turkish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"german"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"french"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x007E"
+			}
+		}		
+		"8" 
 		{
 			"font" "resource/fonts/symbol.ttf"
 			"name" "symbol"
 		}
-		"8" 
+		"9" 
 		{
 			"font" "resource/fonts/paula.ttf"
 			"name" "Paula"
 		}
-		"9" 
+		"10" 
 		{
 			"font" "resource/fonts/avenirltstd-black.ttf"
 			"name" "AvenirLTStd-Black"
 		}
-		"10" 
+		"11" 
 		{
 			"font" "resource/fonts/avenirltstd-medium.otf"
 			"name" "AvenirLTStd-Medium"
 		}	
-		"11" 
+		"12" 
 		{
 			"font" "resource/fonts/avenirltstd-heavy.otf"
 			"name" "AvenirLTStd-Heavy"
 		}		
-		"12" 
+		"13" 
 		{
 			"font" "resource/fonts/fogscrosshairs.otf"
 			"name" "Crosshairs"
 		}
-		"13" 
+		"14" 
 		{
 			"font" "resource/fonts/knucklescrosses.ttf"
 			"name" "KnucklesCrosses"
 		}		
-		"14" 
+		"15" 
 		{
 			"font" "resource/fonts/avenirltstd-book.otf"
 			"name" "AvenirLTStd-Book"
 		}	
-		"15"
+		"16"
 		{
 			"font" "resource/fonts/entypo.otf"
 			"name" "Entypo"
 		}
-		"16" 
+		"17" 
 		{
 			"font" "resource/fonts/garm3nfont.ttf"
 			"name" "Garm3nFont"
 		}
-        "17" 
+        "18" 
 		{
 			"font" "resource/fonts/novecentomedium.ttf"
 			"name" "NovecentoMedium" 
 		}
-        "18" 
+        "19" 
 		{
 			"font" "resource/fonts/novecentobook.ttf"
 			"name" "NovecentoBook"  
 		}
-		"19"
+		"20"
 		{
 			"font" "resource/fonts/Neutra Display Titling.ttf"
 			"name" "Neutra Display Titling"
 		}
-		"20"
+		"21"
 		{
 			"font" "resource/fonts/clearsans-bold.ttf"
 			"name" "Clear Sans Bold"
 		}
-		"21"
+		"22"
 		{
 			"font" "resource/fonts/heavy_dock11.otf"
 			"name" "DOCK11 Heavy"

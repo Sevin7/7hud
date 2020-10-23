@@ -2,6 +2,12 @@
 7HUD through the years
 ======================
 
+v5.10
+10/23/2020
+
+- added contracker font
+- minor scoreboard duel panel tweaks
+
 v5.09
 10/02/2020
 
