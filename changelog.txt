@@ -2,6 +2,12 @@
 7HUD through the years
 ======================
 
+v5.11
+06/28/2021
+
+- fixed tip zpos issue on loading screen
+- fixed missing scroll bar on motd
+
 v5.10
 10/23/2020
 
