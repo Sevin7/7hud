@@ -2,10 +2,16 @@
 7HUD through the years
 ======================
 
-v5.11
+v5.12
 07/09/2023
 
 - fixed mvm currency placement
+
+v5.11
+06/28/2021
+
+- fixed tip zpos issue on loading screen
+- fixed missing scroll bar on motd
 
 v5.10
 10/23/2020
