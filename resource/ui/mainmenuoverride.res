@@ -631,7 +631,7 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
 			"font"			"VersionFont2"
-			"labelText"		"V5.10"
+			"labelText"		"V5.11"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"

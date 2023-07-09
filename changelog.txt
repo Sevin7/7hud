@@ -2,6 +2,11 @@
 7HUD through the years
 ======================
 
+v5.11
+07/09/2023
+
+- fixed mvm currency placement
+
 v5.10
 10/23/2020
 
