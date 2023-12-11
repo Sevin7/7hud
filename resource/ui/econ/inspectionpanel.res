@@ -571,7 +571,7 @@
 			"default"		"1"
 			"NumericInputOnly"	"1"
 			"bgcolor_override"	"0 0 0 200"
-			"maxchars"		"18"
+			"maxchars"		"20"
 
 			"consume_mode"
 			{
