@@ -974,7 +974,7 @@ Scheme
 			{
 				"name"		"Neutra Display Titling"		[!$OSX]
 				"name"		"DOCK11 Heavy"					[$OSX]
-				"tall"		"42"
+				"tall"		"56"
 				"additive"		"0"
 				"antialias"	"1"
 			}
