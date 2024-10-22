@@ -3793,10 +3793,20 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Book"
-				"tall"		"22"
+                "tall"		"24"
+                "weight"    "500"
+                "yres"      "1 1199"
 				"additive"	"0"
-				"antialias" "1"
+				"antialias"	"1"
 			}
+			"2" // Misyl: Proportional
+            {
+                "name"      "AvenirLTStd-Book"
+                "tall"      "10"
+                "weight"    "500"
+                "additive"  "0"
+                "antialias" "1"
+            }
 		}
 		"HudFontMediumBold"
 		{
