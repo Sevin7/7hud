@@ -63,7 +63,7 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"		"ButtonBG"
+			"bgcolor_override"		"46 43 42 255"
 			"border"		"noborder"
 			"proportionaltoparent"	"1"
 		}
@@ -668,7 +668,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
-			"textinsety"	"5"
+			"textinsety"	"2"
 			"textinsetx"	"25"
 			"use_proportional_insets"	"1"
 
@@ -785,7 +785,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"5"
+			"textinsety"	"2"
 			"textinsetx"	"25"
 			"use_proportional_insets"	"1"
 

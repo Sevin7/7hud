@@ -168,6 +168,6 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"46 43 42 255"
 		"paintbackground"		"1"
-		"border"				"quickplayborder"
+		"border"				"noborder"
 	}
 }
