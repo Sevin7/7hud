@@ -2,6 +2,12 @@
 7HUD through the years
 ======================
 
+v5.14
+03/19/2025
+
+- fixed missing backpack tabs
+- redesigned matchmaking ui to incorporate dimmer
+
 v5.13
 03/16/2025
 
