@@ -2,6 +2,12 @@
 7HUD through the years
 ======================
 
+v5.16
+08/15/2026
+
+- fixed black bars on spectator elements
+- fixed unclickable "start search" in comp queue
+
 v5.15
 10/11/2025
 
