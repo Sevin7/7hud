@@ -62,19 +62,20 @@
 		"textAlignment"	"center"
 		"scaleImage"	"1"	
 	}	
-	"PlayerStatusHealthBonusImage"		//low health red BG, shown and hidden by the game itself so it can't get stuck
+	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"-2"
-		"ypos"			"1"					[$OSX]
-		"ypos"			"4"					[!$OSX]
-		"zpos"			"4"
-		"wide"			"30"
-		"tall"			"14"
+		"xpos"			"1500"
+		"ypos"			"9"
+		"zpos"			"3"
+		"wide"			"18"
+		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"200 47 47 110"		//LowHPSpec
+		"image"			"../hud/health_over_bg"
+		"textAlignment"	"center"
+		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValueSpec"
 	{
