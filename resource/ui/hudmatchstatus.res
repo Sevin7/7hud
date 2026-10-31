@@ -481,7 +481,7 @@
 				"tall"				"32"
 				"visible"			"0"
 				"enabled"			"1"	
-				"HealthBonusPosAdj"	"10"
+				"HealthBonusPosAdj"	"0"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"

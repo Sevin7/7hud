@@ -59,19 +59,18 @@
 		"image"			"../hud/health_equip_bg"
 		"scaleImage"	"1"	
 	}	
-	"PlayerStatusHealthBonusImage"
+	"PlayerStatusHealthBonusImage"		//low health red BG, shown and hidden by the game itself so it can't get stuck
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"	"1008"
-		"ypos"	"8"
-		"zpos"			"3"
-		"wide"	"0"
-		"tall"	"0"
+		"xpos"			"135"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"30"
+		"tall"			"17"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"fillcolor"		"200 47 47 110"		//LowHPSpec
 	}
 	"PlayerStatusHealthValue"
 	{

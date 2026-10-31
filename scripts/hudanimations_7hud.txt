@@ -114,14 +114,8 @@ event HudHealthDyingPulse
 
 	Animate	PlayerStatusHealthValueCam 		FgColor		"LowHP"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	    Accel 0.0 0.0
-	
-	Animate	TargetHPBGTournament 			BgColor		"LowHPSpec"	    Accel 0.0 0.0
-	
-	Animate	PlayerStatusHealthValueShadow 	FgColor		"Blank"	     	Accel 0.0 0.0		
 
-	Animate	TargetHPBG 	    				BgColor	    "LowHPSpec"	   	Accel 0.0 0.0
-    Animate	TargetHPBG 	    				Alpha		"255"		    Accel 0.0 0.1
-	Animate	TargetHPBG 	    				Alpha		"255"		    Accel 0.1 0.3
+	Animate	PlayerStatusHealthValueShadow 	FgColor		"Blank"	     	Accel 0.0 0.0
 
 	Animate xHairNormal 	                FgColor		"RedHP"	        Accel 0.0 0.0
 	Animate xHairThin 	                    FgColor		"RedHP"	        Accel 0.0 0.0
