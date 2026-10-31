@@ -98,7 +98,7 @@
 		"tall"			"222"
 		"visible"		"1"
 		"enabled"		"1"	
-		"HealthBonusPosAdj"	"35"
+		"HealthBonusPosAdj"	"0"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"Red"
 	}
@@ -242,19 +242,21 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
-	"PlayerStatusHealthBonusImage"
+	"PlayerStatusHealthBonusImage"		//low health red BG, shown and hidden by the game itself so it can't get stuck
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"57"	
-		"ypos"			"99999"	//126 	
+		"xpos"			"64"		[$OSX]
+		"xpos"			"54"		[!$OSX]
+		"ypos"			"133"		[$OSX]
+		"ypos"			"136"		[!$OSX]
 		"zpos"			"4"
-		"wide"			"0"		//76	
-		"tall"			"0"		//76
-		"visible"		"0"			//overheal cross
-		"enabled"		"0"
-		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"
+		"wide"			"106"		[$OSX]
+		"wide"			"120"		[!$OSX]
+		"tall"			"45"
+		"visible"		"0"
+		"enabled"		"1"
+		"fillcolor"		"150 46 46 255"
 	}
 	"PlayerStatusBleedImage"
 	{

@@ -26,8 +26,7 @@ event DamagedPlayer
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"205"		    Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		        Linear 0.2 0.4
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		        Linear 0.0 0.0
 
 	Animate	PlayerStatusHealthValueCam 		FgColor		"Buff"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	         Accel 0.0 0.0
@@ -110,8 +109,8 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"175"		    Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		        Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"180"		    Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		    Linear 0.125 0.075
 
 	Animate	PlayerStatusHealthValueCam 		FgColor		"LowHP"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"WhiteS"	    Accel 0.0 0.0
@@ -120,10 +119,6 @@ event HudHealthDyingPulse
 	
 	Animate	PlayerStatusHealthValueShadow 	FgColor		"Blank"	     	Accel 0.0 0.0		
 
-    Animate	HealthBG 	    				BgColor		"150 46 46 255"	   	Accel 0.0 0.0
-    Animate	HealthBG 	   					Alpha		"180"		    Linear 0.0 0.075
-	Animate	HealthBG 	    				Alpha		"255"		    Linear 0.125 0.075
-	
 	Animate	TargetHPBG 	    				BgColor	    "LowHPSpec"	   	Accel 0.0 0.0
     Animate	TargetHPBG 	    				Alpha		"255"		    Accel 0.0 0.1
 	Animate	TargetHPBG 	    				Alpha		"255"		    Accel 0.1 0.3
